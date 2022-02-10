@@ -15,6 +15,7 @@ c = 0
 for file in os.listdir(data_path):
 	if file[-5:] != '.json':
 		continue
+	
 	fw = open(data_output_dir + file, 'w+')
 
 	with open(data_path + file, 'r', encoding='utf-8') as f:
@@ -22,10 +23,10 @@ for file in os.listdir(data_path):
 		content = f.read()
 		myjson = json.loads(content)
 		for hit in myjson['hits']['hits']: 
-			c += 1
-			if c == 10:
-				exit(1)
 			source = hit['_source']
+			c += 1
+			if c == 100:
+				exit(1)
 
 			if 'id' in source:
 				paper_id = source['id']
@@ -45,31 +46,6 @@ for file in os.listdir(data_path):
 				abstract = ''
 				continue
 
-			if 'doi' in source:
-				doi = source['doi']
-			else:
-				doi = ''
-
-			if 'topics' in source:
-				topics = source['topics']
-			else:
-				topics = []
-
-			if 'cso_syntactic_topics' in source:
-				cso_syntactic_topics = source['cso_syntactic_topics']
-			else:
-				cso_syntactic_topics = []
-
-			if 'cso_semantic_topics' in source:
-				cso_semantic_topics = source['cso_semantic_topics']
-			else:
-				cso_semantic_topics = []
-
-			if 'cso_enhanced_topics' in source:
-				cso_enhanced_topics = source['cso_enhanced_topics']
-			else:
-				cso_enhanced_topics = []
-
 			sentences = nltk.sent_tokenize(abstract)
 			if len(sentences) <= 15: # maximum abstracts with 15 sentences
 				
@@ -80,6 +56,7 @@ for file in os.listdir(data_path):
 					if len(tokens) <= 250 and len(tokens) >= 5:
 						sentences_tokenized += [tokens]
 				sentences_tokenized = [s for s in sentences_tokenized if s != []] # no empty sentences after ignoring ascii
+				sentences_tokenized = [nltk.word_tokenize(title.encode('utf8', 'ignore').decode('ascii', 'ignore'))] + sentences_tokenized
 				
 				if len(sentences_tokenized) >= 1:
 					data_input_for_dygepp = json.dump({
@@ -87,7 +64,8 @@ for file in os.listdir(data_path):
 													'sentences' : sentences_tokenized,
 													'ner' : [[] for x in range(len(sentences_tokenized))],
 													'relations' : [[] for x in range(len(sentences_tokenized))],  
-													'doc_key' : str(paper_id)
+													'doc_key' : str(paper_id),
+													'dataset' : 'scierc'
 												},fw)
 					fw.write('\n')
 	
