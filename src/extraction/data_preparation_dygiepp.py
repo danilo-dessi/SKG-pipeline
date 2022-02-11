@@ -11,7 +11,7 @@ try:
 except FileExistsError:
     print("Directory " , data_output_dir ,  " already exists")
 
-c = 0
+#c = 0
 for file in os.listdir(data_path):
 	if file[-5:] != '.json':
 		continue
@@ -24,9 +24,9 @@ for file in os.listdir(data_path):
 		myjson = json.loads(content)
 		for hit in myjson['hits']['hits']: 
 			source = hit['_source']
-			c += 1
-			if c == 100:
-				exit(1)
+			#c += 1
+			#if c == 100:
+			#	exit(1)
 
 			if 'id' in source:
 				paper_id = source['id']
