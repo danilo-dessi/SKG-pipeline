@@ -2,7 +2,7 @@ import json
 import nltk
 import os
 
-data_path = '../../dataset/'
+data_path = '../../dataset/computer_science/'
 data_output_dir = '../../outputs/dygiepp_input/'
 
 try:
@@ -11,8 +11,13 @@ try:
 except FileExistsError:
     print("Directory " , data_output_dir ,  " already exists")
 
-#c = 0
-for file in os.listdir(data_path):
+already_parsed = os.listdir(data_output_dir)
+files_to_parse = [filename for filename in os.listdir(data_path) if filename not in already_parsed]
+print('> total files:', len(os.listdir(data_path)))
+print('> already parsed:', len(already_parsed))
+print('> files_to_parse:', len(files_to_parse))
+
+for file in sorted(files_to_parse):
 	if file[-5:] != '.json':
 		continue
 	
@@ -20,10 +25,10 @@ for file in os.listdir(data_path):
 
 	with open(data_path + file, 'r', encoding='utf-8') as f:
 		print('> processing:', file)
-		content = f.read()
-		myjson = json.loads(content)
-		for hit in myjson['hits']['hits']: 
-			source = hit['_source']
+
+		for paper_row in f:
+			paper = json.loads(paper_row)
+			source = paper['_source']
 			#c += 1
 			#if c == 100:
 			#	exit(1)
@@ -47,7 +52,7 @@ for file in os.listdir(data_path):
 				continue
 
 			sentences = nltk.sent_tokenize(abstract)
-			if len(sentences) <= 15: # maximum abstracts with 15 sentences
+			if len(sentences) <= 20: # maximum abstracts with 15 sentences
 				
 				sentences_tokenized = []
 				for s in sentences:
@@ -55,8 +60,8 @@ for file in os.listdir(data_path):
 					# sentences: maximum 250 tokens, at least 5 tokens, at maximum 5 dots
 					if len(tokens) <= 250 and len(tokens) >= 5:
 						sentences_tokenized += [tokens]
-				sentences_tokenized = [s for s in sentences_tokenized if s != []] # no empty sentences after ignoring ascii
 				sentences_tokenized = [nltk.word_tokenize(title.encode('utf8', 'ignore').decode('ascii', 'ignore'))] + sentences_tokenized
+				sentences_tokenized = [s for s in sentences_tokenized if len(s) >= 2] # no empty sentences after ignoring ascii, at least two tokens
 				
 				if len(sentences_tokenized) >= 1:
 					data_input_for_dygepp = json.dump({
