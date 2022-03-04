@@ -12,10 +12,61 @@ import nltk
 import sys
 import ast
 import os
+import re
 
 dataset_dump_dir = '../../dataset/computer_science/'
 dygiepp_output_dump_dir = '../../outputs/dygiepp_output/'
+output_dir = '../../outputs/exctracted_triples/'
 stops = list(stopwords.words('english')) + ['it', 'we', 'they', 'its']
+
+# used to check if an openie entity is a real entity of the domain
+def checkEntity(e, e_list):
+	eresult = None
+	if e not in stops:
+		for ei in e_list:
+			if e in ei or ei in e:
+				eresult = ei
+	return eresult
+
+
+def findTokens(s, tokens):
+	for i in range(len(s)):
+		try:
+			if s[i : i + len(tokens)] == tokens:
+				return i , i + len(tokens)
+		except:
+			return -1,-1
+	return -1,-1
+
+
+def pairwise(iterable):
+	it = iter(iterable)
+	a = next(it, None)
+	for b in it:
+		yield (a, b)
+		a = b
+
+
+def mapEntityAcronyms(acronyms, e):
+	if e in acronyms:
+		return acronyms[e]
+	return e
+
+
+def detectAcronyms(elist):
+	acronyms = {}
+	regex_acronym = re.compile("\(.*")
+
+	for e in elist:
+		e_cleaned_without_acr = regex_acronym.sub('', e).strip().lower()
+		base_acronym = ''.join([token[0] for token in nltk.word_tokenize(e_cleaned_without_acr)])
+		potential_acrs = [ acr.replace('( ', '').replace(' )', '').replace('(', '').replace(')', '').lower()  for acr in regex_acronym.findall(e)]
+		for acr in potential_acrs:
+			if acr == base_acronym:
+				acronyms[acr] = e_cleaned_without_acr
+				acronyms[e] = e_cleaned_without_acr
+	return acronyms
+
 
 def getDygieppResults(dresult):
 	sentences = dresult['sentences']
@@ -43,15 +94,6 @@ def getDygieppResults(dresult):
 
 		sentence2data[i] = {'entities' :  entities, 'relations' : relations}
 	return sentence2data
-
-
-def checkEntity(e, e_list):
-	eresult = None
-	if e not in stops:
-		for ei in e_list:
-			if e in ei or ei in e:
-				eresult = ei
-	return eresult
 
 
 '''def solveCoref(corenlp_out):
@@ -92,6 +134,7 @@ def getOpenieTriples(corenlp_out, dygiepp, cso_topics):
 		if i < len(dygiepp.keys()):
 			dygiepp_sentence_entities = [x for (x, xtype) in dygiepp[i]['entities']]
 			#print(dygiepp_sentence_entities)
+		acronyms = detectAcronyms(dygiepp_sentence_entities + cso_topics)
 
 		for el in openie:
 			#print(el)
@@ -114,13 +157,15 @@ def getOpenieTriples(corenlp_out, dygiepp, cso_topics):
 				else:
 					if relation_tokens[-2] == 'be': #passive
 						passive = True
-						relation = relation_tokens[-1]
+					relation = relation_tokens[-1]
 
 			#check on subject and obejct. They must exist as entities
 			checked_subj = checkEntity(subj, dygiepp_sentence_entities + cso_topics)
 			checked_obj = checkEntity(obj, dygiepp_sentence_entities + cso_topics)
 
 			if checked_subj is not None and checked_obj is not None and relation is not None:
+				checked_subj = mapEntityAcronyms(acronyms, checked_subj)
+				checked_obj = mapEntityAcronyms(acronyms, checked_obj)
 				if not passive:
 					#print((checked_subj, relation, checked_obj))
 					relations += [(checked_subj, relation, checked_obj)]
@@ -128,16 +173,6 @@ def getOpenieTriples(corenlp_out, dygiepp, cso_topics):
 					#print((checked_obj, relation, checked_subj), '#passive')
 					relations += [(checked_obj, relation, checked_subj)]
 	return set(relations)
-
-
-def findTokens(s, tokens):
-	for i in range(len(s)):
-		try:
-			if s[i : i + len(tokens)] == tokens:
-				return i , i + len(tokens)
-		except:
-			return -1,-1
-	return -1,-1
 
 
 def getPosTriples(corenlp_out, dygiepp, cso_topics):
@@ -150,6 +185,7 @@ def getPosTriples(corenlp_out, dygiepp, cso_topics):
 
 		if i < len(dygiepp.keys()):
 			dygiepp_sentence_entities = [x for (x, xtype) in dygiepp[i]['entities']]
+		acronyms = detectAcronyms(dygiepp_sentence_entities + cso_topics)
 
 		entities_in_sentence = []
 		for e in set(dygiepp_sentence_entities + cso_topics):
@@ -161,6 +197,8 @@ def getPosTriples(corenlp_out, dygiepp, cso_topics):
 		for ((starti, endi), (startj, endj)) in itertools.combinations(entities_in_sentence, 2):
 			ei = ' '.join(sentence_tokens_text[starti:endi])
 			ej = ' '.join(sentence_tokens_text[startj:endj])
+			ei = mapEntityAcronyms(acronyms, ei)
+			ej = mapEntityAcronyms(acronyms, ej)
 
 			verb_relations = []
 			if endi < startj and startj - endi <= 10:
@@ -190,7 +228,7 @@ def getPosTriples(corenlp_out, dygiepp, cso_topics):
 	for (s,p,o) in triples:
 		p_tokens = nltk.word_tokenize(p)
 		v = p_tokens[-1]
-		if 'be' in p_tokens and len(p_tokens) > 1:
+		if 'be' in p_tokens[:-1] and len(p_tokens) > 1:
 			new_triples += [(o, v, s)]
 			#print((s,p,o), 'PASSIVE->', (o,v,s))
 		else:
@@ -199,31 +237,21 @@ def getPosTriples(corenlp_out, dygiepp, cso_topics):
 	return set(new_triples)
 
 
-def pairwise(iterable):
-		it = iter(iterable)
-		a = next(it, None)
-
-		for b in it:
-			yield (a, b)
-			a = b
-
-
 def getDependencyTriples(corenlp_out, dygiepp, cso_topics):
 	triples = []
 	validPatterns = [
 			('nsubj', 'obj'), 
 			('acl:relcl', 'obj'), 
 			('nsubj', 'obj', 'conj'), 
-			('nsubj:pass', 'obl', 'conj'), 
+			('conj', 'obl', 'nsubj:pass'), 
 			('acl', 'obj'), 
 			('nmod', 'nsubj', 'obj'),
-			('nsubj:pass', 'obl'),
+			('obl', 'nsubj:pass'),
 			('nsubj', 'obj', 'nmod'),
 			('acl:relcl', 'obl'),
 			('obl', 'acl'),
 			('nmod', 'obj', 'acl'),
 			('acl', 'obj', 'nmod'),
-
 		]
 	
 	for i in range(len(corenlp_out['sentences'])): 
@@ -243,6 +271,7 @@ def getDependencyTriples(corenlp_out, dygiepp, cso_topics):
 
 		if i < len(dygiepp.keys()):
 			dygiepp_sentence_entities = [x for (x, xtype) in dygiepp[i]['entities']]
+		acronyms = detectAcronyms(dygiepp_sentence_entities + cso_topics)
 	
 		entities_in_sentence = []
 		for e in set(dygiepp_sentence_entities + cso_topics):
@@ -254,6 +283,8 @@ def getDependencyTriples(corenlp_out, dygiepp, cso_topics):
 		for ((starti, endi), (startj, endj)) in itertools.combinations(entities_in_sentence, 2):
 			ei = ' '.join(sentence_tokens_text[starti:endi])
 			ej = ' '.join(sentence_tokens_text[startj:endj])
+			ei = mapEntityAcronyms(acronyms, ei)
+			ej = mapEntityAcronyms(acronyms, ej)
 			paths = list(nx.all_simple_paths(G=g, source=endi, target=endj, cutoff=4))
 
 			# check if there are verbs
@@ -269,17 +300,48 @@ def getDependencyTriples(corenlp_out, dygiepp, cso_topics):
 				verbs = verbs.strip()
 
 				if tuple(path_dep) in validPatterns and v:
-					print(sentence_tokens_text)
-					print((ei, verbs, ej))
-					print()
+					#if tuple(path_dep) == ('nsubj:pass', 'obl', 'conj'):
+					#	print(sentence_tokens_text)
+					#	print((ei, verbs, ej))
+					triples += [(ei, verbs, ej)]
 				elif tuple(path_dep)[::-1] in validPatterns and v:
-					print(sentence_tokens_text)
-					print((ej, verbs, ei))
-					print()
+					#if tuple(path_dep)[::-1]  == ('nsubj:pass', 'obl', 'conj'):
+					#	print(sentence_tokens_text)
+					#	print((ei, verbs, ej))
+					triples += [(ej, verbs, ei)]
+	return set(triples)
+
+# this is used to map entities to acronyms and prepare the list of relations of each file that can be saved
+# similarly to the other extractor tools
+def manageEntitiesAndDygieepRelations(dygiepp, cso_topics):
+	entities = []
+	e2type = {}
+	ok_entities = []
+	ok_relations = []
+
+	for sentence in dygiepp:
+		entities += [x for (x, xtype) in dygiepp[sentence]['entities']]
+		for (x, xtype) in dygiepp[sentence]['entities']:
+			e2type[x] = xtype
+
+	entities += cso_topics
+	acronyms = detectAcronyms(entities)
+	for e in entities:
+		if e in e2type:
+			ok_entities += [(mapEntityAcronyms(acronyms, e), e2type[e])]
+		else:
+			ok_entities += [(mapEntityAcronyms(acronyms, e), 'CSO Topic')]
+	ok_entities = set(ok_entities)
+
+	for sentence in dygiepp:
+		ok_relations += [(mapEntityAcronyms(acronyms, s), p, mapEntityAcronyms(acronyms, o)) for (s,p,o) in dygiepp[sentence]['relations']]
+
+	return list(set(ok_entities)), list(set(ok_relations))
 
 
 def extraction(filename):
 	print('> processing: ' + filename)
+	fw = open(output_dir + filename, 'w+')
 
 	print('> processing: ' + filename + ' metadata reading')
 	f = open(dataset_dump_dir + filename, 'r')
@@ -299,7 +361,6 @@ def extraction(filename):
 		#print(paper2dygiepp[drow['doc_key']])
 	f.close()
 
-
 	nlp = StanfordCoreNLP('http://localhost', port=9050)
 	paper2openie = {}
 	print('> processing: ' + filename + ' core nlp extraction')
@@ -313,19 +374,31 @@ def extraction(filename):
 				openie_triples = getOpenieTriples(corenlp_out, paper2dygiepp[paper_id], paper2metadata[paper_id]['cso_semantic_topics'] +   paper2metadata[paper_id]['cso_syntactic_topics'])
 				pos_triples = getPosTriples(corenlp_out,  paper2dygiepp[paper_id], paper2metadata[paper_id]['cso_semantic_topics'] +   paper2metadata[paper_id]['cso_syntactic_topics'])
 				dependency_triples = getDependencyTriples(corenlp_out,  paper2dygiepp[paper_id], paper2metadata[paper_id]['cso_semantic_topics'] + paper2metadata[paper_id]['cso_syntactic_topics'])
-				
-				print('---------------------------------------')
+				entities, dygiepp_triples = manageEntitiesAndDygieepRelations(paper2dygiepp[paper_id], paper2metadata[paper_id]['cso_semantic_topics'] +   paper2metadata[paper_id]['cso_syntactic_topics'])
+			
+				data_input_for_dygepp = json.dump({
+						'doc_key' : str(paper_id),
+						'entities' : list(entities),
+						'openie_triples' : list(openie_triples),
+						'pos_triples' : list(pos_triples),
+						'dependency_triples' : list(dependency_triples),
+						'dygiepp_triples' : list(dygiepp_triples)
+					},fw)
+				fw.write('\n')
 			except Exception as e:
 				print(e)
-		#solveCoref(corenlp_out)
-		#pos_triples = getPosTriples(corenlp_out, paper2dygiepp[paper_id]['entities'], paper2metadata[paper_id]['cso_semantic_topics'] +   paper2metadata[paper_id]['cso_syntactic_topics'])
-		#dependency_triples = getDependencyTriples(corenlp_out, paper2dygiepp[paper_id]['entities'], paper2metadata[paper_id]['cso_semantic_topics'] +   paper2metadata[paper_id]['cso_syntactic_topics'])
-
+	fw.flush()
+	fw.close()
 
 
 if __name__ == '__main__':
-	extraction('computer_science_1.json')	
 
+	if len(sys.argv) == 2:
+		extraction(sys.argv[1])
+	else:
+		print('python corenlp_extractor.py FILENAME')
+	
+	#detectAcronyms([('machine learning (ML)', 'A'), ('danilo dessi', 'B'), ('natural language processing (NLP)', 'C'), ('Natural Language Processing (NLP)', 'C')])
 
 
 	
