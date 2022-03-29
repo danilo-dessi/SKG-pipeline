@@ -16,7 +16,7 @@ import re
 
 dataset_dump_dir = '../../dataset/computer_science/'
 dygiepp_output_dump_dir = '../../outputs/dygiepp_output/'
-output_dir = '../../outputs/exctracted_triples/'
+output_dir = '../../outputs/extracted_triples/'
 stops = list(stopwords.words('english')) + ['it', 'we', 'they', 'its']
 
 # used to check if an openie entity is a real entity of the domain
@@ -273,6 +273,7 @@ def getDependencyTriples(corenlp_out, dygiepp, cso_topics):
 			dygiepp_sentence_entities = [x for (x, xtype) in dygiepp[i]['entities']]
 		acronyms = detectAcronyms(dygiepp_sentence_entities + cso_topics)
 	
+		#finidng position of entities as token numbers
 		entities_in_sentence = []
 		for e in set(dygiepp_sentence_entities + cso_topics):
 			start, end = findTokens(sentence_tokens_text, nltk.word_tokenize(e))
@@ -340,6 +341,9 @@ def manageEntitiesAndDygieepRelations(dygiepp, cso_topics):
 
 
 def extraction(filename):
+	if filename[-5:] != '.json':
+		return
+
 	print('> processing: ' + filename)
 	fw = open(output_dir + filename, 'w+')
 
@@ -393,10 +397,10 @@ def extraction(filename):
 
 if __name__ == '__main__':
 
-	if len(sys.argv) == 2:
-		extraction(sys.argv[1])
-	else:
-		print('python corenlp_extractor.py FILENAME')
+
+	files_to_parse = [filename for filename in os.listdir(dataset_dump_dir)]
+	pool = mp.Pool(10)
+	result = pool.map(extraction, files_to_parse)
 	
 	#detectAcronyms([('machine learning (ML)', 'A'), ('danilo dessi', 'B'), ('natural language processing (NLP)', 'C'), ('Natural Language Processing (NLP)', 'C')])
 
