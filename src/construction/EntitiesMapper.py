@@ -377,12 +377,8 @@ class EntitiesMapper:
 
 	
 	def run(self):
-
 		self.load()
 		self.save()
-		print('- \t > CSO LIKS\n', len(self.e2cso))
-		print('- \t > WIKIDATA LIKS\n', len(self.e2wikidata))
-		print('- \t > DBPEDIA LIKS\n', len(self.e2dbpedia))
 
 
 	def getMaps(self):

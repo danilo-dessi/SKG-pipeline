@@ -34,18 +34,22 @@ class TriplesGenerator:
 
 	def loadData(self):
 		for filename in os.listdir(self.data_extracted_dir):
+			
 			if filename[-5:] == '.json':
-				f = open(self.data_extracted_dir + filename, 'r').readlines()[:10]
+				f = open(self.data_extracted_dir + filename, 'r').readlines()
 				for row in f:
-					paper_data = json.loads(row.strip())
-					self.addDataInTripleDict(self.dygiepp2files, paper_data['dygiepp_triples'], paper_data['doc_key'])
-					self.addDataInTripleDict(self.openie2files, paper_data['openie_triples'], paper_data['doc_key'])
-					self.addDataInTripleDict(self.pos2files, paper_data['pos_triples'], paper_data['doc_key'])
-					self.addDataInTripleDict(self.dependency2files, paper_data['dependency_triples'], paper_data['doc_key'])
-					for (e, etype) in paper_data['entities']:
-						if (e, etype) not in self.entities2files:
-							self.entities2files[(e, etype)] = []
-						self.entities2files[(e, etype)] += [paper_data['doc_key']]
+					try:
+						paper_data = json.loads(row.strip())
+						self.addDataInTripleDict(self.dygiepp2files, paper_data['dygiepp_triples'], paper_data['doc_key'])
+						self.addDataInTripleDict(self.openie2files, paper_data['openie_triples'], paper_data['doc_key'])
+						self.addDataInTripleDict(self.pos2files, paper_data['pos_triples'], paper_data['doc_key'])
+						self.addDataInTripleDict(self.dependency2files, paper_data['dependency_triples'], paper_data['doc_key'])
+						for (e, etype) in paper_data['entities']:
+							if (e, etype) not in self.entities2files:
+								self.entities2files[(e, etype)] = []
+							self.entities2files[(e, etype)] += [paper_data['doc_key']]
+					except:
+						pass
 
 	###################################################################################################################################
 
