@@ -21,6 +21,9 @@ class TriplesGenerator:
 		self.dependency2files = {}
 		self.data_extracted_dir = '../../outputs/extracted_triples/'
 		self.e2selected_type = {}
+		self.e2cso = {} 
+		self.e2dbpedia = {}
+		self.e2wikidata = {}
 
 
 	############ Data Loading #######################################################################################################
@@ -34,7 +37,7 @@ class TriplesGenerator:
 
 	def loadData(self):
 		for filename in os.listdir(self.data_extracted_dir):
-			
+			#c = 0
 			if filename[-5:] == '.json':
 				f = open(self.data_extracted_dir + filename, 'r').readlines()
 				for row in f:
@@ -50,6 +53,10 @@ class TriplesGenerator:
 							self.entities2files[(e, etype)] += [paper_data['doc_key']]
 					except:
 						pass
+					#c +=1
+					#if c == 100:
+					#	break
+			#break
 
 	###################################################################################################################################
 
@@ -114,6 +121,7 @@ class TriplesGenerator:
 	###################################################################################################################################
 	
 
+	########################################### Entities type and frequencies ##########################################################
 	def entitiesTyping(self):
 		self.e2types = {}
 		for (e, e_type), files in self.entities2files.items():
@@ -151,6 +159,28 @@ class TriplesGenerator:
 			pickle.dump(self.e2selected_type, f)
 
 
+	def entitiesFreq(self, cut_freq):
+		e2count = {}
+		for data_dict in [self.dygiepp_pair2info, self.openie_pair2info, self.pos_pair2info, self.dep_pair2info]:
+			for (s,o) in data_dict:
+				if s not in e2count: e2count[s] = 0
+				if o not in e2count: e2count[o] = 0
+				e2count[s] += len(data_dict[(s,o)])
+				e2count[o] += len(data_dict[(s,o)])
+
+		#with open('entities.txt', 'w+') as f:
+		#	for e, c in sorted(e2count.items(), key=lambda x:x[1], reverse=True):
+		#		f.write(e + ',' + str(c))
+		#		f.write('\n')
+		#exit(1)		
+		return [e for e,c in e2count.items() if c >= cut_freq]
+
+
+
+	###################################################################################################################################
+
+
+
 	def createCheckpoint(self, name, els):
 		with open('./ckpts/' + name + '.pickle', 'wb') as f:
 			pickle.dump(els, f)
@@ -160,24 +190,45 @@ class TriplesGenerator:
 			return pickle.load(f)
 
 	def run(self):
+
+
+		ckpts_loading = os.path.exists('./ckpts/loading.pickle')
+		ckpts_cleaning = os.path.exists('./ckpts/cleaning.pickle')
+		ckpts_validation = os.path.exists('./ckpts/validation.pickle')
+		ckpts_mapping = os.path.exists('./ckpts/mapping.pickle')
+		ckpts_relations_handler= os.path.exists('./ckpts/relations_handler.pickle')
+
+
 		print('--------------------------------------')
 		print('>> Loading')
-		try:
+		if ckpts_loading and not ckpts_cleaning and not ckpts_validation and not ckpts_relations_handler and not ckpts_mapping:
+			print('\t>> Loaded from ckpts')
 			self.dygiepp2files, self.openie2files, self.pos2files, self.dependency2files, self.entities2files = self.loadCheckpoint('loading')
-		except:
+			print(' \t- dygiepp triples:\t', len(self.dygiepp2files))
+			print(' \t- openie triples:\t', len(self.openie2files))
+			print(' \t- pos triples:\t\t', len(self.pos2files))
+			print(' \t- dep triples:\t\t', len(self.dependency2files))
+		elif not ckpts_loading and not ckpts_cleaning and not ckpts_validation and not ckpts_relations_handler and not ckpts_mapping:
 			self.loadData()
 			self.createCheckpoint('loading', (self.dygiepp2files, self.openie2files, self.pos2files, self.dependency2files, self.entities2files))
-		print(' \t- dygiepp triples:\t', len(self.dygiepp2files))
-		print(' \t- openie triples:\t', len(self.openie2files))
-		print(' \t- pos triples:\t\t', len(self.pos2files))
-		print(' \t- dep triples:\t\t', len(self.dependency2files))
+			print(' \t- dygiepp triples:\t', len(self.dygiepp2files))
+			print(' \t- openie triples:\t', len(self.openie2files))
+			print(' \t- pos triples:\t\t', len(self.pos2files))
+			print(' \t- dep triples:\t\t', len(self.dependency2files))
+		else:
+			print('\t>> skipped')
 		print('--------------------------------------')
 
 
 		print('>> Entity cleaning')
-		try:
+		if ckpts_cleaning and not ckpts_validation and not ckpts_relations_handler and not ckpts_mapping:
+			print('\t>> Loaded from ckpts')
 			self.dygiepp2files, self.openie2files, self.pos2files, self.dependency2files, self.entities2files = self.loadCheckpoint('cleaning')
-		except:
+			print(' \t- dygiepp triples:\t', len(self.dygiepp2files))
+			print(' \t- openie triples:\t', len(self.openie2files))
+			print(' \t- pos triples:\t\t', len(self.pos2files))
+			print(' \t- dep triples:\t\t', len(self.dependency2files))
+		elif not ckpts_cleaning and not ckpts_validation and not ckpts_relations_handler and not ckpts_mapping:
 			ec = EntitiesCleaner(set([e for (e,e_type) in self.entities2files.keys()]))
 			ec.run()
 			cleaner_map = ec.get()
@@ -185,16 +236,23 @@ class TriplesGenerator:
 			del cleaner_map
 			gc.collect()
 			self.createCheckpoint('cleaning', (self.dygiepp2files, self.openie2files, self.pos2files, self.dependency2files, self.entities2files))
-		print(' \t- dygiepp triples:\t', len(self.dygiepp2files))
-		print(' \t- openie triples:\t', len(self.openie2files))
-		print(' \t- pos triples:\t\t', len(self.pos2files))
-		print(' \t- dep triples:\t\t', len(self.dependency2files))
+			print(' \t- dygiepp triples:\t', len(self.dygiepp2files))
+			print(' \t- openie triples:\t', len(self.openie2files))
+			print(' \t- pos triples:\t\t', len(self.pos2files))
+			print(' \t- dep triples:\t\t', len(self.dependency2files))
+		else:
+			print('\t>> skipped')
 		print('--------------------------------------')
 
 		print('>> Entity validation')
-		try:
+		if ckpts_validation and not ckpts_relations_handler and not ckpts_mapping:
+			print('\t>> Loaded from ckpts')
 			self.dygiepp2files, self.openie2files, self.pos2files, self.dependency2files, self.entities2files = self.loadCheckpoint('validation')
-		except:
+			print(' \t- dygiepp triples:\t', len(self.dygiepp2files))
+			print(' \t- openie triples:\t', len(self.openie2files))
+			print(' \t- pos triples:\t\t', len(self.pos2files))
+			print(' \t- dep triples:\t\t', len(self.dependency2files))
+		elif not ckpts_validation and not ckpts_relations_handler and not ckpts_mapping:
 			ev = EntitiesValidator(set([e for (e,e_type) in self.entities2files.keys()]))	
 			ev.run()
 			valid_entities = ev.get()
@@ -202,17 +260,24 @@ class TriplesGenerator:
 			del ev
 			gc.collect()
 			self.createCheckpoint('validation', (self.dygiepp2files, self.openie2files, self.pos2files, self.dependency2files, self.entities2files))
-		print(' \t- dygiepp triples:\t', len(self.dygiepp2files))
-		print(' \t- openie triples:\t', len(self.openie2files))
-		print(' \t- pos triples:\t\t', len(self.pos2files))
-		print(' \t- dep triples:\t\t', len(self.dependency2files))
+			print(' \t- dygiepp triples:\t', len(self.dygiepp2files))
+			print(' \t- openie triples:\t', len(self.openie2files))
+			print(' \t- pos triples:\t\t', len(self.pos2files))
+			print(' \t- dep triples:\t\t', len(self.dependency2files))
+		else:
+			print('\t>> skipped')
 		print('--------------------------------------')
 
 
 		print('>> Relations handling')
-		try:
+		if ckpts_relations_handler:
+			print('\t>> Loaded from ckpts')
 			self.dygiepp_pair2info, self.openie_pair2info, self.pos_pair2info, self.dep_pair2info = self.loadCheckpoint('relations_handler')
-		except:
+			print(' \t- dygiepp pairs:\t', len(self.dygiepp_pair2info))
+			print(' \t- openie pairs:\t\t', len(self.openie_pair2info))
+			print(' \t- pos pairs:\t\t', len(self.pos_pair2info))
+			print(' \t- dep pairs:\t\t', len(self.dep_pair2info))
+		elif not ckpts_relations_handler and not ckpts_mapping:
 			rm = RelationsManager(self.dygiepp2files, self.pos2files, self.openie2files, self.dependency2files)
 			rm.run()
 			self.dygiepp_pair2info, self.pos_pair2info, self.openie_pair2info, self.dep_pair2info = rm.get()
@@ -223,23 +288,29 @@ class TriplesGenerator:
 			del self.dependency2files
 			gc.collect()
 			self.createCheckpoint('relations_handler', (self.dygiepp_pair2info, self.openie_pair2info, self.pos_pair2info, self.dep_pair2info))
-		print(' \t- dygiepp pairs:\t', len(self.dygiepp_pair2info))
-		print(' \t- openie pairs:\t\t', len(self.openie_pair2info))
-		print(' \t- pos pairs:\t\t', len(self.pos_pair2info))
-		print(' \t- dep pairs:\t\t', len(self.dep_pair2info))
+			print(' \t- dygiepp pairs:\t', len(self.dygiepp_pair2info))
+			print(' \t- openie pairs:\t\t', len(self.openie_pair2info))
+			print(' \t- pos pairs:\t\t', len(self.pos_pair2info))
+			print(' \t- dep pairs:\t\t', len(self.dep_pair2info))
+		else:
+			print('\t>> skipped')
 		print('--------------------------------------')
 
 		print('>> Mapping to external resources')
-		try:
+		if ckpts_mapping:
+			print('\t>> Loaded from ckpts')
 			self.e2cso, self.e2dbpedia, self.e2wikidata = self.loadCheckpoint('mapping')
-		except:
+		elif not ckpts_mapping:
 			all_pairs = set(self.dygiepp_pair2info.keys()) | set(self.pos_pair2info.keys()) | set(self.openie_pair2info.keys()) | set(self.dep_pair2info.keys())
-			mapper = EntitiesMapper([e for e, t in self.entities2files.keys()], all_pairs)
+			#mapper = EntitiesMapper([e for e, t in self.entities2files.keys()], all_pairs)
+			mapper = EntitiesMapper(self.entitiesFreq(25), all_pairs)
 			mapper.run()
 			self.e2cso, self.e2dbpedia, self.e2wikidata = mapper.getMaps()
 			del mapper
 			gc.collect()
 			self.createCheckpoint('mapping', (self.e2cso, self.e2dbpedia, self.e2wikidata))
+		else:
+			print('\t>> skipped')
 		print('--------------------------------------')
 
 		print('>> Data dumping and merging')

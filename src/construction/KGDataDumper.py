@@ -21,14 +21,14 @@ class KGDataDumper:
 		self.e2type = e2type
 
 		self.pair2info = {}
-		self.aikg2cso = {}
-		self.aikg2wikidata = {}
-		self.aikg2dbpedia = {}
+		self.cskg2cso = {}
+		self.cskg2wikidata = {}
+		self.cskg2dbpedia = {}
 		self.validDomainRelRange = set()
-		self.label2aikg_entity = {}
+		self.label2cskg_entity = {}
 		self.triples = []
 
-		self.triples_csv_filename = './cskg_data/aikg_triples.csv'
+		self.triples_csv_filename = './cskg_data/cskg_triples.csv'
 
 	def collectInfo(self):
 		pairs = set(self.dygiepp_pair2info.keys()) | set(self.pos_pair2info.keys()) | set(self.openie_pair2info.keys()) | set(self.dep_pair2info.keys())
@@ -78,81 +78,81 @@ class KGDataDumper:
 
 	def mergeEntities(self):
 
-		cso2aikg = {}
-		wikidata2aikg = {}
-		dbpedia2aikg = {}
+		cso2cskg = {}
+		wikidata2cskg = {}
+		dbpedia2cskg = {}
 
 		for (s,o) in self.pair2info:
 			
 			if s in self.e2cso:
-				if self.e2cso[s] not in cso2aikg:
-					cso2aikg[self.e2cso[s]] = []
-				cso2aikg[self.e2cso[s]] += [s]
+				if self.e2cso[s] not in cso2cskg:
+					cso2cskg[self.e2cso[s]] = []
+				cso2cskg[self.e2cso[s]] += [s]
 			if s in self.e2dbpedia:
-				if self.e2dbpedia[s] not in dbpedia2aikg:
-					dbpedia2aikg[self.e2dbpedia[s]] = []
-				dbpedia2aikg[self.e2dbpedia[s]] += [s]
+				if self.e2dbpedia[s] not in dbpedia2cskg:
+					dbpedia2cskg[self.e2dbpedia[s]] = []
+				dbpedia2cskg[self.e2dbpedia[s]] += [s]
 			if s in self.e2wikidata:
-				if self.e2wikidata[s] not in wikidata2aikg:
-					wikidata2aikg[self.e2wikidata[s]] = []
-				wikidata2aikg[self.e2wikidata[s]] += [s]
+				if self.e2wikidata[s] not in wikidata2cskg:
+					wikidata2cskg[self.e2wikidata[s]] = []
+				wikidata2cskg[self.e2wikidata[s]] += [s]
 
 			if o in self.e2cso:
-				if self.e2cso[o] not in cso2aikg:
-					cso2aikg[self.e2cso[o]] = []
-				cso2aikg[self.e2cso[o]] += [o]
+				if self.e2cso[o] not in cso2cskg:
+					cso2cskg[self.e2cso[o]] = []
+				cso2cskg[self.e2cso[o]] += [o]
 			if o in self.e2dbpedia:
-				if self.e2dbpedia[o] not in dbpedia2aikg:
-					dbpedia2aikg[self.e2dbpedia[o]] = []
-				dbpedia2aikg[self.e2dbpedia[o]] += [o]
+				if self.e2dbpedia[o] not in dbpedia2cskg:
+					dbpedia2cskg[self.e2dbpedia[o]] = []
+				dbpedia2cskg[self.e2dbpedia[o]] += [o]
 			if o in self.e2wikidata:
-				if self.e2wikidata[o] not in wikidata2aikg:
-					wikidata2aikg[self.e2wikidata[o]] = []
-				wikidata2aikg[self.e2wikidata[o]] += [o]
+				if self.e2wikidata[o] not in wikidata2cskg:
+					wikidata2cskg[self.e2wikidata[o]] = []
+				wikidata2cskg[self.e2wikidata[o]] += [o]
 
 		# merging with cso
-		for csoe, aikg_entities_labels in cso2aikg.items():
-			aikg_entity = max(list(set(aikg_entities_labels)), key=len) #longest label
+		for csoe, cskg_entities_labels in cso2cskg.items():
+			cskg_entity = max(list(set(cskg_entities_labels)), key=len) #longest label
 			
-			for label in list(set(aikg_entities_labels)):
-				self.label2aikg_entity[label] = aikg_entity
-			self.aikg2cso[aikg_entity] = csoe
+			for label in list(set(cskg_entities_labels)):
+				self.label2cskg_entity[label] = cskg_entity
+			self.cskg2cso[cskg_entity] = csoe
 
 
 		# merging with dbpedia
-		for dbe, aikg_entities_labels in dbpedia2aikg.items():
+		for dbe, cskg_entities_labels in dbpedia2cskg.items():
 			
 			# check if there exists an entity
-			aikg_entity = None
-			for label in list(set(aikg_entities_labels)):
-				if label in self.label2aikg_entity:
-					aikg_entity = self.label2aikg_entity[label]
+			cskg_entity = None
+			for label in list(set(cskg_entities_labels)):
+				if label in self.label2cskg_entity:
+					cskg_entity = self.label2cskg_entity[label]
 					break
 
-			if aikg_entity == None:
-				aikg_entity = max(list(set(aikg_entities_labels)), key=len)
+			if cskg_entity == None:
+				cskg_entity = max(list(set(cskg_entities_labels)), key=len)
 			
-			for label in list(set(aikg_entities_labels)):
-				self.label2aikg_entity[label] = aikg_entity
-			self.aikg2dbpedia[aikg_entity] = dbe
+			for label in list(set(cskg_entities_labels)):
+				self.label2cskg_entity[label] = cskg_entity
+			self.cskg2dbpedia[cskg_entity] = dbe
 
 
 		# merging with wikidata
-		for wde, aikg_entities_labels in wikidata2aikg.items():
+		for wde, cskg_entities_labels in wikidata2cskg.items():
 			
 			# check if there exists an entity
-			aikg_entity = None
-			for label in list(set(aikg_entities_labels)):
-				if label in self.label2aikg_entity:
-					aikg_entity = self.label2aikg_entity[label]
+			cskg_entity = None
+			for label in list(set(cskg_entities_labels)):
+				if label in self.label2cskg_entity:
+					cskg_entity = self.label2cskg_entity[label]
 					break
 
-			if aikg_entity == None:
-				aikg_entity = max(list(set(aikg_entities_labels)), key=len)
+			if cskg_entity == None:
+				cskg_entity = max(list(set(cskg_entities_labels)), key=len)
 
-			for label in list(set(aikg_entities_labels)):
-				self.label2aikg_entity[label] = aikg_entity
-			self.aikg2wikidata[aikg_entity] = wde
+			for label in list(set(cskg_entities_labels)):
+				self.label2cskg_entity[label] = cskg_entity
+			self.cskg2wikidata[cskg_entity] = wde
 
 
 	# function used by mergeEntitiesEuristic
@@ -169,42 +169,61 @@ class KGDataDumper:
 			if score < 0.9:
 				break
 
-			if ei not in self.label2aikg_entity and ej not in self.label2aikg_entity:
-				self.label2aikg_entity[ej] = ei
+			if ei not in self.label2cskg_entity and ej not in self.label2cskg_entity:
+				self.label2cskg_entity[ej] = ei
 				#print(ej, '->', ei, ' : ', score)
-			elif ei not in self.label2aikg_entity and ej in self.label2aikg_entity:
-				self.label2aikg_entity[ei] = self.label2aikg_entity[ej]
-				#print(ei, '->', ej, '->',  self.label2aikg_entity[ej], ' : ', score)
-			elif ei in self.label2aikg_entity and ej not in self.label2aikg_entity:
-				self.label2aikg_entity[ej] = self.label2aikg_entity[ei]
-				#print(ej, '->', ei, '->',  self.label2aikg_entity[ei], ' : ', score)
+			elif ei not in self.label2cskg_entity and ej in self.label2cskg_entity:
+				self.label2cskg_entity[ei] = self.label2cskg_entity[ej]
+				#print(ei, '->', ej, '->',  self.label2cskg_entity[ej], ' : ', score)
+			elif ei in self.label2cskg_entity and ej not in self.label2cskg_entity:
+				self.label2cskg_entity[ej] = self.label2cskg_entity[ei]
+				#print(ej, '->', ei, '->',  self.label2cskg_entity[ei], ' : ', score)
 
 
 	def mergeEntitiesEuristic(self):
-		# sentence-transformers/paraphrase-distilroberta-base-v2
-		model = SentenceTransformer('sentence-transformers/paraphrase-distilroberta-base-v2')
-		word2entities = {}
 
-		for (s,o) in self.pair2info:
-			stokens = word_tokenize(s)
-			otokens = word_tokenize(o)
 
-			for t in stokens:
-				if t not in word2entities:
-					word2entities[t] = set()
-				word2entities[t].add(s)
+		try:
+			# merge lables with separate embeddings merging previously computed if it exists, otherwise it will be computed in the
+			# execution flow of the code
+			f = open('../../resources/only_embeddings_label2cskg_entity.pickle', 'rb')
+			only_embeddings_label2cskg_entity = pickle.load(f)
+			f.close()
+			for (ei, ej) in only_embeddings_label2cskg_entity.items():	
+				
+				if ei not in self.label2cskg_entity and ej not in self.label2cskg_entity:
+					self.label2cskg_entity[ej] = ei
+				elif ei not in self.label2cskg_entity and ej in self.label2cskg_entity:
+					self.label2cskg_entity[ei] = self.label2cskg_entity[ej]
+				elif ei in self.label2cskg_entity and ej not in self.label2cskg_entity:
+					self.label2cskg_entity[ej] = self.label2cskg_entity[ei]
+		except FileNotFoundError:
 
-			for t in otokens:
-				if t not in word2entities:
-					word2entities[t] = set()
-				word2entities[t].add(o)
+			# sentence-transformers/paraphrase-distilroberta-base-v2
+			model = SentenceTransformer('sentence-transformers/paraphrase-distilroberta-base-v2')
+			word2entities = {}
 
-		wordcount = len(word2entities)
-		for word, entities in word2entities.items():
-			#print(wordcount, word, len(entities))
-			wordcount -= 1
-			if len(entities) > 1:
-				self.mergeEntitiesEmbeddings(model, list(entities))
+			for (s,o) in self.pair2info:
+				stokens = word_tokenize(s)
+				otokens = word_tokenize(o)
+
+				for t in stokens:
+					if t not in word2entities:
+						word2entities[t] = set()
+					word2entities[t].add(s)
+
+				for t in otokens:
+					if t not in word2entities:
+						word2entities[t] = set()
+					word2entities[t].add(o)
+
+			wordcount = len(word2entities)
+			for word, entities in word2entities.items():
+				#print(wordcount, word, len(entities))
+				#wordcount -= 1
+				if len(entities) > 1:
+					self.mergeEntitiesEmbeddings(model, list(entities))
+				#print('\t>> tokens to be checked:', wordcount)
 
 			
 
@@ -213,14 +232,14 @@ class KGDataDumper:
 		# triple creation starting from the existing relationships between pairs of entities. The merging of entities based on the approaches above is 
 		# performed here.
 		for (s,o) in self.pair2info:
-			s_aikg = self.label2aikg_entity[s] if s in self.label2aikg_entity else s
-			o_aikg = self.label2aikg_entity[o] if o in self.label2aikg_entity else o
-			stype = self.e2type[s_aikg].replace('OtherScientificTerm', 'OtherEntity')
-			otype = self.e2type[o_aikg].replace('OtherScientificTerm', 'OtherEntity')
+			s_cskg = self.label2cskg_entity[s] if s in self.label2cskg_entity else s
+			o_cskg = self.label2cskg_entity[o] if o in self.label2cskg_entity else o
+			stype = self.e2type[s_cskg].replace('OtherScientificTerm', 'OtherEntity')
+			otype = self.e2type[o_cskg].replace('OtherScientificTerm', 'OtherEntity')
 
 			for rel in self.pair2info[(s,o)]:
-				if s_aikg != o_aikg:
-					self.triples += [(s_aikg, rel, o_aikg, len(set(self.pair2info[(s,o)][rel]['files'])), self.pair2info[(s,o)][rel]['source'], self.pair2info[(s,o)][rel]['files'], stype, otype)]
+				if s_cskg != o_cskg:
+					self.triples += [(s_cskg, rel, o_cskg, len(set(self.pair2info[(s,o)][rel]['files'])), self.pair2info[(s,o)][rel]['source'], self.pair2info[(s,o)][rel]['files'], stype, otype)]
 
 
 		# merging triples after entity mapping and merging
@@ -270,12 +289,12 @@ class KGDataDumper:
 		merged_triples.sort_values(by=['support'], inplace=True)
 		merged_triples.to_csv(self.triples_csv_filename, index=False)
 
-		print('>>>> Number of triples:', len(triples2info.keys()))
+		print('\t>> Number of triples:', len(triples2info.keys()))
 
-		self.saveAsPickle(self.label2aikg_entity, 'label2aikg_entity')
-		self.saveAsPickle(self.aikg2cso, 'aikg2cso')
-		self.saveAsPickle(self.aikg2dbpedia, 'aikg2dbpedia')
-		self.saveAsPickle(self.aikg2wikidata, 'aikg2wikidata')
+		self.saveAsPickle(self.label2cskg_entity, 'label2cskg_entity')
+		self.saveAsPickle(self.cskg2cso, 'cskg2cso')
+		self.saveAsPickle(self.cskg2dbpedia, 'cskg2dbpedia')
+		self.saveAsPickle(self.cskg2wikidata, 'cskg2wikidata')
 
 
 	def saveAsPickle(self, data, objectName):
@@ -290,7 +309,7 @@ class KGDataDumper:
 
 		self.collectInfo()
 		self.mergeEntities()
-		self.mergeEntitiesEuristic	()
+		self.mergeEntitiesEuristic()
 		self.createTriplesData()
 
 

@@ -4,6 +4,7 @@ from django.utils.encoding import smart_str
 from sentence_transformers import util
 from multiprocessing import Process
 from urllib.parse import unquote
+from random import shuffle
 import networkx as nx
 import pandas as pd
 import numpy as np
@@ -15,6 +16,7 @@ import torch
 import json
 import time
 import csv
+import os
 
 
 class EntitiesMapper:
@@ -25,8 +27,9 @@ class EntitiesMapper:
 		self.e2dbpedia = {}
 		self.e2alternativeLabels = {}
 		self.all_pairs = all_pairs
-		self.e2id = {}
-		self.id2e = {}
+		#self.e2id = {}
+		#self.id2e = {}
+		self.e2neighbors = {}
 
 		self.cso_map = {}
 		self.dbpedia_map = {}
@@ -34,29 +37,19 @@ class EntitiesMapper:
 		self.g = nx.Graph()
 
 		self.csoResourcePath = '../../resources/CSO.3.1.csv'
-
 		self.mappedTriples = {} # main output of this class
 
 
-	def createGraph(self):
 
-		eid = 0
-		for s,o in self.all_pairs:
-			if s not in self.e2id:
-				self.e2id[s] = eid
-				self.id2e[eid] = s
-				eid += 1
-
-			if o not in self.e2id:
-				self.e2id[o] = eid
-				self.id2e[eid] = o
-				eid += 1
-
-			self.g.add_edge(self.e2id[s], self.e2id[o])
 
 
 	def linkThroughCSO(self):
 		print('- \t >> Mapping with cso started')
+
+		entities_to_explore = set(self.entities) - set(self.e2cso.keys())
+		if len(entities_to_explore) <= 0:
+			return
+
 		cso = rdflib.Graph()
 
 		with open(self.csoResourcePath, 'r', encoding='utf-8') as csv_file:
@@ -67,7 +60,7 @@ class EntitiesMapper:
 				o = o[1:-1]
 				
 				entity = s.replace('https://cso.kmi.open.ac.uk/topics/', '').replace('_', ' ')
-				if entity in self.entities:
+				if entity in entities_to_explore:
 					self.e2cso[entity] = s
 					if p == 'http://www.w3.org/2002/07/owl#sameAs':
 						if 'wikidata' in o:
@@ -89,6 +82,8 @@ class EntitiesMapper:
 		timepoint = time.time()
 		#sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 		entities_to_explore = list(set(self.entities) - set(self.e2wikidata.keys()))
+		if len(entities_to_explore) <= 0:
+			return
 
 		#print('sorting entities...')
 		entities_to_explore = sorted(entities_to_explore, key=lambda x:len(x), reverse=True)
@@ -269,18 +264,56 @@ class EntitiesMapper:
 		print('> Mapped to Wikidata:', len(self.e2wikidata))
 
 
+	def findNeiighbors(self):
+
+		for s,o in self.all_pairs:
+			if s not in self.e2neighbors:
+				self.e2neighbors[s] = []
+			if len(self.e2neighbors[s]) < 20:
+				self.e2neighbors[s] += [o]
+
+			if o not in self.e2neighbors:
+				self.e2neighbors[o] = []
+			if len(self.e2neighbors[o]) < 20:
+				self.e2neighbors[o] += [s]
+
+
+		'''eid = 0
+		for s,o in self.all_pairs:
+			if s not in self.e2id and (s in self.entities or o in self.entities):
+				self.e2id[s] = eid
+				self.id2e[eid] = s
+				eid += 1
+
+			if o not in self.e2id and (s in self.entities or o in self.entities):
+				self.e2id[o] = eid
+				self.id2e[eid] = o
+				eid += 1
+
+			if s in self.entities or o in self.entities:
+				self.g.add_edge(self.e2id[s], self.e2id[o])
+		'''
+
 	def linkThroughDBpediaSpotLight(self):
 		print('- \t >> Mapping with dbpedia spotlight started')
-		entities_to_explore = set(self.e2id) - set(self.e2dbpedia.keys())
+		
+		entities_to_explore = set(self.entities) - set(self.e2dbpedia.keys())
+		if len(entities_to_explore) <= 0:
+			return
+
+		self.findNeiighbors()
 
 		c = 0
 		timepoint = time.time()
 		for e in entities_to_explore:
 			if e not in self.e2dbpedia:
-				eid = self.e2id[e]
-				neighbors_ids = list(self.g.neighbors(eid))
+				#eid = self.e2id[e]
+				#neighbors_ids = list(self.g.neighbors(eid))
+				neighbors = self.e2neighbors[e]
 
-				content = [e] + [self.id2e[nid] for nid in neighbors_ids[:20]]
+				#content = [e] + [self.id2e[nid] for nid in neighbors_ids[:20]]
+				content = [e] + neighbors
+				shuffle(content)
 				content = ' '.join(content)
 
 				url = 'https://api.dbpedia-spotlight.org/en/annotate'
@@ -317,7 +350,7 @@ class EntitiesMapper:
 		print('- \t >> Mapped to DBpedia:', len(self.e2dbpedia))
 		
 
-	def save(self):
+	'''def save(self):
 
 		pickle_out = open("../../resources/e2cso.pickle","wb")
 		pickle.dump(self.e2cso, pickle_out)
@@ -334,51 +367,45 @@ class EntitiesMapper:
 		pickle_out = open("../../resources/e2alternativeLabels.pickle","wb")
 		pickle.dump(self.e2alternativeLabels, pickle_out)
 		pickle_out.close()
-
+	'''
 
 	def load(self):
 
 		p_cso = Process(target=self.linkThroughCSO)
-		p_wikidata = Process(target=self.linkThroughWikidata)
+		#p_wikidata = Process(target=self.linkThroughWikidata)
 		p_dbpedia = Process(target=self.linkThroughDBpediaSpotLight)
 
-		try:
+		if os.path.exists("../../resources/e2cso.pickle"):
 			f = open("../../resources/e2cso.pickle","rb")
 			self.e2cso = pickle.load(f)
 			f.close()
-		except:
-			self.e2cso = {}
-			p_cso.start()
+		p_cso.start()
 			
-		try:
+		if os.path.exists("../../resources/e2dbpedia.pickle"):
 			f = open("../../resources/e2dbpedia.pickle","rb")
 			self.e2dbpedia = pickle.load(f)
 			f.close()
-		except:
-			self.e2dbpedia = {}
-			self.createGraph()
-			p_dbpedia.start()
+		p_dbpedia.start()
 			
-		try:
+		'''if os.path.exists("../../resources/e2wikidata.pickle"):
 			f = open("../../resources/e2wikidata.pickle","rb")
 			self.e2wikidata = pickle.load(f)
 			f.close()
-		except:
-			self.e2wikidata = {}
-			p_wikidata.start()
-
+		
+		p_wikidata.start()
+		'''
 		try: p_cso.join() 
 		except: pass 
-		try: p_wikidata.join() 
-		except: pass 
+		#try: p_wikidata.join() 
+		#except: pass 
 		try: p_dbpedia.join()
 		except: pass 
 
 
 	
 	def run(self):
+		print('\t>> Entities to be mapped:', len(self.entities))
 		self.load()
-		self.save()
 
 
 	def getMaps(self):
@@ -388,20 +415,22 @@ class EntitiesMapper:
 
 if __name__ == '__main__':
 
-	entities = ['neural network', 'artificial neural network', 'ann', 'term frequency', 'computer science', 'ontology alignment', 'convolutional neural network', 'ontology matching', 'neural network', 'cnn', 'deep learning', 'precision', 'recall', 'ontology', 'semantic web']
-	triples = [('cnn', 'is', 'convolutional neural network'), \
-				('deep learning', 'uses', 'convolutional neural network'), \
-				('deep learning', 'uses', 'precision'), \
-				('deep learning', 'uses', 'recall'), \
-				('precision', 'relate', 'recall'), \
-				('machine learning', 'includes', 'deep learning'), \
-				('ontology alignment', 'bla bla', 'ontology'), \
-				('ontology alignment', 'sameAs', 'ontology matching'), \
-				('ontology', 'partof', 'semantic web'), \
-				('ontology alignment', 'uses', 'ontology'), \
-				('ontology', 'partof', 'computer science'), \
-				('neural network', 'partof', 'computer science'), \
-				('machine learning', 'partof', 'computer science') \
+	entities = ['neural network', 'artificial neural network', 'ann', 'computer science', 'ontology alignment', 'convolutional neural network', 'ontology matching', 'neural network', 'cnn', 'deep learning', 'precision', 'recall', 'ontology', 'semantic web']
+	triples = [('cnn',  'convolutional neural network'), \
+				('deep learning', 'convolutional neural network'), \
+				('deep learning', 'computer science'), \
+				('deep learning',  'recall'), \
+				('precision', 'recall'), \
+				('machine learning',  'deep learning'), \
+				('ontology alignment', 'ontology'), \
+				('ontology alignment','ontology matching'), \
+				('ontology', 'semantic web'), \
+				('ontology alignment', 'ontology'), \
+				('ontology', 'computer science'), \
+				('neural network', 'artificial neural network'), \
+				('machine learning',  'ann'), \
+				('cnn',  'ann'), \
+				('cnn',  'semantic web') \
 			]
 	mapper = EntitiesMapper(entities, triples)
 	mapper.run()
