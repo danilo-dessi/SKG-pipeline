@@ -49,24 +49,24 @@ model_name = 'bert-base-uncased'
 if len(sys.argv) == 2:
 	model_name = sys.argv[1]
 else:
-	print('python tune_predict_binary  BERT_MODEL VERSION')
+	print('python tune_predict_binary  BERT_MODEL')
 	exit(1)
 
 
 train_texts = load('./dataset/full_train_texts.pickle')
 train_labels_original = load('./dataset/full_train_labels.pickle')
-general_test_texts = load('./dataset/full_test_texts.pickle')
-general_test_labels_original = load('./dataset/full_test_labels.pickle')
+test_texts = load('./dataset/full_test_texts.pickle')
+test_labels_original = load('./dataset/full_test_labels.pickle')
 
 train_labels = [(1,0) if label == 0 else (0,1) for label in train_labels_original ]
-general_test_labels = [(1,0) if label == 0 else (0,1) for label in general_test_labels_original ]
+general_test_labels = [(1,0) if label == 0 else (0,1) for label in test_labels_original ]
 
 print('> train size:', len(train_texts))
 print('> test size', len(general_test_labels))
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 train_encodings = tokenizer(train_texts, truncation=True, padding=True)
-general_test_encodings = tokenizer(general_test_texts, truncation=True, padding=True)
+general_test_encodings = tokenizer(test_texts, truncation=True, padding=True)
 
 train_dataset = MyDataset(train_encodings, train_labels)
 general_test_dataset = MyDataset(general_test_encodings, general_test_labels)

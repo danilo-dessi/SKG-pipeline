@@ -99,113 +99,32 @@ class EntitiesMapper:
 					WHERE{
 							{
 								?entity  <http://www.w3.org/2000/01/rdf-schema#label> \"""" + e +"""\"@en .
-                                ?entity wdt:31+ wd:Q21198 .
+								{?entity wdt:31+ wd:Q21198 }  UNION 
+								{?entity wdt:31/wdt:P279* wd:Q21198} UNION
+								{?entity wdt:P279+ wd:Q21198} UNION
+								{?entity  wdt:P361+ wd:Q21198} UNION
+								{ ?entity  wdt:P1269+ wd:Q21198} UNION
+								{FILTER NOT EXISTS {?entity <http://schema.org/description> "Wikimedia disambiguation page"@en}}
 								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+									?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
+									FILTER(LANG(?altLabel) = 'en')
+								}
+								
 
-							} UNION {
-								?entity  <http://www.w3.org/2000/01/rdf-schema#label> \"""" + e +"""\"@en .
-                          		FILTER NOT EXISTS {?entity <http://schema.org/description> "Wikimedia disambiguation page"@en}
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-
-							} UNION {
-								?entity  <http://www.w3.org/2000/01/rdf-schema#label> \"""" + e +"""\"@en .
-                                ?entity wdt:31/wdt:P279* wd:Q21198 .
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-
-							} UNION {
-								?entity  <http://www.w3.org/2000/01/rdf-schema#label> \"""" + e +"""\"@en .
-                                ?entity wdt:P279+ wd:Q21198 .
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-
-							} UNION {
-								?entity  <http://www.w3.org/2000/01/rdf-schema#label> \"""" + e +"""\"@en .
-                                ?entity  wdt:P361+ wd:Q21198 . 
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-		
-							 } UNION {
-								?entity  <http://www.w3.org/2000/01/rdf-schema#label> \"""" + e +"""\"@en .
-                                ?entity  wdt:P1269+ wd:Q21198 . 
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-		
-							 } UNION {
+							}  UNION {
 								?entity <http://www.w3.org/2004/02/skos/core#altLabel> \"""" + e +"""\"@en .
-                                ?entity wdt:31+ wd:Q21198 .
+								{?entity wdt:31+ wd:Q21198 }  UNION 
+								{?entity wdt:31/wdt:P279* wd:Q21198} UNION
+								{?entity wdt:P279+ wd:Q21198} UNION
+								{?entity  wdt:P361+ wd:Q21198} UNION
+								{ ?entity  wdt:P1269+ wd:Q21198} 
 								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
+									?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
+									FILTER(LANG(?altLabel) = 'en')
+								}
 								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
 
-							} UNION {
-								?entity  <http://www.w3.org/2004/02/skos/core#altLabel> \"""" + e +"""\"@en .
-                          		FILTER NOT EXISTS {?entity <http://schema.org/description> "Wikimedia disambiguation page"@en}
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-
-							} UNION {
-								?entity <http://www.w3.org/2004/02/skos/core#altLabel> \"""" + e +"""\"@en .
-                                ?entity wdt:31/wdt:P279* wd:Q21198 .
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-
-							} UNION {
-								?entity <http://www.w3.org/2004/02/skos/core#altLabel> \"""" + e +"""\"@en .
-                                ?entity wdt:P279+ wd:Q21198 .
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-
-							} UNION {
-								?entity <http://www.w3.org/2004/02/skos/core#altLabel> \"""" + e +"""\"@en .
-                                ?entity  wdt:P361+ wd:Q21198 . 
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-		
-							 } UNION {
-								?entity <http://www.w3.org/2004/02/skos/core#altLabel> \"""" + e +"""\"@en .
-                                ?entity  wdt:P1269+ wd:Q21198 . 
-								 OPTIONAL {
-                                    ?entity <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel .
-                                    FILTER(LANG(?altLabel) = 'en')
-                                }
-								SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-		
-							 } 
+							}
 						}
 					"""
 
@@ -236,10 +155,8 @@ class EntitiesMapper:
 									#print('>    alt', binding['altLabel']['value'].lower(), binding['entity']['value'])
 
 				c += 1
-				if c % 1000 == 0:
-					print('- \t\t >> Wikidata Processed', c, 'entities in {:.2f} secs.'.format(time.time() - timepoint))
-
 				if c % 10000 == 0:
+					print('\t >> Wikidata Processed', c, 'entities in {:.2f} secs.'.format(time.time() - timepoint))
 					pickle_out = open("../../resources/e2wikidata.pickle","wb")
 					pickle.dump(self.e2wikidata, pickle_out)
 					pickle_out.flush()
@@ -335,7 +252,11 @@ class EntitiesMapper:
 									break
 
 				except urllib.error.HTTPError as e:
-					print('HTTPError: {}'.format(e.code))
+					print('HTTPError: {}'.format(e.code), 'sleeping...')
+					time.sleep(60)
+				except:
+					print('E:', e)
+					pass
 
 				c += 1
 				if c % 10000 == 0:
@@ -372,7 +293,7 @@ class EntitiesMapper:
 	def load(self):
 
 		p_cso = Process(target=self.linkThroughCSO)
-		#p_wikidata = Process(target=self.linkThroughWikidata)
+		p_wikidata = Process(target=self.linkThroughWikidata)
 		p_dbpedia = Process(target=self.linkThroughDBpediaSpotLight)
 
 		if os.path.exists("../../resources/e2cso.pickle"):
@@ -387,17 +308,17 @@ class EntitiesMapper:
 			f.close()
 		p_dbpedia.start()
 			
-		'''if os.path.exists("../../resources/e2wikidata.pickle"):
+		if os.path.exists("../../resources/e2wikidata.pickle"):
 			f = open("../../resources/e2wikidata.pickle","rb")
 			self.e2wikidata = pickle.load(f)
 			f.close()
 		
 		p_wikidata.start()
-		'''
+		
 		try: p_cso.join() 
 		except: pass 
-		#try: p_wikidata.join() 
-		#except: pass 
+		try: p_wikidata.join() 
+		except: pass 
 		try: p_dbpedia.join()
 		except: pass 
 

@@ -234,8 +234,14 @@ class KGDataDumper:
 		for (s,o) in self.pair2info:
 			s_cskg = self.label2cskg_entity[s] if s in self.label2cskg_entity else s
 			o_cskg = self.label2cskg_entity[o] if o in self.label2cskg_entity else o
-			stype = self.e2type[s_cskg].replace('OtherScientificTerm', 'OtherEntity')
-			otype = self.e2type[o_cskg].replace('OtherScientificTerm', 'OtherEntity')
+
+			stype = 'OtherEntity'
+			otype = 'OtherEntity'
+			if s_cskg in self.e2type:
+				stype = self.e2type[s_cskg].replace('OtherScientificTerm', 'OtherEntity')
+
+			if o_cskg in self.e2type:
+				otype = self.e2type[o_cskg].replace('OtherScientificTerm', 'OtherEntity')
 
 			for rel in self.pair2info[(s,o)]:
 				if s_cskg != o_cskg:

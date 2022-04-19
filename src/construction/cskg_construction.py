@@ -143,14 +143,12 @@ class TriplesGenerator:
 			selected_type = None
 			max_freq = 0
 			for etype,freq in dict(occurence_count).items():
-				if etype != 'OtherScientificTerm' and etype != 'CSOTopic' and freq > max_freq:
+				if etype != 'OtherScientificTerm' and etype != 'CSO Topic' and freq > max_freq:
 					selected_type = etype
 					max_freq = freq
 
-			# if no Material, Method, etc. the CSOTopic is the type
-			if selected_type == None and 'CSOTopic' in dict(occurence_count).keys():
-				selected_type = 'OtherScientificTerm'
-			elif selected_type == None:
+			# if no Material, Method, etc. OtherEntity
+			if selected_type == None:
 				selected_type = 'OtherScientificTerm'
 
 			self.e2selected_type[e] = selected_type
@@ -272,7 +270,7 @@ class TriplesGenerator:
 		print('>> Relations handling')
 		if ckpts_relations_handler:
 			print('\t>> Loaded from ckpts')
-			self.dygiepp_pair2info, self.openie_pair2info, self.pos_pair2info, self.dep_pair2info = self.loadCheckpoint('relations_handler')
+			self.dygiepp_pair2info, self.openie_pair2info, self.pos_pair2info, self.dep_pair2info, self.entities2files = self.loadCheckpoint('relations_handler')
 			print(' \t- dygiepp pairs:\t', len(self.dygiepp_pair2info))
 			print(' \t- openie pairs:\t\t', len(self.openie_pair2info))
 			print(' \t- pos pairs:\t\t', len(self.pos_pair2info))
@@ -287,7 +285,7 @@ class TriplesGenerator:
 			del self.pos2files
 			del self.dependency2files
 			gc.collect()
-			self.createCheckpoint('relations_handler', (self.dygiepp_pair2info, self.openie_pair2info, self.pos_pair2info, self.dep_pair2info))
+			self.createCheckpoint('relations_handler', (self.dygiepp_pair2info, self.openie_pair2info, self.pos_pair2info, self.dep_pair2info, self.entities2files))
 			print(' \t- dygiepp pairs:\t', len(self.dygiepp_pair2info))
 			print(' \t- openie pairs:\t\t', len(self.openie_pair2info))
 			print(' \t- pos pairs:\t\t', len(self.pos_pair2info))
@@ -299,11 +297,11 @@ class TriplesGenerator:
 		print('>> Mapping to external resources')
 		if ckpts_mapping:
 			print('\t>> Loaded from ckpts')
-			self.e2cso, self.e2dbpedia, self.e2wikidata = self.loadCheckpoint('mapping')
+			self.e2cso, self.e2dbpedia, self.e2wikidata= self.loadCheckpoint('mapping')
 		elif not ckpts_mapping:
 			all_pairs = set(self.dygiepp_pair2info.keys()) | set(self.pos_pair2info.keys()) | set(self.openie_pair2info.keys()) | set(self.dep_pair2info.keys())
 			#mapper = EntitiesMapper([e for e, t in self.entities2files.keys()], all_pairs)
-			mapper = EntitiesMapper(self.entitiesFreq(25), all_pairs)
+			mapper = EntitiesMapper(self.entitiesFreq(500), all_pairs)
 			mapper.run()
 			self.e2cso, self.e2dbpedia, self.e2wikidata = mapper.getMaps()
 			del mapper

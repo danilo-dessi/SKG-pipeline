@@ -22,10 +22,9 @@ def save(obj, obj_path):
 	f.flush()
 	f.close()
 
-if len(sys.argv) == 4:
-	version = sys.argv[1]
-	s1 = int(sys.argv[2])
-	s2 = int(sys.argv[3])
+if len(sys.argv) == 3:
+	s1 = int(sys.argv[1])
+	s2 = int(sys.argv[2])
 else:
 	print('python prepareTrainingData.py s1 s2')
 	exit(1)
@@ -38,7 +37,7 @@ p2id = {}
 pid = 0
 
 
-data = pd.read_csv('aikg_triples.csv')
+data = pd.read_csv('../construction/cskg_data/cskg_triples.csv')
 print('\t>> Dataframe all triples size:', data.shape)
 #data['source_len'] = [len(ast.literal_eval(x)) for x in data['sources']]
 

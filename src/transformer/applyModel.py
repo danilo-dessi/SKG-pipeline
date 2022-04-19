@@ -9,6 +9,7 @@ import csv
 import ast
 import sys
 import re
+import os
 
 
 
@@ -37,36 +38,6 @@ else:
 	print('python applyModel MODEL s1 s2')
 	exit(1)
 
-data = pd.read_csv('../construction/aikg_data/aikg_triples.csv')
-print('> data size:', data.shape)
-
-datav = data[(data['subj'] != data['obj']) & ((data['support'] >= s1) | (data['source_len'] >= s2))]
-datatocheck = data[(data['subj'] != data['obj']) & ((data['support'] < s1) & (data['source_len'] < s2))]
-
-print('\t>> num reliable triples dataframe size:', datav.shape)
-print('\t>> unrealiable triples to check datframe size:', datatocheck.shape)
-
-datav.to_csv('triples_reliable.csv', index=False)
-
-datatocheck = datatocheck.sample(frac=1).reset_index(drop=True)
-
-subjects = datatocheck['subj']
-relations = datatocheck['rel']
-objects = datatocheck['obj']
-tocheck_triples = list(zip(subjects, relations, objects))
-
-texts = []
-labels = []
-for (s,p,o) in tocheck_triples:
-	texts += [str(s) + ' ' + str(p) + ' ' + str(o)]
-	labels += [(0,1)]
-print('\t>> unrealiable triples to check:', len(texts))
-
-
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-encodings = tokenizer(texts, truncation=True, padding=True)
-dataset = MyDataset(encodings, labels)
-
 training_args = TrainingArguments(
 	output_dir='./tune_predict/',    	# output directory
 	logging_dir='./tune_predict/logs',  # directory for storing logs
@@ -79,16 +50,60 @@ training_args = TrainingArguments(
 model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
 trainer = Trainer(model=model, args=training_args)
 
-predictions, label_ids, metrics = trainer.predict(dataset)
-predictions = torch.from_numpy(predictions).sigmoid() > 0.5
-predictions = predictions.int()
+with pd.read_csv('../construction/cskg_data/cskg_triples.csv', chunksize=1000000) as reader:
+	for data in reader:
 
-predicted_labels = [1 if tuple(x) == (0,1) else 0 for x in predictions] 
-print('\t>> number of predicted 1 (consistent triples)', predicted_labels.count(1))
-print('\t>> number of predicted 0 (discarded triples)', predicted_labels.count(0))
+		#data = pd.read_csv('../construction/cskg_data/cskg_triples.csv')
+		print('> data size:', data.shape)
 
-datatocheck['predicted_labels'] = predicted_labels
-datatocheck.to_csv('triples_classified.csv', index=False)
+		datav = data[(data['subj'] != data['obj']) & ((data['support'] >= s1) | (data['source_len'] >= s2))]
+		datatocheck = data[(data['subj'] != data['obj']) & ((data['support'] < s1) & (data['source_len'] < s2))]
+
+		print('\t>> num reliable triples dataframe size:', datav.shape)
+		print('\t>> unrealiable triples to check datframe size:', datatocheck.shape)
+
+		datav.to_csv('triples_reliable.csv', index=False)
+
+		datatocheck = datatocheck.sample(frac=1).reset_index(drop=True)
+
+		cls_data_size = 100000
+		for i in range(0,datatocheck.shape[0], cls_data_size):
+			print('\n------------\n\t>> classifying interval [',i,',', i+cls_data_size, ']')
+			
+			new_data_classified = datatocheck.iloc[i:i+cls_data_size]
+			subjects = new_data_classified['subj']
+			relations = new_data_classified['rel']
+			objects = new_data_classified['obj']
+			tocheck_triples = list(zip(subjects, relations, objects))
+
+			texts = []
+			labels = []
+			for (s,p,o) in tocheck_triples:
+				texts += [str(s) + ' ' + str(p) + ' ' + str(o)]
+				labels += [(0,1)]
+			print('\t>> unrealiable triples to check:', len(texts))
+
+			tokenizer = AutoTokenizer.from_pretrained(model_name)
+			encodings = tokenizer(texts, truncation=True, padding=True)
+			dataset = MyDataset(encodings, labels)
+
+			predictions, label_ids, metrics = trainer.predict(dataset)
+			predictions = torch.from_numpy(predictions).sigmoid() > 0.5
+			predictions = predictions.int()
+
+			predicted_labels = [1 if tuple(x) == (0,1) else 0 for x in predictions] 
+			print('\t>> number of predicted 1 (consistent triples)', predicted_labels.count(1))
+			print('\t>> number of predicted 0 (discarded triples)', predicted_labels.count(0))
+
+			new_data_classified['predicted_labels'] = predicted_labels
+
+
+			if os.path.exists('triples_classified.csv'):
+				data_classified = pd.read_csv('triples_classified.csv')
+				data_classified = pd.concat([data_classified, new_data_classified])
+				data_classified.to_csv('triples_classified.csv', index=False)
+			else:
+				new_data_classified.to_csv('triples_classified.csv', index=False)
 
 
 
