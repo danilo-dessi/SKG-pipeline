@@ -10,6 +10,7 @@ import ast
 import sys
 import re
 import os
+import gc 
 
 
 
@@ -41,17 +42,29 @@ else:
 training_args = TrainingArguments(
 	output_dir='./tune_predict/',    	# output directory
 	logging_dir='./tune_predict/logs',  # directory for storing logs
-	per_device_train_batch_size=128,
+	per_device_train_batch_size=512,
 	logging_strategy='no',
 	log_level='critical',
-	per_device_eval_batch_size=128
+	per_device_eval_batch_size=512
 )
 
-model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
-trainer = Trainer(model=model, args=training_args)
 
-with pd.read_csv('../construction/cskg_data/cskg_triples.csv', chunksize=1000000) as reader:
+
+#reliable
+#alldata = pd.read_csv('../construction/cskg_data/cskg_triples.csv')
+#datav = alldata[(data['subj'] != data['obj']) & ((data['support'] >= s1) | (data['source_len'] >= s2))]
+#datav.to_csv('triples_reliable.csv', index=False)
+
+#../construction/cskg_data/
+cls_counter = 0
+with pd.read_csv('cskg_triples.csv', chunksize=1000000) as reader:
 	for data in reader:
+		model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
+		trainer = Trainer(model=model, args=training_args)
+		cls_counter += 1
+
+		if cls_counter <= 5:
+			continue
 
 		#data = pd.read_csv('../construction/cskg_data/cskg_triples.csv')
 		print('> data size:', data.shape)
@@ -61,14 +74,19 @@ with pd.read_csv('../construction/cskg_data/cskg_triples.csv', chunksize=1000000
 
 		print('\t>> num reliable triples dataframe size:', datav.shape)
 		print('\t>> unrealiable triples to check datframe size:', datatocheck.shape)
-
-		datav.to_csv('triples_reliable.csv', index=False)
+		
+		if os.path.exists('triples_reliable.csv'):
+			datav_old = pd.read_csv('triples_reliable.csv')
+			datav_old = pd.concat([datav_old, datav])
+			datav_old.to_csv('triples_reliable.csv', index=False)
+		else:
+			datav.to_csv('triples_reliable.csv', index=False)
 
 		datatocheck = datatocheck.sample(frac=1).reset_index(drop=True)
 
-		cls_data_size = 100000
+		cls_data_size = 500000
 		for i in range(0,datatocheck.shape[0], cls_data_size):
-			print('\n------------\n\t>> classifying interval [',i,',', i+cls_data_size, ']')
+			print('\t>> classifying interval [',i,',', i+cls_data_size, ']')
 			
 			new_data_classified = datatocheck.iloc[i:i+cls_data_size]
 			subjects = new_data_classified['subj']
@@ -97,13 +115,17 @@ with pd.read_csv('../construction/cskg_data/cskg_triples.csv', chunksize=1000000
 
 			new_data_classified['predicted_labels'] = predicted_labels
 
-
-			if os.path.exists('triples_classified.csv'):
-				data_classified = pd.read_csv('triples_classified.csv')
+			file_cls = 'triples_classified_' + str(cls_counter) + '.csv'
+			if os.path.exists(file_cls):
+				data_classified = pd.read_csv(file_cls)
 				data_classified = pd.concat([data_classified, new_data_classified])
-				data_classified.to_csv('triples_classified.csv', index=False)
+				data_classified.to_csv(file_cls, index=False)
 			else:
-				new_data_classified.to_csv('triples_classified.csv', index=False)
+				new_data_classified.to_csv(file_cls, index=False)
+		print('------------------------------------')
+		del model 
+		del trainer
+		gc.collect()
 
 
 

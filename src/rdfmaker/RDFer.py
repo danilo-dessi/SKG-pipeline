@@ -4,11 +4,14 @@ from rdflib.namespace import Namespace
 from datetime import datetime
 import pandas as pd
 import pickle
+import gzip
 import time
 import sys
 import csv 
 import ast
 import re
+import os
+
 
 
 class RDFer:
@@ -324,7 +327,7 @@ class RDFer:
 		self.cskg2dbpedia = pickle.load(pickle_in)
 		pickle_in.close()
 
-		pickle_in = open('../construction/cskg_data/label2cskg_entity.pickle', 'rb')
+		pickle_in = open('../../resources/only_embeddings_label2cskg_entity.pickle', 'rb')
 		self.label2cskg_entity = pickle.load(pickle_in)
 		pickle_in.close()
 
@@ -337,14 +340,29 @@ class RDFer:
 		print('> RDF-efication of %d triples started'%(len(self.gtriples_list)))
 		counter = 0
 		stime = time.time()
+		#n_rdf_triples = 0
 		for (s, rel, o, sup, tools, files, stype, otype) in self.gtriples_list:
-
+			#print(counter)
 			counter += 1
-			if counter % 50000 == 0:
-				print('>> added %d triples in %f'%(counter, time.time() - stime))
-				stime = time.time()
 
-			if (stype, rel + otype, otype) in self.validDomainRelRange or rel == 'skos:broader/is/hyponym-of':
+			#if counter <= 43000001:
+			#	self.statement_id += 2
+			#	continue
+
+			# reification of 1M triples
+			if counter % 250000 == 0:
+				index  = int(counter / 250000)
+				name = self.kgname + '_' + str(index) +'.ttl'
+				self.g.serialize(destination=name, format='turtle')
+				with open(name, 'rb') as src, gzip.open(name + '.gz', 'wb') as dst:
+					dst.writelines(src)
+				os.remove(name)
+				#n_rdf_triples += len(list(self.g.triples((None, None, None))))
+				print('>> added %d triples in %f'%(counter, time.time() - stime))
+				del self.g
+				self.g = Graph()
+
+			if (stype, rel + otype, otype) in self.validDomainRelRange or (rel == 'skos:broader/is/hyponym-of' and stype == otype):
 
 				s_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + str(s).replace(' ', '_'))
 				o_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + str(o).replace(' ', '_'))
@@ -391,7 +409,7 @@ class RDFer:
 				self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.HAS_SUPPORT),  Literal(int(sup), datatype=XSD.integer)))
 
 				#not inferred by transitive clousure triples
-				self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.IS_INFERRED),  Literal('false', datatype=XSD.boolean)))
+				#self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.IS_INFERRED),  Literal('false', datatype=XSD.boolean)))
 
 				for file in files:
 					mag_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + file.replace('.json', ''))
@@ -427,7 +445,7 @@ class RDFer:
 					self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.HAS_SUPPORT),  Literal(int(sup), datatype=XSD.integer)))
 
 					#not inferred by transitive clousure triples
-					self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.IS_INFERRED),  Literal('false', datatype=XSD.boolean)))
+					#self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.IS_INFERRED),  Literal('false', datatype=XSD.boolean)))
 
 					for file in files:
 						mag_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + file.replace('.json', ''))
@@ -435,28 +453,59 @@ class RDFer:
 
 					
 					self.statement_id += 1
-
+		
 		# linkage to external resources
-		for cskge, csoe in self.cskg2cso.items():
-			cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
-			self.g.add((cskge_uri, OWL.sameAs, URIRef(csoe)))
-		for cskge, dbe in self.cskg2dbpedia.items():
-			cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
-			self.g.add((cskge_uri, OWL.sameAs, URIRef(dbe)))
-		for cskge, wde in self.cskg2wikidata.items():
-			cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
-			self.g.add((cskge_uri, OWL.sameAs, URIRef(wde)))
+		#for cskge, csoe in self.cskg2cso.items():
+		#	cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
+		#	self.g.add((cskge_uri, OWL.sameAs, URIRef(csoe)))
+		#for cskge, dbe in self.cskg2dbpedia.items():
+		#	cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
+		#	self.g.add((cskge_uri, OWL.sameAs, URIRef(dbe)))
+		#for cskge, wde in self.cskg2wikidata.items():
+		#	cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
+		#	self.g.add((cskge_uri, OWL.sameAs, URIRef(wde)))
 
 		# add other labels
-		for label, cskge in self.label2cskg_entity.items():
-			cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
-			self.g.add((cskge_uri, RDFS.label, Literal(label)))
-
-		self.g.serialize(destination=self.kgname + '.ttl', format='turtle')
+		#for label, cskge in self.label2cskg_entity.items():
+		#	cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
+		#	self.g.add((cskge_uri, RDFS.label, Literal(label)))
+		
+		#self.g.serialize(destination=self.kgname + '.ttl', format='turtle')
+		index  = int(1 + counter / 250000)
+		name = self.kgname + '_' + str(index) +'.ttl'
+		self.g.serialize(destination=name, format='turtle')
+		with open(name, 'rb') as src, gzip.open(name + '.gz', 'wb') as dst:
+			dst.writelines(src)
+		os.remove(name)
+		#n_rdf_triples += len(list(self.g.triples((None, None, None))))
 		print('> KG saved in', self.kgname)
 		print('> Number of statements:', self.statement_id)
+		#print('> Number of RDF triples:', n_rdf_triples)
 
 
+
+
+	def apply_ontology_light(self):
+
+		data = pd.read_csv(self.kgname + '_final_data_copy.csv')
+		print('Loaded from light:', data.shape)
+		self.gtriples_list = []
+		for i, r in data.iterrows():
+			s = r['subj']
+			rel = r['rel']
+			o = r['obj']
+			sup = int(r['support'])
+			tools = r['sources']
+			#merging of dependency tagger and pos
+			tools = ast.literal_eval(tools)
+			if 'dependency tagger' in tools:
+				tools.discard('dependency tagger')
+				tools.add('pos tagger')
+			files = ast.literal_eval(r['files'])
+			stype = r['subj_type']
+			otype = r['obj_type']
+			self.gtriples_list += [(s, rel, o, sup, tools, files, stype, otype)]
+		print('Triples from light:', len(self.gtriples_list))
 
 	def apply_ontology(self):
 		
@@ -487,6 +536,12 @@ class RDFer:
 			stype = r['subj_type']
 			otype = r['obj_type']
 
+			tools = ast.literal_eval(tools)
+			if 'dependency tagger' in tools:
+				tools.discard('dependency tagger')
+				tools.add('pos tagger')
+			tools = str(tools)
+
 			# used to have consistent types and avoid bugs during the handling of the triples
 			if s in e2t:
 				try:
@@ -505,7 +560,7 @@ class RDFer:
 					print(o)
 			########################################################################################
 
-			if (stype, rel + otype, otype) in self.validDomainRelRange or rel == 'skos:broader/is/hyponym-of' or rel=='conjunction':
+			if (stype, rel + otype, otype) in self.validDomainRelRange or (rel == 'skos:broader/is/hyponym-of' and stype == otype) or rel=='conjunction':
 				gtriples_set.add((s, rel, o, sup, tools, files, stype, otype))
 				valid_onto += 1
 			else:
@@ -513,11 +568,13 @@ class RDFer:
 				discarded_by_onto += 1
 
 		print('> valid & discarded high support', valid_onto, discarded_by_onto)
+		ii = 0
 		for i, r in self.data_classified_df.iterrows():
 
-			if i % 50000 == 0:
-				print('>> status classified:' + str(i) + '/' + str(self.data_classified_df.shape[0]), '-', time.time() - stime)
+			if ii % 50000 == 0:
+				print('>> status classified:' + str(ii) + '/' + str(self.data_classified_df.shape[0]), '-', time.time() - stime)
 				stime = time.time()
+			ii += 1
 
 			s = r['subj']
 			rel = r['rel']
@@ -529,6 +586,12 @@ class RDFer:
 			stype = r['subj_type']
 			otype = r['obj_type']
 
+			tools = ast.literal_eval(tools)
+			if 'dependency tagger' in tools:
+				tools.discard('dependency tagger')
+				tools.add('pos tagger')
+			tools = str(tools)
+
 			# used to have consistent types and avoid bugs during the handling of the triples
 			if s in e2t:
 				try:
@@ -547,7 +610,7 @@ class RDFer:
 					print(o)
 			########################################################################################
 
-			if (stype, rel + otype, otype) in self.validDomainRelRange or rel == 'skos:broader/is/hyponym-of' or rel=='conjunction':
+			if (stype, rel + otype, otype) in self.validDomainRelRange or (rel == 'skos:broader/is/hyponym-of' and stype == otype) or rel=='conjunction':
 				gtriples_set.add((s, rel, o, sup, tools, files, stype, otype))
 				valid_onto += 1
 			else:
@@ -629,6 +692,7 @@ class RDFer:
 
 		self.loadData()
 		self.apply_ontology()
+		#self.apply_ontology_light()
 		self.populate()
 
 

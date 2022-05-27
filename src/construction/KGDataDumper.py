@@ -171,6 +171,7 @@ class KGDataDumper:
 
 			if ei not in self.label2cskg_entity and ej not in self.label2cskg_entity:
 				self.label2cskg_entity[ej] = ei
+				self.label2cskg_entity[ei] = ei
 				#print(ej, '->', ei, ' : ', score)
 			elif ei not in self.label2cskg_entity and ej in self.label2cskg_entity:
 				self.label2cskg_entity[ei] = self.label2cskg_entity[ej]
@@ -193,6 +194,7 @@ class KGDataDumper:
 				
 				if ei not in self.label2cskg_entity and ej not in self.label2cskg_entity:
 					self.label2cskg_entity[ej] = ei
+					self.label2cskg_entity[ei] = ei
 				elif ei not in self.label2cskg_entity and ej in self.label2cskg_entity:
 					self.label2cskg_entity[ei] = self.label2cskg_entity[ej]
 				elif ei in self.label2cskg_entity and ej not in self.label2cskg_entity:

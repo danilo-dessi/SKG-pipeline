@@ -53,10 +53,10 @@ else:
 	exit(1)
 
 
-train_texts = load('./dataset/full_train_texts.pickle')
-train_labels_original = load('./dataset/full_train_labels.pickle')
-test_texts = load('./dataset/full_test_texts.pickle')
-test_labels_original = load('./dataset/full_test_labels.pickle')
+train_texts = load('./dataset/full_train_texts.pickle')[:800000]
+train_labels_original = load('./dataset/full_train_labels.pickle')[:800000]
+test_texts = load('./dataset/full_test_texts.pickle')[:100000]
+test_labels_original = load('./dataset/full_test_labels.pickle')[:100000]
 
 train_labels = [(1,0) if label == 0 else (0,1) for label in train_labels_original ]
 general_test_labels = [(1,0) if label == 0 else (0,1) for label in test_labels_original ]
