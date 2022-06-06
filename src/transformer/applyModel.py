@@ -56,15 +56,11 @@ training_args = TrainingArguments(
 #datav.to_csv('triples_reliable.csv', index=False)
 
 #../construction/cskg_data/
-cls_counter = 0
+
 with pd.read_csv('cskg_triples.csv', chunksize=1000000) as reader:
 	for data in reader:
 		model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
 		trainer = Trainer(model=model, args=training_args)
-		cls_counter += 1
-
-		if cls_counter <= 5:
-			continue
 
 		#data = pd.read_csv('../construction/cskg_data/cskg_triples.csv')
 		print('> data size:', data.shape)
@@ -115,7 +111,7 @@ with pd.read_csv('cskg_triples.csv', chunksize=1000000) as reader:
 
 			new_data_classified['predicted_labels'] = predicted_labels
 
-			file_cls = 'triples_classified_' + str(cls_counter) + '.csv'
+			file_cls = 'triples_classified.csv'
 			if os.path.exists(file_cls):
 				data_classified = pd.read_csv(file_cls)
 				data_classified = pd.concat([data_classified, new_data_classified])

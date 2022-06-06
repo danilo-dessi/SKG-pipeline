@@ -483,30 +483,6 @@ class RDFer:
 		#print('> Number of RDF triples:', n_rdf_triples)
 
 
-
-
-	def apply_ontology_light(self):
-
-		data = pd.read_csv(self.kgname + '_final_data_copy.csv')
-		print('Loaded from light:', data.shape)
-		self.gtriples_list = []
-		for i, r in data.iterrows():
-			s = r['subj']
-			rel = r['rel']
-			o = r['obj']
-			sup = int(r['support'])
-			tools = r['sources']
-			#merging of dependency tagger and pos
-			tools = ast.literal_eval(tools)
-			if 'dependency tagger' in tools:
-				tools.discard('dependency tagger')
-				tools.add('pos tagger')
-			files = ast.literal_eval(r['files'])
-			stype = r['subj_type']
-			otype = r['obj_type']
-			self.gtriples_list += [(s, rel, o, sup, tools, files, stype, otype)]
-		print('Triples from light:', len(self.gtriples_list))
-
 	def apply_ontology(self):
 		
 		self.data_trusted_df['source_len'] = [len(ast.literal_eval(x)) for x in self.data_trusted_df['sources']]
@@ -692,7 +668,6 @@ class RDFer:
 
 		self.loadData()
 		self.apply_ontology()
-		#self.apply_ontology_light()
 		self.populate()
 
 
