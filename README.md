@@ -39,7 +39,7 @@ If you use our work or our data, please cite us:
 
 Please download the [data]() from and copy it in the main folder of the project '/'
 
-##### Extraction process
+#### Extraction process
 
 Go to **/src/extraction/** and execute:
 
@@ -52,14 +52,14 @@ Go to **/src/extraction/** and execute:
 Output folders will be automatically created.
  
 
-##### Triples Generation
+#### Triples Generation
 
 Go to **/src/transformer/** and execute:
 
 ```python cskg_construction.py ```
 
 
-##### Triples Validation
+#### Triples Validation
 
 Go to **/src/transformer/** and execute to prepare the triple for the validation step:
 
@@ -73,7 +73,7 @@ Finally, you can apply the model on the triples accordingly to predefined thresh
 
 - *SUPPORT_S1* and *SUPPORT_S2* are the two thresholds you would like to use to select the reliable triples for the finetunig step to select which triples must be validated.
 
-##### Mapping to the Ontology and Knowledge Graph Generation
+#### Mapping to the Ontology and Knowledge Graph Generation
 
 Go to **/src/rdfmaker/** and run:
 
