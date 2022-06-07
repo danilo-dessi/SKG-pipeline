@@ -10,8 +10,6 @@ import os
 import gc
 
 
-
-
 class TriplesGenerator:
 	def __init__(self):
 		self.entities2files = {}
@@ -53,10 +51,7 @@ class TriplesGenerator:
 							self.entities2files[(e, etype)] += [paper_data['doc_key']]
 					except:
 						pass
-					#c +=1
-					#if c == 100:
-					#	break
-			#break
+
 
 	###################################################################################################################################
 
@@ -165,12 +160,7 @@ class TriplesGenerator:
 				if o not in e2count: e2count[o] = 0
 				e2count[s] += len(data_dict[(s,o)])
 				e2count[o] += len(data_dict[(s,o)])
-
-		#with open('entities.txt', 'w+') as f:
-		#	for e, c in sorted(e2count.items(), key=lambda x:x[1], reverse=True):
-		#		f.write(e + ',' + str(c))
-		#		f.write('\n')
-		#exit(1)		
+		
 		return [e for e,c in e2count.items() if c >= cut_freq]
 
 
@@ -316,7 +306,6 @@ class TriplesGenerator:
 		dumper = KGDataDumper(self.dygiepp_pair2info, self.pos_pair2info, self.openie_pair2info, self.dep_pair2info, self.e2cso, self.e2dbpedia, self.e2wikidata, self.e2selected_type)	
 		dumper.run()
 		print('--------------------------------------')
-
 
 
 

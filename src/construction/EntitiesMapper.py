@@ -27,8 +27,6 @@ class EntitiesMapper:
 		self.e2dbpedia = {}
 		self.e2alternativeLabels = {}
 		self.all_pairs = all_pairs
-		#self.e2id = {}
-		#self.id2e = {}
 		self.e2neighbors = {}
 
 		self.cso_map = {}
@@ -224,8 +222,6 @@ class EntitiesMapper:
 		timepoint = time.time()
 		for e in entities_to_explore:
 			if e not in self.e2dbpedia:
-				#eid = self.e2id[e]
-				#neighbors_ids = list(self.g.neighbors(eid))
 				neighbors = self.e2neighbors[e]
 
 				#content = [e] + [self.id2e[nid] for nid in neighbors_ids[:20]]
@@ -322,12 +318,10 @@ class EntitiesMapper:
 		try: p_dbpedia.join()
 		except: pass 
 
-
 	
 	def run(self):
 		print('\t>> Entities to be mapped:', len(self.entities))
 		self.load()
-
 
 	def getMaps(self):
 		return self.e2cso, self.e2dbpedia, self.e2wikidata
