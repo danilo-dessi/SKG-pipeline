@@ -1,6 +1,6 @@
 # Scientific Knowledge Graph Exctraction Pipeline
 
-This repository contains the source code of the work described in:
+This repository has the purpose to provide the code used to build scholarly knowledge graphs as described in:
 
 ``` Danilo Dessì, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. (2022). THIS IS THE TITLE. UNDER REVIEW```
 
@@ -37,9 +37,13 @@ If you use our work or our data, please cite us:
 
 ## How to use
 
-Please download the [data]() from and copy it in the main folder of the project '/'
+**IMPORTANT** Due to legal issues we are not able to provide the full original data we used for the extraction sub-modules. We provide:
 
-#### Extraction process
+- a sample of the original dataset that can be used to execute and see how the extraction process work
+
+- the data we extracted that can be used to perform the subsequent models to build the KG, it can be dowloaded from HERE THE LINK TO DOWNLOAD THE DATA:
+
+#### Extraction process (example on the sample data)
 
 Go to **/src/extraction/** and execute:
 
@@ -53,6 +57,8 @@ Output folders will be automatically created.
  
 
 #### Triples Generation
+
+Copy the downloaded and extracted data under the main directory of the project **./outputs/**
 
 Go to **/src/transformer/** and execute:
 
