@@ -1,0 +1,6 @@
+USED-FOR,uses,switch-yes
+FEATURE-OF,includes,switch-yes
+PART-OF,includes,switch-yes
+EVALUATE-FOR,analyzes,switch-no
+HYPONYM-OF,skos:broader,switch-no
+COMPARE,,discard
