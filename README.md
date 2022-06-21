@@ -40,6 +40,9 @@ If you use our work or our data, please cite us:
 
 **IMPORTANT** Due to legal issues we are not able to provide the full original data. We provide a sample dataset that can be used to use our pipeline.
 
+The pipeline has been tested on python 3.9. We strongly recommend to use the same python version. 
+
+Please install the required libreries using ```pip install -r requirements.txt ```
 
 
 ### Extraction process (example on the sample data)
