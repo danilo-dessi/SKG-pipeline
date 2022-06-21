@@ -22,6 +22,7 @@ If you use our work or our data, please cite us:
 
 ```
 
+
 ## Content of the repository
 
 - **/src** This folder contains all the source code.
@@ -40,7 +41,8 @@ If you use our work or our data, please cite us:
 **IMPORTANT** Due to legal issues we are not able to provide the full original data. We provide a sample dataset that can be used to use our pipeline.
 
 
-#### Extraction process (example on the sample data)
+
+### Extraction process (example on the sample data)
 
 Go to **/src/extraction/** and execute:
 
@@ -53,46 +55,65 @@ Go to **/src/extraction/** and execute:
 Missing output folders will be automatically created.
  
 
-#### Triples Generation
+
+### Triples Generation
+
+This part of the pipeline will clean and merge the entities, will map the entities to external resources, will map the verbs and will create a set of triples that needs to be validated by the next steps before to create the final knowledge graph.
+
 
 Go to **/src/construction/** and execute:
 
 ```python cskg_construction.py ```
 
 
-#### Triples Validation
+Please note the execution of this phase might require more than 3 hours due to the mapping to external resources over Internet and the system used for testing the pipeline.
+
+
+
+### Triples Validation
 
 Go to **/src/transformer/** and execute to prepare the triple for the validation step:
 
-1. Download the model from https://zenodo.org/record/6624360#.YqHuCexBw6A and save it under **/src/transformer/tuned-transformer/**
+1. Download the model (*tuned-transformer.zip*) from https://zenodo.org/record/6628472#.YqIH_-xBw6A and save it under **/src/transformer/tuned-transformer/**
 
-2. To apply the model on the triples accordingly to predefined thresholds in our paper you can run: ```python applyModel.py tuned-transformer/ 3 3```. Generally, the parameters of the command ```python applyModel.py MODEL_NAME SUPPORT_S1 SUPPORT_S2``` indicate
+2. To apply the model on the triples accordingly to predefined thresholds in our paper you can run: ```python applyModel.py tuned-transformer/ 3 3```. The command has as interface ```python applyModel.py MODEL_NAME SUPPORT_S1 SUPPORT_S2``` where:
 	
 	1. *MODEL_NAME* is the model saved under *./tuned-transformer/*
 
-	2. *SUPPORT_S1* and *SUPPORT_S2* are the two thresholds you would like to use to select the reliable triples for the finetunig step to select which triples must be validated.
+	2. *SUPPORT_S1* and *SUPPORT_S2* are the two thresholds you can use to select the reliable triples for the finetunig step to select which triples must be validated.
 
 
-If you want to finetune a new model you can use:
+Alternatively, if you prefer to finetune the SciBERT transformer model on other data while executing this pipeline you can do as follows:
 
 1. ```python prepareTrainingData.py SUPPORT_S1 SUPPORT_S2```
 
-2. To finetune the transformer model you should execute ```python finetuner.py``` which will save the model under *./tuned-transformer/*.
+2. To finetune the SciBERT transformer model on new data you must execute ```python finetuner.py``` which will save the model under *./tuned-transformer/*.
 
 3. Apply the model on the triples accordingly to predefined thresholds by using: ```python applyModel.py MODEL_NAME SUPPORT_S1 SUPPORT_S2```
 
 
-#### Mapping to the Ontology and Knowledge Graph Generation
+
+### Mapping to the Ontology and Final Knowledge Graph Generation
 
 Go to **/src/rdfmaker/** and run:
 
-```python RDFer.py ../transformer/triples_reliable.csv triples_classified.csv cskg```
+1. Download the *only_embeddings_label2cskg_entity.pickle* from https://zenodo.org/record/6628472#.YqIH_-xBw6A and move it under **/resources/**
 
-```python RDFer.py DATA_RELIABLE DATA_CLASSIFIED KG_NAME```
+2. Run ```python RDFer.py ../transformer/triples_reliable.csv ../transformer/triples_classified.csv my_new_kg ```
+
+The interface of the command is ```python RDFer.py DATA_RELIABLE DATA_CLASSIFIED KG_NAME``` where:
 
 - *DATA_RELIABLE*  and *DATA_CLASSIFIED* are the files that have been generated in the triples validation step
 
 - *KG_NAME* is the name you can choose for your KG
+
+The output will generate 3 files:
+
+- *my_new_kg.ttl* the knowledge graph in turtle format 
+
+- *my_new_kg_final_data.csv* the data contained by the knowledge graph in csv format
+
+- *my_new_kg_final_data.csv* the data discarded by the pipeline because it does not comply with the ontology
 
 ## Contacts
 
