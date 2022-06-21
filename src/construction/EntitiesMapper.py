@@ -38,9 +38,6 @@ class EntitiesMapper:
 		self.mappedTriples = {} # main output of this class
 
 
-
-
-
 	def linkThroughCSO(self):
 		print('- \t >> Mapping with cso started')
 
@@ -87,7 +84,7 @@ class EntitiesMapper:
 		entities_to_explore = sorted(entities_to_explore, key=lambda x:len(x), reverse=True)
 		#print('sorted')
 		c = 0
-		print('- \t >> Entities to be linked to wikidata:', len(entities_to_explore))
+		#print('- \t >> Entities to be linked to wikidata:', len(entities_to_explore))
 
 		while c < len(entities_to_explore):
 			e = entities_to_explore[c]
@@ -153,7 +150,7 @@ class EntitiesMapper:
 									#print('>    alt', binding['altLabel']['value'].lower(), binding['entity']['value'])
 
 				c += 1
-				if c % 10000 == 0:
+				if c % 100 == 0:
 					print('\t >> Wikidata Processed', c, 'entities in {:.2f} secs.'.format(time.time() - timepoint))
 					pickle_out = open("../../resources/e2wikidata.pickle","wb")
 					pickle.dump(self.e2wikidata, pickle_out)
@@ -210,7 +207,7 @@ class EntitiesMapper:
 		'''
 
 	def linkThroughDBpediaSpotLight(self):
-		print('- \t >> Mapping with dbpedia spotlight started')
+		print('- \t >> Mapping with dbpedia started')
 		
 		entities_to_explore = set(self.entities) - set(self.e2dbpedia.keys())
 		if len(entities_to_explore) <= 0:
@@ -256,7 +253,7 @@ class EntitiesMapper:
 
 				c += 1
 				if c % 10000 == 0:
-					print('- \t\t >> DBpedia Processed', c, 'entities in', (time.time() - timepoint), 'secs')
+					print('- \t>> DBpedia Processed', c, 'entities in', (time.time() - timepoint), 'secs')
 					pickle_out = open("../../resources/e2dbpedia.pickle","wb")
 					pickle.dump(self.e2dbpedia, pickle_out)
 					pickle_out.close()
@@ -308,7 +305,6 @@ class EntitiesMapper:
 			f = open("../../resources/e2wikidata.pickle","rb")
 			self.e2wikidata = pickle.load(f)
 			f.close()
-		
 		p_wikidata.start()
 		
 		try: p_cso.join() 

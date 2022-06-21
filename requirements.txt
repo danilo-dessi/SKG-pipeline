@@ -1,0 +1,9 @@
+nltk
+stanfordcorenlp
+networkx
+scipy
+pandas
+sentence_transformers
+SPARQLWrapper
+django
+statsmodels

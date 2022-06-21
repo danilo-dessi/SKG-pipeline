@@ -329,7 +329,7 @@ class RDFer:
 
 		pickle_in = open('../../resources/only_embeddings_label2cskg_entity.pickle', 'rb')
 		self.label2cskg_entity = pickle.load(pickle_in)
-		pickle_in.close()
+		#self.label2cskg_entity = {}
 
 		self.data_trusted_df = pd.read_csv(data_trusted)
 		self.data_classified_df = pd.read_csv(data_classified)
@@ -408,9 +408,6 @@ class RDFer:
 				#support 
 				self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.HAS_SUPPORT),  Literal(int(sup), datatype=XSD.integer)))
 
-				#not inferred by transitive clousure triples
-				#self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.IS_INFERRED),  Literal('false', datatype=XSD.boolean)))
-
 				for file in files:
 					mag_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + file.replace('.json', ''))
 					self.g.add((statement_x, self.PROVO.wasDerivedFrom,  mag_uri))
@@ -444,9 +441,6 @@ class RDFer:
 					#support 
 					self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.HAS_SUPPORT),  Literal(int(sup), datatype=XSD.integer)))
 
-					#not inferred by transitive clousure triples
-					#self.g.add((statement_x, URIRef(self.CSKG_NAMESPACE + self.IS_INFERRED),  Literal('false', datatype=XSD.boolean)))
-
 					for file in files:
 						mag_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + file.replace('.json', ''))
 						self.g.add((statement_x, self.PROVO.wasDerivedFrom,  mag_uri))
@@ -455,32 +449,29 @@ class RDFer:
 					self.statement_id += 1
 		
 		# linkage to external resources
-		#for cskge, csoe in self.cskg2cso.items():
-		#	cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
-		#	self.g.add((cskge_uri, OWL.sameAs, URIRef(csoe)))
-		#for cskge, dbe in self.cskg2dbpedia.items():
-		#	cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
-		#	self.g.add((cskge_uri, OWL.sameAs, URIRef(dbe)))
-		#for cskge, wde in self.cskg2wikidata.items():
-		#	cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
-		#	self.g.add((cskge_uri, OWL.sameAs, URIRef(wde)))
+		for cskge, csoe in self.cskg2cso.items():
+			cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
+			self.g.add((cskge_uri, OWL.sameAs, URIRef(csoe)))
+		for cskge, dbe in self.cskg2dbpedia.items():
+			cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
+			self.g.add((cskge_uri, OWL.sameAs, URIRef(dbe)))
+		for cskge, wde in self.cskg2wikidata.items():
+			cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
+			self.g.add((cskge_uri, OWL.sameAs, URIRef(wde)))
 
 		# add other labels
-		#for label, cskge in self.label2cskg_entity.items():
-		#	cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
-		#	self.g.add((cskge_uri, RDFS.label, Literal(label)))
+		for label, cskge in self.label2cskg_entity.items():
+			cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
+			self.g.add((cskge_uri, RDFS.label, Literal(label)))
 		
 		#self.g.serialize(destination=self.kgname + '.ttl', format='turtle')
-		index  = int(1 + counter / 250000)
-		name = self.kgname + '_' + str(index) +'.ttl'
+		name = self.kgname + '.ttl'
 		self.g.serialize(destination=name, format='turtle')
 		with open(name, 'rb') as src, gzip.open(name + '.gz', 'wb') as dst:
 			dst.writelines(src)
-		os.remove(name)
-		#n_rdf_triples += len(list(self.g.triples((None, None, None))))
+		
 		print('> KG saved in', self.kgname)
 		print('> Number of statements:', self.statement_id)
-		#print('> Number of RDF triples:', n_rdf_triples)
 
 
 	def apply_ontology(self):
@@ -512,11 +503,11 @@ class RDFer:
 			stype = r['subj_type']
 			otype = r['obj_type']
 
-			tools = ast.literal_eval(tools)
-			if 'dependency tagger' in tools:
-				tools.discard('dependency tagger')
-				tools.add('pos tagger')
-			tools = str(tools)
+			#tools = ast.literal_eval(tools)
+			#if 'dependency tagger' in tools:
+			#	tools.discard('dependency tagger')
+			#	tools.add('pos tagger')
+			#tools = str(tools)
 
 			# used to have consistent types and avoid bugs during the handling of the triples
 			if s in e2t:
@@ -562,11 +553,11 @@ class RDFer:
 			stype = r['subj_type']
 			otype = r['obj_type']
 
-			tools = ast.literal_eval(tools)
-			if 'dependency tagger' in tools:
-				tools.discard('dependency tagger')
-				tools.add('pos tagger')
-			tools = str(tools)
+			#tools = ast.literal_eval(tools)
+			#if 'dependency tagger' in tools:
+			#	tools.discard('dependency tagger')
+			#	tools.add('pos tagger')
+			#tools = str(tools)
 
 			# used to have consistent types and avoid bugs during the handling of the triples
 			if s in e2t:
@@ -595,15 +586,10 @@ class RDFer:
 
 		print('> valid & discarded total', valid_onto, discarded_by_onto)
 
-		# use of files because of insufficient memory RAM
-		#gtriples_list = list(gtriples_set)
-		#df = pd.DataFrame(gtriples_list, columns = ['subj', 'rel', 'obj', 'support', 'sources', 'files', 'subj_type', 'obj_type'])
 		gtriples_list, df = self.merge(gtriples_set)
 		df.to_csv(self.kgname + '_final_data.csv', index=False)
 		self.gtriples_list = gtriples_list 
 		
-		#gdiscarded_list = list(gdiscarded_set)
-		#df = pd.DataFrame(gdiscarded_list, columns = ['subj', 'rel', 'obj', 'support', 'sources', 'files', 'subj_type', 'obj_type'])
 		gdiscarded_list, df = self.merge(gdiscarded_set)
 		df.to_csv(self.kgname + '_final_data_discarded.csv', index=False)
 		self.g_onto_discarded_list = gdiscarded_list
@@ -662,9 +648,7 @@ class RDFer:
 		self.createClassesStructure()
 		self.defineObjectProperties()
 		self.defineDataProperties()
-
-		# save only the ontology
-		self.g.serialize(destination=self.kgname + '-onto.ttl', format='turtle')
+		self.g.serialize(destination=self.kgname + '-onto.ttl', format='turtle') # save only the ontology
 
 		self.loadData()
 		self.apply_ontology()

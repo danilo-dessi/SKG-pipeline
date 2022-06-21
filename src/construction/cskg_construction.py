@@ -291,7 +291,8 @@ class TriplesGenerator:
 		elif not ckpts_mapping:
 			all_pairs = set(self.dygiepp_pair2info.keys()) | set(self.pos_pair2info.keys()) | set(self.openie_pair2info.keys()) | set(self.dep_pair2info.keys())
 			#mapper = EntitiesMapper([e for e, t in self.entities2files.keys()], all_pairs)
-			mapper = EntitiesMapper(self.entitiesFreq(500), all_pairs)
+			cut_freq = 1
+			mapper = EntitiesMapper(self.entitiesFreq(cut_freq), all_pairs)
 			mapper.run()
 			self.e2cso, self.e2dbpedia, self.e2wikidata = mapper.getMaps()
 			del mapper
