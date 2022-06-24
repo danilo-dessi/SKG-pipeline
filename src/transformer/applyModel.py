@@ -57,7 +57,7 @@ training_args = TrainingArguments(
 
 #../construction/cskg_data/
 
-with pd.read_csv('cskg_triples.csv', chunksize=1000000) as reader:
+with pd.read_csv('../construction/cskg_data/cskg_triples.csv', chunksize=1000000) as reader:
 	for data in reader:
 		model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
 		trainer = Trainer(model=model, args=training_args)
