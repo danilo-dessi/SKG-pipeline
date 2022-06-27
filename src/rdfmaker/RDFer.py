@@ -1,5 +1,7 @@
 from rdflib.namespace import OWL, RDF, RDFS, FOAF, XSD, SKOS
+from django.core.exceptions import ValidationError
 from rdflib import Graph, URIRef, Literal, BNode
+from django.core.validators import URLValidator
 from rdflib.namespace import Namespace
 from datetime import datetime
 import pandas as pd
@@ -26,6 +28,7 @@ class RDFer:
 		self.oproperty2inverse = {}
 		self.validDomainRelRange = set()
 		self.statement_id = 0
+		self.paper_set = set() #used to save all the mag ids of papers
 
 		# ANALYSIS OF THE GRAPH
 		self.triples = []
@@ -48,6 +51,7 @@ class RDFer:
 		self.CSKG_NAMESPACE = Namespace("http://scholkg.kmi.open.ac.uk/cskg/ontology#")
 		self.CSKG_NAMESPACE_RESOURCE = Namespace("http://scholkg.kmi.open.ac.uk/cskg/resource/")
 		self.CSO_NAMESPACE = Namespace("https://cso.kmi.open.ac.uk/topics/")
+		self.DC = Namespace("http://purl.org/dc/terms/")
 		self.WIKI_NAMESPACE = Namespace("http://www.wikidata.org/entity/")
 		self.PROVO = Namespace('http://www.w3.org/ns/prov#')
 		self.DBPEDIA = Namespace('http://dbpedia.org/resource/')
@@ -411,6 +415,7 @@ class RDFer:
 				for file in files:
 					mag_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + file.replace('.json', ''))
 					self.g.add((statement_x, self.PROVO.wasDerivedFrom,  mag_uri))
+					self.paper_set.add(file.replace('.json', ''))
 					
 				self.statement_id += 1
 
@@ -644,6 +649,39 @@ class RDFer:
 		return merged_list, merged_triples_df
 
 
+	def addPaperInfo(self):
+		d = '../../dataset/computer_science/'
+		validator = URLValidator()
+		for file in os.listdir(d):
+			if file[-4:] == 'json':
+				print(d+file)
+				with open(d+file, 'r') as f:
+					for line in f:
+						dline = json.loads(line)
+						magid = dline['_id']
+						doi = dline['_source']['doi']
+
+						if magid in papers:
+							if 'urls' in dline['_source']:
+								urls = dline['_source']['urls']
+							else:
+								urls = []
+							title = dline['_source']['papertitle']
+
+							self.g.add((URIRef(CSKG_NAMESPACE_RESOURCE + magid), RDF.type, CSKG_NAMESPACE.MagPaper))
+							self.g.add((URIRef(CSKG_NAMESPACE_RESOURCE + magid), DC.title, Literal(title)))
+
+							if doi != "":
+								try:
+									validator('https://doi.org/' + doi)
+									self.g.add((URIRef(CSKG_NAMESPACE_RESOURCE + magid), CSKG_NAMESPACE.hasDOI, Literal('https://doi.org/' + doi)))
+								except ValidationError as e:
+									print(e, '\nskipped:', doi)
+
+							for url in urls:
+								self.g.add((URIRef(CSKG_NAMESPACE_RESOURCE + magid), CSKG_NAMESPACE.findableAt, Literal(url)))
+
+
 	def run(self):
 		self.createClassesStructure()
 		self.defineObjectProperties()
@@ -653,6 +691,7 @@ class RDFer:
 		self.loadData()
 		self.apply_ontology()
 		self.populate()
+
 
 
 if __name__ == '__main__':
