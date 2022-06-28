@@ -691,6 +691,7 @@ class RDFer:
 		self.loadData()
 		self.apply_ontology()
 		self.populate()
+		self.addPaperInfo()
 
 
 
