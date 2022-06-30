@@ -6,6 +6,7 @@ from rdflib.namespace import Namespace
 from datetime import datetime
 import pandas as pd
 import pickle
+import json
 import gzip
 import time
 import sys
@@ -468,15 +469,6 @@ class RDFer:
 		for label, cskge in self.label2cskg_entity.items():
 			cskge_uri = URIRef(self.CSKG_NAMESPACE_RESOURCE + cskge.replace(' ', '_'))
 			self.g.add((cskge_uri, RDFS.label, Literal(label)))
-		
-		#self.g.serialize(destination=self.kgname + '.ttl', format='turtle')
-		name = self.kgname + '.ttl'
-		self.g.serialize(destination=name, format='turtle')
-		with open(name, 'rb') as src, gzip.open(name + '.gz', 'wb') as dst:
-			dst.writelines(src)
-		
-		print('> KG saved in', self.kgname)
-		print('> Number of statements:', self.statement_id)
 
 
 	def apply_ontology(self):
@@ -661,25 +653,25 @@ class RDFer:
 						magid = dline['_id']
 						doi = dline['_source']['doi']
 
-						if magid in papers:
+						if magid in self.paper_set:
 							if 'urls' in dline['_source']:
 								urls = dline['_source']['urls']
 							else:
 								urls = []
 							title = dline['_source']['papertitle']
 
-							self.g.add((URIRef(CSKG_NAMESPACE_RESOURCE + magid), RDF.type, CSKG_NAMESPACE.MagPaper))
-							self.g.add((URIRef(CSKG_NAMESPACE_RESOURCE + magid), DC.title, Literal(title)))
+							self.g.add((URIRef(self.CSKG_NAMESPACE_RESOURCE + magid), RDF.type, self.CSKG_NAMESPACE.MagPaper))
+							self.g.add((URIRef(self.CSKG_NAMESPACE_RESOURCE + magid), self.DC.title, Literal(title)))
 
 							if doi != "":
 								try:
 									validator('https://doi.org/' + doi)
-									self.g.add((URIRef(CSKG_NAMESPACE_RESOURCE + magid), CSKG_NAMESPACE.hasDOI, Literal('https://doi.org/' + doi)))
+									self.g.add((URIRef(self.CSKG_NAMESPACE_RESOURCE + magid), self.CSKG_NAMESPACE.hasDOI, Literal('https://doi.org/' + doi)))
 								except ValidationError as e:
 									print(e, '\nskipped:', doi)
 
 							for url in urls:
-								self.g.add((URIRef(CSKG_NAMESPACE_RESOURCE + magid), CSKG_NAMESPACE.findableAt, Literal(url)))
+								self.g.add((URIRef(self.CSKG_NAMESPACE_RESOURCE + magid), self.CSKG_NAMESPACE.findableAt, Literal(url)))
 
 
 	def run(self):
@@ -692,6 +684,15 @@ class RDFer:
 		self.apply_ontology()
 		self.populate()
 		self.addPaperInfo()
+
+		#self.g.serialize(destination=self.kgname + '.ttl', format='turtle')
+		name = self.kgname + '.ttl'
+		self.g.serialize(destination=name, format='turtle')
+		with open(name, 'rb') as src, gzip.open(name + '.gz', 'wb') as dst:
+			dst.writelines(src)
+		
+		print('> KG saved in', self.kgname)
+		print('> Number of statements:', self.statement_id)
 
 
 
