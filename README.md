@@ -35,6 +35,8 @@ If you use our work or our data, please cite us:
 
 - **/src/rdfmaker/** contains the scripts to map the triples in the designed ontology and produce the .ttl files composing the generated knowledge graph.
 
+- **spark_entity_cleaning_and_mapping/** a folder that contains the first efforts to move the whole project on the [Apache Spark](https://spark.apache.org/) framework. Please note that this is not necessary to create the knowledge graph as described in the paper.
+
 
 ## How to use
 
