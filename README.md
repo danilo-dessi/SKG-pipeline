@@ -2,23 +2,14 @@
 
 This repository has the purpose to provide the code used to build scholarly knowledge graphs as described in:
 
-``` Danilo Dessì, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. (2022). THIS IS THE TITLE. UNDER REVIEW```
+``` Danilo Dessì, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. (2022). SCICERO: A Deep Learning and NLP Framework for Generating Scientific Knowledge Graphs in the Computer Science Domain. UNDER REVIEW```
 
 
-If you use our work or our data, please cite us:
+If you use our work, please cite us:
 
 ```
 
-
-
-
-
-
-
-
-
-
-
+bibtex available after acceptance/publication
 
 ```
 
@@ -119,6 +110,12 @@ The output will generate 3 files:
 - *my_new_kg_final_data.csv* the data contained by the knowledge graph in csv format
 
 - *my_new_kg_final_data.csv* the data discarded by the pipeline because it does not comply with the ontology
+
+
+### The Computer Science Knowledge Graph
+
+The user of this github repository can access to the dump of the created resource, its sparql endpoint, and additional material trough a dedicated [website](https://scholkg.kmi.open.ac.uk/).
+
 
 ## Contacts
 
