@@ -112,7 +112,7 @@ The output will generate 3 files:
 - *my_new_kg_final_data.csv* the data discarded by the pipeline because it does not comply with the ontology
 
 
-### The Computer Science Knowledge Graph
+## The Computer Science Knowledge Graph
 
 The user of this github repository can access to the dump of the created resource, its sparql endpoint, and additional material trough a dedicated [website](https://scholkg.kmi.open.ac.uk/).
 
