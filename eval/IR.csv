@@ -1,0 +1,1201 @@
+subj,rel,obj,support,sources,files,subj_type,obj_type,discarded_by_classifier,discarded_by_onto,random_generated,cskg,ann1,ann2,ann3,gs
+abstract hashing method,includes,image retrieval,6,{'openie'},"{'2997620599', '3014459832', '2948671658', '2964553938', '2962718115', '2796938763'}",Method,Task,,,,1,0,0,0,0
+acquisition unit a,acquires,information extraction,2,{'openie'},"{'3143570572', '2772639362'}",Method,Task,,,,1,1,0,1,1
+active perception of the environment,skos:broader/is/hyponym-of,image retrieval,1,{'pos tagger'},{'1659781408'},Task,Task,1,,,0,1,1,1,1
+ad communication ip core,learns,information integration,,,,Method,Task,,,1,0,0,0,0,0
+alspac cohort study,based-on,question answering,,,,Material,Task,,,1,0,0,0,0,0
+anannotated data set,executes,information extraction,1,{'pos tagger'},{'2250919860'},Material,Task,,1,,0,0,0,0,0
+annotated element,skos:broader/is/hyponym-of,information extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+application details information,extracts,information extraction,1,{'openie'},{'2861471324'},OtherEntity,Task,,1,,0,0,0,0,0
+arabic speaker,skos:broader/is/hyponym-of,named entity recognition,1,{'pos tagger'},{'177032328'},Material,Task,,1,,0,0,0,0,0
+arm linear joint,provides,image retrieval,,,,OtherEntity,Task,,,1,0,0,0,0,0
+assamese and english language,executes,named entity recognition,1,{'pos tagger'},{'2546819090'},Material,Task,,1,,0,0,0,0,0
+attack flow k line index,based-on,information extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+attention mechanism,improves,information extraction,1,{'openie'},{'3123983671'},Method,Task,,,,1,1,1,1,1
+augmented datasets,extracts,image retrieval,1,{'openie'},{'2753266295'},Material,Task,,,,1,0,0,0,0
+augmented knowledge graph,uses,vector space model,1,{'dygiepp'},{'2798419039'},OtherEntity,Method,1,,,0,1,1,1,1
+autofocusing speed,uses,image retrieval,,,,Metric,Task,,,1,0,0,0,0,0
+automated information extraction approach,skos:broader/is/hyponym-of,named entity recognition,1,{'pos tagger'},{'2542483253'},Method,Task,,1,,0,1,0,1,1
+automatic image annotation,skos:broader/is/hyponym-of,image retrieval,9,"{'pos tagger', 'openie', 'dygiepp'}","{'2992120055', '1968978358', '2265724099', '2810155558', '2022359986', '2769590706', '2955664919', '3007020179', '2168043539'}",Task,Task,,,,1,1,1,1,1
+average value of accuracy,analyzes,image retrieval,3,{'dygiepp'},"{'2955310293', '3045670006', '2090478005'}",Metric,Task,,,,1,1,1,1,1
+backpack type human body cooling device,solves,information extraction,,,,Method,Task,,,1,0,0,0,0,0
+barcode extraction unit,uses,information extraction,1,{'dependency tagger'},{'2814003850'},Method,Task,1,,,0,0,1,0,0
+berkeley framenet,adapts,information extraction,1,{'pos tagger'},{'2973142085'},Material,Task,,1,,0,0,0,0,0
+bert,produces,question answering,5,"{'pos tagger', 'openie'}","{'2998617917', '2996758945', '2970476646', '2971869958', '2989588035'}",Method,Task,,,,1,1,1,1,1
+big data system database,links,information integration,1,{'pos tagger'},{'2926245292'},Material,Task,,1,,0,0,0,0,0
+bilateral filter based method,includes,music information retrieval,,,,Method,Task,,,1,0,0,0,0,0
+biomedical software,skos:broader/is/hyponym-of,named entity recognition,1,"{'pos tagger', 'dygiepp'}",{'2621152625'},Method,Task,,1,,0,0,0,0,0
+blind search approach,skos:broader/is/hyponym-of,information extraction,1,{'pos tagger'},{'2131872128'},Method,Task,,1,,0,1,0,1,1
+blog comment,uses,information extraction,1,{'pos tagger'},{'2076650199'},Material,Task,,1,,0,0,0,0,0
+body part,skos:broader/is/hyponym-of,named entity recognition,1,{'dygiepp'},{'2967649271'},Method,Task,,1,,0,1,0,0,0
+bottle lid lid,acquires,information extraction,1,{'pos tagger'},{'2833941050'},OtherEntity,Task,1,,,0,0,0,0,0
+brain wave,acquires,information integration,1,{'openie'},{'2863769438'},Material,Task,,1,,0,0,0,0,0
+buckling claw,uses,vector space model,,,,Method,Method,,,1,0,0,0,0,0
+building power saving control system,based-on,information integration,1,{'pos tagger'},{'2831007195'},Task,Task,1,,,0,0,0,0,0
+business intelligence,acquires,information extraction,1,{'pos tagger'},{'2792403377'},Material,Task,,1,,0,0,0,0,0
+byzantine fault diagnosis method,uses,question answering,,,,Method,Task,,,1,0,0,0,0,0
+call admission control,uses,information dissemination,1,{'pos tagger'},{'2162812171'},Task,Task,,,,1,1,1,1,1
+camera based tracking system,uses,image retrieval,2,"{'dependency tagger', 'dygiepp'}",{'2499170543'},Method,Task,1,,,0,1,1,1,1
+candidate node set,acquires,information dissemination,1,{'pos tagger'},{'2877622152'},OtherEntity,Task,,1,,0,0,0,0,0
+categorization accuracy,analyzes,vector space model,2,{'dygiepp'},"{'2206867664', '1755976386'}",Metric,Method,,,,1,1,1,0,1
+cbir technique process,skos:broader/is/hyponym-of,image retrieval,1,{'pos tagger'},{'1990969852'},Method,Task,,1,,0,0,0,1,0
+characteristic extraction method system,skos:broader/is/hyponym-of,image retrieval,1,{'openie'},{'2030122374'},Method,Task,,1,,0,1,0,1,1
+characteristic line accuracy learning unit,skos:broader/is/hyponym-of,information extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+chat conversation,includes,named entity recognition,1,{'pos tagger'},{'2818910599'},Material,Task,,1,,0,0,0,1,0
+child computer system,transfers,information integration,1,{'openie'},{'2824903575'},Method,Task,1,,,0,0,0,0,0
+chip receiving mechanism,skos:broader/is/hyponym-of,vector space model,,,,Method,Method,,,1,0,0,0,0,0
+chord,interacts-with,music information retrieval,1,{'openie'},{'2936732536'},Material,Task,,,,1,1,1,1,1
+cindyjs,acquires,question answering,,,,Method,Task,,,1,0,0,0,0,0
+city exploration dialogue system,includes,question answering,1,{'dygiepp'},{'2130007850'},Method,Task,,,,1,1,1,1,1
+city service maturity framework,includes,information integration,1,{'dygiepp'},{'2332605193'},Method,Task,1,,,0,1,1,1,1
+class e resonant rectifier,based-on,vector space model,,,,Method,Method,,,1,0,1,1,1,1
+classification and categorization purpose,skos:broader/is/hyponym-of,vector space model,1,{'pos tagger'},{'1555912615'},Task,Method,,1,,0,1,0,1,1
+clinical healthcare service,produces,question answering,1,{'pos tagger'},{'2886127559'},Material,Task,,1,,0,0,0,1,0
+cloud manufacturing application,solves,information integration,1,{'pos tagger'},{'2815237339'},Task,Task,,,,1,1,1,1,1
+cloud service,acquires,information integration,1,{'pos tagger'},{'2782948883'},Task,Task,,,,1,1,1,1,1
+cluster then label method,skos:broader/is/hyponym-of,document clustering,1,{'openie'},{'2771030794'},Method,Task,,1,,0,1,0,1,1
+cn discipline,uses,vector space model,1,{'openie'},{'1830710643'},Material,Method,1,,,0,0,0,0,0
+color image,supports,image retrieval,5,{'openie'},"{'2980812106', '2267404', '2104670258', '2130096692', '2981496068'}",Material,Task,,,,1,1,1,1,1
+combinatorial inertial guidance method,uses,named entity recognition,,,,Method,Task,,,1,0,0,0,0,0
+common side effect,uses,information extraction,1,{'dygiepp'},{'3128845418'},OtherEntity,Task,1,,,0,1,0,1,1
+community dividing method,includes,document clustering,1,{'dependency tagger'},{'2935171151'},Method,Task,1,,,0,1,1,1,1
+competition issue,identifies,named entity recognition,1,{'pos tagger'},{'2785887616'},OtherEntity,Task,,,,1,0,0,0,0
+complex semantics,supports,named entity recognition,1,{'pos tagger'},{'2771197872'},OtherEntity,Task,,,,1,1,1,1,1
+compositional process,uses,music information retrieval,2,"{'dependency tagger', 'dygiepp'}",{'2293813329'},Method,Task,1,,,0,1,1,1,1
+compressed video,produces,question answering,1,{'openie'},{'3118480672'},Material,Task,,1,,0,0,0,0,0
+computer aided diagnosis,uses,image retrieval,5,{'pos tagger'},"{'2086678599', '2810561351', '2594638436', '2035626876', '2036573897'}",Task,Task,,,,1,1,1,1,1
+computer desktop,based-on,information extraction,1,{'pos tagger'},{'2095287033'},Material,Task,1,,,0,0,0,0,0
+computer desktop,uses,information extraction,1,{'pos tagger'},{'2095287033'},Material,Task,1,,,0,0,0,0,0
+computer system,acquires,information integration,1,{'openie'},{'2872311641'},Method,Task,1,,,0,1,1,1,1
+computer vision,provides,image retrieval,5,{'pos tagger'},"{'2007486177', '2929691636', '2825643439', '2958644340', '2591724994'}",Task,Task,,,,1,1,1,1,1
+computer vision,skos:broader/is/hyponym-of,image retrieval,13,"{'pos tagger', 'openie', 'dygiepp'}","{'2158788836', '2049191737', '2066016918', '2830516358', '2032192662', '2158212469', '1519416540', '2944019578', '2034051873', '2816020894', '118944490', '2085247417', '3022267658'}",Task,Task,,,,1,1,0,1,1
+computer vision,uses,image retrieval,9,"{'pos tagger', 'openie'}","{'1558427214', '2801122074', '2032192662', '2158212469', '3118365093', '3022267658', '2911011040', '1982052956', '2015332951'}",Task,Task,,,,1,1,1,1,1
+conditional random field,uses,named entity recognition,6,{'pos tagger'},"{'3013136547', '3024030678', '2971708730', '3090015871', '2896926617', '2931252866'}",Method,Task,,,,1,1,1,1,1
+constrained conditional random fields model,uses,named entity recognition,1,{'pos tagger'},{'2536940021'},Method,Task,1,,,0,1,1,1,1
+consumer behavior approach,causes,information dissemination,1,{'openie'},{'2914949894'},Method,Task,,,,1,1,1,1,1
+content information transmitting stage,transfers,information extraction,1,{'openie'},{'2842949595'},Task,Task,1,,,0,0,0,0,0
+content-based image retrieval,based-on,image retrieval,3,{'openie'},"{'2551664357', '2516621585', '1987618107'}",Task,Task,,,,1,1,1,1,1
+context information,uses,information extraction,1,{'pos tagger'},{'2967500049'},Material,Task,,1,,0,0,0,0,0
+contourlet harris detector,uses,image retrieval,1,{'dependency tagger'},{'2155777825'},Method,Task,1,,,0,1,1,0,1
+control strategy approach,matches,information dissemination,1,{'openie'},{'2938222354'},Method,Task,1,,,0,1,1,0,1
+control system,includes,information integration,5,{'openie'},"{'3124115642', '2834549626', '3090469457', '3095726268', '2875783080'}",Method,Task,,,,1,1,1,1,1
+corel database,improves,image retrieval,3,{'pos tagger'},"{'1984631461', '2162721510', '2049105229'}",Material,Task,,,,1,0,1,0,0
+cork stoppers production,produces,image retrieval,,,,Task,Task,,,1,0,0,0,0,0
+correlated technology mean,acquires,question answering,1,{'pos tagger'},{'2966434648'},Method,Task,1,,,0,0,0,0,0
+cpth,includes,information integration,1,{'dygiepp'},{'2735751153'},Method,Task,1,,,0,1,1,0,1
+crawled content,classifies,named entity recognition,1,{'pos tagger'},{'3017845957'},Material,Task,,1,,0,0,0,0,0
+critically ill blood purification,matches,vector space model,,,,Task,Method,,,1,0,0,0,0,0
+cross-language information retrieval,skos:broader/is/hyponym-of,cross language study,1,{'dygiepp'},{'1613233837'},Task,Material,,1,,0,0,0,1,0
+cross-language information retrieval,produces,integrated data,1,{'openie'},{'2750805411'},Task,Material,1,,,0,1,1,1,1
+cross-language information retrieval,provides,language barrier,3,"{'pos tagger', 'openie'}","{'2547230076', '2509777158', '2507895645'}",Task,Task,,,,1,1,0,0,0
+crowdanswer,skos:broader/is/hyponym-of,question answering,1,"{'dygiepp', 'openie'}",{'2094744354'},Method,Task,,1,,0,1,0,1,1
+cutting fluid supply port,contributes-to,vector space model,,,,OtherEntity,Method,,,1,0,0,0,0,0
+data augmentation,acquires,image retrieval,7,"{'pos tagger', 'openie'}","{'3122995700', '2943465937', '2900626657', '2527468481', '2798306073', '2973287213', '2939001550'}",Task,Task,,,,1,1,1,0,1
+data augmentation,based-on,information extraction,1,{'pos tagger'},{'3126290224'},Task,Task,,,,1,1,1,1,1
+data collection data,uses,information dissemination,1,{'pos tagger'},{'2916234495'},Material,Task,,1,,0,0,0,0,0
+data mining,discusses,information extraction,1,{'pos tagger'},{'3054225939'},Task,Task,,,,1,1,0,1,1
+database and information system,includes,information extraction,4,{'openie'},"{'2843705580', '2818025144', '2815226164', '2830747704'}",Task,Task,,,,1,1,1,1,1
+database and information system,uses,information extraction,5,"{'pos tagger', 'openie'}","{'2931399711', '2068080587', '2832039468', '2073866476', '1999563429'}",Task,Task,,,,1,1,1,1,1
+decision making process,uses,question answering,1,{'dygiepp'},{'2037124689'},Task,Task,,,,1,1,1,1,1
+decoding disease mechanism,produces,information extraction,,,,Task,Task,,,1,0,0,0,0,0
+deep belief network dbn network,skos:broader/is/hyponym-of,information extraction,1,{'pos tagger'},{'2499346841'},Method,Task,,1,,0,1,0,1,1
+deep hashing technique,acquires,image retrieval,8,"{'pos tagger', 'openie'}","{'3089573247', '2903343103', '2896914719', '3005728763', '2621176975', '3148288488', '2963276379', '2887384995'}",Method,Task,,,,1,0,0,0,0
+deep hashing technique,produces,image retrieval,3,"{'pos tagger', 'openie'}","{'3033453416', '3004002731', '2973083676'}",Method,Task,,,,1,1,1,1,1
+deep learning,acquires,image retrieval,7,"{'pos tagger', 'openie'}","{'2943465937', '2621176975', '2963276379', '3089573247', '2966380432', '3025709990', '2742038226'}",Method,Task,,,,1,0,0,0,0
+deep learning,based-on,image retrieval,12,"{'pos tagger', 'openie'}","{'2499029474', '2831903958', '2911091158', '2973960287', '3111341440', '2796371454', '2596216651', '2838816827', '2825900792', '3009121127', '3128741952', '2832750247'}",Method,Task,,,,1,0,0,0,0
+deep learning,based-on,named entity recognition,3,{'pos tagger'},"{'3000990753', '2890830728', '3105491236'}",Method,Task,,,,1,0,0,0,0
+deep learning based approach,includes,named entity recognition,3,{'openie'},"{'2890830728', '3105491236', '3127549092'}",Method,Task,,,,1,1,1,1,1
+deep neural convolutional network,uses,image retrieval,3,{'pos tagger'},"{'3116671976', '3028579270', '2896461775'}",Method,Task,,,,1,1,0,1,1
+denoising method,skos:broader/is/hyponym-of,image retrieval,1,{'pos tagger'},{'2890594988'},Method,Task,,1,,0,1,0,1,1
+denser feature map,produces,image retrieval,1,{'pos tagger'},{'3112530000'},OtherEntity,Task,,1,,0,0,1,0,0
+descriptor,includes,image retrieval,5,"{'pos tagger', 'openie'}","{'3039475081', '3004342013', '2118490103', '1508833322', '2756246881'}",Method,Task,,,,1,0,0,0,0
+detecting the interest point,solves,image retrieval,1,{'pos tagger'},{'2818351233'},Task,Task,,,,1,1,1,1,1
+detection of target,includes,information extraction,1,{'dependency tagger'},{'3125835476'},Task,Task,1,,,0,1,1,1,1
+digital earth,uses,information extraction,1,{'dygiepp'},{'2057048639'},Material,Task,,1,,0,1,0,1,1
+digital histopathological image,uses,image retrieval,2,{'dygiepp'},"{'3014394476', '3037527647'}",Material,Task,,1,,0,1,0,1,1
+digital image data set,uses,image retrieval,1,"{'pos tagger', 'openie'}",{'2327466980'},Material,Task,,1,,0,0,0,0,0
+digital image processing and method,improves,information extraction,1,{'pos tagger'},{'2807692996'},Method,Task,,,,1,1,1,1,1
+digital twin wherein,uses,information integration,1,{'dygiepp'},{'2979908322'},Task,Task,,,,1,1,1,1,1
+direct output information,skos:broader/is/hyponym-of,named entity recognition,1,{'pos tagger'},{'2734399784'},OtherEntity,Task,1,,,0,0,0,0,0
+disclosure issue,includes,image retrieval,1,{'openie'},{'2408843552'},Task,Task,,,,1,0,0,0,0
+dissemination rule,proposes,information dissemination,2,"{'pos tagger', 'openie'}","{'2555156792', '2026139231'}",Method,Task,,,,1,1,1,1,1
+distributional approach,uses,vector space model,1,{'pos tagger'},{'43525108'},Method,Method,,,,1,1,1,1,1
+dl solution,produces,text processing,1,{'dependency tagger'},{'2798649495'},Method,Task,1,,,0,1,1,1,1
+document clustering,uses,adaptive k medoids method,2,"{'pos tagger', 'openie', 'dygiepp'}","{'1503841124', '2234804277'}",Task,Method,,,,1,1,1,1,1
+document clustering,uses,ant colony algorithm approach,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2766789851'},Task,Method,,,,1,1,1,1,1
+document clustering,uses,anti injection client,,,,Task,Method,,,1,0,0,0,0,0
+document clustering,uses,automated machine translation system,1,"{'pos tagger', 'openie', 'dygiepp'}",{'1969300800'},Task,Method,,,,1,0,0,1,0
+document clustering,skos:broader/is/hyponym-of,bag of words model,1,{'pos tagger'},{'2013950458'},Task,Method,,1,,0,1,0,0,0
+document clustering,supports,classroom statistic,,,,Task,Material,,,1,0,0,0,0,0
+document clustering,classifies,cluster with,2,"{'pos tagger', 'openie'}","{'2024839472', '2094936398'}",Task,OtherEntity,,1,,0,1,0,0,0
+document clustering,uses,clustering methodology,5,"{'pos tagger', 'openie', 'dygiepp'}","{'2056718413', '292551164', '2903620192', '2313353578', '2079858755'}",Task,Method,,,,1,1,1,1,1
+document clustering,uses,criterion function model,4,{'dygiepp'},"{'2108432581', '1488437289', '2326113450', '2133919063'}",Task,Method,,,,1,1,1,0,1
+document clustering,uses,discrete wavelet transform,1,{'pos tagger'},{'2603826157'},Task,Method,,,,1,1,1,0,1
+document clustering,includes,enterprise management information system,1,{'pos tagger'},{'2080744761'},Task,Method,1,,,0,0,0,0,0
+document clustering,based-on,fixed working table plate,,,,Task,OtherEntity,,,1,0,0,0,0,0
+document clustering,uses,glove and density based algorithm,2,"{'dependency tagger', 'dygiepp'}",{'3133097824'},Task,Method,1,,,0,0,1,1,1
+document clustering,uses,hadoop,5,"{'pos tagger', 'openie', 'dygiepp'}","{'2071092279', '2798487375', '2277638753', '2553163363', '221169951'}",Task,Method,,,,1,1,1,1,1
+document clustering,uses,hybrid lda kmeans,1,"{'pos tagger', 'openie', 'dygiepp'}",{'3048263888'},Task,Method,,,,1,1,1,1,1
+document clustering,uses,hybrid xnor similarity function,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2090842716'},Task,OtherEntity,,,,1,1,1,1,1
+document clustering,uses,k means algorithm,10,"{'pos tagger', 'openie', 'dygiepp'}","{'2545327431', '1550876897', '2156108005', '2362583982', '2071092279', '2544556864', '2007855409', '2539676130', '2741764286', '2910214368'}",Task,Method,,,,1,1,1,1,1
+document clustering,includes,large spatial datasets,,,,Task,Material,,,1,0,1,1,0,1
+document clustering,uses,latent dirichlet allocation lda procedure,1,{'dygiepp'},{'2304191168'},Task,Method,,,,1,1,1,1,1
+document clustering,uses,mo mfo,1,"{'pos tagger', 'openie', 'dygiepp'}",{'3088884319'},Task,Method,,,,1,0,0,0,0
+document clustering,uses,non-negative matrix factorization,4,"{'pos tagger', 'dygiepp'}","{'2058846446', '221169951', '1578505013', '33249699'}",Task,Method,,,,1,1,1,1,1
+document clustering,skos:broader/is/hyponym-of,pso k means algorithm,1,{'pos tagger'},{'2810103678'},Task,Method,,1,,0,1,0,0,0
+document clustering,manages,rain splash,,,,Task,OtherEntity,,,1,0,0,0,0,0
+document clustering,uses,rare feature,2,"{'dependency tagger', 'openie'}",{'2278621354'},Task,OtherEntity,1,,,0,1,1,1,1
+document clustering,uses,record linkage error,1,{'dygiepp'},{'2894715570'},Task,OtherEntity,1,,,0,0,0,0,0
+document clustering,skos:broader/is/hyponym-of,research community,1,{'dygiepp'},{'2892337909'},Task,Material,,1,,0,0,0,0,0
+document clustering,uses,semantic clique aggregation,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2195431400'},Task,Method,,,,1,1,1,1,1
+document clustering,uses,semantic technique,3,{'dygiepp'},"{'2557865862', '37253556', '2740954315'}",Task,Method,,,,1,1,1,1,1
+document clustering,uses,semantics,10,"{'pos tagger', 'openie', 'dygiepp'}","{'2362263412', '2187059365', '2079534886', '2095980495', '1500398261', '2011380727', '2811003579', '2184175513', '2165019836', '2809109786'}",Task,Method,,,,1,1,1,1,1
+document clustering,uses,spatial point of reference,1,{'dygiepp'},{'2312960312'},Task,OtherEntity,1,,,0,0,0,0,0
+document clustering,annotates,supervised information set,1,{'pos tagger'},{'2322744116'},Task,OtherEntity,,1,,0,0,0,0,0
+document clustering,uses,synthetic cluster prototype,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2059123013'},Task,Method,,,,1,1,1,1,1
+document clustering,skos:broader/is/hyponym-of,text mining,12,"{'pos tagger', 'openie', 'dygiepp'}","{'2995254025', '2744141159', '304893792', '2313353578', '3001332731', '2273660186', '2315594940', '2122766199', '2774509942', '2164907818', '2765494387', '2101965431'}",Task,Task,,,,1,1,1,1,1
+document clustering,skos:broader/is/hyponym-of,unsupervised approach,2,"{'dygiepp', 'openie'}","{'2949985362', '2118873177'}",Task,Method,,1,,0,1,0,1,1
+document clustering,skos:broader/is/hyponym-of,unsupervised document organization,1,{'openie'},{'2184440854'},Task,Task,,,,1,1,1,1,1
+document clustering,provides,users supervision,4,{'pos tagger'},"{'1991215305', '1881830221', '2024888043', '1970187450'}",Task,OtherEntity,,,,1,1,0,0,0
+document clustering,uses,wikipedia concept,2,{'dygiepp'},"{'19458567', '2401448120'}",Task,Material,,,,1,1,1,1,1
+document collection term,produces,vector space model,1,{'pos tagger'},{'2604490766'},OtherEntity,Method,,,,1,1,1,0,1
+document representation,uses,vector space model,6,"{'pos tagger', 'openie', 'dygiepp'}","{'2123754960', '2118013824', '2378592103', '2754957410', '2061074565', '1908593950'}",Method,Method,,,,1,1,1,1,1
+document similarity,uses,vector space model,3,"{'dygiepp', 'openie'}","{'2777017583', '2021410255', '47196254'}",Task,Method,,,,1,1,1,1,1
+drum,skos:broader/is/hyponym-of,music information retrieval,1,{'openie'},{'2801401223'},Method,Task,,1,,0,1,0,0,0
+drying,adapts,cross-language information retrieval,1,{'openie'},{'3054403038'},Task,Task,1,,,0,0,0,0,0
+dual channel lstm network,supports,information integration,2,"{'pos tagger', 'openie'}","{'2964217331', '1750263989'}",Method,Task,,,,1,0,1,1,1
+dual path fractal network,proposes,image retrieval,,,,Method,Task,,,1,0,0,0,0,0
+dyadic data analysis,executes,document clustering,1,{'dependency tagger'},{'2019564823'},Task,Task,1,,,0,1,1,1,1
+dyknow,acquires,information integration,1,{'openie'},{'1510637358'},Method,Task,1,,,0,1,0,1,1
+dynamic data information,acquires,information integration,1,{'openie'},{'2859869865'},OtherEntity,Task,,1,,0,0,0,0,0
+dynamic hopping plan calculation module,supports,information extraction,,,,Method,Task,,,1,0,0,0,0,0
+dynamic itinerary,uses,information extraction,1,{'dependency tagger'},{'2191994283'},Method,Task,1,,,0,1,1,1,1
+dynamic trend of the named entity,skos:broader/is/hyponym-of,named entity recognition,1,{'openie'},{'2838683827'},OtherEntity,Task,,1,,0,0,0,0,0
+ecommerce domain,uses,named entity recognition,1,{'dygiepp'},{'2251562101'},Material,Task,,1,,0,0,0,0,0
+egqa,solves,question answering,1,{'pos tagger'},{'3096262823'},Method,Task,,,,1,1,1,1,1
+el task,identifies,named entity recognition,3,{'openie'},"{'2945358656', '3125933509', '2970612907'}",Task,Task,,,,1,1,0,1,1
+electricity fee sensitive user analysis method,uses,information integration,,,,Method,Task,,,1,0,0,0,0,0
+embedded type system design,transfers,information integration,1,{'openie'},{'2815069210'},Method,Task,1,,,0,0,0,0,0
+emphasizing cluster wise meaningful keywords,uses,document clustering,1,{'pos tagger'},{'2403550933'},Task,Task,,,,1,1,1,1,1
+encrypted domain,acquires,information extraction,1,{'pos tagger'},{'3127738968'},Material,Task,,1,,0,0,0,0,0
+entity information h,executes,information extraction,1,{'openie'},{'3148734912'},OtherEntity,Task,,1,,0,0,0,0,0
+entity set expansion,skos:broader/is/hyponym-of,information extraction,3,{'openie'},"{'161509604', '27772486', '2493882013'}",Task,Task,,,,1,1,1,1,1
+ere,skos:broader/is/hyponym-of,information extraction,1,"{'pos tagger', 'dygiepp'}",{'2906910619'},Method,Task,,1,,0,1,0,1,1
+estimation of rock joint shear strength,acquires,information extraction,,,,Metric,Task,,,1,0,0,0,0,0
+eswc2015 semantic publishing challenge,provides,information extraction,1,{'pos tagger'},{'2223132696'},Material,Task,,1,,0,0,0,0,0
+euclidean distance,skos:broader/is/hyponym-of,image retrieval,2,{'openie'},"{'1985134735', '2113344867'}",Method,Task,,1,,0,1,0,1,1
+event detection event,skos:broader/is/hyponym-of,information extraction,4,"{'pos tagger', 'openie', 'dygiepp'}","{'3089124799', '2466462520', '3038830413', '3092044748'}",Task,Task,,,,1,1,0,1,1
+event extraction,skos:broader/is/hyponym-of,information extraction,22,"{'pos tagger', 'openie', 'dygiepp'}","{'2071968392', '2514342821', '2974316425', '3017134767', '2251251652', '2394145564', '3105246484', '3107096252', '3010806089', '2085516790', '2015365262', '3082092475', '3104597568', '2290466703', '2126690563', '2523268837', '2353183054', '2108743083', '2158624439', '76307034', '1595578009', '2766962403'}",Task,Task,,,,1,1,1,1,1
+event recognition approach,skos:broader/is/hyponym-of,information extraction,2,"{'pos tagger', 'openie', 'dygiepp'}","{'2901426079', '2110516204'}",Method,Task,,1,,0,1,0,0,0
+exemplar based face detector,uses,image retrieval,1,{'dygiepp'},{'2015268479'},Method,Task,1,,,0,1,1,1,1
+expanding diagnostically labeled datasets,uses,image retrieval,1,{'dependency tagger'},{'2044207931'},Task,Task,1,,,0,1,1,1,1
+express sorting method,limits,information extraction,1,{'pos tagger'},{'3027687618'},Method,Task,1,,,0,0,0,0,0
+expression energy of image feature,improves,image retrieval,1,{'pos tagger'},{'3000983581'},OtherEntity,Task,1,,,0,0,0,0,0
+exterlog,skos:broader/is/hyponym-of,information extraction,1,{'openie'},{'1810275940'},Method,Task,,1,,0,1,0,1,1
+extracting adverbial and adjective clause,skos:broader/is/hyponym-of,question answering,1,{'pos tagger'},{'2889916531'},Task,Task,,,,1,1,1,1,1
+f1 score,analyzes,named entity recognition,6,{'dygiepp'},"{'3120228686', '2320330899', '3037205571', '2986165956', '2973398987', '3137156863'}",Metric,Task,,,,1,1,1,1,1
+factor,limits,information extraction,1,{'openie'},{'2751476570'},Metric,Task,,,,1,0,0,0,0
+faq question,analyzes,question answering,1,{'openie'},{'585215726'},OtherEntity,Task,,1,,0,0,0,0,0
+fault interval time,based-on,information integration,2,"{'dependency tagger', 'openie'}",{'2957799371'},OtherEntity,Task,1,,,0,0,0,0,0
+feature descriptor,includes,image retrieval,3,{'openie'},"{'2962724865', '2948406758', '2782021166'}",Method,Task,,,,1,1,0,1,1
+feature engineering,based-on,information extraction,1,{'pos tagger'},{'2126975755'},Method,Task,,,,1,1,1,1,1
+feature space,uses,image retrieval,3,"{'pos tagger', 'openie'}","{'2549370105', '1974544978', '2994383926'}",Method,Task,,,,1,1,0,0,0
+film keypad,transfers,question answering,,,,OtherEntity,Task,,,1,0,0,0,0,0
+fingerprint extraction equipment,acquires,information extraction,1,{'dependency tagger'},{'3027923583'},Method,Task,1,,,0,0,0,0,0
+fisher vector feature,improves,image retrieval,1,"{'pos tagger', 'openie'}",{'2952183776'},OtherEntity,Task,,1,,0,1,1,1,1
+flexible and constrained disorder,produces,image retrieval,,,,OtherEntity,Task,,,1,0,0,0,0,0
+formal and algorithmic tools and technique,skos:broader/is/hyponym-of,vector space model,,,,Method,Method,,,1,0,0,0,0,0
+fraction order feedback of mrp,provides,question answering,,,,Method,Task,,,1,0,0,0,0,0
+frankenstein framework,produces,question answering,1,{'pos tagger'},{'2806451918'},Method,Task,,,,1,1,1,1,1
+free adjusting device,includes,question answering,,,,Method,Task,,,1,0,0,1,0,0
+fusion image dictionary table,produces,question answering,,,,OtherEntity,Task,,,1,0,0,0,0,0
+fuzzy set,skos:broader/is/hyponym-of,image retrieval,1,{'openie'},{'1970654463'},Material,Task,,1,,0,0,0,0,0
+gabor magnitude without svm technique,uses,image retrieval,1,{'dependency tagger'},{'1978994912'},Method,Task,1,,,0,1,0,1,1
+general purpose,improves,image retrieval,1,"{'pos tagger', 'openie'}",{'2950120176'},Metric,Task,,,,1,0,0,0,0
+generalized and lightweight algorithm,includes,information extraction,2,"{'pos tagger', 'dependency tagger'}",{'2541508047'},Method,Task,1,,,0,0,0,0,0
+generating sql query,uses,information extraction,1,{'dygiepp'},{'1925975739'},Task,Task,,,,1,0,1,0,0
+generative adversarial neural network system,uses,image retrieval,1,{'openie'},{'3002030764'},Method,Task,,,,1,0,1,0,0
+generic probabilistic model of the environment,extracts,information extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+grouped scheme,uses,named entity recognition,2,"{'dependency tagger', 'dygiepp'}",{'2247538023'},Method,Task,1,,,0,0,0,0,0
+hash,acquires,image retrieval,11,"{'pos tagger', 'openie'}","{'2809771837', '2888806483', '3012147829', '2969030296', '3004438133', '3089573247', '2966380432', '3132375682', '2963276379', '2887384995', '3122995700'}",Method,Task,,,,1,0,0,0,0
+hash,supports,image retrieval,5,"{'pos tagger', 'openie'}","{'112053056', '2952658509', '2949241760', '2890032859', '2793456900'}",Method,Task,,,,1,1,1,1,1
+hash feature value,acquires,image retrieval,1,{'pos tagger'},{'2983935446'},OtherEntity,Task,,1,,0,0,0,0,0
+hashing,includes,image retrieval,12,"{'pos tagger', 'openie'}","{'3037666824', '2981210451', '2025416754', '2998121689', '3025665229', '2953196795', '2733548594', '2885947490', '2951952490', '2956661945', '2807944281', '2759518055'}",Method,Task,,,,1,1,0,1,1
+hashing,uses,image retrieval,19,{'pos tagger'},"{'2920502572', '2981210451', '2025416754', '2981306583', '2963575874', '2606348288', '2557794022', '2372702188', '230433452', '3007442642', '2437979450', '2586245713', '2799357973', '2773993895', '2887466836', '3047427071', '2996769726', '2951952490', '2909719093'}",Method,Task,,,,1,1,1,1,1
+health related big data,uses,information extraction,1,{'pos tagger'},{'2802657700'},Material,Task,,1,,0,0,0,0,0
+healthy transient operation,produces,vector space model,,,,OtherEntity,Method,,,1,0,0,0,0,0
+heart rate,provides,information extraction,1,{'openie'},{'2289170447'},Material,Task,,1,,0,0,0,0,0
+high layer matching feature,provides,question answering,1,{'openie'},{'2935045019'},OtherEntity,Task,1,,,0,0,0,0,0
+honcode automated detection of honcode criterion,uses,named entity recognition,1,{'dygiepp'},{'2343799951'},Material,Task,,1,,0,0,0,0,0
+human brain,executes,information integration,1,{'pos tagger'},{'2963241011'},Material,Task,,1,,0,0,0,0,0
+human pose,skos:broader/is/hyponym-of,image retrieval,1,"{'pos tagger', 'openie'}",{'3003361016'},Material,Task,,1,,0,0,0,0,0
+hyper-spectral image,uses,information extraction,1,{'pos tagger'},{'2798868618'},Material,Task,,1,,0,0,0,0,0
+hyperspectral image acquisition device,uses,question answering,,,,Method,Task,,,1,0,0,0,0,0
+identifying entity boundary,skos:broader/is/hyponym-of,named entity recognition,1,{'openie'},{'2886923263'},Task,Task,,,,1,1,1,1,1
+illumination driving system,includes,text processing,,,,Method,Task,,,1,0,0,0,0,0
+image acquisition,acquires,image retrieval,1,{'openie'},{'2813943334'},Task,Task,,,,1,1,1,0,1
+image based retrieval system,improves,image retrieval,3,{'openie'},"{'2043576872', '2138741097', '2588350773'}",Method,Task,,,,1,1,1,1,1
+image based retrieval system,supports,image retrieval,3,{'openie'},"{'2782499457', '2962905462', '2115528551'}",Method,Task,,,,1,1,1,1,1
+image clustering approach,skos:broader/is/hyponym-of,image retrieval,2,"{'pos tagger', 'openie', 'dygiepp'}","{'2027109342', '1984750608'}",Method,Task,,1,,0,1,0,0,0
+image enhancement,includes,information extraction,7,"{'pos tagger', 'openie'}","{'2244662273', '1545252627', '2842651122', '2817995933', '2843423555', '2861624677', '2261278343'}",Task,Task,,,,1,0,1,0,0
+image feature,includes,image retrieval,4,{'openie'},"{'2063509979', '2871230072', '2186633090', '2847036832'}",Method,Task,,,,1,0,0,0,0
+image information obtaining unit,executes,information extraction,1,{'openie'},{'2875525004'},Method,Task,,,,1,0,1,0,0
+image quality assessment,transfers,question answering,1,{'openie'},{'2998339148'},Task,Task,,,,1,0,0,0,0
+image re ranking method,improves,image retrieval,3,{'pos tagger'},"{'2402248890', '2570088027', '2068336840'}",Method,Task,,,,1,1,1,1,1
+image retrieval,uses,abstract hashing method,6,"{'pos tagger', 'dygiepp'}","{'2997620599', '3014459832', '2948671658', '2964553938', '2962718115', '2796938763'}",Task,Method,,,,1,0,1,1,1
+image retrieval,uses,abstract user requirement,1,{'dygiepp'},{'2950443374'},Task,OtherEntity,1,,,0,0,1,0,0
+image retrieval,limits,arithmetic operation,1,{'openie'},{'2772984693'},Task,Task,,,,1,0,0,0,0
+image retrieval,uses,augmented relational graph representation,1,{'dygiepp'},{'1986641640'},Task,Method,,,,1,1,1,1,1
+image retrieval,uses,automatic facial age estimation,1,{'dependency tagger'},{'2735716688'},Task,Method,1,,,0,1,1,1,1
+image retrieval,uses,bayesian framework,3,"{'pos tagger', 'openie'}","{'2294036521', '2109583775', '2227007745'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,binary code,10,"{'pos tagger', 'dygiepp'}","{'3008062779', '3141336300', '2201936386', '2790607928', '3138388976', '2948671658', '2575051170', '2593775549', '2875151778', '3003592305'}",Task,Method,,,,1,0,1,1,1
+image retrieval,uses,bit plane pixel distribution,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2329442564'},Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,analyzes,bot and human session classification,,,,Task,Task,,,1,0,0,0,0,0
+image retrieval,acquires,bottom supporting bearing,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,uses,bow textual representation of the search,1,"{'pos tagger', 'dygiepp'}",{'2088236680'},Task,Method,,,,1,1,1,1,1
+image retrieval,uses,brodatz and stex texture,1,{'dygiepp'},{'3131567000'},Task,Material,,,,1,1,1,1,1
+image retrieval,includes,bundled footprint image data set,1,{'pos tagger'},{'3124938055'},Task,Material,1,,,0,0,0,1,0
+image retrieval,supports,cad,5,{'pos tagger'},"{'2901159198', '2989453745', '2087948540', '2000026642', '2772398292'}",Task,Method,,,,1,1,1,1,1
+image retrieval,analyzes,cascaded partial decoder cpd framework,,,,Task,Method,,,1,0,0,0,0,0
+image retrieval,uses,chcf,1,{'dygiepp'},{'2187537787'},Task,Method,1,,,0,1,1,0,1
+image retrieval,based-on,classification and quantization error,1,{'pos tagger'},{'2602143720'},Task,OtherEntity,1,,,0,1,1,0,1
+image retrieval,uses,clustering method,3,"{'dygiepp', 'openie'}","{'2850687182', '175761415', '3011169744'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,cnn based feature,5,{'dygiepp'},"{'2768834613', '2952844627', '2746116341', '2801587713', '2806301992'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,color and edge feature,3,{'pos tagger'},"{'2753122486', '2184073271', '2604004261'}",Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,uses,color and texture,2,{'pos tagger'},"{'2164215632', '2105163361'}",Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,uses,color histogram,17,"{'pos tagger', 'openie', 'dygiepp'}","{'1986814553', '1694023364', '769327384', '2528598599', '1505396251', '2171939141', '2345526362', '2003571013', '3108257561', '2532241854', '3031757695', '2487539728', '2338861133', '2080005957', '2756667792', '2907101175', '2798690692'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,color moment,6,"{'pos tagger', 'openie', 'dygiepp'}","{'2143851919', '2910632053', '2532241854', '2294816555', '2171939141', '2011011931'}",Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,uses,colour or shape feature,6,"{'pos tagger', 'openie', 'dygiepp'}","{'2946845431', '2613139177', '2206083821', '2908219985', '2188722667', '3009471832'}",Task,Method,,,,1,0,1,1,1
+image retrieval,uses,compact descriptor,4,{'dygiepp'},"{'2204975001', '1918768323', '2617877996', '2091100408'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,compact integrated binary code,4,{'dygiepp'},"{'3100847621', '2464915613', '2920852583', '2940701835'}",Task,Method,,,,1,0,1,1,1
+image retrieval,uses,complementary feature type,1,{'dygiepp'},{'2562121867'},Task,OtherEntity,1,,,0,0,1,1,1
+image retrieval,executes,computer vision,3,"{'pos tagger', 'openie'}","{'1981036287', '3118365093', '2899914520'}",Task,Task,,,,1,1,1,0,1
+image retrieval,includes,computer vision,5,"{'pos tagger', 'openie'}","{'2518557480', '2840835240', '2950738853', '2832750247', '2922501578'}",Task,Task,,,,1,0,1,0,0
+image retrieval,skos:broader/is/hyponym-of,computer vision problem,6,{'dygiepp'},"{'2346746376', '2608847682', '2576990223', '3107340720', '2950286390', '2068093584'}",Task,Task,,,,1,1,1,0,1
+image retrieval,skos:broader/is/hyponym-of,computer vision related application,23,"{'pos tagger', 'openie', 'dygiepp'}","{'2607603241', '2163156718', '2884438108', '2972200707', '2400442536', '2598020112', '2033211489', '3091091487', '1894781139', '2021345827', '2521669777', '2796258071', '2751722023', '2766994589', '2905913346', '2928504462', '2762479434', '3011169744', '2386013820', '1835004008', '3135204093', '3048217336', '2139456975'}",Task,Task,,,,1,1,1,0,1
+image retrieval,skos:broader/is/hyponym-of,content based retrieval,5,{'openie'},"{'2162721510', '31700782', '2282069032', '2010115429', '2989225360'}",Task,Task,,,,1,1,1,1,1
+image retrieval,based-on,contourlet transform,3,{'pos tagger'},"{'2881067008', '2839225260', '2130347014'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,contribution based clustering algorithm,2,"{'pos tagger', 'openie', 'dygiepp'}","{'1981519613', '2168709364'}",Task,Method,,,,1,1,1,0,1
+image retrieval,uses,convolution neural network system,1,{'dygiepp'},{'2793804624'},Task,Method,,,,1,1,1,1,1
+image retrieval,uses,countless digital image,1,{'dygiepp'},{'2535023836'},Task,Material,,,,1,0,1,0,0
+image retrieval,based-on,data augmentation,17,{'pos tagger'},"{'3094236442', '2793804624', '2956990871', '3141806545', '3085323808', '2995523806', '2344779122', '3017553278', '3141817528', '2959713294', '3020328904', '2288290073', '3034014386', '3033895433', '2874456032', '2935435530', '2990892140'}",Task,Task,,,,1,1,1,1,1
+image retrieval,learns,data augmentation,3,{'pos tagger'},"{'2037496786', '3020328904', '3034014386'}",Task,Task,,,,1,0,0,0,0
+image retrieval,uses,data augmentation,37,"{'pos tagger', 'openie', 'dygiepp'}","{'2587013007', '2806220565', '2896461775', '3017871946', '2804390575', '2735754220', '3109386376', '2963691855', '2941527245', '2963125676', '2781749799', '2804709613', '2971102415', '2746116341', '2963436667', '2779221910', '2921130175', '2592750780', '2913092861', '2336302573', '2886517819', '2793804624', '2917114425', '2973960287', '2999073181', '3085095182', '3023972894', '2386473615', '3039356627', '3025957882', '2344779122', '2609851769', '2994805849', '2578533030', '2945331961', '2942426753', '2982050504'}",Task,Task,,,,1,1,1,1,1
+image retrieval,skos:broader/is/hyponym-of,database and information system,12,"{'pos tagger', 'openie'}","{'2850921752', '2582158939', '2082554342', '2562703651', '3017871946', '2053183678', '2305650600', '2189126813', '205095437', '2950916109', '2970223703', '2003973787'}",Task,Task,,,,1,1,1,0,1
+image retrieval,uses,database and information system,9,"{'pos tagger', 'openie', 'dygiepp'}","{'3014777718', '3088750112', '2943075668', '2140560600', '1985842629', '2189126813', '1799064210', '2145081040', '2016659123'}",Task,Task,,,,1,1,1,1,1
+image retrieval,analyzes,day similarity in visual lifelogs,1,{'openie'},{'2757472381'},Task,OtherEntity,1,,,0,1,1,0,1
+image retrieval,uses,ddd technique,4,{'dygiepp'},"{'2949324113', '1996534565', '2071405784', '1999625406'}",Task,Method,,,,1,0,0,0,0
+image retrieval,uses,deep feature part,3,"{'pos tagger', 'openie', 'dygiepp'}","{'2896620413', '3080917496', '2973564432'}",Task,OtherEntity,,,,1,0,1,0,0
+image retrieval,based-on,deep hashing technique,3,{'pos tagger'},"{'3085315152', '3100289972', '2946753373'}",Task,Method,,,,1,1,1,1,1
+image retrieval,based-on,deep neural convolutional network,7,{'pos tagger'},"{'3039356627', '2878767822', '2917114425', '2344779122', '3033895433', '3057318367', '2906898977'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,deep neural convolutional network,9,"{'pos tagger', 'openie', 'dygiepp'}","{'2917114425', '3085095182', '2905398916', '2745186194', '3039356627', '2617197133', '2601707599', '2592750780', '2989919046'}",Task,Method,,,,1,0,1,1,1
+image retrieval,uses,deep supervised hashing method,5,{'dygiepp'},"{'2753450332', '3034724020', '3137083130', '3025709990', '2788819546'}",Task,Method,,,,1,1,1,1,1
+image retrieval,based-on,descriptor,10,"{'pos tagger', 'openie'}","{'3040735624', '2561570343', '2054106684', '2010603777', '2767067863', '1973288497', '2818771661', '185533686', '2928476830', '2815170080'}",Task,Method,,,,1,0,1,0,0
+image retrieval,uses,diagnostically labeled data,3,"{'pos tagger', 'openie'}","{'1987597029', '1155931744', '2044207931'}",Task,Material,,,,1,1,1,1,1
+image retrieval,uses,difference block inverse probability,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2000967274'},Task,OtherEntity,,,,1,0,1,0,0
+image retrieval,uses,diffusivity of cipher text,,,,Task,Method,,,1,0,0,0,0,0
+image retrieval,uses,earth movers distance measure,2,"{'pos tagger', 'openie', 'dygiepp'}","{'1996534565', '2071983622'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,edge detection,7,"{'pos tagger', 'openie', 'dygiepp'}","{'1483860175', '2150497011', '3015356453', '2773673562', '2080749271', '1979536176', '2165020658'}",Task,Task,,,,1,1,1,1,1
+image retrieval,produces,embedded and scene text in image,1,{'pos tagger'},{'2795013078'},Task,Material,,,,1,0,1,0,0
+image retrieval,uses,encryption,5,"{'pos tagger', 'openie', 'dygiepp'}","{'3137864356', '3119736184', '2799698352', '3115888984', '2183561768'}",Task,Task,,,,1,1,1,1,1
+image retrieval,acquires,equilibrium input,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,based-on,evolutionary search,4,{'pos tagger'},"{'2184901088', '2031820900', '2183930137', '1992510649'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,extended manifold ranking,1,{'dependency tagger'},{'189343201'},Task,OtherEntity,1,,,0,1,1,1,1
+image retrieval,uses,extraction of robust visual phrase,1,{'pos tagger'},{'2042316866'},Task,Task,,,,1,0,1,0,0
+image retrieval,based-on,feature based fusion approach,3,{'pos tagger'},"{'3124938055', '2881064043', '3021155414'}",Task,Method,,,,1,0,1,0,0
+image retrieval,uses,feature representation approach,7,"{'pos tagger', 'dygiepp'}","{'2954496794', '2904998383', '3138388976', '3036999909', '2962684186', '2527197300', '2734790001'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,feature space,10,"{'pos tagger', 'openie', 'dygiepp'}","{'2808482300', '2834882851', '2920246528', '2960439556', '2225716941', '2774146096', '2619569710', '2592750780', '1974544978', '2500612475'}",Task,Method,,,,1,1,1,0,1
+image retrieval,supports,federative best practice,,,,Task,Method,,,1,0,0,0,0,0
+image retrieval,improves,flower material thickness,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,uses,fractal based algorithm,1,{'dygiepp'},{'3020122563'},Task,Method,,,,1,1,1,0,1
+image retrieval,skos:broader/is/hyponym-of,gaussian distribution,1,{'openie'},{'2819926338'},Task,Method,1,,,0,0,0,0,0
+image retrieval,includes,generating linear measurement vector,,,,Task,Task,,,1,0,0,0,0,0
+image retrieval,uses,glcm,6,"{'pos tagger', 'openie', 'dygiepp'}","{'3019462473', '2354465015', '2093918537', '1562703549', '2811483141', '2126321114'}",Task,Method,,,,1,1,1,0,1
+image retrieval,uses,goed,1,{'dygiepp'},{'1998068974'},Task,OtherEntity,1,,,0,1,1,0,1
+image retrieval,solves,handle housing portion,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,based-on,hash,36,{'pos tagger'},"{'2934263811', '3125936847', '2934867695', '3045670006', '2854752305', '2964687279', '2873770842', '3027372945', '2827673672', '2926698074', '2958280382', '2960368277', '2934374213', '2849323839', '2956924380', '2877939246', '3038721531', '2975177018', '2839205870', '3108345374', '3014068680', '3115624867', '3065506580', '2957595932', '3041266536', '2812463961', '3019668446', '2875151778', '2809254939', '2842306052', '3006076386', '2875938020', '2879559195', '2935387531', '2881030342', '2882217079'}",Task,Method,,,,1,0,1,1,1
+image retrieval,improves,hash,3,"{'pos tagger', 'openie'}","{'2879559195', '3125963268', '2971810745'}",Task,Method,,,,1,0,0,0,0
+image retrieval,proposes,hash,5,{'openie'},"{'3015471782', '2734476764', '2791305510', '2980670924', '3124912544'}",Task,Method,,,,1,0,0,0,0
+image retrieval,based-on,hash algorithm,6,{'pos tagger'},"{'3041266536', '3006076386', '2875938020', '2926698074', '3125936847', '3045670006'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,hash code value,7,"{'pos tagger', 'dygiepp'}","{'3134677906', '2349791518', '2952658509', '2958280382', '2890032859', '2897656415', '2950622857'}",Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,produces,hashing,5,{'pos tagger'},"{'3033025737', '2763822693', '2807944281', '2799357973', '3004002731'}",Task,Method,,,,1,0,1,0,0
+image retrieval,proposes,hashing,10,{'pos tagger'},"{'3015471782', '3016091997', '2734476764', '2980670924', '2966218308', '1997379154', '2991841680', '3033453416', '2791305510', '3036745850'}",Task,Method,,,,1,0,0,0,0
+image retrieval,uses,hashing,20,"{'pos tagger', 'openie'}","{'3032192920', '2025416754', '3007792089', '2963575874', '2945869331', '3018550891', '2568737927', '2557794022', '2602143720', '2437979450', '2331363401', '1999265394', '2773993895', '2948171447', '2887466836', '2992743748', '2951952490', '2909719093', '2966747399', '3004566834'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,hashing method,13,"{'pos tagger', 'openie', 'dygiepp'}","{'2460669233', '2920852583', '2734476764', '3014847672', '2606348288', '2988159742', '2568737927', '1997379154', '2464915613', '2793475809', '2909719093', '2602143720', '2969298383'}",Task,Method,,,,1,1,1,1,1
+image retrieval,skos:broader/is/hyponym-of,hierarchical and k means clustering algorithm,1,{'dependency tagger'},{'2343152466'},Task,Method,1,,,0,0,0,0,0
+image retrieval,extracts,homomorphic encrypted image application,1,{'pos tagger'},{'2612448025'},Task,Task,,,,1,0,0,0,0
+image retrieval,uses,huffman,1,{'openie'},{'1594008706'},Task,Method,,,,1,0,1,1,1
+image retrieval,uses,ich,1,{'dygiepp'},{'2547081851'},Task,Material,1,,,0,1,1,1,1
+image retrieval,based-on,image annotation,4,{'pos tagger'},"{'2060100696', '1968189656', '2130569706', '2037559315'}",Task,Task,,,,1,1,1,1,1
+image retrieval,uses,image annotation,6,"{'pos tagger', 'openie'}","{'2037559315', '2248338341', '2242710484', '1515052807', '2025291887', '2150146643'}",Task,Task,,,,1,1,1,1,1
+image retrieval,includes,image data,4,"{'pos tagger', 'openie'}","{'2860716857', '2288290073', '3107779417', '2617197133'}",Task,Material,,,,1,1,1,1,1
+image retrieval,acquires,image descriptor,3,"{'pos tagger', 'openie'}","{'2470803447', '3039238543', '3038939201'}",Task,Method,,,,1,1,1,1,1
+image retrieval,skos:broader/is/hyponym-of,image descriptor,1,{'openie'},{'2754647241'},Task,Method,,1,,0,0,0,0,0
+image retrieval,uses,image descriptor,10,"{'pos tagger', 'openie', 'dygiepp'}","{'3017005628', '2767621619', '2032042098', '3142656309', '2346301895', '3128099838', '2963588253', '2010557025', '2158401866', '2020656616'}",Task,Method,,,,1,1,1,1,1
+image retrieval,skos:broader/is/hyponym-of,image enhancement,15,"{'pos tagger', 'openie', 'dygiepp'}","{'3014777718', '2766322316', '2159255886', '2272518945', '2114536145', '2385212722', '1993404191', '2341122995', '2506100540', '2791929572', '2131914624', '2023910143', '2324794217', '1505436325', '2987908056'}",Task,Task,,,,1,1,0,0,0
+image retrieval,based-on,image feature,8,"{'pos tagger', 'openie'}","{'1823469724', '2821572799', '2952708969', '2960672462', '1915943666', '2255940469', '1795168405', '2181451494'}",Task,Method,,,,1,1,1,1,1
+image retrieval,based-on,image feature block,1,{'pos tagger'},{'2931593162'},Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,skos:broader/is/hyponym-of,image mining system,1,{'dygiepp'},{'2337984311'},Task,Method,,1,,0,1,0,0,0
+image retrieval,based-on,image picture content,3,{'pos tagger'},"{'2883913871', '3030390734', '2240446451'}",Task,OtherEntity,,,,1,0,1,1,1
+image retrieval,acquires,image privacy scheme,1,{'pos tagger'},{'2800663842'},Task,Method,,,,1,0,1,0,0
+image retrieval,learns,image representation,4,"{'pos tagger', 'openie'}","{'2951239727', '2998777824', '2340690086', '2293824885'}",Task,Method,,,,1,1,1,0,1
+image retrieval,uses,image representation,9,"{'pos tagger', 'dygiepp'}","{'2499029474', '2179042386', '2968625502', '2504981983', '2951019013', '2386473615', '2953838200', '2010007060', '3100772689'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,image retrieval device,4,{'dygiepp'},"{'2825643439', '2843556244', '2773955002', '2839687979'}",Task,Method,,,,1,1,1,1,1
+image retrieval,includes,image retrieval methodology,3,{'pos tagger'},"{'3086478917', '2929532000', '2854914591'}",Task,Method,,,,1,1,1,0,1
+image retrieval,includes,imagenet pre training,1,{'dependency tagger'},{'3034382172'},Task,Method,1,,,0,1,1,0,1
+image retrieval,skos:broader/is/hyponym-of,information retrieval,8,"{'pos tagger', 'openie', 'dygiepp'}","{'2082771843', '3110596125', '2014103326', '2604976370', '2961947266', '2798221341', '2950916109', '2025807940'}",Task,Task,,,,1,1,1,1,1
+image retrieval,skos:broader/is/hyponym-of,information system,1,{'openie'},{'2067107723'},Task,Method,,1,,0,1,0,0,0
+image retrieval,uses,invariants moment,3,"{'pos tagger', 'dygiepp'}","{'2068715438', '3007223926', '2091504693'}",Task,OtherEntity,,,,1,1,1,0,1
+image retrieval,provides,investigative macro area,,,,Task,Material,,,1,0,0,0,0,0
+image retrieval,uses,iriga,1,{'dygiepp'},{'2333893157'},Task,Method,1,,,0,1,1,0,1
+image retrieval,uses,it related technology,1,{'dygiepp'},{'1968189656'},Task,Method,1,,,0,1,1,0,1
+image retrieval,executes,key information image,1,{'openie'},{'2852962150'},Task,OtherEntity,,,,1,0,0,0,0
+image retrieval,classifies,keywords,4,{'pos tagger'},"{'2150874597', '1963611305', '2178683985', '2113291512'}",Task,Material,,,,1,0,0,0,0
+image retrieval,includes,l type pole,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,uses,language specific supervision,1,{'dygiepp'},{'3129005700'},Task,OtherEntity,1,,,0,0,0,0,0
+image retrieval,skos:broader/is/hyponym-of,learning in downstream task,1,{'dygiepp'},{'3003449356'},Task,Task,,,,1,0,0,0,0
+image retrieval,proposes,least manipulable envy free rule,,,,Task,Method,,,1,0,0,0,0,0
+image retrieval,based-on,least square collocation method,,,,Task,Method,,,1,0,0,1,0,0
+image retrieval,uses,local descriptor construction,5,"{'pos tagger', 'openie', 'dygiepp'}","{'1508833322', '2952331286', '2414447243', '2499468060', '2880594022'}",Task,Method,,,,1,1,1,0,1
+image retrieval,uses,local feature,13,"{'pos tagger', 'openie', 'dygiepp'}","{'1967993666', '2055944263', '2565050033', '2098286882', '3082429038', '2169528442', '2157412400', '1493350572', '2311865135', '2131152532', '2997602604', '1151676752', '2032943964'}",Task,Method,,,,1,1,1,1,1
+image retrieval,limits,low level image feature,1,{'pos tagger'},{'2155398762'},Task,OtherEntity,,,,1,0,0,1,0
+image retrieval,based-on,machine learning,3,{'pos tagger'},"{'2048861566', '3044145639', '2864367145'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,machine learning technique s,7,"{'pos tagger', 'dygiepp'}","{'2150874597', '1875435316', '1963611305', '2113291512', '2178683985', '2785746046', '2803159469'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,manifold ranking emr method,1,{'dependency tagger'},{'3097321610'},Task,Method,1,,,0,0,1,0,0
+image retrieval,acquires,medical image,9,"{'pos tagger', 'openie'}","{'2077428056', '2572001713', '2496852093', '3019365433', '2075293266', '3015036821', '140576156', '1998068279', '2474612066'}",Task,Material,,,,1,1,1,0,1
+image retrieval,identifies,medical image,5,"{'pos tagger', 'openie'}","{'3093768754', '1504405319', '2120218932', '2211307775', '2963224766'}",Task,Material,,,,1,1,1,0,1
+image retrieval,uses,microscopic configuration,2,"{'dependency tagger', 'openie'}",{'2794405846'},Task,OtherEntity,1,,,0,1,1,0,1
+image retrieval,uses,mobile platform,2,"{'pos tagger', 'openie', 'dygiepp'}","{'2845264896', '2071405784'}",Task,Method,,,,1,0,1,1,1
+image retrieval,improves,model mechanic,,,,Task,Method,,,1,0,0,0,0,0
+image retrieval,uses,moments of local ternary pattern,1,{'openie'},{'2090730805'},Task,OtherEntity,,,,1,1,1,0,1
+image retrieval,acquires,multi feature fusion,1,{'openie'},{'2897712612'},Task,Method,1,,,0,0,0,0,0
+image retrieval,uses,multilingual context,1,{'dygiepp'},{'2057929193'},Task,Material,1,,,0,0,1,1,1
+image retrieval,skos:broader/is/hyponym-of,multimedia based system,3,"{'pos tagger', 'openie', 'dygiepp'}","{'3094538635', '2120663665', '2332781097'}",Task,Task,,,,1,1,1,0,1
+image retrieval,uses,multimedia database,4,"{'dygiepp', 'openie'}","{'2160061184', '2758003314', '2942813256', '2085042456'}",Task,Material,,,,1,1,1,1,1
+image retrieval,based-on,name recommender system,,,,Task,Method,,,1,0,0,0,0,0
+image retrieval,uses,neural code,3,{'dygiepp'},"{'2950252392', '2386473615', '204268067'}",Task,Method,,,,1,1,1,1,1
+image retrieval,based-on,neural network,7,{'pos tagger'},"{'2763822693', '3098592908', '2914547577', '2344779122', '3085323808', '3033895433', '2990892140'}",Task,Method,,,,1,1,1,1,1
+image retrieval,skos:broader/is/hyponym-of,non similarity image,1,{'openie'},{'3138414288'},Task,OtherEntity,,1,,0,0,0,0,0
+image retrieval,matches,normalized correlation coefficient,1,{'pos tagger'},{'2890771356'},Task,Metric,,1,,0,0,0,0,0
+image retrieval,based-on,numerical optimization,14,{'pos tagger'},"{'2248584286', '2782920692', '122496152', '2087454334', '2975177018', '2907283631', '2967817062', '2927517402', '1532428370', '2830353705', '2912911621', '3117101078', '2929801865', '2393241234'}",Task,Method,,,,1,1,1,0,1
+image retrieval,uses,off line indexing,1,{'dygiepp'},{'2140331783'},Task,Task,,,,1,1,1,0,1
+image retrieval,based-on,ontology engineering,5,{'pos tagger'},"{'2575246084', '2546852289', '2184437258', '1613389801', '2790140705'}",Task,Task,,,,1,1,0,0,0
+image retrieval,uses,ontology engineering,3,{'pos tagger'},"{'360252177', '1972498830', '2915480346'}",Task,Task,,,,1,1,1,0,1
+image retrieval,improves,open combined semantic lexicon,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,based-on,orand car a,,,,Task,Material,,,1,0,0,0,0,0
+image retrieval,uses,overlap modified btc,1,{'dygiepp'},{'1507163451'},Task,Method,1,,,0,1,1,0,1
+image retrieval,uses,pareto graph,,,,Task,OtherEntity,,,1,0,0,1,0,0
+image retrieval,based-on,particle swarm optimization pso,5,{'pos tagger'},"{'122496152', '2248584286', '2087454334', '2393241234', '1532428370'}",Task,Method,,,,1,1,1,0,1
+image retrieval,uses,particle swarm optimization pso,4,"{'pos tagger', 'openie', 'dygiepp'}","{'2506034677', '2034600511', '2912486195', '2516755345'}",Task,Method,,,,1,1,1,0,1
+image retrieval,uses,partitioning image,1,{'pos tagger'},{'2026475207'},Task,Method,,,,1,1,1,1,1
+image retrieval,skos:broader/is/hyponym-of,pattern recognition,4,"{'pos tagger', 'openie', 'dygiepp'}","{'2182716266', '1985882702', '2009260550', '23972755'}",Task,Task,,,,1,1,1,0,1
+image retrieval,uses,pattern texture feature,2,"{'pos tagger', 'openie', 'dygiepp'}","{'1972718733', '1002233'}",Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,uses,people co occurrence relation,1,{'dygiepp'},{'2046222171'},Task,OtherEntity,,,,1,0,0,0,0
+image retrieval,uses,phong shading,2,"{'dependency tagger', 'openie'}",{'2950916109'},Task,Method,1,,,0,1,1,0,1
+image retrieval,uses,pixel embedding vector,3,{'pos tagger'},"{'3011173091', '3095712903', '3024265481'}",Task,OtherEntity,,,,1,0,1,1,1
+image retrieval,based-on,plurality of different vehicle running mode,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,uses,prepruning strategy,1,{'dygiepp'},{'2968625502'},Task,Method,,,,1,0,1,0,0
+image retrieval,based-on,private cloud,6,{'pos tagger'},"{'2912911621', '2845264896', '2349457134', '3021155414', '2930416566', '2768731295'}",Task,Material,,,,1,1,1,0,1
+image retrieval,based-on,protective door main body,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,uses,quadratic distance,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2183914872'},Task,Method,,,,1,1,1,1,1
+image retrieval,uses,query by shape method,1,{'dygiepp'},{'824916657'},Task,Method,,,,1,1,1,1,1
+image retrieval,based-on,radon barcodes,1,{'pos tagger'},{'2585750486'},Task,Method,1,,,0,1,1,0,1
+image retrieval,improves,recognized precision,1,{'pos tagger'},{'2872483867'},Task,Metric,,,,1,0,1,0,0
+image retrieval,uses,relevance feedback,34,"{'pos tagger', 'openie', 'dygiepp'}","{'1998319965', '2163701258', '2162721653', '2335418519', '2766552701', '994565497', '2071288688', '2064341520', '2007797741', '2947593706', '2060898520', '47567848', '1973468222', '1574202978', '1496939234', '2157310908', '2118130975', '2135329637', '2124645781', '2310976190', '2030435666', '1976745436', '2005807569', '2901605794', '2182188465', '2099572781', '185677878', '2098371241', '2097329790', '98268499', '2994537684', '1765485639', '2007486177', '2095358733'}",Task,Task,,,,1,1,1,1,1
+image retrieval,includes,retrieval based technique,5,{'openie'},"{'3143035657', '2910806441', '2935172513', '2384012972', '2865984916'}",Task,Method,,,,1,1,1,1,1
+image retrieval,supports,retrieval of image,3,"{'pos tagger', 'openie'}","{'2408719582', '290733246', '1933770199'}",Task,Task,,,,1,1,1,1,1
+image retrieval,uses,retrieval of image,3,"{'pos tagger', 'openie', 'dygiepp'}","{'2804390575', '2823302113', '3086431168'}",Task,Task,,,,1,0,1,0,0
+image retrieval,acquires,retrieval performance,7,"{'pos tagger', 'openie'}","{'3089675172', '1967540507', '2496852093', '2982050504', '2791978127', '2753266295', '2292764078'}",Task,Metric,,,,1,0,0,0,0
+image retrieval,improves,retrieval performance,15,"{'pos tagger', 'openie'}","{'2358311367', '2186633090', '588320302', '3096806833', '2045545351', '2123599743', '2736154721', '2316995460', '2901470271', '2041271011', '2932861084', '2041910200', '2294882112', '2608033390', '2294229811'}",Task,Metric,,,,1,0,1,1,1
+image retrieval,uses,review criterion,1,{'dependency tagger'},{'2560650621'},Task,Metric,1,,,0,0,0,0,0
+image retrieval,executes,rf based classification approach,1,{'pos tagger'},{'1485512315'},Task,Method,1,,,0,0,1,0,0
+image retrieval,uses,rs big data,1,{'dygiepp'},{'3093905312'},Task,Material,1,,,0,0,1,0,0
+image retrieval,uses,scene graph,4,"{'pos tagger', 'openie', 'dygiepp'}","{'3025652384', '3036869132', '3044298711', '2077069816'}",Task,Method,,,,1,1,1,1,1
+image retrieval,provides,screw direction lid,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,skos:broader/is/hyponym-of,search based technology,1,"{'pos tagger', 'openie'}",{'2007402939'},Task,Method,,1,,0,1,0,0,0
+image retrieval,improves,secondary modality,1,{'dependency tagger'},{'1567471048'},Task,OtherEntity,1,,,0,0,0,0,0
+image retrieval,limits,semantic gap,16,"{'pos tagger', 'openie'}","{'2170873216', '1850333364', '360252177', '2518092658', '2735794310', '2352440983', '2768228159', '2551535010', '2188825881', '2548128941', '1974046570', '2084617605', '2056100761', '2784128585', '2091460785', '2155398762'}",Task,Method,,,,1,0,0,0,0
+image retrieval,includes,semantic information,4,"{'pos tagger', 'openie'}","{'2878354894', '2825900792', '2031138820', '2805525035'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,semantics,7,"{'pos tagger', 'openie', 'dygiepp'}","{'1987597029', '2147183921', '2135728080', '3004438133', '65027602', '1507310412', '2866203802'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,shape descriptor generating method,1,{'dygiepp'},{'2874640912'},Task,Method,,,,1,0,1,1,1
+image retrieval,transfers,shift knob next door,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,acquires,similar image,6,"{'pos tagger', 'openie'}","{'2815981229', '2775020047', '2773955002', '11749263', '2303515459', '2057951997'}",Task,Material,,,,1,0,1,0,0
+image retrieval,proposes,smm,1,{'pos tagger'},{'2067952577'},Task,Method,,,,1,0,0,0,0
+image retrieval,uses,solution,5,{'dygiepp'},"{'2010770351', '2906975967', '2565050033', '2020969339', '3006442140'}",Task,Task,,,,1,0,0,0,0
+image retrieval,uses,sparse codeword,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2334755106'},Task,OtherEntity,,,,1,1,1,0,1
+image retrieval,uses,spatial color histogram,1,{'dygiepp'},{'2039131343'},Task,Method,,,,1,1,1,1,1
+image retrieval,extracts,sub rcgs,1,{'openie'},{'1974562688'},Task,OtherEntity,1,,,0,0,1,0,0
+image retrieval,uses,supervised machine learning,3,"{'pos tagger', 'openie', 'dygiepp'}","{'2773502880', '2236573851', '2567232266'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,support vector machine,9,"{'pos tagger', 'openie', 'dygiepp'}","{'2809504593', '2122839856', '2159255886', '1974046570', '2528637359', '2944726412', '2341223103', '3150502222', '1825190116'}",Task,Method,,,,1,1,1,1,1
+image retrieval,based-on,svm,6,{'pos tagger'},"{'2048861566', '2157575909', '2357663963', '2601532138', '2090206082', '2827377979'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,svm,16,"{'pos tagger', 'openie', 'dygiepp'}","{'2310714561', '2409594421', '5598288', '2918686163', '2341223103', '2352757390', '2970223703', '2978296913', '2786670825', '2063695108', '2317592428', '2510168643', '196016924', '2519925461', '2228070940', '1988036110'}",Task,Method,,,,1,1,1,1,1
+image retrieval,skos:broader/is/hyponym-of,texts information,1,{'openie'},{'2881612043'},Task,Material,,1,,0,0,0,0,0
+image retrieval,uses,texture composition,8,"{'pos tagger', 'dygiepp'}","{'3151803807', '2315956820', '2967266701', '2144241767', '2338861133', '2083467497', '2774748344', '2336636581'}",Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,uses,texture descriptor feature,5,"{'pos tagger', 'dygiepp'}","{'2340556027', '1949973725', '2767933989', '2144782734', '2756246881'}",Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,uses,texture features extraction method,5,"{'pos tagger', 'openie', 'dygiepp'}","{'2047130946', '2044468944', '2382852560', '2093918537', '2986024167'}",Task,Method,,,,1,1,1,1,1
+image retrieval,based-on,touching foreign object,,,,Task,Task,,,1,0,0,0,0,0
+image retrieval,uses,treeval,1,{'openie'},{'1859790335'},Task,OtherEntity,1,,,0,1,1,0,1
+image retrieval,improves,triplet loss,2,{'pos tagger'},"{'3109923227', '3002377091'}",Task,Metric,,,,1,1,1,0,1
+image retrieval,executes,turning around method,,,,Task,Method,,,1,0,0,0,0,0
+image retrieval,uses,unclean positive example,2,"{'dependency tagger', 'dygiepp'}",{'2310714561'},Task,Material,1,,,0,1,1,0,1
+image retrieval,uses,unmanned aerial vehicle body and shelf,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,uses,unordered image,4,{'dygiepp'},"{'2963588253', '2767621619', '2963125676', '2336302573'}",Task,Material,,,,1,1,1,0,1
+image retrieval,uses,unsupervised hashing based method,8,{'dygiepp'},"{'2963073267', '2793561764', '2562322388', '3004515817', '3094734909', '2293824885', '2955632196', '2508837377'}",Task,Method,,,,1,1,1,1,1
+image retrieval,acquires,user cloth information,,,,Task,OtherEntity,,,1,0,0,0,0,0
+image retrieval,uses,user interest model,2,"{'pos tagger', 'openie', 'dygiepp'}","{'2213883801', '2030563049'}",Task,Method,,,,1,1,1,0,1
+image retrieval,uses,vector quantization,4,"{'pos tagger', 'openie', 'dygiepp'}","{'1975558583', '2095111568', '2096097013', '2120753626'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,visual cueing,3,"{'pos tagger', 'openie'}","{'3000576683', '2535023836', '3024152176'}",Task,Method,,,,1,0,1,1,1
+image retrieval,uses,visual descriptor,3,"{'pos tagger', 'dygiepp'}","{'2950252392', '2777960558', '233382074'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,visual low level feature,4,"{'pos tagger', 'openie', 'dygiepp'}","{'2189429158', '2360065574', '2085042456', '2130569706'}",Task,OtherEntity,,,,1,1,1,1,1
+image retrieval,solves,visually similar network image set,1,{'openie'},{'2880612758'},Task,OtherEntity,,,,1,0,1,0,0
+image retrieval,uses,vocabulary,3,"{'pos tagger', 'openie'}","{'1956061132', '1500681639', '2306359932'}",Task,Material,,,,1,0,1,1,1
+image retrieval,uses,vocabulary tree,3,"{'pos tagger', 'dygiepp'}","{'2016134161', '2042431346', '1956061132'}",Task,Method,,,,1,1,1,0,1
+image retrieval,uses,walsh transformed vq codebook,1,"{'pos tagger', 'dygiepp'}",{'2095111568'},Task,Material,,,,1,1,1,0,1
+image retrieval,based-on,wavelet,19,{'pos tagger'},"{'2062769612', '2183914872', '1483860175', '2052262673', '1508678212', '2563713148', '2064381818', '2889278146', '2011884093', '2844276219', '2992261168', '2186633090', '2314021436', '2967817062', '2137166994', '3124970536', '3029587172', '2167355496', '2322122629'}",Task,Method,,,,1,1,1,1,1
+image retrieval,improves,wavelet,3,{'pos tagger'},"{'3029587172', '2900620726', '2742412655'}",Task,Method,,,,1,0,0,0,0
+image retrieval,uses,wavelet,25,"{'pos tagger', 'openie', 'dygiepp'}","{'2132345644', '1970653374', '2182499269', '2911850973', '2563713148', '2074693178', '3048977668', '2548097891', '2102085088', '2520323774', '2099232420', '2787759290', '1993862647', '2001447672', '1991560717', '2360611525', '2335037768', '2071983622', '2742412655', '2124474785', '2093192425', '1989488015', '2288661038', '2114490689', '2798690692'}",Task,Method,,,,1,1,1,1,1
+image retrieval,based-on,wavelet transforms,4,{'pos tagger'},"{'2062769612', '2563713148', '2052262673', '2322122629'}",Task,Method,,,,1,1,1,1,1
+image retrieval,uses,wavelet transforms,4,"{'pos tagger', 'openie'}","{'2124474785', '2563713148', '2132345644', '3014777718'}",Task,Method,,,,1,1,1,1,1
+image search engine,skos:broader/is/hyponym-of,image retrieval,1,{'openie'},{'2556891341'},Method,Task,,1,,0,1,0,0,0
+image use situation,improves,image retrieval,1,{'pos tagger'},{'2840922239'},OtherEntity,Task,,1,,0,0,0,0,0
+imageclef 2011,analyzes,image retrieval,2,{'pos tagger'},"{'2321228595', '2032509980'}",Material,Task,,1,,0,1,0,0,0
+information dissemination,skos:broader/is/hyponym-of,calamity,1,{'openie'},{'2792499460'},Task,Metric,1,,,0,0,0,0,0
+information dissemination,uses,cocasting,1,{'dygiepp'},{'1972427238'},Task,Method,1,,,0,1,1,0,1
+information dissemination,produces,color difference preprocessing,,,,Task,Method,,,1,0,0,0,0,0
+information dissemination,uses,early and late matching algorithm,3,{'dygiepp'},"{'2778960147', '2551509489', '2736737189'}",Task,Method,,,,1,0,1,0,0
+information dissemination,uses,epidemic model,3,"{'dygiepp', 'openie'}","{'2041038237', '2001345215', '2026252652'}",Task,Method,,,,1,1,1,1,1
+information dissemination,produces,global view,1,{'pos tagger'},{'2772127126'},Task,Method,,,,1,0,1,0,0
+information dissemination,uses,group behavior,1,{'dygiepp'},{'1827010261'},Task,OtherEntity,1,,,0,0,1,1,1
+information dissemination,produces,layered,1,{'pos tagger'},{'2086567545'},Task,Method,,,,1,0,0,0,0
+information dissemination,uses,moderated dual process model,1,{'dygiepp'},{'2927384321'},Task,Method,1,,,0,1,1,0,1
+information dissemination,uses,multi dimensional approach,1,{'dygiepp'},{'2172905393'},Task,Method,1,,,0,1,1,1,1
+information dissemination,uses,online social network,7,{'dygiepp'},"{'2294592843', '2247586849', '3111189543', '2962463766', '3018573570', '2072603505', '3003714129'}",Task,Material,,,,1,1,1,1,1
+information dissemination,uses,opportunistic network,2,"{'pos tagger', 'openie', 'dygiepp'}","{'2888879816', '2808063694'}",Task,Method,,,,1,1,1,1,1
+information dissemination,uses,optimal weight design,1,{'dygiepp'},{'2031303473'},Task,Method,1,,,0,1,1,0,1
+information dissemination,skos:broader/is/hyponym-of,p2p application,1,"{'dygiepp', 'openie'}",{'2163673561'},Task,Task,,,,1,1,1,0,1
+information dissemination,uses,power supply station early warning computer,,,,Task,Method,,,1,0,0,0,0,0
+information dissemination,uses,random and degree based selection,1,{'dygiepp'},{'2071712851'},Task,Method,1,,,0,0,1,0,0
+information dissemination,uses,social media platform,4,{'dygiepp'},"{'2603699330', '3093031973', '2755822093', '3015822540'}",Task,Material,,,,1,1,1,1,1
+information dissemination,uses,social social medium,13,"{'pos tagger', 'dygiepp'}","{'2970695552', '3098524925', '3092206743', '2290330478', '584252555', '2175627207', '2901267962', '2972248555', '2072322795', '2258705901', '2182941994', '2963864976', '2394506783'}",Task,Material,,,,1,0,1,0,0
+information dissemination,produces,spreading of rumor,3,"{'pos tagger', 'openie'}","{'2952604521', '2609512471', '2956319442'}",Task,Task,,,,1,1,1,1,1
+information dissemination,uses,street lamp,1,{'openie'},{'2845167803'},Task,Material,,,,1,0,0,0,0
+information dissemination,uses,twitter,8,{'dygiepp'},"{'2340343456', '2618766417', '2055308512', '2172765159', '2141450886', '2182941994', '2253334021', '2295738202'}",Task,Material,,,,1,1,1,1,1
+information dissemination,provides,vertical straining device,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,produces,abundant movement configuration,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,includes,acquisition unit a,3,"{'pos tagger', 'openie'}","{'2931480241', '2819196884', '3123063700'}",Task,Method,,,,1,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,ai function,1,{'dygiepp'},{'2292234098'},Task,Method,,1,,0,0,0,0,0
+information extraction,affects,airport infrastructure road information,1,{'dependency tagger'},{'3051398788'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,uses,algorithmic technique,1,{'dygiepp'},{'2954222332'},Task,Method,,,,1,1,1,1,1
+information extraction,uses,angular speed of real time planning,,,,Task,Metric,,,1,0,0,0,0,0
+information extraction,uses,augmented reality,3,{'dygiepp'},"{'2976929055', '3031625200', '2765504302'}",Task,Task,,,,1,1,1,1,1
+information extraction,uses,babelnet,2,"{'dependency tagger', 'openie'}",{'2406244752'},Task,Material,1,,,0,1,1,1,1
+information extraction,includes,base boar,8,"{'pos tagger', 'openie'}","{'2932508492', '2855806780', '2860462898', '2865015475', '2956445205', '2859048291', '2824072764', '2927358065'}",Task,Method,,,,1,0,0,0,0
+information extraction,acquires,beam formingdirection of the microphone array,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,behavior recognition technical method,2,{'pos tagger'},"{'3045843715', '3129002371'}",Task,Method,,1,,0,0,0,0,0
+information extraction,uses,bidirectionally transmitting electric quantity,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,based-on,big data,6,{'pos tagger'},"{'3020458582', '2966812416', '3108960267', '2876622777', '3124135982', '2858310973'}",Task,Material,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,big data related technology,1,{'dygiepp'},{'2294103345'},Task,Method,,1,,0,1,0,0,0
+information extraction,acquires,biological information acquisition recognition system,1,{'pos tagger'},{'2876463877'},Task,Method,1,,,0,0,0,1,0
+information extraction,includes,biological information acquisition recognition system,1,{'pos tagger'},{'2876463877'},Task,Method,1,,,0,0,1,0,0
+information extraction,manages,biological information piece,1,{'pos tagger'},{'2815326015'},Task,OtherEntity,,,,1,0,1,0,0
+information extraction,identifies,brain wave signal,4,{'pos tagger'},"{'2853992102', '2881099259', '2814051253', '2856314073'}",Task,Material,,,,1,0,1,0,0
+information extraction,includes,building footprint segmentation,,,,Task,Task,,,1,0,0,0,0,0
+information extraction,extracts,camouflage registration information,1,{'pos tagger'},{'2934710613'},Task,OtherEntity,1,,,0,0,0,1,0
+information extraction,uses,camouflage registration information,1,{'pos tagger'},{'2934710613'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,includes,character behavior semantic recognition method,1,{'pos tagger'},{'3053206551'},Task,Method,1,,,0,0,1,0,0
+information extraction,skos:broader/is/hyponym-of,character information,2,{'openie'},"{'2835502723', '2815653327'}",Task,Material,,1,,0,0,0,0,0
+information extraction,uses,chinese radiology report,1,{'dygiepp'},{'3100221118'},Task,Material,1,,,0,0,1,0,0
+information extraction,uses,clue complement process,1,{'dependency tagger'},{'51699532'},Task,Method,1,,,0,1,1,0,1
+information extraction,includes,computer system structures and modeling,1,{'pos tagger'},{'3040156147'},Task,Task,1,,,0,0,1,0,0
+information extraction,based-on,computer vision,3,{'pos tagger'},"{'2882895742', '3096039402', '3137665917'}",Task,Task,,,,1,1,1,1,1
+information extraction,produces,contrast change,2,"{'dependency tagger', 'openie'}",{'2838837475'},Task,Task,1,,,0,0,0,0,0
+information extraction,extracts,cut position,1,{'dependency tagger'},{'1998739094'},Task,OtherEntity,1,,,0,1,1,0,1
+information extraction,uses,data mining,6,"{'pos tagger', 'dygiepp'}","{'2289626736', '47737425', '2288900723', '3009325173', '2073827313', '2051525169'}",Task,Task,,,,1,1,1,1,1
+information extraction,uses,data mining technique,6,"{'pos tagger', 'dygiepp'}","{'2234370874', '2105921299', '2768942284', '2168470987', '2170161597', '2837532760'}",Task,Method,,,,1,1,1,1,1
+information extraction,matches,database and information system,6,{'openie'},"{'2853992102', '2814051253', '2847564689', '2844131814', '2881099259', '2856314073'}",Task,Task,,,,1,1,1,0,1
+information extraction,uses,dbpedia ontology,1,{'dygiepp'},{'3005372655'},Task,Material,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,decision support system,1,{'openie'},{'2809348626'},Task,Method,,1,,0,1,0,1,1
+information extraction,based-on,deep learning,10,{'pos tagger'},"{'3106599171', '3125154502', '3113882829', '2966993509', '3019506021', '3026707974', '3116076035', '3008537971', '3019881115', '3082843981'}",Task,Method,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,depth information,1,{'openie'},{'2261278343'},Task,Method,,1,,0,0,0,0,0
+information extraction,acquires,dialectical information,1,{'openie'},{'2495180650'},Task,OtherEntity,1,,,0,1,1,0,1
+information extraction,skos:broader/is/hyponym-of,digital photogrammetry system,1,{'openie'},{'3134580871'},Task,Method,,1,,0,0,0,0,0
+information extraction,uses,distant labeling,3,{'dygiepp'},"{'2293295681', '2963099332', '2250308783'}",Task,Task,,,,1,1,1,1,1
+information extraction,uses,distributional shift robustness,,,,Task,Metric,,,1,0,0,0,0,0
+information extraction,uses,domain ontology,3,"{'pos tagger', 'openie'}","{'2021854929', '2798667775', '2605217844'}",Task,Method,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,dynamic indicator,1,{'dygiepp'},{'2996944547'},Task,Method,1,,,0,0,0,0,0
+information extraction,includes,e mail signature block,1,{'dygiepp'},{'2012046263'},Task,Material,1,,,0,0,0,0,0
+information extraction,uses,electronic tap identity authentication,,,,Task,Task,,,1,0,0,0,0,0
+information extraction,extracts,energy conservation code,1,{'pos tagger'},{'2557995968'},Task,Material,1,,,0,0,0,0,0
+information extraction,includes,estimation calculating unit,1,{'openie'},{'3085198839'},Task,Method,,,,1,0,0,0,0
+information extraction,manages,extensible language,1,{'dependency tagger'},{'1998009034'},Task,Material,1,,,0,0,1,0,0
+information extraction,uses,extracting building elevation information,1,{'dependency tagger'},{'1972652925'},Task,Task,1,,,0,1,0,0,0
+information extraction,learns,extraction based model,2,{'pos tagger'},"{'3035131649', '3024606989'}",Task,Method,,,,1,1,1,1,1
+information extraction,uses,ez1 protocol,1,{'openie'},{'3124571622'},Task,Method,1,,,0,0,0,0,0
+information extraction,uses,factor,1,{'dygiepp'},{'2804446775'},Task,Metric,,,,1,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,facts preprocessing,1,{'dygiepp'},{'3089350856'},Task,Task,,,,1,1,0,0,0
+information extraction,extracts,feature related information,3,{'openie'},"{'2826104076', '2836020432', '2753624364'}",Task,OtherEntity,,,,1,1,1,1,1
+information extraction,supports,filtering image,1,{'dependency tagger'},{'2085830967'},Task,Material,1,,,0,0,1,1,1
+information extraction,learns,first database management system,1,{'openie'},{'2830747704'},Task,Method,,,,1,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,formatted mode,1,{'openie'},{'2879759191'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,acquires,frame frame,3,{'pos tagger'},"{'2221798531', '3020402095', '2879828734'}",Task,OtherEntity,,,,1,0,0,0,0
+information extraction,contributes-to,functional approximation method,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,uses,gcn based method,1,{'openie'},{'3129278271'},Task,Method,1,,,0,1,1,1,1
+information extraction,contributes-to,graphical workflow management tool,1,{'pos tagger'},{'2471190732'},Task,Method,1,,,0,1,1,0,1
+information extraction,uses,graphics processing unit,3,"{'pos tagger', 'openie'}","{'134613662', '3090208873', '1967723978'}",Task,Method,,,,1,1,1,1,1
+information extraction,includes,h and s component,1,{'pos tagger'},{'3002771146'},Task,Method,1,,,0,0,1,0,0
+information extraction,extracts,header information,1,{'pos tagger'},{'2842297142'},Task,OtherEntity,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,high spatial resolution,1,{'pos tagger'},{'2775441661'},Task,Metric,,1,,0,0,0,0,0
+information extraction,uses,hole of flat board,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,improves,identification trend,,,,Task,Method,,,1,0,0,1,1,1
+information extraction,executes,illegal whistling vehicle,1,{'pos tagger'},{'3085135039'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,extracts,image denoising degree,1,{'pos tagger'},{'3129313991'},Task,OtherEntity,1,,,0,1,0,0,0
+information extraction,uses,image enhancement,4,"{'pos tagger', 'openie'}","{'2820123319', '3049285452', '2297310555', '2807692996'}",Task,Task,,,,1,1,1,1,1
+information extraction,automates,industrial automation,1,{'pos tagger'},{'3121320330'},Task,Task,,1,,0,1,1,0,1
+information extraction,skos:broader/is/hyponym-of,industrial automation,4,"{'pos tagger', 'openie'}","{'3098440928', '3019417865', '2839040697', '2953198538'}",Task,Task,,,,1,1,1,0,1
+information extraction,includes,information data database,1,{'openie'},{'2861391341'},Task,Material,,,,1,0,1,1,1
+information extraction,skos:broader/is/hyponym-of,intelligent knowledge management platform,1,{'dygiepp'},{'2185631627'},Task,Method,,1,,0,1,0,0,0
+information extraction,uses,keyword based passage retrieval algorithm,1,{'dygiepp'},{'2250473848'},Task,Method,,,,1,1,1,1,1
+information extraction,acquires,keyword importance information,1,{'openie'},{'2817068960'},Task,OtherEntity,1,,,0,0,1,1,1
+information extraction,based-on,knowledge base,7,{'pos tagger'},"{'2991096540', '1988476383', '3078719477', '2930734854', '2797980629', '2753477019', '2819659905'}",Task,Material,,,,1,1,1,1,1
+information extraction,uses,knowledge base,7,"{'pos tagger', 'dygiepp'}","{'2516125976', '2145908616', '2952371036', '2405329424', '1497523460', '1890343579', '2406244752'}",Task,Material,,,,1,1,1,1,1
+information extraction,uses,knowledge related resource,3,"{'pos tagger', 'dygiepp'}","{'2053884592', '51649439', '1428849681'}",Task,OtherEntity,,,,1,0,1,1,1
+information extraction,visualizes,life characteristic information,1,{'openie'},{'2866915239'},Task,OtherEntity,,1,,0,0,0,0,0
+information extraction,uses,linked data,6,"{'pos tagger', 'openie', 'dygiepp'}","{'2158981854', '2521385271', '2398638552', '2736091091', '2067367118', '2039446845'}",Task,Material,,,,1,1,1,1,1
+information extraction,acquires,litigation participant information,2,"{'dependency tagger', 'openie'}",{'3018189712'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,based-on,machine learning,5,{'pos tagger'},"{'2081020307', '3097852574', '2250822364', '3056891036', '3028471305'}",Task,Method,,,,1,1,1,1,1
+information extraction,uses,machine learning,16,"{'pos tagger', 'openie', 'dygiepp'}","{'2612992329', '2003446026', '2907368968', '1486006562', '2078624732', '2032061643', '3135860628', '2000870658', '1976571388', '2400176798', '1989889402', '3085237508', '75847532', '3133507029', '2187656675', '1910250816'}",Task,Method,,,,1,1,1,1,1
+information extraction,uses,machine learning method,7,"{'pos tagger', 'dygiepp'}","{'2769590149', '2187656675', '2594735215', '2797980629', '3089107717', '2996019049', '2187303655'}",Task,Method,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,machine readable electronic format,1,{'pos tagger'},{'2117982141'},Task,OtherEntity,,1,,0,0,0,0,0
+information extraction,links,mall account login module,1,{'openie'},{'2959546262'},Task,Method,,,,1,0,0,0,0
+information extraction,uses,mapping description,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2513963653'},Task,Method,,,,1,1,1,0,1
+information extraction,produces,mapreduce input parameter,1,{'dependency tagger'},{'2876547908'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,metadata,1,{'pos tagger'},{'2250255412'},Task,Material,,1,,0,0,0,0,0
+information extraction,identifies,mhflggmsm,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,based-on,model library,1,{'pos tagger'},{'3058788789'},Task,Material,1,,,0,0,1,0,0
+information extraction,identifies,named entity recognition,6,"{'pos tagger', 'openie'}","{'3102295886', '2963991911', '2138780451', '3121295082', '2028701059', '1611884111'}",Task,Task,,,,1,1,0,0,0
+information extraction,skos:broader/is/hyponym-of,named entity recognition,4,"{'pos tagger', 'openie'}","{'2542483253', '3047415399', '3014859249', '2086842164'}",Task,Task,,,,1,1,0,0,0
+information extraction,skos:broader/is/hyponym-of,natural language processing,28,"{'pos tagger', 'openie', 'dygiepp'}","{'2251650185', '2276969330', '3080805237', '2250532148', '2334378031', '2785461518', '2379658007', '1565971213', '2013112444', '1935064633', '2250974997', '3135079233', '842810586', '3002226419', '3061846580', '2953907178', '2992787485', '2987250690', '3033501084', '3004450821', '2945018970', '2974604908', '1567090766', '921676749', '3030862191', '2577210699', '2028426462', '2215206286'}",Task,Task,,,,1,1,1,0,1
+information extraction,uses,natural language processing,18,"{'pos tagger', 'openie', 'dygiepp'}","{'2896977042', '2003446026', '2050600087', '2048980695', '3082330004', '2119207919', '2970885630', '2994804941', '2139391332', '3034095843', '3014117766', '2777017774', '2901718007', '2741430046', '2739492589', '2967743594', '3097444524', '2912987490'}",Task,Task,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,natural language processing related task,17,{'dygiepp'},"{'11573300', '2406348363', '3017334098', '3024917844', '2883921205', '2251145407', '2395490793', '2125434372', '2321197640', '2251348249', '2250575540', '149822930', '1993729825', '2810708329', '2055081518', '2766653166', '2278147439'}",Task,Task,,,,1,1,1,1,1
+information extraction,based-on,neural network,6,{'pos tagger'},"{'2892089952', '3085242347', '3051439103', '2739002088', '3039306701', '2836663843'}",Task,Method,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,nlp action,1,{'dygiepp'},{'2044852099'},Task,Task,,,,1,1,1,0,1
+information extraction,based-on,non defective product learning model,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,acquires,object difference image,1,{'pos tagger'},{'2832361109'},Task,Material,1,,,0,0,0,0,0
+information extraction,based-on,ontology engineering,8,{'pos tagger'},"{'2383453946', '2063800210', '1992892337', '2511323874', '2778385450', '2002583300', '2857905239', '2091181883'}",Task,Task,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,ontology engineering,3,"{'pos tagger', 'openie'}","{'2106025648', '6633509', '2595796141'}",Task,Task,,,,1,0,0,0,0
+information extraction,uses,overlay text,1,{'dependency tagger'},{'2769502194'},Task,Material,1,,,0,1,1,1,1
+information extraction,uses,password,1,{'openie'},{'2931314437'},Task,Method,,,,1,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,pre processing procedure,1,{'dygiepp'},{'3027233806'},Task,Method,,1,,0,0,0,1,0
+information extraction,guides,predictions accuracy,1,"{'pos tagger', 'openie'}",{'3133399132'},Task,Metric,,,,1,1,1,1,1
+information extraction,acquires,print operation,1,{'openie'},{'2833135097'},Task,Task,,,,1,0,0,0,0
+information extraction,produces,printing head device,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,improves,private cloud,1,{'pos tagger'},{'3093041872'},Task,Material,,,,1,0,1,0,0
+information extraction,uses,processing procedure,1,"{'pos tagger', 'openie', 'dygiepp'}",{'1971773148'},Task,Method,,,,1,1,0,1,1
+information extraction,extracts,product transaction settlement data,1,{'pos tagger'},{'2839025321'},Task,Material,,,,1,0,0,0,0
+information extraction,analyzes,receiving and carrying part,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,adapts,recommendation,1,{'pos tagger'},{'2956521461'},Task,Task,,,,1,1,1,0,1
+information extraction,uses,regularization dsm data,1,{'pos tagger'},{'1972652925'},Task,Material,1,,,0,1,1,0,1
+information extraction,improves,relative entropy normalized gaussian supervector,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,extracts,relevant information candidate,1,{'openie'},{'2825933646'},Task,OtherEntity,,,,1,0,1,0,0
+information extraction,uses,remote sensing data set,7,"{'dygiepp', 'openie'}","{'1662325026', '2899347513', '2613154751', '2156302914', '2951173743', '2952921653', '2156934564'}",Task,Material,,,,1,1,1,0,1
+information extraction,skos:broader/is/hyponym-of,remote sensing image,1,{'openie'},{'3129885841'},Task,Material,,1,,0,0,0,0,0
+information extraction,uses,remote sensing image,5,"{'pos tagger', 'openie', 'dygiepp'}","{'2078433039', '2565982574', '2365882844', '1579100391', '2951841689'}",Task,Material,,,,1,1,1,0,1
+information extraction,uses,removable head strap,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,discusses,retractable unit,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,rhetorical classifier,1,{'openie'},{'2147450718'},Task,Method,,1,,0,0,0,0,0
+information extraction,uses,satellite photo image,3,{'dygiepp'},"{'2968965387', '91358465', '2121381445'}",Task,Material,,,,1,1,1,1,1
+information extraction,based-on,semantic based model,1,{'pos tagger'},{'2060243170'},Task,Method,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,semantics,3,{'openie'},"{'2030910246', '1537557802', '2527786628'}",Task,Method,,1,,0,1,0,0,0
+information extraction,uses,semi automated approach,1,{'dygiepp'},{'1606064205'},Task,Method,,,,1,1,1,1,1
+information extraction,improves,semi structured historical document,2,"{'pos tagger', 'dependency tagger'}",{'2078090947'},Task,Material,1,,,0,0,1,0,0
+information extraction,provides,ship target,1,{'openie'},{'2865335018'},Task,Material,1,,,0,1,1,0,1
+information extraction,executes,short message route destination address,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,uses,slave systems end effector,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,identifies,software name,1,{'dependency tagger'},{'2621152625'},Task,OtherEntity,1,,,0,1,1,0,1
+information extraction,uses,software tool application,5,{'dygiepp'},"{'1662325026', '1632224207', '2951173743', '2952921653', '2156934564'}",Task,Method,,,,1,1,1,1,1
+information extraction,includes,spatial data,1,{'pos tagger'},{'2841338451'},Task,Material,,,,1,1,1,0,1
+information extraction,uses,spatial structure detection module,,,,Task,Method,,,1,0,0,0,1,0
+information extraction,uses,speeds of rotation,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,analyzes,stress response determination level,1,{'openie'},{'2815326015'},Task,OtherEntity,,,,1,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,sub22nm cmos device,1,{'openie'},{'2039530848'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,extracts,substation control layer information description,1,{'openie'},{'2823355077'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,based-on,synchronized demodulation,1,{'pos tagger'},{'2912381112'},Task,Method,1,,,0,0,0,0,0
+information extraction,based-on,synonym coding strategy,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,uses,target tracking in complex scene,,,,Task,Task,,,1,0,0,1,0,0
+information extraction,proposes,task example,4,{'pos tagger'},"{'3013964431', '3032834944', '3014720191', '3010341014'}",Task,Material,,,,1,0,0,0,0
+information extraction,uses,temporal probabilistic database approach,1,{'dygiepp'},{'2133973199'},Task,Method,,,,1,0,0,1,0
+information extraction,identifies,testing question,1,{'pos tagger'},{'2906351693'},Task,OtherEntity,,,,1,0,1,1,1
+information extraction,skos:broader/is/hyponym-of,text and information processing task,3,"{'pos tagger', 'openie', 'dygiepp'}","{'3023667994', '2943885981', '2974528752'}",Task,Task,,,,1,1,1,0,1
+information extraction,skos:broader/is/hyponym-of,text min ing technique,1,{'dygiepp'},{'2561000172'},Task,Method,,1,,0,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,text mining,13,{'openie'},"{'3101800139', '3130845557', '2953308095', '3037448128', '2974604908', '2990343759', '2317515691', '2481108291', '2158545823', '2887358545', '2304833867', '3087558253', '1988016385'}",Task,Task,,,,1,1,1,0,1
+information extraction,uses,twitter data set,1,{'pos tagger'},{'2578164057'},Task,Material,,,,1,1,1,1,1
+information extraction,produces,unfaithful triple,1,{'openie'},{'3084874487'},Task,OtherEntity,1,,,0,0,0,1,0
+information extraction,extracts,unstructured data,8,"{'pos tagger', 'openie'}","{'3019660051', '3109484229', '3045635329', '2888645935', '1982912896', '2006477306', '3133932469', '3097917554'}",Task,Material,,,,1,1,1,1,1
+information extraction,identifies,unstructured data,6,{'pos tagger'},"{'2986701177', '2138780451', '3121295082', '2998645681', '2887146967', '1611884111'}",Task,Material,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,unstructured web,1,{'openie'},{'2405968456'},Task,Material,,1,,0,0,0,0,0
+information extraction,matches,user knowledge base,1,{'pos tagger'},{'2407184683'},Task,Material,,1,,0,0,1,0,0
+information extraction,affects,vehicle operation management,1,{'pos tagger'},{'2930130770'},Task,Task,,,,1,0,0,1,0
+information extraction,transfers,vibration signal analysis principal component analysis,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,uses,visually rich document,3,{'dygiepp'},"{'3026092920', '3117356452', '3035089734'}",Task,Material,,,,1,1,1,1,1
+information extraction,produces,volume measuring unit,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,voter control problem,,,,Task,Task,,,1,0,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,walk cycle of the walking,1,{'openie'},{'3117733752'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,extracts,web page information,1,{'openie'},{'2880963841'},Task,Material,,,,1,1,1,1,1
+information extraction,uses,whole scene and local region information,,,,Task,OtherEntity,,,1,0,0,1,0,0
+information extraction,uses,wikipedia,2,"{'pos tagger', 'openie', 'dygiepp'}","{'2161494021', '2144189147'}",Task,Material,,,,1,1,1,1,1
+information extraction,includes,word segmentation,3,"{'pos tagger', 'openie'}","{'3038918427', '2392565974', '3141735393'}",Task,Task,,,,1,1,1,0,1
+information extractor,adapts,named entity recognition,1,{'pos tagger'},{'2585772618'},Method,Task,,,,1,0,0,0,0
+information integration,skos:broader/is/hyponym-of,aes microarchitecture,,,,Task,Method,,,1,0,0,0,0,0
+information integration,includes,application window,1,{'openie'},{'2962610487'},Task,OtherEntity,1,,,0,0,0,0,0
+information integration,skos:broader/is/hyponym-of,asset management system method,1,{'dygiepp'},{'85680114'},Task,Method,,1,,0,0,0,0,0
+information integration,links,classification of twin,,,,Task,Task,,,1,0,0,0,0,0
+information integration,links,cloud computing processing platform module,1,{'openie'},{'3086599168'},Task,Method,,,,1,0,0,0,0
+information integration,includes,code pattern,1,{'openie'},{'2602717647'},Task,Method,1,,,0,1,0,0,0
+information integration,based-on,conceptual model,1,{'pos tagger'},{'973281038'},Task,Method,,,,1,1,1,1,1
+information integration,acquires,contention procedure,,,,Task,Method,,,1,0,0,0,0,0
+information integration,produces,contour modeling,,,,Task,Method,,,1,0,0,0,0,0
+information integration,uses,control module1,3,{'openie'},"{'2862777050', '2824583842', '2848130359'}",Task,OtherEntity,,,,1,0,0,0,0
+information integration,skos:broader/is/hyponym-of,digital audio decoding device,1,{'openie'},{'2956800400'},Task,Method,1,,,0,0,0,0,0
+information integration,includes,discriminative object model,,,,Task,Method,,,1,0,0,0,1,0
+information integration,produces,display terminal,1,{'pos tagger'},{'3109233216'},Task,Method,,,,1,0,0,0,0
+information integration,acquires,doubly linkedlist,1,{'openie'},{'2845024982'},Task,OtherEntity,1,,,0,0,1,0,0
+information integration,uses,electrical discharge machining,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2053129926'},Task,Method,,,,1,1,0,0,0
+information integration,produces,extensible canonical model,1,{'openie'},{'2079476352'},Task,Method,,,,1,0,0,0,0
+information integration,uses,extensible canonical model,1,{'dygiepp'},{'2079476352'},Task,Method,,,,1,1,1,1,1
+information integration,guides,guiding ideology,1,{'openie'},{'2836612891'},Task,Method,1,,,0,0,0,0,0
+information integration,uses,heterogeneous source,3,{'dygiepp'},"{'2964217331', '1750263989', '112154255'}",Task,Material,,,,1,1,1,1,1
+information integration,solves,identification way,1,{'pos tagger'},{'2829614203'},Task,Method,,,,1,0,0,0,0
+information integration,includes,information interaction part,3,{'openie'},"{'2831797155', '2872903519', '2862777050'}",Task,Task,,,,1,1,1,0,1
+information integration,uses,interference signal detection system,1,{'dygiepp'},{'3091116868'},Task,Method,1,,,0,0,0,0,0
+information integration,based-on,internet,5,{'pos tagger'},"{'2860328205', '3123864746', '2882455386', '2822139736', '2054319605'}",Task,Material,,,,1,1,1,1,1
+information integration,skos:broader/is/hyponym-of,managing of bridge,1,{'openie'},{'2899001612'},Task,Task,1,,,0,0,0,0,0
+information integration,uses,matching extension set,,,,Task,Task,,,1,0,0,1,0,0
+information integration,uses,materialized view,1,{'dygiepp'},{'2913201029'},Task,Method,1,,,0,1,1,0,1
+information integration,uses,mobile terminal,3,{'openie'},"{'2866333010', '2878866202', '2825888619'}",Task,Method,,,,1,0,0,0,0
+information integration,uses,ontology engineering,10,"{'pos tagger', 'dygiepp'}","{'2954203317', '2900443139', '3009129594', '2147435149', '3106300035', '2913148645', '2803373391', '2058606055', '2908265101', '2075227319'}",Task,Task,,,,1,1,1,1,1
+information integration,skos:broader/is/hyponym-of,optical communication cable,3,{'openie'},"{'2956929389', '2956558192', '2960505619'}",Task,Method,,1,,0,0,0,0,0
+information integration,acquires,patient address,1,{'pos tagger'},{'2849896015'},Task,OtherEntity,1,,,0,1,1,0,1
+information integration,skos:broader/is/hyponym-of,personal account information,1,{'openie'},{'2825920928'},Task,OtherEntity,,1,,0,0,0,0,0
+information integration,produces,resource information,1,{'openie'},{'2878176273'},Task,Material,,,,1,0,1,1,1
+information integration,skos:broader/is/hyponym-of,road panoramic imaging,1,{'pos tagger'},{'3131511890'},Task,Material,1,,,0,0,0,0,0
+information integration,based-on,saas based platform,1,{'pos tagger'},{'2834092490'},Task,Method,,,,1,0,0,0,0
+information integration,uses,semantic similarity computing method,1,{'dygiepp'},{'166920349'},Task,Method,,,,1,1,1,1,1
+information integration,uses,semantics,6,{'dygiepp'},"{'2004541738', '2034084742', '2017805469', '1995906628', '2008030340', '2355219450'}",Task,Method,,,,1,1,1,1,1
+information integration,provides,sensor,1,{'openie'},{'1499203018'},Task,Method,,,,1,0,0,0,0
+information integration,improves,sequences of rgb d image,,,,Task,Material,,,1,0,0,0,0,0
+information integration,transfers,service management,1,{'openie'},{'3072046678'},Task,Task,,,,1,0,0,0,0
+information integration,uses,small isolated component,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information integration,includes,superior unit system,1,{'dependency tagger'},{'2870503317'},Task,Method,1,,,0,0,0,0,0
+information integration,identifies,time point confirming facility server,,,,Task,Method,,,1,0,0,0,0,0
+information integration,skos:broader/is/hyponym-of,tvm unit,1,{'openie'},{'2840166935'},Task,OtherEntity,1,,,0,0,0,0,0
+information integration,provides,uniform access interface,1,{'pos tagger'},{'2037023293'},Task,Method,,,,1,1,1,0,1
+information retrieval,uses,cross-language information retrieval,1,{'dygiepp'},{'2900978125'},Task,Task,,,,1,1,1,1,1
+information retrieval,uses,document clustering,5,"{'pos tagger', 'openie', 'dygiepp'}","{'2126914434', '2032328503', '292551164', '1590884926', '2088006756'}",Task,Task,,,,1,1,1,1,1
+information retrieval based system,executes,information extraction,1,{'pos tagger'},{'2767279317'},Method,Task,,,,1,1,1,1,1
+information system,skos:broader/is/hyponym-of,question answering,1,{'pos tagger'},{'2296024507'},Method,Task,,1,,0,0,0,0,0
+inner page,uses,information integration,1,{'pos tagger'},{'2870806248'},OtherEntity,Task,1,,,0,0,0,0,0
+instrument display part,acquires,information integration,1,{'openie'},{'3026210778'},OtherEntity,Task,1,,,0,0,0,0,0
+intelligent content based retrieval system,provides,image retrieval,1,{'openie'},{'1965940698'},Method,Task,,,,1,1,1,1,1
+intelligent valve device,uses,information integration,1,{'dygiepp'},{'2957923282'},Method,Task,1,,,0,0,0,0,0
+intermediate form,uses,vector space model,1,{'dependency tagger'},{'3127104351'},OtherEntity,Method,1,,,0,1,1,0,1
+interoperation demand,based-on,information integration,1,{'pos tagger'},{'2932346710'},OtherEntity,Task,,,,1,0,0,0,0
+interviewer jon,skos:broader/is/hyponym-of,named entity recognition,1,{'dygiepp'},{'2572667426'},OtherEntity,Task,1,,,0,0,0,0,0
+intuition of result display,improves,image retrieval,1,{'pos tagger'},{'2814240078'},OtherEntity,Task,1,,,0,0,0,0,0
+intuition of result display,uses,image retrieval,1,{'pos tagger'},{'2814240078'},OtherEntity,Task,1,,,0,0,0,0,0
+iqa metric,uses,information extraction,2,"{'dependency tagger', 'openie'}",{'3117102876'},Metric,Task,1,,,0,0,0,1,0
+iterative intra prediction search,based-on,question answering,,,,Method,Task,,,1,0,0,0,0,0
+joint inference based approach,provides,question answering,1,{'pos tagger'},{'3021129795'},Method,Task,,,,1,0,0,0,0
+journalistic brazilian portuguese language,improves,named entity recognition,1,{'dependency tagger'},{'3034417997'},Material,Task,1,,,0,0,0,0,0
+judgement standard,produces,information extraction,1,{'pos tagger'},{'3040099850'},Metric,Task,1,,,0,0,0,0,0
+k means algorithm,skos:broader/is/hyponym-of,document clustering,8,{'openie'},"{'2246726261', '3004795901', '1503841124', '2059369323', '2185994012', '2141251646', '2539676130', '2799839410'}",Method,Task,,1,,0,1,0,0,0
+k means clustering based algorithm,skos:broader/is/hyponym-of,document clustering,1,{'openie'},{'2544556864'},Method,Task,,1,,0,1,0,0,0
+kansei retrieval system,uses,image retrieval,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2005262776'},Method,Task,,,,1,1,1,1,1
+key express delivery information,acquires,information extraction,1,{'pos tagger'},{'2848571878'},OtherEntity,Task,1,,,0,0,0,0,0
+knowledge base,provides,question answering,3,"{'pos tagger', 'openie'}","{'3102859667', '3084836829', '3092874910'}",Material,Task,,1,,0,1,0,1,1
+knowledge construction,includes,information extraction,1,"{'pos tagger', 'openie'}",{'3124136978'},Task,Task,,,,1,1,1,1,1
+knowledge graph,identifies,named entity recognition,1,{'openie'},{'2830640352'},Material,Task,,1,,0,0,0,0,0
+label marking method,acquires,named entity recognition,1,{'openie'},{'3130182347'},Method,Task,,,,1,0,0,0,0
+labeled text,uses,named entity recognition,1,{'pos tagger'},{'3118885721'},Material,Task,,1,,0,0,0,0,0
+large scale document collection,uses,vector space model,1,{'dygiepp'},{'2378592103'},Material,Method,,1,,0,0,0,0,0
+large scale text database,uses,named entity recognition,1,{'pos tagger'},{'2294497022'},Material,Task,,1,,0,0,0,0,0
+learning learning algorithm,executes,information extraction,1,{'openie'},{'2129714350'},Method,Task,,,,1,0,0,0,0
+lgp query,uses,vector space model,,,,OtherEntity,Method,,,1,0,0,1,0,0
+lifestyle collection apparatus,acquires,information extraction,1,{'openie'},{'2761381374'},Method,Task,1,,,0,0,0,0,0
+linguistic semantic term,uses,image retrieval,1,{'pos tagger'},{'2760075212'},OtherEntity,Task,,1,,0,0,0,0,0
+liquid crystal touch screen,includes,information integration,1,{'openie'},{'2864378509'},Method,Task,,,,1,0,0,0,0
+low cost comparators,uses,vector space model,,,,Method,Method,,,1,0,0,0,0,0
+low delay time,improves,information extraction,1,{'openie'},{'2933149722'},OtherEntity,Task,1,,,0,0,0,0,0
+low feature layer,executes,image retrieval,1,{'openie'},{'2879365663'},OtherEntity,Task,,1,,0,0,0,0,0
+mac protocol,based-on,information dissemination,1,"{'pos tagger', 'openie'}",{'2811018434'},Method,Task,,,,1,0,0,0,0
+machine learning technique s,transfers,information extraction,3,{'pos tagger'},"{'2989688381', '2956237160', '2167538453'}",Method,Task,,,,1,0,0,0,0
+main working pit,includes,information extraction,1,{'openie'},{'2929207395'},OtherEntity,Task,1,,,0,0,0,0,0
+mann,skos:broader/is/hyponym-of,question answering,2,{'openie'},"{'3036615999', '3132023005'}",Method,Task,,1,,0,0,0,0,0
+mantics of business vocabulary,uses,information extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+manufacturing execution system,analyzes,information extraction,2,"{'pos tagger', 'dependency tagger'}",{'3010566484'},Method,Task,1,,,0,1,0,0,0
+mathematical modeling,skos:broader/is/hyponym-of,information dissemination,1,{'pos tagger'},{'2004325073'},Method,Task,1,,,0,0,0,0,0
+matlab,produces,image retrieval,1,{'pos tagger'},{'3023532708'},Material,Task,,1,,0,0,0,0,0
+maximum degree,skos:broader/is/hyponym-of,image retrieval,1,{'openie'},{'2029050255'},OtherEntity,Task,,1,,0,0,0,0,0
+measurement center unit,learns,named entity recognition,,,,Method,Task,,,1,0,0,0,0,0
+measuring and verifying method,analyzes,named entity recognition,,,,Method,Task,,,1,0,0,0,0,0
+mention detection,skos:broader/is/hyponym-of,named entity recognition,1,{'dygiepp'},{'2251872110'},Task,Task,,,,1,0,1,1,1
+mexican paper currency,includes,question answering,,,,Material,Task,,,1,0,0,0,0,0
+mmp technique,skos:broader/is/hyponym-of,image retrieval,1,{'pos tagger'},{'2317349882'},Method,Task,,1,,0,0,0,0,0
+mobile online social network,uses,information dissemination,2,{'dygiepp'},"{'2799546408', '2346140417'}",Material,Task,,1,,0,1,0,0,0
+monocular camera image,uses,image retrieval,1,{'dygiepp'},{'2909431709'},Material,Task,1,,,0,1,0,0,0
+mood affective disorder,uses,text processing,1,{'dygiepp'},{'2283096282'},OtherEntity,Task,,1,,0,0,0,0,0
+moodo,supports,music information retrieval,1,{'pos tagger'},{'2622139206'},OtherEntity,Task,,,,1,1,1,0,1
+mosns,includes,information dissemination,1,{'dygiepp'},{'2094368035'},Method,Task,1,,,0,1,1,0,1
+moving-object detection,skos:broader/is/hyponym-of,information extraction,5,"{'pos tagger', 'openie', 'dygiepp'}","{'2046553043', '2100266659', '2017752634', '2002469135', '77386514'}",Task,Task,,,,1,1,1,0,1
+multi metric,skos:broader/is/hyponym-of,information extraction,1,{'openie'},{'2964472696'},Metric,Task,,1,,0,0,0,0,0
+multi round authentication protocol,solves,question answering,,,,Method,Task,,,1,0,0,0,0,0
+multi strategy fused method,identifies,named entity recognition,1,{'pos tagger'},{'2835058563'},Method,Task,,,,1,0,0,0,0
+multichannel bio signal monitoring,acquires,information extraction,,,,Task,Task,,,1,0,0,0,0,0
+multiple keywords annotation,based-on,image retrieval,1,{'pos tagger'},{'2030435666'},Task,Task,1,,,0,1,0,0,0
+multiplicity of a human action,produces,image retrieval,,,,OtherEntity,Task,,,1,0,0,0,0,0
+music information retrieval,uses,deep convolutional neural networks cnns,1,{'dygiepp'},{'2461724944'},Task,Method,,,,1,1,1,1,1
+music information retrieval,acquires,image pixel standarddeviation,,,,Task,OtherEntity,,,1,0,0,0,0,0
+music information retrieval,skos:broader/is/hyponym-of,library,1,{'openie'},{'1984457875'},Task,Material,,1,,0,0,0,0,0
+music information retrieval,includes,lowlevel feature,1,{'dygiepp'},{'841503396'},Task,OtherEntity,1,,,0,0,1,0,0
+music information retrieval,skos:broader/is/hyponym-of,multi modality of music,1,{'pos tagger'},{'3044048893'},Task,OtherEntity,,1,,0,0,0,0,0
+music information retrieval,based-on,rgas,1,{'pos tagger'},{'2169081556'},Task,Method,1,,,0,0,0,0,0
+music information retrieval,produces,rgas,1,{'pos tagger'},{'2169081556'},Task,Method,1,,,0,0,0,0,0
+mwetoolkit,skos:broader/is/hyponym-of,information extraction,1,{'openie'},{'162154816'},Method,Task,,1,,0,1,0,0,0
+named entity recognition,uses,accessing communication contact,,,,Task,Task,,,1,0,0,0,0,0
+named entity recognition,links,activemotion mechanism,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,identifies,automatic small workpiece assembling device,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,provides,axiomatic relation,1,{'openie'},{'2501142505'},Task,OtherEntity,1,,,0,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,biomedical information extraction pipeline,2,"{'pos tagger', 'openie', 'dygiepp'}","{'3125468681', '3049032230'}",Task,Task,,,,1,0,0,0,0
+named entity recognition,includes,biomedical natural language processing tool,1,{'pos tagger'},{'2890092733'},Task,Method,,,,1,0,1,0,0
+named entity recognition,includes,chinese emrs,1,{'dygiepp'},{'3134923914'},Task,Material,1,,,0,0,1,0,0
+named entity recognition,uses,chinese medicine electronic medical record,7,{'dygiepp'},"{'2990581393', '2997170098', '2980497156', '3027634455', '3017117251', '2772350809', '2939294732'}",Task,Material,,,,1,0,1,0,0
+named entity recognition,acquires,codeword de scramble circuit,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,executes,connective concrete component,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,uses,consulting text,1,{'dygiepp'},{'3121187996'},Task,Material,1,,,0,0,1,0,0
+named entity recognition,uses,crf,7,"{'pos tagger', 'openie', 'dygiepp'}","{'2960436860', '2932736733', '3087971241', '1971611360', '2970957030', '2796831711', '2251791503'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,uses,crfs,7,"{'pos tagger', 'openie', 'dygiepp'}","{'2151982765', '2116234713', '2167639365', '1999854424', '2062502130', '2899863948', '2515403501'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,data mining,3,{'openie'},"{'3028605349', '3046929991', '2988038707'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,links,dbpedia,4,"{'pos tagger', 'openie'}","{'2030432398', '3086986628', '3108011963', '2169634223'}",Task,Material,,,,1,1,1,1,1
+named entity recognition,uses,deep learning,16,"{'pos tagger', 'openie', 'dygiepp'}","{'2896063557', '3081782040', '2890830728', '2934467856', '2942768244', '3004203327', '2767986536', '3131988365', '3109959183', '3087971241', '2954075147', '2398489001', '2797206252', '2908003533', '2963571188', '3105491236'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,dining recommendation system,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,uses,distance metric weight vector,,,,Task,OtherEntity,,,1,0,0,1,1,1
+named entity recognition,uses,distant supervision,2,"{'pos tagger', 'openie', 'dygiepp'}","{'3137974897', '2320330899'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,downstream application task,8,{'dygiepp'},"{'3131876261', '3100913109', '3118423939', '3030175377', '3123909979', '3117706152', '3147792899', '3036079519'}",Task,Task,,,,1,1,1,0,1
+named entity recognition,skos:broader/is/hyponym-of,downstream web application,5,{'dygiepp'},"{'3091521184', '3094588044', '2772199666', '2152626552', '2296725598'}",Task,Task,,,,1,0,1,0,0
+named entity recognition,uses,dynamic mec system,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,uses,dynamic transfer learning,3,{'dygiepp'},"{'2968988576', '3004349829', '2904157398'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,learns,efficiency testing system,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,uses,ensemble learning,4,"{'pos tagger', 'dygiepp'}","{'2780436142', '1659724737', '3091806913', '3014343990'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,links,entity linking el technique,4,"{'pos tagger', 'openie'}","{'2610866435', '2375328693', '2907836904', '2766347905'}",Task,Method,,,,1,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,extracting information,3,"{'pos tagger', 'openie'}","{'156843572', '1538632262', '3129089344'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,uses,failure related data,,,,Task,Material,,,1,0,0,0,0,0
+named entity recognition,uses,flow rate unfairness,,,,Task,OtherEntity,,,1,0,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,foreign language,1,{'openie'},{'2601271652'},Task,Material,,1,,0,0,0,0,0
+named entity recognition,uses,functional neuroimaging study,1,{'dygiepp'},{'3005086664'},Task,Task,1,,,0,0,0,0,0
+named entity recognition,uses,gazetteer method,2,"{'pos tagger', 'openie', 'dygiepp'}","{'2181307153', '2127587034'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,adapts,georeferenced timestamped event,,,,Task,OtherEntity,,,1,0,0,0,0,0
+named entity recognition,lacks,goat house door structure,,,,Task,OtherEntity,,,1,0,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,handwritten and printed text document,1,"{'pos tagger', 'openie'}",{'2277080116'},Task,Material,,1,,0,0,0,0,0
+named entity recognition,uses,heuristic depth first search strategy,,,,Task,Method,,,1,0,0,0,1,0
+named entity recognition,uses,hidden markov model hmm model,5,"{'pos tagger', 'openie', 'dygiepp'}","{'2974174912', '2330149175', '2125722315', '2516963103', '2927062526'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,links,historical multilingual document,1,{'pos tagger'},{'3096186608'},Task,Material,,,,1,0,1,0,0
+named entity recognition,produces,http based call,1,{'openie'},{'2121652122'},Task,OtherEntity,,,,1,0,0,0,0
+named entity recognition,uses,hybrid kind of approach,12,"{'pos tagger', 'openie', 'dygiepp'}","{'2548286085', '2966515168', '1973948817', '2767691613', '2936273339', '2175108069', '2183428951', '2031689927', '2181307153', '1834784352', '3134968670', '1574686393'}",Task,Method,,,,1,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,identification of named entity,3,"{'pos tagger', 'openie'}","{'2211396092', '3117829624', '2744058816'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,uses,imzm,,,,Task,OtherEntity,,,1,0,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,information extraction,68,"{'pos tagger', 'openie', 'dygiepp'}","{'2762444032', '2997712488', '3137156863', '2543715743', '2277628282', '2138780451', '2965954845', '2887146967', '3094453005', '2950021574', '2552777407', '2328564851', '2886890203', '90413002', '1666916593', '63270953', '2914453913', '2603433898', '3128358461', '1975568626', '2065963191', '2906351693', '2030432398', '1611884111', '2913498662', '2766140847', '2171646645', '2125738120', '2033130237', '2538917397', '3039701275', '2906959742', '1599375171', '2251972040', '2959570648', '2805530665', '3022769014', '3049032230', '2031689927', '2792493578', '2978339802', '2979177436', '2535910043', '2611268543', '3118324154', '2150052627', '2968187429', '2739697101', '2167818478', '2791374870', '3026908503', '2543306797', '3130627527', '2338846265', '2390320906', '2998802242', '2963991911', '2293492862', '2978680749', '2810736514', '1992593537', '2627061452', '2088212442', '2511874079', '3114344612', '2059387088', '3005086664', '3011940529'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,uses,information extraction,3,{'pos tagger'},"{'2515569237', '2611268543', '1589860903'}",Task,Task,,,,1,1,1,0,1
+named entity recognition,skos:broader/is/hyponym-of,information extraction task,23,"{'pos tagger', 'openie', 'dygiepp'}","{'2952844669', '3036314269', '2294299958', '2993873509', '2984582583', '2515406546', '2251972040', '2972140869', '3071625105', '3081965855', '2998802242', '3010660934', '2290644410', '2406932913', '2112667785', '2393502053', '2890494294', '181115465', '2782481906', '2887146967', '2612259802', '2095807514', '3136915866'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,information extraction technique approach,6,{'dygiepp'},"{'2737631354', '2673185019', '2575327185', '3014297634', '3094889138', '2986445180'}",Task,Method,,1,,0,1,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,information retrieval based solution,3,{'dygiepp'},"{'3045376557', '1571749520', '3096800198'}",Task,Task,,,,1,1,1,0,1
+named entity recognition,produces,inspection requirement,,,,Task,OtherEntity,,,1,0,0,0,0,0
+named entity recognition,uses,intelligent device server side,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,uses,joint structure model,4,"{'pos tagger', 'dygiepp'}","{'3141108820', '2120718680', '2899519413', '2126176114'}",Task,Method,,,,1,0,0,0,0
+named entity recognition,uses,knowledge base,7,"{'pos tagger', 'dygiepp'}","{'2941280594', '2484387229', '2294299958', '2546538024', '2091856877', '2574995332', '1993715838'}",Task,Material,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,labeled data,1,{'openie'},{'2978386984'},Task,Material,,1,,0,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,language understanding pipeline,1,"{'pos tagger', 'openie', 'dygiepp'}",{'3015747967'},Task,Task,,,,1,1,1,0,1
+named entity recognition,uses,latin text,1,{'dygiepp'},{'2552307687'},Task,Material,,,,1,0,1,0,0
+named entity recognition,uses,lexical resource,1,{'dygiepp'},{'90483952'},Task,Material,,,,1,1,1,1,1
+named entity recognition,uses,luis,1,{'dygiepp'},{'3124710498'},Task,Method,1,,,0,1,1,0,1
+named entity recognition,based-on,machine learning,8,{'pos tagger'},"{'2907888788', '169709111', '2959570648', '3017105460', '2955608151', '2125184362', '2966450535', '1574686393'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,uses,margin infused relaxed algorithm,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2101070712'},Task,Method,,,,1,1,1,1,1
+named entity recognition,uses,markov model,7,{'pos tagger'},"{'2974174912', '2758692100', '2330149175', '3010660934', '2516963103', '2927062526', '2181307153'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,processes,medical database,1,{'pos tagger'},{'2851763234'},Task,Material,,,,1,1,1,1,1
+named entity recognition,analyzes,message classification method,1,{'pos tagger'},{'2621908437'},Task,Method,,,,1,0,0,0,0
+named entity recognition,uses,multi camera vehicle tracking system,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,uses,multi layer neural network,1,{'dygiepp'},{'2885801944'},Task,Method,,,,1,1,1,1,1
+named entity recognition,uses,multi source projection,1,{'dygiepp'},{'2911748720'},Task,Method,1,,,0,1,1,0,1
+named entity recognition,uses,named entity dictionary,3,{'pos tagger'},"{'2948939761', '2267760532', '2953010755'}",Task,Material,,,,1,1,1,1,1
+named entity recognition,uses,named entity recognition model,5,"{'pos tagger', 'openie', 'dygiepp'}","{'2960436860', '2867785705', '2871394264', '2928466595', '3148679613'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,produces,native indic script,1,{'openie'},{'2280304445'},Task,Material,,,,1,0,0,0,0
+named entity recognition,includes,natural language processing,5,"{'pos tagger', 'openie'}","{'2492098043', '2890092733', '2995025791', '2515278954', '2047503168'}",Task,Task,,,,1,1,1,0,1
+named entity recognition,skos:broader/is/hyponym-of,natural language processing,150,"{'pos tagger', 'openie', 'dygiepp'}","{'3036779180', '2968642136', '1607093392', '3100463027', '2921532028', '3093291461', '1574686393', '2386513761', '3008032651', '1546091065', '2047503168', '3106756765', '2442408233', '2246181217', '2971461915', '3024604895', '2492098043', '3080906831', '2890459330', '2886890203', '2977494239', '3010362629', '2890092733', '3005810250', '2752413620', '3114743814', '1982611008', '2947417049', '3002226419', '3117359250', '3134194621', '3004177491', '3041329704', '2911871734', '2784047400', '2974511542', '2902330411', '3030463529', '2905014578', '2766653166', '2887734252', '3141108820', '2792365648', '2921291646', '3035375600', '2998456908', '2123556395', '382051402', '3085416163', '2950152125', '3133650953', '3094033436', '2756655578', '3022769014', '3118300859', '2868115306', '2031689927', '2950953300', '2385575877', '3101778449', '3118324154', '3012193977', '3112956112', '2028854421', '5053386', '3022951814', '2027233318', '2767546521', '3035313396', '3111946788', '3107540134', '3098957435', '2921362618', '3091855267', '2330149175', '2972560455', '3003390203', '3015202382', '3101188882', '2137715029', '3005508737', '2331015133', '2181626422', '2964263551', '1512342840', '2966523563', '3127786201', '3108888089', '3000434652', '3017774323', '1551194573', '2808791064', '2989705303', '2078793151', '2404235285', '2963571583', '3007330368', '2964921096', '3097538547', '216536535', '2894420350', '2328564851', '3098727690', '2926424521', '3047727388', '2768542007', '3030936646', '2972981634', '2973965787', '3107803095', '3129754801', '3100530666', '2621151902', '2251276420', '3092388262', '3103482647', '2278147439', '3126661169', '3102570635', '3119998341', '3043081418', '3106957986', '2182929382', '3120351512', '3011177673', '3121295082', '2116802742', '2428638475', '2950069662', '3013836620', '2927144794', '3023079025', '2969219174', '2252129976', '2945508466', '3027012100', '3128396803', '3026908503', '2144204733', '2287770975', '2338846265', '2774107247', '2773616286', '2991463832', '2927062526', '2888074204', '2974513909', '3120454926', '2912691650', '1997366914'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,natural language processing related task,44,"{'pos tagger', 'openie', 'dygiepp'}","{'2132679456', '3100463027', '2736885633', '2999714789', '2043462429', '3012110710', '2965686691', '2549624289', '3019581400', '3094033436', '3122978153', '69953359', '2977766602', '3118300859', '2963756980', '1616894285', '3133665323', '1993729825', '2945508466', '3030936646', '2970166416', '1780228234', '3005810250', '2976444281', '3117706152', '2883921205', '3023594400', '3117359250', '2785987271', '2196604737', '2974511542', '2899671575', '2991463832', '2888074204', '3132926797', '3030463529', '61303690', '2795453480', '231299204', '2278147439', '3003390203', '2158899491', '2766653166', '2945564149'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,analyzes,ner technique,3,{'pos tagger'},"{'2963354094', '2807141747', '3093493237'}",Task,Method,,,,1,1,1,0,1
+named entity recognition,based-on,neural network,5,{'pos tagger'},"{'3085134351', '2805530665', '2956658766', '2969113099', '2804669368'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,proposes,neural network,3,{'pos tagger'},"{'2772350809', '3104443513', '2943064529'}",Task,Method,,,,1,1,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,nlp based application,14,"{'pos tagger', 'openie', 'dygiepp'}","{'2184786793', '2911658506', '2981397618', '3028824622', '2338087314', '3003272832', '2739942377', '3005700669', '3022941286', '2857028992', '3015210400', '3025149240', '2995533411', '3034257552'}",Task,Task,,,,1,1,1,0,1
+named entity recognition,skos:broader/is/hyponym-of,nlp task,53,"{'pos tagger', 'openie', 'dygiepp'}","{'2115791615', '3087772232', '3084540456', '3006361297', '3012110710', '2922940586', '2757933620', '3037682062', '2252168718', '3098749165', '3005972702', '3092111011', '3113662116', '2174372777', '2469900699', '3016381579', '2208080467', '2573492843', '1797002712', '2803728898', '3020224787', '3097438085', '121743440', '3120172148', '3097231367', '3114989016', '3045654902', '3115909759', '3027117188', '2739459860', '3101058639', '2923290299', '2995230342', '2886100554', '2951143739', '3089628516', '2807614063', '2295584157', '3080175947', '3128551234', '3134194621', '2945355545', '2028419553', '3033865850', '3101486370', '2970065520', '2995015695', '3082973815', '2887584483', '2988727696', '2946606955', '746030985', '3043399508'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,nlp technologyto,1,"{'pos tagger', 'dygiepp'}",{'2887365331'},Task,Method,,1,,0,1,0,0,0
+named entity recognition,includes,noisy domain,1,{'dygiepp'},{'2931984161'},Task,Material,,,,1,1,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,oov term,1,{'dygiepp'},{'2198517985'},Task,Material,,1,,0,0,0,0,0
+named entity recognition,uses,outdoor target positioning,,,,Task,Task,,,1,0,0,0,0,0
+named entity recognition,uses,pointer generator approach,1,"{'pos tagger', 'openie', 'dygiepp'}",{'3117829624'},Task,Method,,,,1,1,1,0,1
+named entity recognition,skos:broader/is/hyponym-of,proper noun,1,{'pos tagger'},{'2590599429'},Task,OtherEntity,,1,,0,0,0,0,0
+named entity recognition,uses,pt4cloud,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,uses,recurrent neural network,8,"{'pos tagger', 'openie', 'dygiepp'}","{'2793765660', '2957081657', '2603433898', '2587034460', '2904867915', '2931252866', '2887734252', '2762995374'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,classifies,reference parsing,2,{'pos tagger'},"{'3023484593', '3096005429'}",Task,Task,,,,1,1,1,0,1
+named entity recognition,skos:broader/is/hyponym-of,relation classification approach,1,{'openie'},{'2570426407'},Task,Method,,1,,0,1,0,0,0
+named entity recognition,uses,resourcepoor language,1,{'dygiepp'},{'2528105143'},Task,Material,,,,1,0,0,0,0
+named entity recognition,uses,rules of part of speech,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2994380126'},Task,OtherEntity,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,semantic category,1,{'dygiepp'},{'2793567354'},Task,Material,,1,,0,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,semantic tag lexicon,3,{'pos tagger'},"{'1988755496', '1516089904', '1452625395'}",Task,OtherEntity,,1,,0,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,sequence labeling problem,4,"{'pos tagger', 'dygiepp'}","{'2969566623', '1989517911', '2921532028', '2896155826'}",Task,Task,,,,1,1,0,0,0
+named entity recognition,solves,silicon valley company,2,"{'pos tagger', 'dependency tagger'}",{'2188905305'},Task,Material,1,,,0,0,1,0,0
+named entity recognition,uses,spanish summaries of product characteristic,1,{'dygiepp'},{'2626761403'},Task,Material,1,,,0,0,0,0,0
+named entity recognition,uses,t bilstm crf,4,"{'pos tagger', 'openie', 'dygiepp'}","{'2800535933', '2970212434', '2999714789', '3031247127'}",Task,Method,,,,1,1,1,0,1
+named entity recognition,includes,task example,3,{'openie'},"{'2949759300', '2535910043', '3121196804'}",Task,Material,,,,1,0,0,0,0
+named entity recognition,uses,tem,1,{'dygiepp'},{'2087458392'},Task,Method,1,,,0,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,text mining workflow,1,{'dygiepp'},{'2593341166'},Task,Method,,1,,0,1,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,text processing,5,{'openie'},"{'2116093010', '3035759908', '2770069736', '2027233318', '3128396803'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,links,tweet,4,"{'pos tagger', 'openie'}","{'3016001968', '2602535590', '2604470859', '2143933463'}",Task,Material,,,,1,1,1,0,1
+named entity recognition,uses,tweet,2,{'dygiepp'},"{'2515117254', '2186300346'}",Task,Material,,,,1,1,1,1,1
+named entity recognition,acquires,ultra high speed flash signal acquisition,,,,Task,Task,,,1,0,0,0,0,0
+named entity recognition,uses,vote based classifier ensemble technique,2,"{'pos tagger', 'dygiepp'}","{'1871311716', '1997157351'}",Task,Method,,,,1,1,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,web temperature,,,,Task,OtherEntity,,,1,0,0,0,0,0
+named entity recognition,uses,zd6 goat current monitoring circuit,,,,Task,Method,,,1,0,0,0,0,0
+natural grouping structure,uses,document clustering,1,{'dygiepp'},{'2145725307'},OtherEntity,Task,,1,,0,1,0,0,0
+natural language processing,uses,information extraction,7,"{'pos tagger', 'openie', 'dygiepp'}","{'2934951753', '2586308394', '3138801416', '2146637573', '2967743594', '2970885630', '3029951024'}",Task,Task,,,,1,1,1,1,1
+natural language processing,identifies,named entity recognition,7,"{'pos tagger', 'openie'}","{'2396240270', '2942593194', '3012110710', '2991463832', '2836062537', '2338846265', '3043081418'}",Task,Task,,,,1,1,0,0,0
+natural language text description,skos:broader/is/hyponym-of,named entity recognition,1,{'pos tagger'},{'2310285319'},Material,Task,,1,,0,0,0,0,0
+near associative memory,solves,document clustering,,,,OtherEntity,Task,,,1,0,0,0,0,0
+neural network,improves,document clustering,1,{'openie'},{'3046994506'},Method,Task,,,,1,1,1,1,1
+neural network,based-on,image retrieval,4,"{'pos tagger', 'openie'}","{'2023392737', '3082996359', '3044735234', '2896090233'}",Method,Task,,,,1,0,0,0,0
+neural network,acquires,named entity recognition,4,"{'pos tagger', 'openie'}","{'2804669368', '2963979075', '2963571188', '2797206252'}",Method,Task,,,,1,1,0,1,1
+news article,annotates,named entity recognition,1,{'pos tagger'},{'2428638475'},Material,Task,,1,,0,0,0,0,0
+news event information induction method,analyzes,image retrieval,,,,Method,Task,,,1,0,0,0,0,0
+news event report,includes,named entity recognition,2,"{'pos tagger', 'openie'}","{'3031727996', '2991272886'}",Material,Task,,1,,0,0,0,0,0
+niu master,uses,named entity recognition,,,,OtherEntity,Task,,,1,0,0,0,0,0
+nlpcc 2017 shared task,analyzes,information extraction,1,{'pos tagger'},{'3091879959'},Task,Task,1,,,0,1,1,1,1
+noise in answer,extracts,image retrieval,1,{'pos tagger'},{'2588705611'},OtherEntity,Task,,1,,0,0,0,0,0
+normalized cylindrical value,skos:broader/is/hyponym-of,information extraction,1,{'openie'},{'3085242347'},OtherEntity,Task,1,,,0,0,0,0,0
+nosql data resource,extracts,named entity recognition,,,,Material,Task,,,1,0,0,0,0,0
+notion of named object,supports,information dissemination,1,{'openie'},{'2735293832'},OtherEntity,Task,1,,,0,0,0,0,0
+noun compound detection,skos:broader/is/hyponym-of,named entity recognition,1,{'openie'},{'2252245846'},Task,Task,,,,1,1,1,1,1
+ocaml preprocessor,based-on,question answering,,,,Method,Task,,,1,0,0,0,0,0
+oil discharge device,skos:broader/is/hyponym-of,named entity recognition,,,,Method,Task,,,1,0,0,0,0,0
+ontology driven framework,improves,vector space model,1,{'pos tagger'},{'2011380727'},Method,Method,,,,1,1,1,1,1
+ontology engineering,improves,information extraction,4,"{'pos tagger', 'openie'}","{'1991818091', '2395435768', '2904976787', '2905517906'}",Task,Task,,,,1,1,1,1,1
+ontology engineering,uses,information extraction,5,"{'pos tagger', 'openie'}","{'2251878275', '3012421432', '2494139174', '2989609782', '2515780332'}",Task,Task,,,,1,1,1,1,1
+open information extraction technique,skos:broader/is/hyponym-of,information extraction,6,{'openie'},"{'2889916531', '95553785', '2369351710', '2273897543', '2205392349', '2884458692'}",Method,Task,,1,,0,1,0,1,1
+optically transparent reflectarray,manages,document clustering,,,,OtherEntity,Task,,,1,0,0,0,0,0
+ouroboros,acquires,information dissemination,,,,Method,Task,,,1,0,1,1,1,1
+overlapping of entity,skos:broader/is/hyponym-of,named entity recognition,1,{'pos tagger'},{'2948909602'},OtherEntity,Task,,1,,0,0,0,0,0
+page swap out rate,includes,information integration,,,,OtherEntity,Task,,,1,0,0,0,0,0
+passive receiver detection,proposes,named entity recognition,,,,Method,Task,,,1,0,0,0,0,0
+performance information storage unit,provides,information extraction,2,"{'pos tagger', 'openie'}","{'2866649915', '2875248917'}",OtherEntity,Task,,1,,0,0,1,0,0
+person name,skos:broader/is/hyponym-of,named entity recognition,12,"{'dygiepp', 'openie'}","{'2826540309', '2012796775', '2768542007', '2600142848', '2612200651', '2970671861', '2092973123', '2025763381', '2974513909', '2005736734', '2740014256', '3111512936'}",Metric,Task,,1,,0,0,0,0,0
+persons name,skos:broader/is/hyponym-of,named entity recognition,1,{'dygiepp'},{'2008347746'},Material,Task,,1,,0,0,0,0,0
+perturb and observer algorithm,supports,question answering,,,,Method,Task,,,1,0,0,0,0,0
+photoelectric material level transmitting device,based-on,information integration,,,,Method,Task,,,1,0,0,0,0,0
+physical and virtual resource,produces,information integration,,,,Material,Task,,,1,0,0,0,0,0
+physical memory,skos:broader/is/hyponym-of,text processing,1,{'openie'},{'2052290157'},OtherEntity,Task,,1,,0,0,0,0,0
+player player,skos:broader/is/hyponym-of,question answering,1,{'openie'},{'2953096530'},OtherEntity,Task,,1,,0,0,0,0,0
+plis,skos:broader/is/hyponym-of,text processing,1,{'openie'},{'2114385619'},Method,Task,,1,,0,1,0,1,1
+plurality of source computing device,skos:broader/is/hyponym-of,vector space model,,,,OtherEntity,Method,,,1,0,0,0,0,0
+power mechanism 1,transfers,information extraction,1,{'openie'},{'2975676556'},Method,Task,1,,,0,0,0,0,0
+ppirs,acquires,image retrieval,2,"{'dependency tagger', 'openie'}",{'3125896879'},Method,Task,1,,,0,1,0,1,1
+predicate encryption pe scheme,uses,vector space model,1,{'dygiepp'},{'2802684278'},Method,Method,1,,,0,0,0,0,0
+premature ventricular contraction classification,includes,information extraction,1,{'dependency tagger'},{'2272507021'},Task,Task,1,,,0,1,1,1,1
+preprocessing step,based-on,image retrieval,1,{'pos tagger'},{'473070'},Method,Task,,,,1,1,0,1,1
+priorities of unvisited hyperlink,uses,vector space model,1,{'dygiepp'},{'2037264374'},OtherEntity,Method,1,,,0,0,0,0,0
+product review site,provides,question answering,1,{'pos tagger'},{'2464162172'},Material,Task,,1,,0,1,0,1,1
+project related information,produces,text processing,1,{'openie'},{'3077238217'},OtherEntity,Task,1,,,0,0,0,0,0
+pulmonary computed tomography image,uses,image retrieval,1,{'pos tagger'},{'1987597029'},Material,Task,,1,,0,0,0,0,0
+qa system,acquires,question answering,7,{'openie'},"{'2544176452', '2251102620', '2518513068', '2508653397', '2338640389', '2816623258', '2417302878'}",Method,Task,,,,1,1,0,1,1
+qa system,produces,question answering,7,{'openie'},"{'2753613501', '2261017329', '2798566863', '2354867369', '2959038181', '2339695374', '2734505550'}",Method,Task,,,,1,1,1,1,1
+qa system,provides,question answering,3,{'openie'},"{'2935589551', '2982396310', '2798566863'}",Method,Task,,,,1,1,1,1,1
+qas,skos:broader/is/hyponym-of,question answering,1,{'dygiepp'},{'2296104051'},Method,Task,,1,,0,1,0,0,0
+query expansion,based-on,image retrieval,3,{'pos tagger'},"{'301348785', '2149899758', '3095773643'}",Task,Task,,,,1,1,1,1,1
+query vector data,matches,vector space model,1,{'dygiepp'},{'18629987'},Material,Method,,1,,0,0,0,0,0
+question analysis module,includes,named entity recognition,1,"{'pos tagger', 'openie', 'dygiepp'}",{'3133327968'},Method,Task,,,,1,1,1,1,1
+question answering,matches,ad hoc document retrieval,1,{'dygiepp'},{'2023454998'},Task,Task,,,,1,1,1,0,1
+question answering,uses,anfis tuned statcom,,,,Task,Method,,,1,0,0,0,0,0
+question answering,uses,answer selection part,8,{'dygiepp'},"{'2157700224', '1514986335', '2112729630', '2791730953', '2739600831', '2539338396', '2740203229', '2767857566'}",Task,Task,,,,1,1,1,0,1
+question answering,executes,approximated optimal control trajectory,,,,Task,OtherEntity,,,1,0,0,0,0,0
+question answering,skos:broader/is/hyponym-of,artificial intelligence,7,"{'pos tagger', 'openie', 'dygiepp'}","{'3110924859', '2061495585', '3037368995', '3037980204', '1977439776', '2618191817', '2770007550'}",Task,Method,,1,,0,1,0,0,0
+question answering,skos:broader/is/hyponym-of,asker answerer similarity,1,{'openie'},{'2462114885'},Task,OtherEntity,,1,,0,0,0,0,0
+question answering,uses,automatic paper twisting control function,,,,Task,OtherEntity,,,1,0,0,0,0,0
+question answering,transfers,bootstrapped one,,,,Task,Material,,,1,0,0,0,0,0
+question answering,skos:broader/is/hyponym-of,central processor,1,{'pos tagger'},{'3085978366'},Task,Method,,1,,0,1,0,1,1
+question answering,skos:broader/is/hyponym-of,community based online platform,1,{'dygiepp'},{'2290071532'},Task,Method,1,,,0,0,0,0,0
+question answering,transfers,curated and open web source,3,{'openie'},"{'3083394160', '3018562052', '3102177355'}",Task,Material,,,,1,0,1,0,0
+question answering,based-on,data augmentation,4,{'pos tagger'},"{'3040621094', '3026551734', '3091054524', '3134357716'}",Task,Task,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,data cable communication,1,{'pos tagger'},{'2821514773'},Task,Method,1,,,0,0,0,0,0
+question answering,uses,data dictionary,1,"{'pos tagger', 'dygiepp'}",{'2620760368'},Task,Material,,,,1,1,1,0,1
+question answering,uses,data error correction,1,{'dygiepp'},{'2813826060'},Task,Task,,,,1,1,1,0,1
+question answering,skos:broader/is/hyponym-of,data information domain,1,{'dygiepp'},{'2890724111'},Task,Material,,1,,0,0,0,0,0
+question answering,uses,deep learning model approach,6,{'dygiepp'},"{'2977761974', '2963871484', '2807921968', '2932319663', '2190253607', '2552027021'}",Task,Method,,,,1,1,1,1,1
+question answering,based-on,diease knowledge base,1,{'pos tagger'},{'3096725762'},Task,Material,1,,,0,1,1,1,1
+question answering,skos:broader/is/hyponym-of,downstream web application,10,{'dygiepp'},"{'3111184691', '3030538550', '3120088370', '3021965466', '3006323606', '3035263097', '3099568161', '2983971936', '2777203405', '2990890447'}",Task,Task,,,,1,1,1,1,1
+question answering,uses,dynamic memory networks dmn model,1,{'dygiepp'},{'3005030158'},Task,Method,,,,1,1,1,1,1
+question answering,transfers,education,2,"{'pos tagger', 'openie'}","{'3019914501', '3073303149'}",Task,Task,,,,1,1,1,1,1
+question answering,uses,end to end neural network,2,{'dygiepp'},"{'2899275765', '2771904183'}",Task,Method,,,,1,1,1,1,1
+question answering,includes,entity updating,1,{'dygiepp'},{'3129767929'},Task,Task,,,,1,1,1,1,1
+question answering,includes,evidence retrieval method,3,{'dygiepp'},"{'3126896368', '3034174970', '3021762271'}",Task,Method,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,filled answer,1,{'openie'},{'2993247413'},Task,OtherEntity,,1,,0,0,0,0,0
+question answering,uses,financial incentive mechanism,1,{'openie'},{'2033205624'},Task,Method,1,,,0,1,1,0,1
+question answering,transfers,freebase,3,{'openie'},"{'2797383850', '2444318157', '1981419611'}",Task,Material,,,,1,1,1,0,1
+question answering,skos:broader/is/hyponym-of,high level conceptual activity,1,{'dygiepp'},{'2111200034'},Task,OtherEntity,,1,,0,0,0,0,0
+question answering,skos:broader/is/hyponym-of,human and computer interaction system,1,{'dygiepp'},{'2251427519'},Task,Method,,1,,0,1,0,1,1
+question answering,skos:broader/is/hyponym-of,icu early prediction,,,,Task,Task,,,1,0,0,0,0,0
+question answering,uses,ihr signal,,,,Task,Material,,,1,0,0,0,0,0
+question answering,uses,information retrieval,6,"{'pos tagger', 'openie'}","{'1977806095', '1470108161', '3021677691', '2294618612', '2022978093', '2498816759'}",Task,Task,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,information retrieval based system,2,"{'pos tagger', 'openie'}","{'2083305376', '2890724111'}",Task,Method,,1,,0,1,0,1,1
+question answering,skos:broader/is/hyponym-of,information retrieval related task,3,"{'pos tagger', 'dygiepp'}","{'2892170361', '2954970138', '2494567836'}",Task,Task,,,,1,1,1,1,1
+question answering,uses,information system,3,"{'pos tagger', 'dygiepp'}","{'1991110354', '2293678805', '2013571149'}",Task,Method,,,,1,1,1,1,1
+question answering,transfers,intelligent question answering conversational agent,1,{'openie'},{'2080100411'},Task,Task,,,,1,1,1,0,1
+question answering,based-on,internet,4,{'pos tagger'},"{'2831878929', '2840778380', '2872650624', '2873864831'}",Task,Material,,,,1,1,1,1,1
+question answering,uses,internet of thing,1,{'dygiepp'},{'2988445388'},Task,Task,,,,1,1,1,1,1
+question answering,produces,ivqa task,4,{'openie'},"{'2790248406', '2761886726', '2964065333', '2963051286'}",Task,Task,,,,1,1,1,1,1
+question answering,based-on,kafka service,,,,Task,Method,,,1,0,1,1,0,1
+question answering,based-on,knowledge base,9,"{'pos tagger', 'openie'}","{'3011977706', '2558998260', '3113874598', '1970869898', '3096725762', '3003085033', '3027290037', '594950248', '2961009494'}",Task,Material,,,,1,1,1,1,1
+question answering,improves,knowledge base,3,{'pos tagger'},"{'2119583182', '2886195437', '2132858984'}",Task,Material,,,,1,1,0,0,0
+question answering,uses,knowledge base,36,"{'pos tagger', 'dygiepp'}","{'3033414278', '3090028958', '2896040297', '2963582704', '2965127521', '2941424089', '2507232959', '2942639666', '3100058503', '2876576421', '3003097054', '3009850018', '2337744414', '3094748795', '2962949704', '1576365396', '2969098707', '2403729121', '3102172930', '1970869898', '2875408189', '2979000572', '2767457070', '2087395988', '1984034677', '2864715115', '2973947483', '2522243200', '2409591106', '2132858984', '3022527211', '2000884046', '3093776960', '3089872600', '2759200442', '3145509189'}",Task,Material,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,knowledge based application,8,{'dygiepp'},"{'2902785946', '3081051539', '2975326399', '3007321900', '3104217184', '3017054731', '2970959783', '2963149704'}",Task,Task,,,,1,1,1,1,1
+question answering,based-on,knowledge graph,24,"{'pos tagger', 'openie'}","{'2851634845', '3085711552', '3133327968', '3091422278', '3130902403', '3126594737', '3086405928', '3091528417', '3027160446', '3091054524', '3017899816', '3084730842', '3069288544', '3052758521', '3091555582', '3115913208', '3120289519', '2774249241', '3127547965', '3139248538', '3107622140', '3037646291', '3110033172', '3109038106'}",Task,Material,,,,1,1,1,1,1
+question answering,based-on,knowledge represent of conceptual graph,1,{'pos tagger'},{'80570315'},Task,Method,,,,1,1,1,1,1
+question answering,queries,labor hourcost,,,,Task,Metric,,,1,0,0,0,0,0
+question answering,uses,language model,6,"{'pos tagger', 'openie'}","{'2979300423', '2964026269', '3139524382', '3098394092', '3092534050', '2553325601'}",Task,Method,,,,1,1,1,1,1
+question answering,transfers,linked data,8,{'openie'},"{'2235091959', '186369953', '2915756045', '3022527211', '1992712260', '1966839689', '2949268463', '2178228255'}",Task,Material,,,,1,1,1,1,1
+question answering,matches,logic form,1,{'pos tagger'},{'2161002933'},Task,Metric,,1,,0,0,0,0,0
+question answering,uses,machine learning,9,"{'pos tagger', 'openie', 'dygiepp'}","{'3145544011', '2531470823', '2408493841', '3086408967', '3096863560', '2804581867', '1977806095', '2970196350', '2767060375'}",Task,Method,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,machine learning task,5,"{'pos tagger', 'dygiepp'}","{'2786074862', '2971845506', '3004545252', '3034808703', '3005814241'}",Task,Task,,,,1,1,1,1,1
+question answering,provides,mechanical number drawing,1,{'pos tagger'},{'2933040284'},Task,Task,1,,,0,0,0,0,0
+question answering,transfers,motor boom,,,,Task,OtherEntity,,,1,0,0,0,0,0
+question answering,based-on,multi dimensional typology of games approach,,,,Task,Method,,,1,0,0,0,0,0
+question answering,transfers,named entity recognition,1,{'pos tagger'},{'3028824622'},Task,Task,,,,1,1,1,0,1
+question answering,skos:broader/is/hyponym-of,natural language application,9,{'dygiepp'},"{'2110693483', '2611643989', '3011594683', '3116439311', '2906635035', '3057491204', '3126791079', '2993095866', '2031850347'}",Task,Task,,,,1,1,1,0,1
+question answering,executes,natural language inference nli technique,2,{'pos tagger'},"{'3133049029', '2944928293'}",Task,Method,,,,1,1,1,0,1
+question answering,skos:broader/is/hyponym-of,natural language processing,59,"{'pos tagger', 'openie', 'dygiepp'}","{'3005049267', '2745044774', '2331086175', '3091793370', '2108067159', '3108982874', '2978990807', '2103444514', '3014064593', '3120351512', '2796425401', '3134565026', '3119200132', '3094944767', '2602275733', '2804916561', '1567616047', '3120536465', '3132307546', '3133650953', '2611033010', '2119071713', '2900788776', '2890777131', '2500492323', '2782219874', '2047503168', '2947984200', '2964461230', '3134357716', '2195257698', '2587034523', '3109041045', '2886127559', '1910529161', '2951922096', '2566460254', '2122359339', '2739749670', '3122327573', '130190004', '2596442039', '2725722698', '3039727666', '2969262604', '2251102620', '2755124548', '3081920396', '3041329704', '2593438634', '2995160093', '3129401610', '2964150246', '3107803811', '3006683367', '2610914748', '3019527251', '2970232715', '2251663410'}",Task,Task,,,,1,1,1,1,1
+question answering,transfers,natural language processing,11,"{'pos tagger', 'openie'}","{'2796622769', '2122359339', '3142064846', '2226212998', '3147450229', '2158247229', '1987115791', '2974134141', '2564481580', '2625986524', '2957023843'}",Task,Task,,,,1,1,1,0,1
+question answering,skos:broader/is/hyponym-of,natural language processing nlp platform,8,{'dygiepp'},"{'3110100504', '2936806738', '2963895422', '3084995753', '2062258606', '2900542280', '2277628282', '2892167328'}",Task,Task,,,,1,1,1,0,1
+question answering,skos:broader/is/hyponym-of,natural language processing related application,38,{'dygiepp'},"{'1595815960', '2157213932', '2948006532', '2972297345', '3093514446', '2250597603', '2750754088', '3094944767', '3104681577', '3091386527', '2032776027', '3101613385', '1546091065', '2964624578', '782573738', '2991782047', '2251473216', '2433335439', '2167202928', '2951886923', '2399775109', '2797427942', '2984206076', '2180477104', '61634442', '1968672799', '2092973123', '2014394530', '2947417049', '2508137991', '1806790202', '2553301265', '2998802242', '2145815109', '2091031646', '2283462321', '2945018970', '2587647178'}",Task,Task,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,natural language processing system,1,{'dygiepp'},{'3133090812'},Task,Method,,1,,0,1,0,0,0
+question answering,includes,natural language question,5,{'openie'},"{'3085215198', '2471592632', '3096480766', '3100536164', '2616573207'}",Task,Material,,,,1,1,1,1,1
+question answering,transfers,natural language question,8,"{'pos tagger', 'openie'}","{'3009850018', '2399096156', '3034787499', '2790767126', '2843123862', '3120713311', '2891026113', '2151280665'}",Task,Material,,,,1,0,1,0,0
+question answering,skos:broader/is/hyponym-of,natural language related task,13,{'dygiepp'},"{'2027446389', '2513651200', '2964082993', '3018957889', '3100702833', '2515823378', '3128652081', '2182929382', '3092832233', '2403108302', '2986750176', '2806098878', '2980847631'}",Task,Task,,,,1,1,1,0,1
+question answering,improves,natural language understanding and parsing capacity,1,{'pos tagger'},{'2849370667'},Task,Task,,,,1,1,1,1,1
+question answering,uses,network enabled computer,1,{'dygiepp'},{'2578876506'},Task,OtherEntity,1,,,0,0,1,0,0
+question answering,transfers,neural network,4,"{'pos tagger', 'openie'}","{'2738940115', '2997558244', '2421521595', '2962781483'}",Task,Method,,,,1,1,1,0,1
+question answering,uses,neural network,20,"{'pos tagger', 'openie', 'dygiepp'}","{'3119241671', '3117372113', '2999791086', '3046011112', '2563481393', '2059309826', '2538374209', '2804916561', '2785176118', '2950193743', '3086408967', '2964328441', '2962999949', '2938472842', '2974134141', '2083508718', '2230472587', '2939829501', '2963143606', '2913640436'}",Task,Method,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,nlp based application,38,{'dygiepp'},"{'3087309461', '2252194812', '2941916520', '2739942377', '3029478033', '2549801871', '2135797641', '2996944547', '1806015339', '2223961678', '2964959295', '2097049724', '3004774498', '1982774614', '2338087314', '2770403233', '2251418277', '2974225181', '2401496831', '2521456988', '3015210400', '2528522465', '3034257552', '793102836', '2902135563', '1448143536', '2181575006', '2990662584', '2126165256', '2185748128', '1679111079', '3028824622', '3113709511', '3003272832', '2058008886', '3128216712', '207375668', '2251949641'}",Task,Task,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,nlp oriented resource,1,{'dygiepp'},{'2468611849'},Task,Material,,1,,0,0,0,0,0
+question answering,skos:broader/is/hyponym-of,nlp task,57,"{'pos tagger', 'dygiepp'}","{'3097571385', '2969035964', '2949400804', '2903083707', '3104613728', '3012110710', '3121076170', '3010714856', '3045733172', '3022979090', '3085940072', '3120196704', '3127549303', '2252142543', '3092219520', '2997283613', '2786010334', '3019858811', '3117204777', '748083353', '3035446106', '3028872947', '2740711318', '2763948453', '2058070641', '3105922288', '2554006739', '2964113724', '2952494277', '3097438085', '2990191328', '2536015822', '3086339196', '2971573519', '3007672467', '2786152061', '3133843275', '3106210592', '2981828710', '3021531920', '2900356614', '2948608684', '2963041453', '3028616679', '3100124407', '2991223644', '2799190968', '2202774208', '2989775785', '2411652523', '2963756346', '3033862527', '2994896922', '3102273025', '2939290240', '3097821138', '2947884672'}",Task,Task,,,,1,1,1,1,1
+question answering,uses,ohs change in view,,,,Task,OtherEntity,,,1,0,0,0,0,0
+question answering,based-on,ontology engineering,15,{'pos tagger'},"{'2334625099', '3026959658', '1518693143', '2787603558', '2741809712', '2331086175', '1984034677', '3026139362', '2378413732', '1999678553', '1992139711', '2617554041', '3128653614', '2135033253', '3096696488'}",Task,Task,,,,1,1,1,1,1
+question answering,links,output end,1,{'openie'},{'3027113229'},Task,OtherEntity,1,,,0,0,0,0,0
+question answering,uses,passage retrieval,7,"{'pos tagger', 'openie', 'dygiepp'}","{'2251291395', '1990791207', '3099700870', '1846393350', '1793342810', '2068377783', '3015883388'}",Task,Task,,,,1,1,0,1,1
+question answering,skos:broader/is/hyponym-of,pnlp problem,6,{'dygiepp'},"{'2962739339', '2787560479', '2778360819', '2966720533', '2984469754', '2971279399'}",Task,Task,,,,1,1,1,0,1
+question answering,includes,question analysis,4,"{'pos tagger', 'openie', 'dygiepp'}","{'192773427', '2547903026', '2925496874', '2089441933'}",Task,Task,,,,1,1,1,1,1
+question answering,includes,question asking module,3,"{'pos tagger', 'dygiepp'}","{'2935615789', '3019555154', '2964361811'}",Task,Method,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,question registration data structure,1,{'openie'},{'2407044552'},Task,OtherEntity,,1,,0,0,0,0,0
+question answering,uses,question taxonomy,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2020018929'},Task,Method,,,,1,1,1,1,1
+question answering,uses,question understanding method,1,{'dygiepp'},{'2880475069'},Task,Method,,,,1,1,1,1,1
+question answering,includes,reasoning,12,"{'pos tagger', 'openie'}","{'3035438620', '2921532234', '2851634845', '3101673779', '3100162962', '2214429195', '3089102176', '2963929497', '2897857500', '2907820376', '2980446769', '3018483584'}",Task,Task,,,,1,1,1,1,1
+question answering,transfers,reasoning,7,{'openie'},"{'2976187852', '2891383942', '2963662654', '2889283903', '2788705621', '2953038430', '3094950914'}",Task,Task,,,,1,1,1,0,1
+question answering,executes,relevancy matching,1,{'pos tagger'},{'2896140001'},Task,Task,,,,1,1,1,1,1
+question answering,uses,remotely sensed application,,,,Task,Task,,,1,0,0,0,0,0
+question answering,skos:broader/is/hyponym-of,resource sharing,1,{'openie'},{'2961958977'},Task,Task,,,,1,0,0,0,0
+question answering,based-on,search query searching,1,{'openie'},{'3038208981'},Task,Task,,,,1,1,1,0,1
+question answering,skos:broader/is/hyponym-of,semantic based application,5,{'dygiepp'},"{'3087990078', '2889916531', '2394894667', '2804119745', '2946768687'}",Task,Task,,,,1,1,1,0,1
+question answering,skos:broader/is/hyponym-of,semantic task,1,{'dygiepp'},{'3035422387'},Task,Task,,,,1,1,1,0,1
+question answering,uses,semantics,7,"{'pos tagger', 'dygiepp'}","{'2793252636', '2788142400', '2159083188', '2214741587', '3137689663', '2963900171', '2773978898'}",Task,Method,,,,1,1,1,1,1
+question answering,includes,sematic relation expression,1,{'dygiepp'},{'2934964674'},Task,OtherEntity,,,,1,1,1,1,1
+question answering,includes,sentence structure,1,{'pos tagger'},{'2996293399'},Task,Method,,,,1,1,1,1,1
+question answering,uses,sketch based motion query,,,,Task,Task,,,1,0,0,0,0,0
+question answering,uses,slope sliding signal,,,,Task,OtherEntity,,,1,0,0,1,0,0
+question answering,skos:broader/is/hyponym-of,smt system,1,{'openie'},{'1893696074'},Task,Method,,1,,0,1,0,0,0
+question answering,uses,social related information,1,{'dygiepp'},{'1031643227'},Task,OtherEntity,,,,1,1,1,1,1
+question answering,identifies,software based telecommunication service,,,,Task,Task,,,1,0,0,0,0,0
+question answering,uses,synchronous sequential computation,,,,Task,Task,,,1,0,0,0,0,0
+question answering,uses,task example,5,"{'pos tagger', 'dygiepp'}","{'2055566982', '201231056', '2803644623', '2951507170', '2889689793'}",Task,Material,,,,1,0,1,0,0
+question answering,uses,template matching,1,"{'pos tagger', 'openie', 'dygiepp'}",{'3133327968'},Task,Method,,,,1,1,1,0,1
+question answering,uses,unstructured data,3,"{'pos tagger', 'dygiepp'}","{'1038284897', '3133312306', '2607129959'}",Task,Material,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,upstream nlp task,4,{'dygiepp'},"{'3100124407', '2990191328', '3092219520', '3102273025'}",Task,Task,,,,1,1,1,0,1
+question answering,extracts,vehicle number reading module,,,,Task,Method,,,1,0,0,0,0,0
+question answering,uses,web based processing of spatial data,,,,Task,Task,,,1,0,0,0,0,0
+question answering,provides,wikipedia,1,{'pos tagger'},{'2124104135'},Task,Material,,,,1,0,1,0,0
+question answering,acquires,y pin,,,,Task,OtherEntity,,,1,0,0,0,0,0
+question classification,skos:broader/is/hyponym-of,question answering,26,"{'pos tagger', 'openie', 'dygiepp'}","{'3091971315', '3102887138', '2183598011', '1530889916', '2803644623', '2699994814', '2596442039', '3030172870', '2181842921', '2769023910', '3100193028', '2119739866', '2251285095', '2769296604', '243642632', '2884236816', '2144761325', '2023454998', '1509566333', '2320227961', '2011752969', '2776715282', '2081407583', '3120720763', '2166594514', '2899209818'}",Task,Task,,,,1,1,1,1,1
+radiological report,uses,information extraction,1,{'openie'},{'2550694825'},Material,Task,,1,,0,0,0,0,0
+ranking method approach,manages,image retrieval,1,{'openie'},{'2001905672'},Method,Task,,,,1,0,0,0,0
+rbfn,based-on,vector space model,1,{'pos tagger'},{'2024438090'},Method,Method,,,,1,1,1,1,1
+real time signals in fault,based-on,vector space model,,,,OtherEntity,Method,,,1,0,0,0,0,0
+reasoning,supports,question answering,1,{'openie'},{'2493342863'},Task,Task,,,,1,1,1,1,1
+recognition accuracy,analyzes,named entity recognition,3,{'dygiepp'},"{'2966876197', '3116267379', '3116246071'}",Metric,Task,,,,1,1,1,1,1
+relation extraction,skos:broader/is/hyponym-of,information extraction,34,"{'pos tagger', 'openie', 'dygiepp'}","{'2762444032', '3054905649', '2785631370', '2997712488', '2952356390', '2019038239', '1599375171', '2733116014', '2791684315', '1971587974', '2251014694', '2099320393', '3094235973', '2479315443', '2901387348', '1980775596', '2023295219', '2802164284', '2974316425', '2184639959', '2791374870', '2953198538', '2925049086', '3080730652', '2390320906', '2126690563', '2782342038', '1559609820', '2092919065', '102119915', '2786559064', '2913565138', '2612791346', '2999692125'}",Task,Task,,,,1,1,1,1,1
+relation extraction,identifies,named entity recognition,4,"{'pos tagger', 'openie'}","{'3101327207', '3088438835', '2087190704', '3094302248'}",Task,Task,,,,1,1,0,0,0
+relevance feedback,based-on,image retrieval,15,"{'pos tagger', 'openie'}","{'2090191433', '2004139422', '2870908628', '2080300756', '2201445179', '2404202430', '2017919244', '2154904165', '2352126219', '3023003654', '1981413807', '2010557025', '3044735234', '2015320242', '1997954541'}",Task,Task,,,,1,1,0,1,1
+relevance feedback,skos:broader/is/hyponym-of,image retrieval,10,"{'pos tagger', 'openie'}","{'2082235040', '1570940015', '44887395', '2113021635', '2292562588', '2029334593', '2329422633', '170770863', '2550998466', '1574202978'}",Task,Task,,,,1,1,1,0,1
+relevance feedback,uses,image retrieval,6,"{'pos tagger', 'openie'}","{'2107824652', '1570940015', '2064341520', '2947593706', '2798221341', '2034873715'}",Task,Task,,,,1,1,1,1,1
+relevance of unjudged document,uses,document clustering,,,,Material,Task,,,1,0,0,0,1,0
+relevancy score comparison,uses,vector space model,3,{'dygiepp'},"{'2099003287', '1963973829', '28427753'}",Method,Method,,,,1,1,1,1,1
+remote component,transfers,information integration,,,,Method,Task,,,1,0,1,0,1,1
+remote real person simulation interaction robot,includes,information integration,,,,Method,Task,,,1,0,0,0,0,0
+representations system,skos:broader/is/hyponym-of,music information retrieval,1,{'openie'},{'2910096452'},Method,Task,,1,,0,0,0,0,0
+retinal image segmentation algorithm,includes,information extraction,1,{'dependency tagger'},{'3130221793'},Method,Task,1,,,0,0,0,0,0
+retrieval algorithm,improves,image retrieval,3,{'openie'},"{'2995351650', '2958644340', '3018742241'}",Method,Task,,,,1,1,1,1,1
+retrieval based technique,uses,image retrieval,5,"{'pos tagger', 'openie'}","{'2977602615', '2133410798', '2875109259', '2869908054', '2613855078'}",Method,Task,,,,1,1,1,1,1
+ris functionality,uses,information extraction,1,{'dygiepp'},{'2973079308'},OtherEntity,Task,1,,,0,1,1,1,1
+road unit side,transfers,information integration,3,{'openie'},"{'3050369934', '2959596144', '2956929389'}",OtherEntity,Task,,,,1,0,0,0,0
+robot arm joint connector,based-on,information extraction,,,,Method,Task,,,1,0,0,0,0,0
+robustness,analyzes,question answering,3,{'dygiepp'},"{'3113925908', '2950733407', '3040656006'}",Metric,Task,,,,1,1,1,1,1
+rounded line,acquires,information extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+rs image audio dataset,skos:broader/is/hyponym-of,image retrieval,1,{'pos tagger'},{'2987489329'},Material,Task,1,,,0,0,0,0,0
+rub impact interaction,includes,image retrieval,,,,OtherEntity,Task,,,1,0,0,0,0,0
+scalability,skos:broader/is/hyponym-of,image retrieval,1,{'openie'},{'2187537787'},Metric,Task,,1,,0,0,0,0,0
+scene control system,includes,information extraction,1,{'openie'},{'3107382480'},Method,Task,,,,1,0,0,0,0
+search engine,acquires,question answering,4,{'pos tagger'},"{'2602066018', '2733111331', '2574279657', '2917395894'}",Method,Task,,,,1,1,0,1,1
+search space,improves,named entity recognition,1,{'openie'},{'2811039307'},Metric,Task,,,,1,1,0,1,1
+second answer,includes,question answering,1,{'openie'},{'2850799953'},OtherEntity,Task,,1,,0,0,0,0,0
+second mobile phone terminal,learns,information integration,1,{'openie'},{'2858012063'},OtherEntity,Task,,,,1,0,0,0,0
+segmentationing method,acquires,information extraction,1,{'openie'},{'3062717935'},Method,Task,,,,1,1,0,1,1
+semantic distance,analyzes,vector space model,3,{'pos tagger'},"{'2025435859', '2319551453', '2400223370'}",Method,Method,,,,1,1,0,1,1
+semantic distance,uses,vector space model,7,"{'pos tagger', 'dygiepp'}","{'2025435859', '2294106437', '2351766956', '2400223370', '2866306935', '2319551453', '1611623558'}",Method,Method,,,,1,1,1,1,1
+semantic importance of tag,annotates,image retrieval,1,{'pos tagger'},{'2031138820'},OtherEntity,Task,,1,,0,0,0,0,0
+semantic in,acquires,information integration,1,{'pos tagger'},{'2064011112'},OtherEntity,Task,,1,,0,0,0,0,0
+semantic information,improves,image retrieval,3,{'pos tagger'},"{'2166137277', '2861960795', '2950443374'}",Method,Task,,,,1,1,1,1,1
+semantic librarian,based-on,vector space model,1,{'pos tagger'},{'2955707177'},Method,Method,1,,,0,1,1,0,1
+semantic term relation,uses,question answering,1,{'dygiepp'},{'1983687748'},OtherEntity,Task,,1,,0,0,0,0,0
+semantics,based-on,image retrieval,3,{'pos tagger'},"{'2398269580', '2619718309', '1544198217'}",Method,Task,,,,1,1,0,0,0
+semantics,uses,vector space model,2,"{'pos tagger', 'openie', 'dygiepp'}","{'2046844528', '2565841696'}",Method,Method,,,,1,1,1,1,1
+sentence level textgraphs,skos:broader/is/hyponym-of,question answering,1,{'pos tagger'},{'2963339923'},Material,Task,,1,,0,0,0,0,0
+sentiment analysis,skos:broader/is/hyponym-of,text processing,3,"{'pos tagger', 'openie'}","{'2973186443', '2766071338', '2088879970'}",Task,Task,,,,1,1,1,1,1
+short text snippet,uses,named entity recognition,1,{'dygiepp'},{'1138630530'},Material,Task,,1,,0,0,0,0,0
+sift,uses,image retrieval,4,{'pos tagger'},"{'2791782518', '2068072682', '2524324335', '2186386825'}",Method,Task,,,,1,1,0,1,1
+signal analysis,provides,information extraction,1,{'openie'},{'3019105926'},Task,Task,,,,1,1,1,1,1
+signing image,uses,information extraction,1,{'pos tagger'},{'2028832235'},Material,Task,,1,,0,0,0,0,0
+similar case,produces,vector space model,1,{'pos tagger'},{'2873028078'},OtherEntity,Method,,,,1,0,0,0,0
+simulated document,uses,question answering,1,{'dygiepp'},{'109941524'},Material,Task,1,,,0,0,0,0,0
+singer identification system,skos:broader/is/hyponym-of,music information retrieval,1,"{'dygiepp', 'openie'}",{'2212492883'},Method,Task,,1,,0,1,0,0,0
+small load sensor,uses,text processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+small meta network,learns,text processing,3,{'pos tagger'},"{'2963139879', '2888839716', '2962866655'}",Method,Task,,,,1,0,0,0,0
+smart searching tool,uses,named entity recognition,1,"{'pos tagger', 'openie', 'dygiepp'}",{'1980278738'},Method,Task,,,,1,0,1,0,0
+social network,acquires,information dissemination,1,{'pos tagger'},{'2903225409'},Material,Task,,1,,0,0,0,0,0
+social network,supports,information dissemination,3,"{'pos tagger', 'openie'}","{'2041317306', '3018573570', '114394688'}",Material,Task,,,,1,1,1,1,1
+social relationship,guides,information dissemination,1,{'openie'},{'1991376189'},Material,Task,,1,,0,1,1,1,1
+social social medium,skos:broader/is/hyponym-of,image retrieval,2,{'pos tagger'},"{'1489319323', '2768718276'}",Material,Task,,1,,0,0,0,0,0
+social social medium,includes,information dissemination,2,"{'pos tagger', 'openie'}","{'2963561117', '2290330478'}",Material,Task,,1,,0,0,0,0,0
+social social medium,learns,information extraction,1,{'openie'},{'3124962444'},Material,Task,,,,1,0,0,0,0
+soft computational method,skos:broader/is/hyponym-of,image retrieval,1,{'openie'},{'2030137299'},Method,Task,1,,,0,0,0,0,0
+soft ware agent,uses,information extraction,,,,Method,Task,,,1,0,1,1,1,1
+solution,produces,image retrieval,2,{'pos tagger'},"{'2010770351', '3006442140'}",Task,Task,,,,1,1,0,1,1
+solution,includes,information extraction,6,"{'pos tagger', 'openie', 'dygiepp'}","{'2844579014', '2842651122', '2371901085', '2110349806', '2872446225', '1988550532'}",Task,Task,,,,1,1,0,1,1
+song similarity model,skos:broader/is/hyponym-of,music information retrieval,2,{'openie'},"{'1603187941', '2028885123'}",Method,Task,,1,,0,1,0,1,1
+sound equipment system,executes,question answering,1,{'openie'},{'2881624495'},Method,Task,1,,,0,0,0,0,0
+speech signal,uses,information extraction,1,{'pos tagger'},{'2287677669'},Material,Task,,1,,0,0,0,0,0
+splitting of meaning representation,uses,document clustering,,,,Task,Task,,,1,0,0,0,0,0
+sprl,skos:broader/is/hyponym-of,information extraction,1,{'pos tagger'},{'2915137392'},Method,Task,,1,,0,1,0,1,1
+standing support equipment,extracts,information extraction,,,,Method,Task,,,1,0,0,0,0,0
+stemming it,skos:broader/is/hyponym-of,text processing,5,"{'dygiepp', 'openie'}","{'2008216846', '2778970600', '2900421760', '2906493233', '2104416088'}",Task,Task,,,,1,1,1,1,1
+storing page advertisement relevancy feature,uses,vector space model,1,{'dygiepp'},{'1012709646'},Task,Method,1,,,0,0,1,0,0
+structured set of data,uses,information extraction,2,"{'pos tagger', 'openie', 'dygiepp'}","{'3149759830', '2843902945'}",Material,Task,,1,,0,0,0,0,0
+student questionanswering situation,acquires,question answering,1,{'pos tagger'},{'3090698374'},OtherEntity,Task,,1,,0,0,0,0,0
+subspace learning,uses,image retrieval,3,{'pos tagger'},"{'2756042011', '2964305564', '1970848584'}",Method,Task,,,,1,1,0,1,1
+supervised classification,uses,information extraction,2,"{'pos tagger', 'dygiepp'}","{'2053253267', '606288184'}",Task,Task,,,,1,1,0,1,1
+swrl rule representation language,solves,information extraction,1,"{'pos tagger', 'openie'}",{'3130534110'},Method,Task,,,,1,0,1,0,0
+syndication module,supports,named entity recognition,,,,Method,Task,,,1,0,1,1,1,1
+systemic error rate,analyzes,question answering,1,{'dygiepp'},{'2859624324'},Metric,Task,,,,1,0,1,0,0
+tagging task,classifies,named entity recognition,1,{'pos tagger'},{'2119014227'},Task,Task,,,,1,1,1,1,1
+target vehicle parameter,includes,question answering,,,,OtherEntity,Task,,,1,0,0,0,0,0
+tcm,skos:broader/is/hyponym-of,image retrieval,1,{'openie'},{'2547534192'},Method,Task,,1,,0,1,0,1,1
+test set data,analyzes,question answering,2,{'dygiepp'},"{'3022116759', '3034834768'}",Material,Task,,1,,0,0,0,0,0
+testing question,skos:broader/is/hyponym-of,named entity recognition,1,{'dygiepp'},{'2793265220'},OtherEntity,Task,,1,,0,0,0,0,0
+text based retrieval technique,uses,text processing,1,{'pos tagger'},{'2008216846'},Method,Task,,,,1,1,1,1,1
+text classification,includes,text processing,3,"{'pos tagger', 'openie', 'dygiepp'}","{'2785790632', '1569375842', '3142135901'}",Task,Task,,,,1,1,1,1,1
+text classification,based-on,vector space model,5,"{'pos tagger', 'openie'}","{'2066656510', '2989670646', '3040478080', '3039118600', '2790482644'}",Task,Method,,,,1,1,1,1,1
+text classification,uses,vector space model,8,"{'pos tagger', 'dygiepp'}","{'2997916995', '3134447942', '2370875228', '1996225293', '2338890634', '2891651809', '2001977081', '2512881092'}",Task,Method,,,,1,1,1,1,1
+text document,uses,vector space model,7,"{'pos tagger', 'openie', 'dygiepp'}","{'2921300811', '1985302408', '2351766956', '2063680568', '2585947132', '2293607556', '2726112979'}",Material,Method,,1,,0,0,0,0,0
+text mining based technique,uses,vector space model,3,"{'pos tagger', 'dygiepp'}","{'2626902765', '2543890374', '1979285209'}",Method,Method,,,,1,1,1,1,1
+text processing,skos:broader/is/hyponym-of,application area,3,{'dygiepp'},"{'2939818502', '2557659205', '2732093072'}",Task,Task,,,,1,1,1,0,1
+text processing,skos:broader/is/hyponym-of,association degree,1,{'openie'},{'2984896614'},Task,Metric,,1,,0,0,0,0,0
+text processing,includes,car wheel frame,,,,Task,OtherEntity,,,1,0,0,0,0,0
+text processing,includes,channel distribution instruction,,,,Task,Method,,,1,0,0,0,0,0
+text processing,skos:broader/is/hyponym-of,correlation parameter,1,{'pos tagger'},{'3085674723'},Task,Metric,1,,,0,0,0,0,0
+text processing,provides,costs time,1,{'pos tagger'},{'2877645013'},Task,Metric,1,,,0,1,1,1,1
+text processing,uses,deep learning based architecture,3,{'dygiepp'},"{'3012745835', '2972983492', '2945847097'}",Task,Method,,,,1,1,1,1,1
+text processing,uses,machine learning,5,"{'pos tagger', 'openie', 'dygiepp'}","{'2914329496', '2962992831', '3021810042', '2767646268', '3127284164'}",Task,Method,,,,1,1,1,1,1
+text processing,uses,machine learning technique s,5,{'dygiepp'},"{'3130296863', '2901147448', '2951711317', '2963175699', '2123811694'}",Task,Method,,,,1,1,1,1,1
+text processing,improves,neural network,1,{'openie'},{'2968733904'},Task,Method,,,,1,1,0,1,1
+text processing,solves,object set o,1,{'openie'},{'3129597579'},Task,OtherEntity,,,,1,0,0,0,0
+text processing,extracts,oil type allocation information,,,,Task,OtherEntity,,,1,0,0,0,0,0
+text processing,includes,redundancy identification method,1,{'openie'},{'3140918403'},Task,Method,1,,,0,0,1,1,1
+text processing,automates,sentiment analysis,1,{'pos tagger'},{'2544274987'},Task,Task,,1,,0,1,1,1,1
+text processing,skos:broader/is/hyponym-of,subprocesses,1,{'dygiepp'},{'2947017203'},Task,OtherEntity,,1,,0,0,0,0,0
+text processing,uses,terminal,1,{'dygiepp'},{'2825096547'},Task,Task,,,,1,0,0,0,0
+text processing,produces,weight in calculation,,,,Task,Method,,,1,0,1,1,1,1
+text processing,includes,word segmentation,4,"{'pos tagger', 'openie'}","{'2987521982', '3126075202', '3070545298', '2859820521'}",Task,Task,,,,1,1,1,1,1
+texture composition,provides,information extraction,2,"{'pos tagger', 'openie'}","{'3128734775', '3022339903'}",OtherEntity,Task,,1,,0,1,1,1,1
+texture recognition system,uses,image retrieval,1,{'pos tagger'},{'2424805633'},Method,Task,,,,1,1,1,1,1
+texture specific feature,includes,image retrieval,1,{'openie'},{'3126776812'},OtherEntity,Task,,1,,0,0,1,0,0
+tic annotation,identifies,information extraction,1,{'dependency tagger'},{'2223132696'},OtherEntity,Task,1,,,0,1,0,1,1
+timber blanking machine,based-on,information dissemination,,,,Method,Task,,,1,0,0,0,0,0
+topic space,supports,document clustering,3,{'pos tagger'},"{'2964291985', '1598801360', '2007855409'}",OtherEntity,Task,,,,1,1,1,1,1
+tracking system,skos:broader/is/hyponym-of,text processing,1,{'openie'},{'2078296622'},Method,Task,1,,,0,1,0,1,1
+train free few shot learning approach,uses,question answering,1,{'dygiepp'},{'3080986129'},Method,Task,,,,1,1,1,1,1
+transfer field database,acquires,information extraction,1,{'openie'},{'3108737083'},Material,Task,,1,,0,0,0,0,0
+transport simulating shake table,skos:broader/is/hyponym-of,text processing,,,,Task,Task,,,1,0,0,0,0,0
+true positive rate,analyzes,image retrieval,3,"{'pos tagger', 'dygiepp'}","{'2085235511', '3101742538', '2241858575'}",Metric,Task,,,,1,1,1,1,1
+trust implemented experimentation,identifies,named entity recognition,,,,Method,Task,,,1,0,0,0,0,0
+ultraviolet image,provides,information extraction,1,{'openie'},{'3017520103'},Material,Task,1,,,0,0,0,0,0
+underwater acoustic environment,extracts,information extraction,1,{'openie'},{'3004049374'},Material,Task,1,,,0,0,0,0,0
+unit and functional test,acquires,information extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+unity of command,matches,image retrieval,,,,OtherEntity,Task,,,1,0,0,0,0,0
+unplugging process,outperforms,text processing,,,,Task,Task,,,1,0,0,0,0,0
+unstructured information source,uses,information extraction,1,{'dygiepp'},{'3036783970'},Material,Task,,1,,0,0,0,0,0
+unsupervised measurement,identifies,vector space model,3,{'pos tagger'},"{'2325366756', '2328759100', '2952469640'}",Task,Method,,,,1,0,0,0,0
+unsupervised measurement,outperforms,vector space model,3,{'pos tagger'},"{'2325366756', '2328759100', '2952469640'}",Task,Method,,,,1,0,0,0,0
+upper induction contact,skos:broader/is/hyponym-of,question answering,,,,OtherEntity,Task,,,1,0,0,0,0,0
+user experience,analyzes,question answering,5,{'dygiepp'},"{'2851634845', '2805975048', '3132747728', '2960095866', '2813826060'}",Metric,Task,,,,1,1,1,1,1
+user interest model,uses,image retrieval,3,{'pos tagger'},"{'2213883801', '2038846353', '2030563049'}",Method,Task,,,,1,1,0,1,1
+user portrait feature,includes,information extraction,1,{'pos tagger'},{'3097974222'},OtherEntity,Task,,1,,0,0,0,0,0
+user profile,provides,information extraction,1,{'openie'},{'1029674454'},Material,Task,,1,,0,0,0,0,0
+user web browsing pattern,uses,text processing,1,{'pos tagger'},{'2065498358'},OtherEntity,Task,,1,,0,0,0,0,0
+vector space model,skos:broader/is/hyponym-of,complex contextual feature,1,{'openie'},{'2964053001'},Method,OtherEntity,,1,,0,0,0,0,0
+vector space model,skos:broader/is/hyponym-of,document representation,6,"{'pos tagger', 'openie'}","{'2608595451', '2147276454', '2114235998', '2123754960', '2378592103', '2061074565'}",Method,Method,,,,1,1,0,1,1
+vector space model,skos:broader/is/hyponym-of,document space,1,"{'pos tagger', 'openie'}",{'2186700860'},Method,OtherEntity,,1,,0,1,0,0,0
+vector space model,uses,feature weighting method,1,{'dygiepp'},{'2540832166'},Method,Method,,,,1,1,1,1,1
+vector space model,based-on,fire equipment facility hardware,,,,Method,Method,,,1,0,0,0,0,0
+vector space model,solves,formal concept,1,{'pos tagger'},{'62080763'},Method,Method,,,,1,1,1,1,1
+vector space model,produces,information retrieval,1,{'openie'},{'1973542796'},Method,Task,,,,1,1,1,1,1
+vector space model,skos:broader/is/hyponym-of,judgment document,1,"{'pos tagger', 'openie'}",{'2597997863'},Method,Material,,1,,0,0,0,0,0
+vector space model,outperforms,medicine decocting pot chain,,,,Method,OtherEntity,,,1,0,0,0,0,0
+vector space model,limits,ranking of value,,,,Method,OtherEntity,,,1,0,0,0,0,0
+vector space model,analyzes,real time image parameterization processing,,,,Method,Method,,,1,0,1,0,0,0
+vector space model,skos:broader/is/hyponym-of,retrieval idea,1,{'dygiepp'},{'2530069982'},Method,Method,,,,1,1,0,1,1
+vector space model,uses,semantic distance,3,"{'dygiepp', 'openie'}","{'2203288683', '2145052392', '2347809307'}",Method,Method,,,,1,1,1,1,1
+vector space model,matches,signal channel equalization,,,,Method,Method,,,1,0,0,0,0,0
+vector space model,based-on,term independence hypothesis,1,{'pos tagger'},{'2034103711'},Method,OtherEntity,,,,1,1,1,1,1
+vector space model,skos:broader/is/hyponym-of,text presentation model,1,"{'pos tagger', 'openie', 'dygiepp'}",{'2082388307'},Method,Method,,,,1,1,1,1,1
+vector space model,skos:broader/is/hyponym-of,textual documents content,1,{'openie'},{'1978286630'},Method,Material,,1,,0,0,0,0,0
+vector space model,produces,unified kernel function,1,{'pos tagger'},{'2087511931'},Method,OtherEntity,,,,1,1,1,1,1
+vector space model,skos:broader/is/hyponym-of,url,1,{'pos tagger'},{'2048348792'},Method,Material,,1,,0,0,0,0,0
+vector space model,analyzes,word sense,3,"{'pos tagger', 'openie'}","{'2963566356', '2799000442', '2768182071'}",Method,Material,,,,1,1,1,1,1
+vector space model,analyzes,word sense disambiguation,3,{'openie'},"{'2963566356', '2799000442', '2768182071'}",Method,Task,,,,1,1,1,1,1
+vector space model,predicts,word vector,1,{'openie'},{'2565841696'},Method,Method,,,,1,1,1,1,1
+visual feature,acquires,image retrieval,2,{'openie'},"{'2962464895', '1618601626'}",Method,Task,,,,1,1,0,1,1
+visual iot,uses,information extraction,1,{'dygiepp'},{'2898544481'},Task,Task,1,,,0,1,1,1,1
+vocal melody extraction vme system,skos:broader/is/hyponym-of,music information retrieval,1,"{'dygiepp', 'openie'}",{'3125675278'},Method,Task,,1,,0,1,0,1,1
+wavelet,affects,image retrieval,1,{'pos tagger'},{'2343423384'},Method,Task,,,,1,1,1,1,1
+wcbvsm,skos:broader/is/hyponym-of,vector space model,1,{'pos tagger'},{'2355817418'},Method,Method,1,,,0,1,1,1,1
+web image,acquires,image retrieval,2,"{'pos tagger', 'openie'}","{'385190221', '1560675956'}",Material,Task,,1,,0,0,0,0,0
+web page,produces,information extraction,3,{'pos tagger'},"{'2038940579', '2867900808', '2151928232'}",Material,Task,,1,,0,1,0,0,0
+web page data,uses,information extraction,1,{'openie'},{'2842544764'},Material,Task,,1,,0,0,0,0,0
+web server,acquires,information integration,7,{'openie'},"{'2860364738', '2870518256', '2875499502', '2841434950', '2926851310', '2825618693', '2865504870'}",Method,Task,,,,1,1,0,1,1
+web wikipedia,provides,question answering,1,{'openie'},{'2021664967'},Material,Task,,1,,0,1,0,1,1
+wireless sensor network,uses,information dissemination,3,{'dygiepp'},"{'1985418937', '2084100346', '1972427238'}",Method,Task,,,,1,1,1,1,1
+word pair feature,skos:broader/is/hyponym-of,image retrieval,,,,Method,Task,,,1,0,1,0,1,1
+word segmentation,includes,named entity recognition,3,"{'pos tagger', 'openie'}","{'2976656854', '3040580659', '3084966956'}",Task,Task,,,,1,1,1,1,1
+world wide web,skos:broader/is/hyponym-of,information extraction,1,{'openie'},{'1901903603'},Material,Task,,1,,0,0,0,0,0
+wv 2 imagery,uses,information extraction,1,{'dygiepp'},{'2900505318'},Material,Task,1,,,0,0,0,0,0
+xser,skos:broader/is/hyponym-of,question answering,1,{'dygiepp'},{'2199481974'},Metric,Task,,1,,0,0,0,0,0

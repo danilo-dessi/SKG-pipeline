@@ -1,0 +1,1201 @@
+subj,rel,obj,support,sources,files,subj_type,obj_type,discarded_by_classifier,discarded_by_onto,random_generated,cskg,ann1,ann2,ann3,gs
+absolute color space,uses,information extraction,1,{'dependency tagger'},{'2118273577.json'},OtherEntity,Task,,1,,0,0,0,1,0
+active learning instructional strategy,supports,automatic translation,1,{'openie'},{'1522553155.json'},Method,Task,1,,,0,0,0,0,0
+adaptive control of computation,uses,natural language processing,,,,Task,Task,,,1,0,0,0,0,0
+adjective density,guides,document classification,1,{'pos tagger'},{'2172576334.json'},OtherEntity,Task,1,,,0,1,0,0,0
+adr identification,uses,sentiment analysis,1,{'dygiepp'},{'2460863069.json'},Task,Task,,,,1,1,0,1,1
+advanced concept technology demonstration,uses,natural language processing,1,{'dygiepp'},{'2293205359.json'},Method,Task,1,,,0,1,1,1,1
+advanced language system,includes,natural language processing,2,"{'dygiepp', 'dependency tagger'}",{'2021120808.json'},Method,Task,,,,1,1,1,1,1
+algebraic and boolean property,includes,machine translation,,,,OtherEntity,Task,,,1,0,0,0,0,0
+annotation term,uses,wordnet,6,"{'dygiepp', 'pos tagger', 'dependency tagger'}",\,OtherEntity,Material,,,,1,0,1,0,0
+answer finding,produces,named entity recognition,2,"{'pos tagger', 'dependency tagger'}",{'796973068.json'},Task,Task,,,,1,0,1,0,0
+answer validation feedback scheme,uses,question answering,1,{'openie'},{'2915648235.json'},Method,Task,,,,1,1,1,1,1
+appraisal institution,transfers,question answering,,,,Method,Task,,,1,0,0,0,0,0
+arabic noun phrase,uses,machine translation,1,{'dygiepp'},{'1830581329.json'},OtherEntity,Task,,1,,0,0,0,1,0
+archaeological knowledge,uses,question answering,1,{'dygiepp'},{'2052879302.json'},Material,Task,1,,,0,0,0,1,0
+artificial intelligence,includes,natural language processing,5,"{'dygiepp', 'pos tagger'}","{'2963270749.json', '2948646149.json', '2034571485.json', '1811313909.json', '2204656071.json'}",Task,Task,,,,1,1,1,1,1
+artificial intelligence,links,natural language processing,3,{'pos tagger'},"{'2463955103.json', '2951912364.json', '1895577753.json'}",Task,Task,,,,1,0,1,0,0
+asp representation,based-on,dependency parsing,,,,Method,Task,,,1,0,1,0,1,1
+assemblable hand,adapts,wordnet,,,,OtherEntity,Material,,,1,0,0,0,0,0
+asymmetric membership function,acquires,named entity recognition,,,,OtherEntity,Task,,,1,0,0,0,0,0
+asymptotically tight bound,analyzes,part of speech,1,{'dygiepp'},{'1485378922.json'},OtherEntity,Task,,1,,0,0,0,0,0
+automated aerial refueling,acquires,sentiment classification,,,,Task,Task,,,1,0,0,0,0,0
+automated approach,based-on,natural language processing,3,{'pos tagger'},"{'2182967823.json', '2616233103.json', '2093652677.json'}",Method,Task,,,,1,1,1,1,1
+automated system,includes,document classification,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2168625136.json'},Method,Task,,,,1,1,1,1,1
+automatic ingestion pipeline,includes,information extraction,3,"{'dygiepp', 'pos tagger', 'dependency tagger'}",{'2080190461.json'},Method,Task,,,,1,1,1,1,1
+automatic part of speech tagging,skos:broader/is/hyponym-of,natural language processing,3,{'dygiepp'},"{'2081687495.json', '2290401121.json', '2157693466.json'}",Task,Task,,,,1,1,1,1,1
+automatic propositional reasoning,transfers,document classification,1,{'dependency tagger'},{'1578189166.json'},Task,Task,1,,,0,0,1,0,0
+automatic question and answer system,improves,question answering,1,{'openie'},{'2842498842.json'},Task,Task,,,,1,1,1,1,1
+automatic text summarization,skos:broader/is/hyponym-of,natural language processing,5,{'dygiepp'},"{'2163817534.json', '2796804544.json', '2496290860.json', '1544684419.json', '1567616047.json'}",Task,Task,,,,1,1,1,1,1
+automatic translation,uses,swetra,2,"{'openie', 'pos tagger'}",{'1569546131.json'},Task,Method,1,,,0,1,1,0,1
+automation,uses,natural language processing,3,"{'pos tagger', 'dygiepp'}","{'89325326.json', '2799028668.json', '1972375918.json'}",Task,Task,,,,1,1,0,1,1
+b code analysis unit,includes,information extraction,1,{'pos tagger'},{'2854877672.json'},Method,Task,1,,,0,0,0,0,0
+background evaluation image,discusses,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+balanced precision,analyzes,information extraction,1,{'dygiepp'},{'2031868269.json'},Metric,Task,1,,,0,1,1,0,1
+banks attitude and opinion,uses,sentiment analysis,1,{'dygiepp'},{'2251162459.json'},OtherEntity,Task,,1,,0,0,0,0,0
+belief scheduler,uses,information extraction,2,"{'pos tagger', 'dependency tagger'}",{'2131782701.json'},Method,Task,1,,,0,0,0,0,0
+benchmarking data,analyzes,question answering,1,{'dygiepp'},{'1540862445.json'},Material,Task,,1,,0,0,1,0,0
+bibliographic file format,uses,dependency parsing,1,{'pos tagger'},{'180250184.json'},OtherEntity,Task,1,,,0,0,0,0,0
+biblometrics,uses,natural language processing,1,{'dygiepp'},{'2141619255.json'},Material,Task,,1,,0,0,0,0,0
+bilingual bengali assamese news text,uses,machine translation,1,{'pos tagger'},{'2142884107.json'},Material,Task,,1,,0,0,0,0,0
+bilingual or multilingual parallel corpus,uses,machine translation,1,{'pos tagger'},{'2112740777.json'},Material,Task,,1,,0,0,0,0,0
+binary relation,uses,natural language processing,1,{'dygiepp'},{'2003945840.json'},OtherEntity,Task,,1,,0,0,0,0,0
+binding library procedure,supports,automatic translation,2,"{'openie', 'dependency tagger'}",{'995558095.json'},Method,Task,1,,,0,0,1,0,0
+biocreative iv workshop,includes,named entity recognition,1,{'dygiepp'},{'2121652122.json'},Material,Task,,1,,0,0,0,0,0
+biological and biomedical application,uses,natural language processing,3,{'dygiepp'},"{'2158598845.json', '286875401.json', '2102858718.json'}",Task,Task,,,,1,1,1,1,1
+bitqap question answering platform,based-on,question answering,1,{'pos tagger'},{'2108379773.json'},Method,Task,,,,1,1,0,1,1
+bleu automated metric,uses,machine translation,1,{'dependency tagger'},{'2806532810.json'},Metric,Task,,,,1,0,0,0,0
+boli,uses,wordnet,3,"{'dygiepp', 'openie', 'dependency tagger'}",{'2039176871.json'},Method,Material,,,,1,1,0,0,0
+brazilian portuguese,uses,wordnet,1,{'dygiepp'},{'77849806.json'},Material,Material,,1,,0,0,0,0,0
+broadcast news dictation technology,includes,information extraction,1,{'pos tagger'},{'2164751009.json'},Method,Task,,,,1,1,0,0,0
+building decision tree,improves,question answering,,,,Task,Task,,,1,0,1,1,1,1
+cafe technology component,includes,information extraction,,,,Method,Task,,,1,0,0,0,1,0
+capsule network architecture,improves,relation extraction,2,"{'pos tagger', 'dependency tagger'}",{'2949347774.json'},Method,Task,1,,,0,1,0,0,0
+category specific model,based-on,part of speech,1,{'pos tagger'},{'1798551699.json'},Method,Task,1,,,0,1,0,0,0
+causal learning,uses,sentiment analysis,1,{'dygiepp'},{'2057471594.json'},Task,Task,1,,,0,1,0,1,1
+cell phone,uses,text processing,1,{'pos tagger'},{'2820604230.json'},Material,Task,,1,,0,0,0,0,0
+cell range extension cre parameter,uses,named entity recognition,,,,OtherEntity,Task,,,1,0,0,0,0,0
+character accuracy value,analyzes,machine translation,1,{'dygiepp'},{'1969443802.json'},OtherEntity,Task,1,,,0,1,1,0,1
+chinese and mixed text,includes,word segmentation,3,"{'openie', 'pos tagger'}","{'2926594804.json', '2864019406.json'}",Material,Task,,1,,0,0,0,0,0
+chinese language,acquires,word segmentation,2,"{'pos tagger', 'dependency tagger'}",{'2250561386.json'},Material,Task,,1,,0,0,0,0,0
+chinese nlp system,executes,word segmentation,1,{'openie'},{'94459015.json'},Method,Task,,,,1,1,1,1,1
+chunk bank,includes,dependency parsing,1,{'pos tagger'},{'2368598057.json'},Material,Task,,1,,0,0,0,0,0
+clarit system,uses,natural language processing,4,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}",{'143377095.json'},Method,Task,,,,1,1,0,0,0
+classificationbased approach,produces,named entity recognition,1,{'pos tagger'},{'2547291079.json'},Method,Task,,,,1,1,1,1,1
+classifier ability,guides,sentiment classification,2,"{'pos tagger', 'dependency tagger'}",{'11033076.json'},Metric,Task,,1,,0,0,1,1,1
+classifier based scheme,acquires,sentiment classification,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2792056721.json'},Method,Task,,,,1,0,0,0,0
+classifier of email query,executes,document classification,1,{'dependency tagger'},{'1655225294.json'},Task,Task,,,,1,1,1,1,1
+clinical decision support system,uses,natural language processing,4,{'dygiepp'},"{'2754747396.json', '2513879842.json', '2033144557.json', '2099637711.json'}",Method,Task,,,,1,1,1,1,1
+closed word class,extracts,named entity recognition,1,{'dependency tagger'},{'121743440.json'},OtherEntity,Task,,1,,0,0,0,0,0
+clrqr system,acquires,question answering,1,{'openie'},{'2407582512.json'},Method,Task,,,,1,0,0,0,0
+cluster analysis,produces,natural language processing,2,"{'pos tagger', 'dependency tagger'}",{'2024967378.json'},Method,Task,,,,1,0,1,0,0
+cluster analysis,uses,word segmentation,2,"{'pos tagger', 'dependency tagger'}",{'2131415713.json'},Method,Task,,,,1,1,1,0,1
+clustering algorithms and technique,includes,question answering,,,,Method,Task,,,1,0,0,0,0,0
+co ordinate keywords,uses,wordnet,,,,OtherEntity,Material,,,1,0,0,0,1,0
+color image,acquires,named entity recognition,1,{'openie'},{'2130451799.json'},Material,Task,1,,,0,0,0,0,0
+common word based feature,uses,document classification,1,{'openie'},{'60213469.json'},OtherEntity,Task,,1,,0,0,1,0,0
+commonsense knowledge base,executes,natural language understanding,1,{'pos tagger'},{'2155620685.json'},Material,Task,,1,,0,0,0,0,0
+commonsense knowledge base,produces,sentiment analysis,1,{'pos tagger'},{'2324228785.json'},Material,Task,,1,,0,0,0,0,0
+complete binary tree,executes,dependency parsing,1,{'pos tagger'},{'2872199526.json'},OtherEntity,Task,,1,,0,1,1,0,1
+complex information,uses,natural language processing,1,{'dygiepp'},{'2097794246.json'},OtherEntity,Task,,1,,0,0,0,0,0
+complex morphology,uses,natural language processing,1,{'dygiepp'},{'2807188009.json'},OtherEntity,Task,,1,,0,0,0,0,0
+complexity of representing articulated motion,includes,natural language processing,,,,Task,Task,,,1,0,0,0,0,0
+compound,manages,natural language processing,1,{'pos tagger'},{'2129158994.json'},OtherEntity,Task,,1,,0,0,0,0,0
+compression of automaton,uses,natural language processing,1,{'pos tagger'},{'2963957816.json'},Method,Task,1,,,0,0,0,0,0
+computational analysis of poetry,skos:broader/is/hyponym-of,natural language processing,1,{'dygiepp'},{'2787043630.json'},Task,Task,,,,1,1,0,1,1
+computational description of diffusion,uses,natural language processing,,,,Task,Task,,,1,0,0,0,0,0
+computational linguistics,uses,natural language processing,1,{'dygiepp'},{'2047928162.json'},Material,Task,,1,,0,0,0,1,0
+computer based text processing technology,extracts,information extraction,1,{'dependency tagger'},{'2157317150.json'},Method,Task,,,,1,0,1,0,0
+concept extraction based method,uses,natural language processing,3,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'1557940864.json', '2789244308.json', '2516758028.json'}",Method,Task,,,,1,1,1,1,1
+conceptual entry,includes,named entity recognition,1,{'openie'},{'2136627589.json'},OtherEntity,Task,,1,,0,0,0,0,0
+conditional random field,uses,named entity recognition,3,"{'pos tagger', 'dependency tagger'}","{'2005228904.json', '117190247.json', '2515403501.json'}",Method,Task,,,,1,0,1,1,1
+conservative extension,provides,natural language processing,1,{'openie'},{'1600077456.json'},Method,Task,1,,,0,0,0,0,0
+consumer review text,uses,natural language processing,1,{'dygiepp'},{'1967629531.json'},Material,Task,,1,,0,0,0,0,0
+contact phone number,skos:broader/is/hyponym-of,named entity recognition,3,{'dygiepp'},"{'2085583002.json', '1580467103.json', '2175108069.json'}",OtherEntity,Task,,,,1,0,0,0,0
+contextual nature of the information,uses,named entity recognition,1,{'dygiepp'},{'2258706839.json'},OtherEntity,Task,,1,,0,0,0,0,0
+contrast of pattern,annotates,dependency parsing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+control and protection device,improves,wordnet,,,,Method,Material,,,1,0,0,0,0,0
+control of a model car,causes,named entity recognition,,,,Task,Task,,,1,0,0,0,0,0
+conversational agent,includes,natural language understanding,6,"{'dygiepp', 'pos tagger'}","{'1600043506.json', '2520305281.json', '2551571666.json', '1972595521.json', '2473965551.json', '2069936883.json'}",Method,Task,,,,1,0,1,1,1
+conversational agent,uses,natural language understanding,3,"{'dygiepp', 'pos tagger'}","{'2786839803.json', '1490221962.json', '1989996186.json'}",Method,Task,,,,1,1,1,1,1
+coreferencing entity,supports,question answering,1,{'dependency tagger'},{'2115195102.json'},OtherEntity,Task,1,,,0,1,0,0,0
+corpus based association rule,includes,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+corpus of web science material,uses,natural language processing,2,"{'dygiepp', 'openie'}",{'2081813571.json'},Material,Task,,1,,0,0,0,0,0
+crfs,includes,information extraction,3,"{'pos tagger', 'dependency tagger'}","{'2088600132.json', '178536341.json'}",Method,Task,,,,1,1,1,0,1
+cross lingual configuration,skos:broader/is/hyponym-of,sentiment analysis,1,{'dygiepp'},{'2733520819.json'},OtherEntity,Task,1,,,0,0,0,0,0
+cross lingual sentiment classification task,uses,sentiment classification,4,"{'openie', 'pos tagger'}","{'2075659194.json', '2019797838.json', '2167660864.json', '1993682096.json'}",Task,Task,,,,1,1,1,1,1
+cross lingual topic model framework,includes,machine translation,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'156663197.json'},Method,Task,,,,1,1,1,0,1
+cross platform interface tool,includes,dependency parsing,4,"{'openie', 'pos tagger'}","{'2249635789.json', '2269843553.json'}",Method,Task,,,,1,1,1,0,1
+crowdsourced method,acquires,natural language processing,1,{'pos tagger'},{'1982003829.json'},Method,Task,,,,1,0,1,0,0
+cuniform format,supports,text processing,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'1551056756.json'},Method,Task,,,,1,1,0,0,0
+cutting working information,executes,information extraction,1,{'pos tagger'},{'2858418704.json'},OtherEntity,Task,1,,,0,0,0,0,0
+dark state ratio,includes,information extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+data driven framelet basis,analyzes,machine translation,,,,Method,Task,,,1,0,0,0,0,0
+data generation capability,includes,dependency parsing,,,,OtherEntity,Task,,,1,0,0,1,0,0
+data set,uses,wordnet,2,"{'dygiepp', 'pos tagger'}",{'2061589929.json'},Material,Material,,1,,0,0,0,0,0
+database system,uses,machine translation,3,"{'pos tagger', 'dependency tagger'}","{'2405246503.json', '2529165810.json', '2869480169.json'}",Material,Task,,1,,0,0,0,0,0
+database system,uses,natural language processing,1,{'openie'},{'2287859124.json'},Material,Task,,1,,0,0,0,0,0
+decentralized discrete time block control,extracts,word segmentation,,,,Method,Task,,,1,0,0,0,0,0
+decision making in,uses,sentiment analysis,8,{'dygiepp'},"{'2768002664.json', '2771833219.json', '2199325311.json', '2801661935.json', '1990239322.json', '2618461247.json', '2423864118.json', '2576285839.json'}",Task,Task,,,,1,0,1,0,0
+deep learning,uses,natural language processing,5,{'pos tagger'},"{'2787037604.json', '2584369963.json', '2919207648.json', '2903938540.json', '2807329388.json'}",Method,Task,,,,1,1,1,1,1
+defect correction pulse,uses,dependency parsing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+definition and updating strategy,links,relation extraction,,,,Method,Task,,,1,0,0,0,0,0
+delta tfidf,improves,sentiment analysis,1,"{'openie', 'pos tagger', 'dependency tagger'}",{'2135731857.json'},Method,Task,,,,1,1,1,1,1
+dependency con,uses,natural language processing,2,"{'dygiepp', 'pos tagger'}","{'1512661636.json', '2280382815.json'}",OtherEntity,Task,,1,,0,0,0,0,0
+dependency parsing,skos:broader/is/hyponym-of,application specific characteristic,1,{'dygiepp'},{'2099109751.json'},Task,OtherEntity,1,,,0,0,1,0,0
+dependency parsing,uses,beam search,3,"{'pos tagger', 'dygiepp'}","{'2037171735.json', '2161575515.json', '2123243793.json'}",Task,Method,,,,1,1,0,1,1
+dependency parsing,produces,binary syntactic structure,1,"{'openie', 'pos tagger'}",{'2250043191.json'},Task,OtherEntity,,,,1,1,1,1,1
+dependency parsing,based-on,binding and dot assignment algorithm,,,,Task,Method,,,1,0,1,0,0,0
+dependency parsing,extracts,biomedical abstract,2,{'openie'},"{'2121855012.json', '2150406842.json'}",Task,Material,1,,,0,1,0,0,0
+dependency parsing,analyzes,bitplanes,1,{'openie'},{'2053911403.json'},Task,OtherEntity,1,,,0,0,0,0,0
+dependency parsing,uses,categorized information,1,{'dygiepp'},{'2250177496.json'},Task,OtherEntity,,,,1,1,1,1,1
+dependency parsing,executes,concrete syntax,8,"{'openie', 'pos tagger'}","{'1560271548.json', '2223926202.json', '28988013.json', '1517915765.json', '2409384360.json', '1663415433.json', '284187815.json', '2405486651.json'}",Task,Material,,,,1,0,1,0,0
+dependency parsing,produces,concrete syntax,5,{'pos tagger'},"{'2154407881.json', '1969646043.json', '1765813729.json', '1512506408.json', '2159112682.json'}",Task,Material,,,,1,1,1,0,1
+dependency parsing,uses,context free grammar,5,"{'dygiepp', 'pos tagger'}","{'1516398181.json', '2398425018.json', '2163721423.json', '2081451375.json', '196947090.json'}",Task,Method,,,,1,1,1,1,1
+dependency parsing,skos:broader/is/hyponym-of,cveps,1,{'dygiepp'},{'1568196842.json'},Task,Method,1,,,0,0,0,0,0
+dependency parsing,skos:broader/is/hyponym-of,data and data manipulation method,3,{'dygiepp'},"{'1907650100.json', '2217757759.json', '2108046294.json'}",Task,Method,,,,1,0,1,0,0
+dependency parsing,learns,design of modern avionics system,,,,Task,Task,,,1,0,0,0,0,0
+dependency parsing,produces,expressive oil painting animation,1,{'openie'},{'2088299796.json'},Task,Material,1,,,0,0,0,0,0
+dependency parsing,uses,extended finite state approach,1,"{'dygiepp', 'pos tagger', 'dependency tagger'}",{'2157439354.json'},Task,Method,,,,1,1,0,0,0
+dependency parsing,uses,feature computation step,1,{'dygiepp'},{'2250861254.json'},Task,Method,1,,,0,1,1,0,1
+dependency parsing,contributes-to,fsa input,4,"{'pos tagger', 'dependency tagger'}","{'2115172519.json', '2953324709.json'}",Task,OtherEntity,,,,1,0,0,0,0
+dependency parsing,uses,generation unit,2,"{'dygiepp', 'openie'}",{'2813239638.json'},Task,Method,1,,,0,1,0,0,0
+dependency parsing,uses,heuristic method,1,{'dygiepp'},{'1807333353.json'},Task,Method,,,,1,1,1,1,1
+dependency parsing,uses,hpsg style grammar,3,"{'pos tagger', 'dygiepp'}","{'2150836210.json', '1997212468.json'}",Task,Method,,,,1,1,0,0,0
+dependency parsing,acquires,identify information,1,{'openie'},{'1829263399.json'},Task,OtherEntity,1,,,0,0,1,0,0
+dependency parsing,uses,index based method,3,"{'dygiepp', 'openie', 'dependency tagger'}",{'1843863866.json'},Task,Method,,,,1,1,1,0,1
+dependency parsing,produces,lexicalised grammar,2,"{'pos tagger', 'dependency tagger'}",{'2071521298.json'},Task,Method,,,,1,0,1,0,0
+dependency parsing,uses,lexicalised grammar,6,"{'dependency tagger', 'openie', 'dygiepp'}","{'2037171735.json', '2205874601.json', '2083854104.json', '2090079220.json'}",Task,Method,,,,1,1,1,1,1
+dependency parsing,produces,likelihood based classification technique,2,"{'pos tagger', 'dependency tagger'}",{'2108091744.json'},Task,Method,1,,,0,0,0,0,0
+dependency parsing,uses,liquid storage box,,,,Task,OtherEntity,,,1,0,0,0,0,0
+dependency parsing,improves,manet throughput,1,{'openie'},{'221179954.json'},Task,Metric,1,,,0,1,0,0,0
+dependency parsing,uses,medical wave pattern,1,{'openie'},{'1681256025.json'},Task,OtherEntity,1,,,0,0,0,0,0
+dependency parsing,skos:broader/is/hyponym-of,natural language processing,14,"{'openie', 'dygiepp'}","{'1987755742.json', '2251612384.json', '2293147895.json', '2061205848.json', '2106048106.json', '2557530890.json', '2028705102.json', '1556894322.json', '2155712036.json', '2158631604.json', '2140721185.json', '2142679825.json', '2914250182.json', '2037884508.json'}",Task,Task,,,,1,1,1,1,1
+dependency parsing,uses,natural language processing,3,{'pos tagger'},"{'1597349423.json', '2121293489.json', '1912322440.json'}",Task,Task,,,,1,1,1,1,1
+dependency parsing,provides,ne based question,,,,Task,Material,,,1,0,0,0,0,0
+dependency parsing,skos:broader/is/hyponym-of,nlp systems and task,15,{'dygiepp'},"{'2135479201.json', '121743440.json', '2342877923.json', '2138841640.json', '1597896561.json', '2295584157.json', '2028419553.json', '2915057938.json', '1599985958.json', '2953024142.json', '2099032682.json', '2050641287.json', '2939455697.json', '2166117545.json', '32345482.json'}",Task,Task,,,,1,1,1,1,1
+dependency parsing,includes,object oriented and distributed programming,,,,Task,Method,,,1,0,0,0,0,0
+dependency parsing,uses,optimal feature,1,{'dygiepp'},{'2125484465.json'},Task,OtherEntity,1,,,0,1,0,1,1
+dependency parsing,uses,parse table,5,{'dygiepp'},"{'1990362766.json', '1532708871.json', '2142145894.json', '2145587189.json', '2952780262.json'}",Task,OtherEntity,,,,1,1,1,1,1
+dependency parsing,skos:broader/is/hyponym-of,patient and medical assistant,,,,Task,OtherEntity,,,1,0,0,0,0,0
+dependency parsing,identifies,phrasal pattern,1,{'pos tagger'},{'2028859627.json'},Task,OtherEntity,,,,1,1,1,0,1
+dependency parsing,guides,pjfnn,,,,Task,Method,,,1,0,1,0,0,0
+dependency parsing,improves,posterior probability,6,"{'openie', 'pos tagger', 'dependency tagger'}","{'2056860348.json', '2174839307.json'}",Task,Metric,,,,1,0,1,1,1
+dependency parsing,transfers,primary parser,1,{'openie'},{'2189443381.json'},Task,Method,,,,1,0,1,0,0
+dependency parsing,uses,probabilistic based approach,1,{'pos tagger'},{'1494887519.json'},Task,Method,,,,1,1,1,1,1
+dependency parsing,improves,probabilistic framework,5,"{'openie', 'pos tagger', 'dependency tagger'}","{'2056860348.json', '2174839307.json'}",Task,Method,,,,1,1,1,0,1
+dependency parsing,transfers,psf representation,1,{'dependency tagger'},{'2165876984.json'},Task,Method,1,,,0,0,0,0,0
+dependency parsing,analyzes,regular expression,2,"{'openie', 'pos tagger'}",{'2248775355.json'},Task,Method,,,,1,1,1,0,1
+dependency parsing,produces,sefl model update,1,{'openie'},{'2832131618.json'},Task,Method,1,,,0,0,0,0,0
+dependency parsing,affects,semantic information,1,{'openie'},{'2820794572.json'},Task,Method,,,,1,1,1,1,1
+dependency parsing,based-on,sentiment propagation,1,{'pos tagger'},{'2335703454.json'},Task,Task,1,,,0,0,1,0,0
+dependency parsing,includes,shape file format,1,{'openie'},{'2023653088.json'},Task,OtherEntity,1,,,0,0,0,0,0
+dependency parsing,uses,state information data,1,{'dygiepp'},{'2218522258.json'},Task,Material,,,,1,1,0,0,0
+dependency parsing,uses,supertagging feature,3,"{'dygiepp', 'openie'}","{'2166117545.json', '93278731.json', '2250489794.json'}",Task,OtherEntity,,,,1,1,1,0,1
+dependency parsing,includes,syntactics,3,"{'dygiepp', 'openie', 'pos tagger'}","{'2251837567.json', '2786305482.json', '2872199526.json'}",Task,Method,,,,1,0,1,1,1
+dependency parsing,produces,traffic sign recognizing device,,,,Task,Method,,,1,0,0,0,0,0
+dependency parsing,produces,transfer module,,,,Task,Method,,,1,0,1,0,0,0
+dependency parsing,skos:broader/is/hyponym-of,transformation system,2,{'dygiepp'},"{'2100165879.json', '2223046624.json'}",Task,Method,,,,1,0,0,0,0
+dependency parsing,uses,unrestricted grammar,1,{'dygiepp'},{'2116876762.json'},Task,Method,,,,1,1,1,0,1
+dependency parsing,acquires,video parameter,1,{'openie'},{'2836114802.json'},Task,OtherEntity,1,,,0,0,0,0,0
+dependency parsing,produces,ypath table creator,1,{'openie'},{'1604019132.json'},Task,Method,1,,,0,0,0,0,0
+dependency parsing,acquires,zooming for,1,{'pos tagger'},{'226627439.json'},Task,OtherEntity,1,,,0,0,0,0,0
+deppattern grammar,produces,dependency parsing,1,{'dependency tagger'},{'2042918649.json'},Method,Task,,,,1,1,1,0,1
+depthwise separable convolution,uses,machine translation,2,{'dependency tagger'},"{'2625477277.json', '2953333557.json'}",Method,Task,1,,,0,1,1,0,1
+descriptor,identifies,named entity recognition,1,{'dependency tagger'},{'2148553275.json'},Method,Task,,,,1,0,0,0,0
+development task,uses,natural language processing,1,{'dygiepp'},{'2725347475.json'},Task,Task,1,,,0,1,0,0,0
+dictionary based text compression technique,includes,dependency parsing,1,{'pos tagger'},{'2752618916.json'},Method,Task,1,,,0,1,1,0,1
+digital image,uses,wordnet,1,{'dygiepp'},{'1571256912.json'},Material,Material,1,,,0,0,0,0,0
+dimension combination,uses,document classification,1,{'pos tagger'},{'2086373357.json'},OtherEntity,Task,,1,,0,0,0,0,0
+discrete structure,solves,natural language processing,1,{'pos tagger'},{'1591695303.json'},OtherEntity,Task,1,,,0,0,0,0,0
+discretization of variable,based-on,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+displaying of the content,uses,sentiment analysis,1,{'dygiepp'},{'2223255226.json'},Task,Task,1,,,0,1,0,1,1
+distortion feature,uses,dependency parsing,1,{'dygiepp'},{'2251639585.json'},OtherEntity,Task,1,,,0,0,0,0,0
+document classification,based-on,accumulator introduction,1,{'pos tagger'},{'2163876868.json'},Task,OtherEntity,1,,,0,0,0,0,0
+document classification,uses,active learning method,6,{'dygiepp'},"{'2657315003.json', '2114188922.json', '2057773417.json', '2120516650.json', '1604214695.json', '2505990019.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,aggressive feature selection method,1,{'dygiepp'},{'2110007672.json'},Task,Method,,,,1,1,1,1,1
+document classification,skos:broader/is/hyponym-of,area,3,{'dygiepp'},"{'154444589.json', '81068503.json', '2066069889.json'}",Task,Metric,,,,1,0,0,1,0
+document classification,uses,association pattern,1,{'dygiepp'},{'2138922887.json'},Task,OtherEntity,,,,1,1,1,1,1
+document classification,uses,background knowledge,4,"{'dygiepp', 'openie', 'pos tagger'}","{'1518275881.json', '2093780939.json', '2187496928.json', '2833503097.json'}",Task,Material,,,,1,1,1,1,1
+document classification,uses,bayesian classification,20,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2066590395.json', '2895018366.json', '1991022130.json', '2154359981.json', '2125052648.json', '2054335340.json', '2052592714.json', '1658663095.json', '1827453818.json', '120183409.json', '2142066721.json', '1984764020.json', '2084443753.json', '2140336868.json', '2565788240.json', '2076766162.json', '2104404136.json', '2157610863.json', '2037074646.json', '2086889680.json'}",Task,Method,,,,1,1,1,1,1
+document classification,based-on,character extraction technique,1,{'pos tagger'},{'2855182098.json'},Task,Method,1,,,0,1,1,1,1
+document classification,uses,chebyshev polynomial,1,{'dependency tagger'},{'1676542240.json'},Task,Method,,,,1,1,0,0,0
+document classification,based-on,conceptual model based methodology,3,{'pos tagger'},"{'1588866634.json', '1855297257.json', '2047160433.json'}",Task,Method,,,,1,1,0,0,0
+document classification,skos:broader/is/hyponym-of,data mining application system,3,{'dygiepp'},"{'2033417332.json', '1969198379.json', '2096479318.json'}",Task,Method,,,,1,0,1,0,0
+document classification,uses,dice measure,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2087658093.json'},Task,Metric,,,,1,1,0,1,1
+document classification,limits,dimension of the feature space,3,{'pos tagger'},"{'2068833644.json', '2162275200.json', '1966520983.json'}",Task,OtherEntity,,,,1,0,1,0,0
+document classification,uses,distinguishing feature selector,1,{'dygiepp'},{'2134090438.json'},Task,Method,1,,,0,1,0,0,0
+document classification,uses,document frequency,3,{'pos tagger'},"{'2807776514.json', '2168468885.json', '2182723605.json'}",Task,Material,,,,1,1,1,1,1
+document classification,uses,document representation,6,{'dygiepp'},"{'2964028602.json', '2734330123.json', '2143785854.json', '1941537533.json', '2740998197.json', '1836291798.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,duplicated data deleting rule,1,{'dependency tagger'},{'2926511042.json'},Task,OtherEntity,1,,,0,1,0,0,0
+document classification,identifies,e cigarette use,1,{'pos tagger'},{'2326456864.json'},Task,Task,1,,,0,1,0,0,0
+document classification,uses,educational technology,2,"{'pos tagger', 'dependency tagger'}",{'1582442103.json'},Task,Method,1,,,0,1,0,1,1
+document classification,uses,english data collection,1,{'dygiepp'},{'2542085027.json'},Task,Material,1,,,0,1,0,0,0
+document classification,uses,expnet,1,{'openie'},{'2063198646.json'},Task,Method,1,,,0,1,0,0,0
+document classification,includes,feature extension approach,1,{'dependency tagger'},{'2079790775.json'},Task,Method,1,,,0,1,1,1,1
+document classification,uses,feature projection technique,4,"{'dygiepp', 'dependency tagger'}","{'2129911618.json', '1989383315.json'}",Task,Method,,,,1,1,1,0,1
+document classification,uses,feature selection algorithm,8,"{'dygiepp', 'openie'}","{'99850445.json', '2013390089.json', '1950989559.json', '1537064529.json', '2241978443.json', '2068431618.json', '2162223169.json', '2113864572.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,feature selection based approach,4,"{'dygiepp', 'openie', 'pos tagger'}","{'2026032853.json', '2025618971.json', '251061919.json', '2160848462.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,feedforward neural network,12,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2060451584.json', '1525582549.json', '2068046900.json', '2139598168.json', '2101154521.json', '2071505781.json', '1480998498.json', '1497096038.json', '1499814537.json', '2109442698.json', '2621228277.json', '2154529539.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,fuzzy c-means,1,{'dygiepp'},{'2009230763.json'},Task,Method,,,,1,1,1,1,1
+document classification,skos:broader/is/hyponym-of,human pulvinar,,,,Task,OtherEntity,,,1,0,0,0,0,0
+document classification,uses,impchi,1,{'dependency tagger'},{'2567170365.json'},Task,Method,1,,,0,1,0,0,0
+document classification,uses,information process flow,1,{'dygiepp'},{'2152525996.json'},Task,OtherEntity,1,,,0,1,1,0,1
+document classification,skos:broader/is/hyponym-of,information storage and retrieval,6,{'dygiepp'},"{'2608460224.json', '2158660992.json', '58782690.json', '2097277954.json', '2084358158.json', '2519986450.json'}",Task,Task,,,,1,1,1,0,1
+document classification,uses,keywords,5,"{'dygiepp', 'pos tagger'}","{'2158728425.json', '2757794658.json', '2091341295.json', '2105496098.json', '2136075087.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,knn and nb algorithm,6,"{'dygiepp', 'openie'}","{'2168812139.json', '2025363888.json', '1950462534.json', '2092022777.json', '2120109599.json', '1995258314.json'}",Task,Method,,,,1,1,1,1,1
+document classification,provides,knowledge base,1,{'pos tagger'},{'2540718864.json'},Task,Material,,,,1,1,0,0,0
+document classification,uses,kohonen network,3,{'dygiepp'},"{'2080092414.json', '42358948.json', '1836260468.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,labeling of training data,1,{'dygiepp'},{'2066785882.json'},Task,Task,,,,1,1,1,1,1
+document classification,uses,learning algorithms and procedure,10,{'dygiepp'},"{'1527532815.json', '2171976364.json', '2049590849.json', '1994346605.json', '2181393790.json', '1576816570.json', '2113765418.json', '2123338444.json', '2014036760.json', '2413329758.json'}",Task,Method,,,,1,1,1,1,1
+document classification,matches,local linguistic context,1,{'pos tagger'},{'2145296344.json'},Task,OtherEntity,1,,,0,1,1,0,1
+document classification,analyzes,lossless information theoretic lower bound,,,,Task,OtherEntity,,,1,0,0,0,0,0
+document classification,improves,low dimensional behavior,,,,Task,OtherEntity,,,1,0,0,0,0,0
+document classification,uses,machine learning based algorithm,9,"{'dygiepp', 'openie'}","{'121526379.json', '2608694595.json', '1495407965.json', '2127480961.json', '2139598168.json', '103965747.json', '1984868580.json', '2121565877.json', '2039759410.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,machine learningbased approach,10,{'dygiepp'},"{'2131070108.json', '1599853217.json', '1991122732.json', '2006426609.json', '2088339844.json', '2163942188.json', '167522204.json', '4328175.json', '1993613062.json', '2088901205.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,machinelearning technique,8,"{'dygiepp', 'openie'}","{'2123569689.json', '2031556512.json', '2107227928.json', '1990346607.json', '2059778803.json', '2183913575.json', '2148959489.json'}",Task,Method,,,,1,1,1,1,1
+document classification,improves,model based analytical method,2,"{'pos tagger', 'dependency tagger'}",{'1591478822.json'},Task,Method,1,,,0,1,0,0,0
+document classification,uses,multi label base learner,1,{'dygiepp'},{'2307589391.json'},Task,Method,,,,1,1,1,1,1
+document classification,includes,na ve bayesian classifier,1,{'dependency tagger'},{'2380411643.json'},Task,Method,,,,1,1,1,1,1
+document classification,provides,natural language interface,5,"{'openie', 'pos tagger'}","{'46545875.json', '2390137859.json', '1645581389.json', '2550576290.json', '1967203824.json'}",Task,Task,,,,1,1,1,0,1
+document classification,skos:broader/is/hyponym-of,natural language learning task,9,{'dygiepp'},"{'2006999489.json', '2971970905.json', '2138517257.json', '1992048767.json', '2101123026.json', '2890560993.json', '1530974422.json', '2962883166.json', '1540182703.json'}",Task,Task,,,,1,1,1,0,1
+document classification,based-on,nearest prototype classifier,1,{'pos tagger'},{'1978821416.json'},Task,Method,,,,1,1,1,0,1
+document classification,skos:broader/is/hyponym-of,nlp systems and task,6,{'dygiepp'},"{'2901620365.json', '2252221254.json', '1755706264.json', '2952370363.json', '2050641287.json', '2939455697.json'}",Task,Task,,,,1,1,1,1,1
+document classification,uses,nonparametric matrix factorization model,1,{'dygiepp'},{'2398702385.json'},Task,Method,,,,1,1,0,1,1
+document classification,includes,on chip memory bank,,,,Task,OtherEntity,,,1,0,0,0,0,0
+document classification,uses,preprocessing and postprocessing method,3,{'dygiepp'},"{'2081097461.json', '2014545475.json', '2157669672.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,randomized explicit semantic analysis,1,{'dependency tagger'},{'1932870546.json'},Task,Method,1,,,0,1,1,1,1
+document classification,acquires,robust performance,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2657315003.json'},Task,Metric,,,,1,0,0,1,0
+document classification,uses,semi supervised learning based approach,5,"{'dygiepp', 'dependency tagger'}","{'2557163007.json', '2115209694.json', '2096616587.json', '2006297698.json', '2486125749.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,signboard agent,,,,Task,Method,,,1,0,0,0,0,0
+document classification,uses,similarity based learning method,4,{'dygiepp'},"{'2602999615.json', '1524792337.json', '2042200090.json', '1578692790.json'}",Task,Method,,,,1,1,1,1,1
+document classification,includes,spam,9,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2081097461.json', '1997665666.json', '2113671558.json', '2104290684.json', '2023478078.json', '2033808795.json', '2763619329.json', '2774995230.json'}",Task,Task,,,,1,0,1,0,0
+document classification,skos:broader/is/hyponym-of,supervised machine learning,5,{'dygiepp'},"{'1653270119.json', '2789655955.json', '2784310254.json', '1496287430.json', '1944469062.json'}",Task,Method,,,,1,0,1,1,1
+document classification,uses,supervised machine learning,8,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2360134583.json', '2146234850.json', '1591279088.json', '1582442103.json', '2591272477.json', '2158510081.json', '2133651098.json', '27344939.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,svm,21,"{'dygiepp', 'pos tagger'}","{'2039741433.json', '2329156421.json', '2075858744.json', '2242356110.json', '2190001470.json', '2108564850.json', '1989782372.json', '2032598812.json', '2102897314.json', '2054309323.json', '2152525996.json', '1988273412.json', '2130858665.json', '2545410393.json', '2508392542.json', '2033072631.json', '2520488855.json', '2168931314.json', '2033569712.json', '2063526809.json', '1805352283.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,template sleeve,,,,Task,OtherEntity,,,1,0,0,0,0,0
+document classification,uses,term n gram,4,{'dygiepp'},"{'2588301606.json', '1964867170.json', '345244337.json', '2399001524.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,term weighting,3,{'dygiepp'},"{'2168468885.json', '2125109223.json', '2182723605.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,term weighting method,5,{'dygiepp'},"{'2016943187.json', '2058544101.json', '2140321362.json', '2144226085.json', '1487016832.json'}",Task,Method,,,,1,1,1,1,1
+document classification,classifies,text document,5,{'pos tagger'},"{'1808041268.json', '2827199139.json', '1756131902.json', '2796890702.json', '2335272770.json'}",Task,Material,,,,1,1,1,1,1
+document classification,provides,text document,14,"{'openie', 'pos tagger', 'dependency tagger'}","{'2009276147.json', '2510889075.json', '2133726535.json', '2108150588.json', '66954246.json', '1513683478.json', '1978821416.json', '2137332449.json', '2165888424.json', '2154817695.json', '2123817815.json', '158409277.json', '1587231733.json', '2334175399.json'}",Task,Material,,,,1,0,1,0,0
+document classification,manages,textual content data,1,{'pos tagger'},{'2552426019.json'},Task,Material,,,,1,1,1,0,1
+document classification,uses,theory of greedy shaper,,,,Task,Method,,,1,0,0,0,0,0
+document classification,uses,topic detection algorithm,1,{'dygiepp'},{'2078544071.json'},Task,Method,,,,1,1,0,1,1
+document classification,uses,topic model,3,"{'dygiepp', 'dependency tagger'}","{'2153068592.json', '2206638789.json', '2157992638.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,twitter post,1,{'dependency tagger'},{'2399618090.json'},Task,Material,1,,,0,1,1,0,1
+document classification,based-on,vector space model,10,{'pos tagger'},"{'1823546577.json', '1547649215.json', '1532126748.json', '2146327010.json', '1996225293.json', '167522204.json', '2060776304.json', '2385168728.json', '1989127062.json', '2350242447.json'}",Task,Method,,,,1,1,1,1,1
+document classification,uses,verb phrase,1,{'dygiepp'},{'2128587025.json'},Task,Material,,,,1,1,1,1,1
+document classification,transfers,vocabulary,4,{'pos tagger'},"{'1817776218.json', '1604882508.json', '2012462404.json', '1511821846.json'}",Task,Material,,,,1,1,1,0,1
+document classification,uses,wordnet,5,"{'dygiepp', 'pos tagger'}","{'1568869800.json', '2130220066.json', '2100661451.json', '2074962177.json', '2251899089.json'}",Task,Material,,,,1,1,1,1,1
+document representation,uses,named entity recognition,2,"{'dependency tagger', 'dygiepp'}",{'2028838214.json'},Method,Task,,,,1,1,1,0,1
+document set,uses,named entity recognition,1,{'dygiepp'},{'256899734.json'},Material,Task,,1,,0,0,0,0,0
+document set,uses,question answering,1,{'dygiepp'},{'2772467954.json'},Material,Task,,1,,0,0,0,0,0
+domain knowledge,supports,question answering,3,{'pos tagger'},"{'2107408891.json', '2049074085.json', '2067047111.json'}",Material,Task,,,,1,1,1,0,1
+domain ontology,uses,document classification,1,{'dependency tagger'},{'1748756831.json'},Material,Task,,1,,0,0,0,0,0
+domain ontology,acquires,question answering,1,{'pos tagger'},{'2831158655.json'},Material,Task,,1,,0,0,0,0,0
+domain specific texts processing task,includes,sentiment classification,,,,Task,Task,,,1,0,1,1,1,1
+dominus qualitative technique,based-on,wordnet,1,{'pos tagger'},{'2398237978.json'},Method,Material,1,,,0,1,0,0,0
+email classification method,uses,information extraction,1,{'dygiepp'},{'2418737528.json'},Method,Task,1,,,0,1,1,1,1
+email content information,uses,information extraction,2,"{'dygiepp', 'dependency tagger'}",{'2399815506.json'},OtherEntity,Task,1,,,0,1,0,0,0
+emotion identification function,uses,dependency parsing,1,{'dygiepp'},{'2563684792.json'},OtherEntity,Task,1,,,0,1,0,0,0
+emotions of contributor,uses,sentiment analysis,1,{'dygiepp'},{'1983175439.json'},OtherEntity,Task,,1,,0,0,0,0,0
+encoding digital source image data,extracts,information extraction,1,{'pos tagger'},{'2846683140.json'},Task,Task,1,,,0,0,0,0,0
+english text corpus,uses,dependency parsing,1,{'dygiepp'},{'337053624.json'},Material,Task,,1,,0,0,0,0,0
+english to german retrieval,uses,machine translation,2,{'dygiepp'},"{'1508643090.json', '5104570.json'}",Task,Task,,,,1,1,1,1,1
+english translations of hadith text,uses,named entity recognition,1,{'dygiepp'},{'2556735899.json'},Material,Task,1,,,0,0,0,0,0
+entity extraction,skos:broader/is/hyponym-of,natural language processing,12,{'dygiepp'},"{'2190421341.json', '2086776298.json', '2116802742.json', '2514317811.json', '2028854421.json', '2330149175.json', '2330160000.json', '2756655578.json', '2080478264.json', '1607093392.json', '1982611008.json', '382051402.json'}",Task,Task,,,,1,1,1,1,1
+entity extraction,includes,question answering,1,"{'pos tagger', 'dependency tagger'}",{'173870552.json'},Task,Task,,,,1,1,0,0,0
+eor project risk analysis,includes,wordnet,,,,Task,Material,,,1,0,0,0,0,0
+evaluation and,uses,document classification,4,"{'openie', 'pos tagger'}","{'2157668161.json', '2170397402.json'}",Task,Task,,,,1,0,0,0,0
+evaluation and,predicts,information extraction,1,{'pos tagger'},{'1483454943.json'},Task,Task,,,,1,0,0,0,0
+evaluation and,provides,word segmentation,1,{'openie'},{'1486308558.json'},Task,Task,,,,1,0,0,0,0
+evaluation metric measure,analyzes,machine translation,5,{'dygiepp'},"{'2021618504.json', '2040103855.json', '2250216274.json', '2251251208.json', '194782905.json'}",Metric,Task,,,,1,1,1,0,1
+event data,uses,natural language processing,1,{'dygiepp'},{'1935970548.json'},Material,Task,,1,,0,0,0,0,0
+event extraction,skos:broader/is/hyponym-of,information extraction,5,{'dygiepp'},"{'2108743083.json', '2251251652.json', '2290466703.json', '1595578009.json', '2158624439.json'}",Task,Task,,,,1,1,1,1,1
+event information,extracts,information extraction,1,{'pos tagger'},{'2275432104.json'},OtherEntity,Task,,1,,0,0,0,0,0
+everyday computing,uses,document classification,,,,Task,Task,,,1,0,1,0,1,1
+existing system,uses,sentiment analysis,2,"{'pos tagger', 'dependency tagger'}",{'2883341862.json'},OtherEntity,Task,,1,,0,1,0,1,1
+explanation method,produces,natural language processing,4,"{'pos tagger', 'dependency tagger'}","{'2950831963.json', '2798698226.json'}",Method,Task,,,,1,0,0,0,0
+extraction order,acquires,named entity recognition,1,{'pos tagger'},{'2206287464.json'},OtherEntity,Task,,1,,0,0,0,0,0
+facial feature extraction,improves,sentiment analysis,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2801599720.json'},Task,Task,,,,1,1,0,1,1
+fast feedback path,acquires,sentiment analysis,2,"{'pos tagger', 'dependency tagger'}",{'1518254859.json'},OtherEntity,Task,1,,,0,0,0,0,0
+feature extraction based method,uses,document classification,3,"{'openie', 'pos tagger'}","{'2053738319.json', '2858463834.json'}",Method,Task,,,,1,0,1,0,0
+feature selection method,improves,document classification,6,"{'openie', 'pos tagger'}","{'1599853217.json', '1964438691.json', '2089534322.json', '2742894073.json', '2056258790.json', '2160384082.json'}",Method,Task,,,,1,1,1,1,1
+feature selection method,includes,document classification,5,"{'openie', 'pos tagger'}","{'2538688051.json', '2242356110.json', '2116237179.json', '1635111378.json'}",Method,Task,,,,1,0,1,0,0
+feature selection method,outperforms,sentiment classification,1,{'pos tagger'},{'2251339995.json'},Method,Task,,,,1,0,1,0,0
+feature vector,improves,sentiment analysis,1,{'dependency tagger'},{'2923528470.json'},Method,Task,,,,1,1,1,0,1
+features selection technique,uses,document classification,1,{'openie'},{'49807964.json'},Method,Task,,,,1,1,1,0,1
+feedforward neural network,solves,document classification,2,{'pos tagger'},"{'2052649282.json', '2621228277.json'}",Method,Task,,,,1,1,1,1,1
+feedforward neural network,includes,natural language processing,8,{'pos tagger'},"{'2562979205.json', '2953337107.json', '2766243150.json', '1753823461.json', '2963472581.json', '2964159778.json', '2964200170.json', '1601924930.json'}",Method,Task,,,,1,0,1,1,1
+feedforward neural network,uses,natural language processing,13,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2562979205.json', '2766243150.json', '1481240558.json', '1753823461.json', '1601924930.json', '2919207648.json', '2991290085.json', '2964200170.json', '2288593361.json', '2964159778.json'}",Method,Task,,,,1,1,1,0,1
+financial news,uses,natural language processing,3,"{'dygiepp', 'dependency tagger'}","{'2295635247.json', '2272486091.json'}",Material,Task,,1,,0,0,0,0,0
+fine grained categorization method,uses,information extraction,1,{'dygiepp'},{'1857321135.json'},Method,Task,,,,1,1,1,0,1
+flexible technique,provides,named entity recognition,,,,Method,Task,,,1,0,1,1,0,1
+flowers102 dataset,improves,information retrieval technology,,,,Material,Method,,,1,0,0,0,0,0
+forecast technique,uses,word segmentation,1,{'dygiepp'},{'2930987661.json'},Method,Task,1,,,0,1,0,0,0
+free word order indian language,uses,dependency parsing,1,{'dygiepp'},{'2250596139.json'},Material,Task,,1,,0,0,0,0,0
+fuzzy logic inference,based-on,wordnet,1,{'pos tagger'},{'2548668333.json'},Method,Material,1,,,0,1,1,1,1
+gene term,skos:broader/is/hyponym-of,named entity recognition,5,{'dygiepp'},"{'2013061117.json', '1976015112.json', '2613831280.json', '2104148262.json', '2131520733.json'}",OtherEntity,Task,,,,1,0,0,0,0
+general purpose sentiment lexicon,uses,sentiment analysis,2,"{'pos tagger', 'dependency tagger'}",{'2049979164.json'},OtherEntity,Task,,1,,0,0,1,1,1
+generalizations of concatenative language,uses,dependency parsing,1,{'dygiepp'},{'2025835932.json'},OtherEntity,Task,,1,,0,1,0,0,0
+geographical data,uses,information extraction,1,{'pos tagger'},{'2811752547.json'},Material,Task,,1,,0,0,0,0,0
+global semantic information,produces,wordnet,1,{'pos tagger'},{'2151846280.json'},OtherEntity,Material,,,,1,0,1,0,0
+google knowledge graph,supports,question answering,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2604314403.json'},Material,Task,,,,1,1,1,0,1
+google search product,uses,word segmentation,,,,Method,Task,,,1,0,1,1,0,1
+gps positioning,solves,natural language processing,2,"{'pos tagger', 'dependency tagger'}",{'2250193512.json'},Method,Task,1,,,0,0,0,0,0
+grammatical dependency pattern,uses,sentiment analysis,1,{'pos tagger'},{'2159356691.json'},OtherEntity,Task,,1,,0,0,0,0,0
+grf,uses,information extraction,1,{'pos tagger'},{'2157319256.json'},Method,Task,1,,,0,0,0,0,0
+grounded ccg semantic parsing approach,uses,dependency parsing,1,{'openie'},{'2189089430.json'},Method,Task,,,,1,1,0,0,0
+hand crafted textual pattern,includes,relation extraction,2,"{'openie', 'pos tagger'}",{'2152431819.json'},OtherEntity,Task,1,,,0,1,1,0,1
+hard real life problem,includes,text processing,1,{'pos tagger'},{'2264409600.json'},Task,Task,1,,,0,1,0,0,0
+hierarchal learning approach,manages,relation extraction,3,"{'openie', 'pos tagger'}","{'2158983038.json', '2023696455.json'}",Method,Task,,,,1,1,1,0,1
+high coupling capacitance,analyzes,sentiment analysis,,,,OtherEntity,Task,,,1,0,0,0,0,0
+hindi,uses,part of speech,1,{'dygiepp'},{'318113118.json'},Material,Task,,1,,0,0,0,0,0
+human capability,includes,natural language processing,1,{'pos tagger'},{'2057186376.json'},Metric,Task,,1,,0,1,0,0,0
+human like interactive dialog,based-on,natural language processing,,,,OtherEntity,Task,,,1,0,1,0,1,1
+human narrative,includes,natural language processing,1,{'pos tagger'},{'2024710449.json'},Material,Task,,1,,0,0,0,0,0
+hybridisation of genetic programming,transfers,information extraction,,,,Method,Task,,,1,0,0,0,0,0
+identification of ce chat,uses,document classification,1,{'dygiepp'},{'2251671250.json'},Task,Task,,,,1,1,0,0,0
+identity resolution,skos:broader/is/hyponym-of,natural language processing,3,{'dygiepp'},"{'1581262234.json', '2122029987.json', '2133236963.json'}",Task,Task,,,,1,1,1,0,1
+image anchor template,uses,document classification,2,"{'pos tagger', 'dependency tagger'}",{'2097624458.json'},OtherEntity,Task,1,,,0,0,0,0,0
+image photograph,includes,named entity recognition,1,{'dygiepp'},{'2249001430.json'},Material,Task,,1,,0,0,0,0,0
+important block,uses,document classification,1,{'pos tagger'},{'1583242700.json'},OtherEntity,Task,1,,,0,0,0,0,0
+index key value,analyzes,wordnet,,,,OtherEntity,Material,,,1,0,0,0,0,0
+indexing definition,uses,dependency parsing,1,{'dygiepp'},{'1594962278.json'},OtherEntity,Task,,1,,0,0,0,0,0
+indian and foreign language,produces,sentiment analysis,1,{'dependency tagger'},{'2083014268.json'},Material,Task,,1,,0,0,0,0,0
+infinite domain,uses,dependency parsing,1,{'pos tagger'},{'23043397.json'},OtherEntity,Task,,1,,0,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,adaptive feature descriptor,,,,Task,Method,,,1,0,0,1,0,0
+information extraction,uses,biological and biomedical field,4,{'pos tagger'},"{'2119091936.json', '2166817943.json', '2121652122.json', '2145383760.json'}",Task,OtherEntity,,,,1,1,1,0,1
+information extraction,uses,company website,2,{'dygiepp'},"{'137877815.json', '2107389775.json'}",Task,Material,1,,,0,1,0,0,0
+information extraction,extracts,content service provider,1,{'openie'},{'1694994217.json'},Task,Method,,,,1,1,0,0,0
+information extraction,uses,context specific consistency,1,{'pos tagger'},{'178536341.json'},Task,OtherEntity,1,,,0,1,1,1,1
+information extraction,produces,controller space,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,identifies,coronary artery disease,3,"{'openie', 'pos tagger'}","{'833343209.json', '1656216251.json'}",Task,Task,,,,1,1,0,0,0
+information extraction,skos:broader/is/hyponym-of,data interoperability and integration,1,{'dygiepp'},{'2164545070.json'},Task,Task,1,,,0,1,0,0,0
+information extraction,uses,data mining processes and technique,7,{'dygiepp'},"{'2016355461.json', '2234370874.json', '2170161597.json', '2768942284.json', '1663435917.json', '1896367721.json', '2105921299.json'}",Task,Method,,,,1,1,1,1,1
+information extraction,uses,domain ontology,4,"{'dygiepp', 'openie', 'pos tagger'}","{'2395624811.json', '1533132510.json', '2103359476.json', '2605217844.json'}",Task,Material,,,,1,1,1,1,1
+information extraction,uses,education,1,{'pos tagger'},{'2115679025.json'},Task,Task,,,,1,0,0,0,0
+information extraction,based-on,event frame,1,{'pos tagger'},{'2348786060.json'},Task,OtherEntity,1,,,0,1,0,1,1
+information extraction,uses,examination paper information,1,{'pos tagger'},{'2877415107.json'},Task,OtherEntity,1,,,0,1,1,0,1
+information extraction,uses,extracted control flow machine ecfm,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,supports,extraction based approach,3,{'pos tagger'},"{'2158465780.json', '2093812930.json', '2050078085.json'}",Task,Method,,,,1,1,0,1,1
+information extraction,extracts,game information,1,{'pos tagger'},{'2839216575.json'},Task,OtherEntity,,,,1,1,0,1,1
+information extraction,acquires,gaze data,1,{'pos tagger'},{'2065333519.json'},Task,Material,1,,,0,1,0,0,0
+information extraction,uses,genia corpus,1,{'pos tagger'},{'2159278508.json'},Task,Material,,,,1,1,1,1,1
+information extraction,acquires,image of the video sequence,2,"{'pos tagger', 'dependency tagger'}",{'1968616970.json'},Task,Material,1,,,0,1,0,1,1
+information extraction,includes,instrumented device,1,{'dependency tagger'},{'2045395947.json'},Task,Material,1,,,0,1,0,0,0
+information extraction,uses,key words matching,1,{'dygiepp'},{'2928161721.json'},Task,OtherEntity,,,,1,1,1,1,1
+information extraction,supports,knowledge base,4,"{'pos tagger', 'dependency tagger'}","{'1604098248.json', '2101349222.json', '2163763098.json'}",Task,Material,,,,1,1,1,0,1
+information extraction,uses,large scale text collection,1,{'openie'},{'2911863610.json'},Task,Material,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,lda model,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,based-on,luminance measurement data,1,{'pos tagger'},{'2879092840.json'},Task,Material,1,,,0,0,0,0,0
+information extraction,uses,message understanding conference,1,{'dygiepp'},{'2136969267.json'},Task,Material,1,,,0,1,1,0,1
+information extraction,acquires,mrf architecture,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,based-on,multivariate volatility model,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,skos:broader/is/hyponym-of,natural language process nlp technique,5,{'dygiepp'},"{'147166030.json', '1573629781.json', '1593502373.json', '86609720.json', '2335231222.json'}",Task,Method,,,,1,0,1,0,0
+information extraction,uses,natural language processing,6,"{'dygiepp', 'dependency tagger'}","{'2460390741.json', '1482328859.json', '1575613064.json', '1507353491.json', '2119207919.json'}",Task,Task,,,,1,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,natural language processing nlp platform,6,{'dygiepp'},"{'2014394530.json', '2157213932.json', '48671780.json', '117509291.json', '2133341045.json', '1595815960.json'}",Task,Method,,,,1,0,1,0,0
+information extraction,produces,neural representation,,,,Task,Method,,,1,0,1,1,1,1
+information extraction,skos:broader/is/hyponym-of,nlp systems and task,7,{'dygiepp'},"{'2138043057.json', '1573629781.json', '89322240.json', '2202774208.json', '2411652523.json', '2058070641.json', '32345482.json'}",Task,Task,,,,1,1,1,1,1
+information extraction,uses,ontology integration,10,"{'dygiepp', 'openie', 'pos tagger'}","{'1510070000.json', '20410870.json', '2103359476.json', '2605217844.json', '2120293524.json', '1991818091.json', '2000870658.json', '2144633466.json', '1563744462.json', '2004972423.json'}",Task,Task,,,,1,1,1,1,1
+information extraction,produces,personal network structure,2,"{'pos tagger', 'dependency tagger'}",{'2148823639.json'},Task,OtherEntity,1,,,0,1,0,0,0
+information extraction,extracts,photography object,2,{'pos tagger'},"{'2816083902.json', '2305533025.json'}",Task,OtherEntity,,,,1,1,1,0,1
+information extraction,executes,program and program information,1,{'pos tagger'},{'2867516126.json'},Task,OtherEntity,1,,,0,0,0,0,0
+information extraction,extracts,quantitative and qualitative statistical feature,,,,Task,OtherEntity,,,1,0,1,1,1,1
+information extraction,contributes-to,query load,2,"{'pos tagger', 'dependency tagger'}",{'2060565333.json'},Task,Material,1,,,0,0,0,0,0
+information extraction,uses,random projection,1,{'dygiepp'},{'2022112352.json'},Task,Method,,,,1,1,0,1,1
+information extraction,skos:broader/is/hyponym-of,real world example application,5,{'dygiepp'},"{'1993527211.json', '1975174578.json', '318961524.json', '2154996176.json', '1681829378.json'}",Task,Task,,,,1,1,1,0,1
+information extraction,acquires,recommending information,1,{'pos tagger'},{'2835165943.json'},Task,Task,1,,,0,1,1,0,1
+information extraction,uses,regular expression,6,"{'dygiepp', 'pos tagger'}","{'2278538022.json', '1596876282.json', '2367919820.json', '2203527213.json', '2395464497.json'}",Task,Method,,,,1,1,1,1,1
+information extraction,includes,regular expression grammar,1,{'pos tagger'},{'2035266017.json'},Task,Method,,,,1,1,1,1,1
+information extraction,executes,relevant information,1,{'openie'},{'2253821545.json'},Task,Material,,,,1,0,1,0,0
+information extraction,uses,remote sensing image,3,"{'dygiepp', 'pos tagger'}","{'2078433039.json', '2129104688.json', '2392529143.json'}",Task,Material,,,,1,1,0,0,0
+information extraction,based-on,restricted natural language processing,,,,Task,Method,,,1,0,1,1,1,1
+information extraction,uses,scheduling terminal,,,,Task,OtherEntity,,,1,0,0,0,0,0
+information extraction,uses,semantic information,4,"{'openie', 'pos tagger', 'dygiepp'}","{'2074701321.json', '1870211331.json', '2911863610.json', '203035100.json'}",Task,Method,,,,1,1,1,1,1
+information extraction,executes,short circuit current limiting device,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,uses,signal and information processing research,1,{'dependency tagger'},{'2908535058.json'},Task,Task,1,,,0,1,0,0,0
+information extraction,provides,singleton attribute inference,1,{'pos tagger'},{'2883649818.json'},Task,Method,1,,,0,1,0,0,0
+information extraction,uses,so called structure optimization,,,,Task,Method,,,1,0,0,0,0,0
+information extraction,uses,software framework,1,{'dygiepp'},{'2013571149.json'},Task,Method,,,,1,1,1,1,1
+information extraction,transfers,sound information reproduction part 2,1,{'pos tagger'},{'2754011074.json'},Task,Method,1,,,0,0,0,0,0
+information extraction,includes,spoken document retrieval method,2,{'dependency tagger'},"{'2175959952.json', '2246659245.json'}",Task,Method,1,,,0,1,0,1,1
+information extraction,uses,supervised machine learning,9,"{'dygiepp', 'dependency tagger'}","{'2078624732.json', '111352644.json', '200042785.json', '75847532.json', '2759373267.json', '1910250816.json', '2032061643.json', '106121578.json'}",Task,Method,,,,1,1,1,1,1
+information extraction,includes,text analysis technique,4,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}",{'1487716789.json'},Task,Method,,,,1,1,1,1,1
+information extraction,includes,text miner module,1,{'dependency tagger'},{'176793112.json'},Task,Method,,,,1,1,1,1,1
+information extraction,includes,threshold image,2,"{'pos tagger', 'dependency tagger'}",{'2935253527.json'},Task,Material,1,,,0,0,1,0,0
+information extraction,based-on,two phase sampling 2ps technique,1,{'openie'},{'2003316857.json'},Task,Method,1,,,0,1,0,0,0
+information extraction,includes,vessel localization and segmentation,,,,Task,Task,,,1,0,1,0,0,0
+information extraction,uses,web page,11,"{'dygiepp', 'pos tagger'}","{'2223132696.json', '2069205071.json', '2013913877.json', '2125767776.json', '2251623545.json', '2155879015.json', '2070632872.json', '2003304137.json', '2120247405.json', '1524889106.json', '1523469269.json'}",Task,Material,,,,1,1,0,0,0
+information extraction,executes,wrapper induction,1,{'dependency tagger'},{'2165512325.json'},Task,Task,1,,,0,1,0,0,0
+information extraction,produces,xwrap component library,2,{'pos tagger'},"{'2168573064.json', '1927338256.json'}",Task,Method,1,,,0,0,0,0,0
+information extraction ie system,supports,document classification,1,{'openie'},{'1528307050.json'},Method,Task,,,,1,1,1,0,1
+information realization process,uses,dependency parsing,3,{'dygiepp'},"{'2896276636.json', '2070869568.json', '2138535071.json'}",Task,Task,,,,1,0,1,0,0
+information retrieval technology,provides,evaluating road emergency evacuation capacity,,,,Method,Task,,,1,0,0,0,0,0
+information retrieval technology,provides,information number detection part 51,1,"{'pos tagger', 'dependency tagger'}",{'2830578759.json'},Method,Method,1,,,0,0,0,0,0
+information retrieval technology,includes,input selection switch,12,"{'openie', 'pos tagger', 'dependency tagger'}","{'320584231.json', '1907351603.json', '984615515.json', '2203976410.json'}",Method,Method,,,,1,0,0,0,0
+information retrieval technology,includes,retrieval keyword 3,3,"{'dygiepp', 'pos tagger'}","{'2839422134.json', '2770675072.json', '2853726980.json'}",Method,Method,,,,1,0,0,0,0
+information retrieval technology,includes,screen display,8,"{'openie', 'pos tagger'}","{'320584231.json', '1907351603.json', '984615515.json', '2203976410.json'}",Method,Material,,,,1,0,0,0,0
+information storage and retrieval,uses,information extraction,3,"{'dygiepp', 'pos tagger'}","{'2024091454.json', '113662280.json', '1841357960.json'}",Task,Task,,,,1,1,1,1,1
+information storage and retrieval,uses,natural language processing,7,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}","{'2129640063.json', '2404616656.json', '2859644989.json', '2104212264.json', '2294618612.json', '2032586893.json', '1835866219.json'}",Task,Task,,,,1,1,1,1,1
+initial soc,based-on,wordnet,,,,OtherEntity,Material,,,1,0,0,0,0,0
+instruction content,uses,natural language processing,1,{'dygiepp'},{'2275056699.json'},OtherEntity,Task,1,,,0,0,0,0,0
+integration framework system,uses,named entity recognition,,,,Method,Task,,,1,0,1,1,0,1
+intellige,uses,natural language processing,1,{'dygiepp'},{'3003743561.json'},Task,Task,,,,1,0,1,0,0
+intelligent sticky note,uses,natural language processing,2,{'dygiepp'},"{'1994543491.json', '135943618.json'}",Material,Task,1,,,0,0,0,0,0
+inter term dependency,uses,natural language processing,2,{'dygiepp'},"{'2027512482.json', '2524943707.json'}",OtherEntity,Task,,1,,0,0,0,0,0
+interaction business analytics application,uses,information retrieval technology,1,{'dygiepp'},{'2014734320.json'},Task,Method,1,,,0,1,0,0,0
+interpolation processing method,improves,sentiment classification,1,{'openie'},{'1853031019.json'},Method,Task,1,,,0,1,0,0,0
+interruptable algorithm,classifies,dependency parsing,1,{'openie'},{'2038325685.json'},Method,Task,1,,,0,0,0,0,0
+intertextual information,uses,natural language processing,1,{'dygiepp'},{'1568553947.json'},OtherEntity,Task,,1,,0,0,1,0,0
+iraqi arabic,uses,wordnet,1,{'dygiepp'},{'2019026675.json'},Material,Material,,1,,0,0,0,0,0
+japanese language sentence,uses,word segmentation,1,{'dygiepp'},{'1911521811.json'},Material,Task,,1,,0,0,0,0,0
+k cloud,annotates,wordnet,,,,Method,Material,,,1,0,0,0,0,0
+keyframing,acquires,dependency parsing,1,{'pos tagger'},{'1995343657.json'},Task,Task,,,,1,0,1,0,0
+knn and nb algorithm,uses,document classification,5,"{'openie', 'pos tagger', 'dependency tagger'}","{'1950462534.json', '2120109599.json'}",Method,Task,,,,1,0,1,0,0
+knowledge base,executes,question answering,2,"{'pos tagger', 'dependency tagger'}",{'2810112645.json'},Material,Task,,1,,0,0,0,0,0
+knowledge framework,uses,part of speech,1,{'pos tagger'},{'1000929203.json'},Method,Task,1,,,0,0,1,0,0
+knowledge representation system,improves,information extraction,1,{'pos tagger'},{'2804174619.json'},Method,Task,,,,1,1,1,1,1
+labeled in domain data,executes,dependency parsing,1,{'dependency tagger'},{'1966786910.json'},Material,Task,,1,,0,0,0,0,0
+large dimensionality,links,wordnet,,,,Metric,Material,,,1,0,0,0,0,0
+large scale knowledge base,executes,information extraction,1,{'pos tagger'},{'2851706172.json'},Material,Task,,1,,0,0,0,0,0
+latent variable topic model,produces,text processing,1,{'dependency tagger'},{'2027246160.json'},Method,Task,1,,,0,0,1,0,0
+ldl rule,improves,sentiment classification,,,,OtherEntity,Task,,,1,0,0,0,0,0
+leakproofness good,solves,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+learning based method,includes,word segmentation,3,"{'dygiepp', 'pos tagger'}",{'2837641651.json'},Method,Task,,,,1,1,1,0,1
+learning in deep model,improves,sentiment analysis,5,"{'openie', 'pos tagger', 'dependency tagger'}","{'2785939461.json', '2901922204.json'}",Task,Task,,,,1,1,1,0,1
+least square support vector machine,includes,document classification,4,"{'openie', 'pos tagger'}","{'2004190959.json', '1972056194.json', '2125493259.json', '1496147749.json'}",Method,Task,,,,1,0,0,0,0
+least square support vector machine,uses,document classification,3,{'pos tagger'},"{'2820858427.json', '2154359981.json', '1805352283.json'}",Method,Task,,,,1,0,1,0,0
+letter frequency information,includes,document classification,1,{'openie'},{'1595981250.json'},OtherEntity,Task,1,,,0,0,0,0,0
+lexical analyzer,skos:broader/is/hyponym-of,natural language processing,3,{'dygiepp'},"{'2963208801.json', '103905824.json', '2510263599.json'}",Method,Task,,,,1,0,0,0,0
+lexical and general knowledge,includes,dependency parsing,1,{'pos tagger'},{'2106064368.json'},OtherEntity,Task,,1,,0,0,1,0,0
+lexical chain,uses,wordnet,4,{'dygiepp'},"{'2202886794.json', '1520647843.json', '2005148043.json', '2140260539.json'}",Method,Material,,,,1,1,0,0,0
+lexical information need,analyzes,question classification,,,,OtherEntity,Task,,,1,0,0,0,0,0
+lexicalized model,outperforms,dependency parsing,1,{'pos tagger'},{'2099896133.json'},Method,Task,,,,1,1,0,0,0
+limited domain,includes,machine translation,1,{'openie'},{'1580448320.json'},Material,Task,,1,,0,0,0,0,0
+linguistic data consortium,supports,machine translation,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'287472456.json'},Material,Task,,,,1,1,0,0,0
+linguistic meaning,uses,natural language processing,1,{'dygiepp'},{'1562606143.json'},OtherEntity,Task,,1,,0,0,0,0,0
+linguistic properties of unknown word,extracts,dependency parsing,1,{'pos tagger'},{'2131103009.json'},OtherEntity,Task,,1,,0,0,0,0,0
+link and label information,learns,document classification,1,{'openie'},{'2538371562.json'},OtherEntity,Task,1,,,0,0,0,0,0
+link information meta data,based-on,word segmentation,,,,OtherEntity,Task,,,1,0,0,0,0,0
+linnaean hierarchy,skos:broader/is/hyponym-of,information retrieval technology,5,{'dygiepp'},"{'2108328906.json', '1622181171.json', '1609780018.json', '1638139502.json', '1839728246.json'}",Material,Method,,,,1,0,0,0,0
+local coin,annotates,dependency parsing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+location,skos:broader/is/hyponym-of,named entity recognition,15,{'dygiepp'},"{'2085583002.json', '2031689927.json', '52840134.json', '1580467103.json', '1990950045.json', '1551115015.json', '762870823.json', '2097005391.json', '3983095.json', '2175108069.json', '2051940813.json', '2612167364.json', '2337603192.json', '2613709840.json', '2612200651.json'}",Task,Task,,,,1,0,0,0,0
+location qualifier,skos:broader/is/hyponym-of,named entity recognition,1,{'dygiepp'},{'2585785990.json'},OtherEntity,Task,1,,,0,0,0,0,0
+logged communication,analyzes,sentiment analysis,1,{'pos tagger'},{'1535470500.json'},Material,Task,1,,,0,0,0,0,0
+logic programming,executes,question answering,,,,Method,Task,,,1,0,1,0,1,1
+machine translation,uses,arabic noun phrase,3,{'dygiepp'},"{'2013268229.json', '2032225523.json', '2140563376.json'}",Task,OtherEntity,,,,1,1,1,0,1
+machine translation,skos:broader/is/hyponym-of,area,8,{'dygiepp'},"{'2740664249.json', '1531522183.json', '2567271240.json', '1505951874.json', '2066069889.json', '2976161557.json', '2783444524.json', '2134913565.json'}",Task,Metric,,,,1,0,0,0,0
+machine translation,includes,artificial intelligence based approach,,,,Task,Method,,,1,0,0,1,1,1
+machine translation,skos:broader/is/hyponym-of,basic unit,1,{'dygiepp'},{'2606308499.json'},Task,OtherEntity,1,,,0,0,0,0,0
+machine translation,uses,blark,1,{'dygiepp'},{'287667925.json'},Task,Method,1,,,0,1,0,0,0
+machine translation,uses,case frame structure,1,{'dependency tagger'},{'2033885566.json'},Task,OtherEntity,1,,,0,1,0,0,0
+machine translation,uses,computer executable object code,,,,Task,OtherEntity,,,1,0,0,0,0,0
+machine translation,acquires,controlling device 12,,,,Task,OtherEntity,,,1,0,0,0,0,0
+machine translation,uses,discriminative training approach,1,{'dygiepp'},{'2158614781.json'},Task,Method,,,,1,1,1,1,1
+machine translation,uses,domain adaptation,4,{'dygiepp'},"{'2095669743.json', '2185701500.json', '1560656908.json', '2096549294.json'}",Task,Task,,,,1,1,1,1,1
+machine translation,skos:broader/is/hyponym-of,gabor based local feature,,,,Task,OtherEntity,,,1,0,0,0,0,0
+machine translation,uses,gdg,1,{'dygiepp'},{'565572443.json'},Task,Method,1,,,0,1,0,1,1
+machine translation,uses,ims based framework,,,,Task,Method,,,1,0,0,0,0,0
+machine translation,uses,interlingua approach,3,{'dygiepp'},"{'2175138859.json', '2096917389.json', '171172856.json'}",Task,Method,,,,1,1,1,1,1
+machine translation,uses,lexical information need,3,"{'dygiepp', 'pos tagger'}","{'2102153514.json', '2120699290.json'}",Task,OtherEntity,,,,1,0,1,0,0
+machine translation,uses,lexicalised grammar,1,{'dygiepp'},{'2092665392.json'},Task,Method,,,,1,1,1,1,1
+machine translation,discusses,multilingual mode,1,{'openie'},{'2145489928.json'},Task,Material,,,,1,0,1,0,0
+machine translation,skos:broader/is/hyponym-of,natural language learning task,24,{'dygiepp'},"{'1989420656.json', '2168371312.json', '2890560993.json', '2962883166.json', '2548195627.json', '136407171.json', '2155023705.json', '2294343784.json', '1577834172.json', '1943425118.json', '2533137783.json', '2395660647.json', '2119423321.json', '2585950056.json', '2032355794.json', '2132727750.json', '2546915671.json', '2931048012.json', '2951900777.json', '2741863321.json', '2178770890.json', '110893844.json', '61303690.json', '2142005091.json'}",Task,Task,,,,1,1,1,1,1
+machine translation,skos:broader/is/hyponym-of,nlp systems and task,14,{'dygiepp'},"{'2105201713.json', '2950622265.json', '2160424986.json', '2116512888.json', '163054753.json', '1756388614.json', '2250977525.json', '2125992430.json', '2051232946.json', '349016546.json', '2953024142.json', '2910092637.json', '2411652523.json', '2606308499.json'}",Task,Task,,,,1,0,1,1,1
+machine translation,produces,ontology integration,3,{'pos tagger'},"{'1998631676.json', '46559079.json'}",Task,Task,,,,1,1,1,0,1
+machine translation,uses,parallel text,19,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}","{'2552175949.json', '2252049613.json', '2912815991.json', '2139217759.json', '1550142155.json', '2951521088.json', '2251796964.json', '2254927911.json', '1494093282.json', '338621447.json', '578131475.json', '2023392367.json', '157432847.json', '2222731017.json', '1636405317.json', '2741863321.json', '2727254520.json', '2104907655.json', '1967952448.json'}",Task,Material,,,,1,1,1,1,1
+machine translation,skos:broader/is/hyponym-of,practical language processing task,4,{'dygiepp'},"{'2104595351.json', '2059031628.json', '2091981305.json', '2768035686.json'}",Task,Task,,,,1,1,1,1,1
+machine translation,acquires,professional human translator,4,"{'pos tagger', 'dependency tagger'}","{'2952772525.json', '2888159079.json'}",Task,Method,,,,1,0,1,0,0
+machine translation,affects,professional human translator,2,"{'pos tagger', 'dependency tagger'}",{'315798881.json'},Task,Method,,,,1,1,1,1,1
+machine translation,skos:broader/is/hyponym-of,real transduction problem,2,{'dygiepp'},"{'2951777936.json', '1602017060.json'}",Task,Task,1,,,0,0,0,0,0
+machine translation,skos:broader/is/hyponym-of,real world example application,4,{'dygiepp'},"{'1782524086.json', '1681829378.json', '770111601.json', '2114043710.json'}",Task,Task,,,,1,1,1,1,1
+machine translation,uses,rnn spn model,1,{'dygiepp'},{'2623333128.json'},Task,Method,,,,1,1,1,0,1
+machine translation,uses,statistical bilingual word alignment,2,{'dygiepp'},"{'2095577376.json', '2077332795.json'}",Task,Task,,,,1,1,1,1,1
+machine translation,uses,statistical language modeling,10,"{'dygiepp', 'openie', 'pos tagger'}","{'1987307590.json', '2293636126.json', '2045675590.json', '2129574239.json', '2250741237.json', '2188741930.json', '2142506199.json', '2130917146.json', '2321698605.json', '1590952807.json'}",Task,Method,,,,1,1,1,1,1
+machine translation,annotates,stress analysis engineer,,,,Task,Method,,,1,0,0,0,0,0
+machine translation,uses,system combination,3,{'dygiepp'},"{'2251299219.json', '2122489459.json', '2250849168.json'}",Task,Method,,,,1,1,0,1,1
+machine translation,acquires,translation model approach,8,"{'pos tagger', 'dependency tagger'}","{'2168733445.json', '2103681107.json', '2227523508.json', '2963333747.json', '2142669279.json'}",Task,Method,,,,1,1,1,1,1
+machine translation,uses,ungrammatical input,2,"{'pos tagger', 'dependency tagger'}",{'163054753.json'},Task,Material,,,,1,1,1,0,1
+machine translation,skos:broader/is/hyponym-of,vote directing frame,,,,Task,OtherEntity,,,1,0,0,0,0,0
+machine translation,improves,word generating model,2,"{'pos tagger', 'dependency tagger'}",{'79826182.json'},Task,Method,,,,1,1,1,0,1
+machine translation evaluation mte system,analyzes,machine translation,1,{'dygiepp'},{'2250947781.json'},Task,Task,,,,1,1,1,0,1
+machinelearning technique,uses,document classification,6,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}","{'2183913575.json', '2059778803.json', '1500547895.json', '180288257.json'}",Method,Task,,,,1,1,1,0,1
+machinelearning technique,uses,natural language processing,5,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}","{'2056029667.json', '2905209374.json', '2294618612.json', '2122329662.json'}",Method,Task,,,,1,1,1,1,1
+majority problem,processes,dependency parsing,1,{'pos tagger'},{'2101396940.json'},Task,Task,1,,,0,0,0,0,0
+meaning of unknown word,includes,named entity recognition,2,{'pos tagger'},"{'2787323337.json', '9407926.json'}",OtherEntity,Task,,1,,0,0,0,0,0
+mediator environment,based-on,information extraction,1,{'dependency tagger'},{'1602357152.json'},Task,Task,1,,,0,1,0,0,0
+medinx component,based-on,natural language processing,2,"{'pos tagger', 'dependency tagger'}",{'2505346073.json'},Method,Task,1,,,0,1,0,0,0
+message text,uses,sentiment analysis,1,{'dygiepp'},{'10307964.json'},Material,Task,,1,,0,0,0,0,0
+messages of twitter,uses,sentiment analysis,1,"{'dygiepp', 'pos tagger'}",{'2121043186.json'},Material,Task,,1,,0,0,0,0,0
+metal chamfer cutting machine,acquires,question answering,,,,Method,Task,,,1,0,0,0,0,0
+metamap system,skos:broader/is/hyponym-of,named entity recognition,1,{'dygiepp'},{'2735651584.json'},Method,Task,,,,1,0,1,1,1
+micro arc fresnel reflector,uses,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+mining of complex text source,manages,information extraction,1,{'openie'},{'1601974683.json'},Task,Task,,,,1,1,0,0,0
+mlkb,includes,wordnet,2,"{'pos tagger', 'dependency tagger'}",{'1928953731.json'},Material,Material,,,,1,1,0,1,1
+mobile device,uses,dependency parsing,1,{'dygiepp'},{'2402895696.json'},Material,Task,,1,,0,0,0,1,0
+mobile device,executes,natural language processing,2,"{'pos tagger', 'dependency tagger'}","{'2604096803.json', '2311169406.json'}",Material,Task,,1,,0,0,0,1,0
+modelling framework,based-on,information extraction,1,{'pos tagger'},{'1987190019.json'},Method,Task,,,,1,1,1,1,1
+monitor operating state image,uses,natural language processing,,,,Material,Task,,,1,0,0,0,0,0
+monolingual measure,uses,wordnet,1,{'dygiepp'},{'1657275562.json'},Method,Material,,,,1,1,1,1,1
+multi agents framework,contributes-to,document classification,1,{'pos tagger'},{'2151688820.json'},Method,Task,1,,,0,1,1,1,1
+multi layer collaborative cache,matches,question answering,1,{'dygiepp'},{'1672583157.json'},Method,Task,1,,,0,0,0,0,0
+multi level relation extractor,guides,natural language processing,,,,Method,Task,,,1,0,1,0,1,1
+multi story viewing device,provides,dependency parsing,,,,Method,Task,,,1,0,0,1,0,0
+multi user observation scheduling problem,uses,dependency parsing,,,,Task,Task,,,1,0,0,1,0,0
+multichannel algorithm,uses,natural language processing,,,,Method,Task,,,1,0,1,0,0,0
+multilingual and multicultural population,uses,machine translation,4,"{'dygiepp', 'dependency tagger'}","{'2103450086.json', '2034636319.json'}",Material,Task,,1,,0,0,0,0,0
+multilingual lkb,uses,wordnet,1,{'dygiepp'},{'1928953731.json'},Material,Material,,1,,0,0,0,0,0
+multilingual proposition database,uses,dependency parsing,1,{'pos tagger'},{'1801649518.json'},Material,Task,1,,,0,0,0,0,0
+multimodal natural language interface,includes,dependency parsing,1,{'pos tagger'},{'303442408.json'},OtherEntity,Task,,1,,0,1,0,1,1
+multimodal system,uses,natural language understanding,2,"{'dependency tagger', 'dygiepp'}",{'1971945868.json'},Method,Task,,,,1,1,1,1,1
+multivalued information,uses,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+mutual reinforcement approach,manages,sentiment analysis,2,"{'openie', 'pos tagger'}",{'2114581066.json'},Method,Task,1,,,0,1,1,0,1
+myriad resource,provides,natural language generation,1,{'openie'},{'2136313102.json'},Material,Task,,1,,0,0,0,0,0
+named entity recognition,includes,analysis of dl equivalent ops,,,,Task,Task,,,1,0,0,0,0,0
+named entity recognition,limits,call classification error rate,1,{'openie'},{'2037595448.json'},Task,Metric,,1,,0,1,1,0,1
+named entity recognition,executes,clustercomputer,1,{'openie'},{'2401482458.json'},Task,Method,1,,,0,0,0,0,0
+named entity recognition,based-on,conditional random field,3,{'pos tagger'},"{'2070298181.json', '2787080132.json', '2120718680.json'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,uses,conditional random field,6,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2515403501.json', '2787080132.json', '1679271494.json', '2036935277.json', '320467647.json', '1999897823.json'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,provides,corpus of weakly labeled data,3,"{'openie', 'pos tagger'}","{'2788914818.json', '2765242061.json'}",Task,Material,,,,1,1,1,1,1
+named entity recognition,uses,entity extraction,9,"{'dygiepp', 'pos tagger'}","{'2796831711.json', '2009774589.json', '2557045710.json', '2397495166.json', '1728883788.json', '2102292252.json', '2729101176.json', '2048613595.json', '2772350809.json'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,uses,feature combining,1,{'dygiepp'},{'908833634.json'},Task,Method,,,,1,1,1,1,1
+named entity recognition,uses,hybrid method,3,"{'dygiepp', 'dependency tagger'}","{'149314121.json', '2031504332.json'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,information extraction ie task,8,"{'openie', 'dygiepp'}","{'2782481906.json', '1530375956.json', '2393502053.json', '2112667785.json', '14854443.json', '2406932913.json', '2515406546.json', '1542291579.json'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,uses,information gain ratio measure,2,"{'pos tagger', 'dependency tagger'}",{'1990304395.json'},Task,Metric,,,,1,1,1,1,1
+named entity recognition,uses,maximum entropy based classification system,1,{'dygiepp'},{'908833634.json'},Task,Method,,,,1,1,1,1,1
+named entity recognition,includes,named entity recognition ner model,1,{'pos tagger'},{'2867785705.json'},Task,Method,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,natural language learning task,10,{'dygiepp'},"{'2196604737.json', '2736885633.json', '1780228234.json', '2119013622.json', '2138517257.json', '2506797056.json', '2549624289.json', '2158899491.json', '61303690.json', '1968084137.json'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,natural language processing,14,{'dygiepp'},"{'2251276420.json', '2086776298.json', '2190421341.json', '2116802742.json', '2028854421.json', '2330149175.json', '2442408233.json', '2330160000.json', '2756655578.json', '2080478264.json', '1607093392.json', '1982611008.json', '382051402.json', '2181626422.json'}",Task,Task,,,,1,1,1,1,1
+named entity recognition,skos:broader/is/hyponym-of,online distributed resource,,,,Task,Material,,,1,0,0,0,0,0
+named entity recognition,skos:broader/is/hyponym-of,packaging solution,,,,Task,Method,,,1,0,0,0,0,0
+named entity recognition,uses,pegasos algorithm,3,"{'dygiepp', 'pos tagger', 'dependency tagger'}",{'2024944872.json'},Task,Method,,,,1,1,1,1,1
+named entity recognition,includes,representation of knowledge,1,{'openie'},{'2182967823.json'},Task,Task,,,,1,1,1,1,1
+named entity recognition,uses,smart dictionary,1,{'openie'},{'2013109830.json'},Task,Material,,,,1,1,1,1,1
+named entity recognition,uses,spoken word document,1,{'dependency tagger'},{'2406932913.json'},Task,Material,,,,1,1,1,0,1
+named entity recognition,uses,stochastic degradation modeling framework,,,,Task,Method,,,1,0,0,1,1,1
+named entity recognition,uses,svm,3,{'dygiepp'},"{'2002825666.json', '2252143212.json', '2047503168.json'}",Task,Method,,,,1,1,1,1,1
+named entity recognition,outperforms,text and speech transcript,2,"{'openie', 'dependency tagger'}",{'2054718232.json'},Task,Material,,1,,0,1,1,0,1
+named entity recognition,uses,unlabeled information,3,{'pos tagger'},"{'2962776108.json', '2066564102.json', '1755456395.json'}",Task,OtherEntity,,,,1,1,1,1,1
+named entity recognition,uses,unsupervised score,2,"{'dygiepp', 'pos tagger'}",{'67087480.json'},Task,OtherEntity,1,,,0,1,1,0,1
+named entity recognition,transfers,user information,2,{'openie'},"{'24779722.json', '2265945515.json'}",Task,Material,,,,1,0,1,0,0
+named entity recognition,based-on,vector data,3,{'pos tagger'},"{'2104091251.json', '2153842967.json', '2116922044.json'}",Task,Material,,,,1,1,1,0,1
+named entity recognition,extracts,yago,1,{'pos tagger'},{'1993833738.json'},Task,Material,,,,1,0,1,0,0
+native german,executes,dependency parsing,1,{'dependency tagger'},{'2764337833.json'},Material,Task,,1,,0,0,0,0,0
+natural language generation,skos:broader/is/hyponym-of,address allocation problem,,,,Task,Task,,,1,0,0,0,0,0
+natural language generation,uses,mono language program,,,,Task,OtherEntity,,,1,0,1,0,0,0
+natural language generation,uses,pipelined architecture,3,"{'dygiepp', 'dependency tagger'}","{'2150959203.json', '2160324138.json', '171474379.json'}",Task,Method,,,,1,1,1,1,1
+natural language generation,solves,translation tool set,1,{'pos tagger'},{'2963889114.json'},Task,OtherEntity,,,,1,0,1,0,0
+natural language processing,identifies,affective state,1,{'pos tagger'},{'61625422.json'},Task,OtherEntity,,,,1,1,0,0,0
+natural language processing,skos:broader/is/hyponym-of,artificial intelligence,15,{'dygiepp'},"{'2315515927.json', '37265549.json', '1967646568.json', '2595345837.json', '2243878478.json', '2330149175.json', '2538807767.json', '2994194659.json', '2166976735.json', '571422818.json', '2805954242.json', '2895259358.json', '2765480962.json', '2329628912.json', '188131813.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,uses,automatic checking technology,1,{'dependency tagger'},{'945345398.json'},Task,Method,1,,,0,0,0,1,0
+natural language processing,supports,base entity,,,,Task,OtherEntity,,,1,0,0,1,0,0
+natural language processing,supports,biomedical literature,1,{'pos tagger'},{'2296412236.json'},Task,Material,,,,1,1,0,1,1
+natural language processing,uses,biomedical text,3,{'dygiepp'},"{'238734946.json', '2020357318.json', '2152966407.json'}",Task,Material,,,,1,1,1,1,1
+natural language processing,analyzes,chinese asr,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2358723637.json'},Task,Task,,,,1,1,1,1,1
+natural language processing,uses,companion gaming experience,,,,Task,OtherEntity,,,1,0,0,0,0,0
+natural language processing,manages,complex morphology,2,"{'openie', 'dependency tagger'}",{'2807188009.json'},Task,OtherEntity,,,,1,1,0,0,0
+natural language processing,skos:broader/is/hyponym-of,computer science course,7,{'dygiepp'},"{'2496290860.json', '2058829856.json', '2096122558.json', '1994322930.json', '2169940701.json', '2012731080.json', '2096306683.json'}",Task,Task,,,,1,1,0,0,0
+natural language processing,uses,content display tool,,,,Task,Method,,,1,0,0,0,0,0
+natural language processing,adapts,corpus criterion,1,{'openie'},{'2128529468.json'},Task,Metric,,,,1,1,1,0,1
+natural language processing,uses,corpusbased approach,8,{'dygiepp'},"{'2154250549.json', '2108184387.json', '78509178.json', '59585178.json', '2039224679.json', '2117400858.json', '1504698761.json', '2951778810.json'}",Task,Method,,,,1,1,0,1,1
+natural language processing,uses,correlation analysis,5,"{'dygiepp', 'dependency tagger'}","{'2342837748.json', '2170167574.json', '2101672736.json'}",Task,Method,,,,1,1,1,0,1
+natural language processing,based-on,database application domain,4,{'openie'},"{'1996649656.json', '2915162601.json', '2027512482.json', '1599836579.json'}",Task,Task,,,,1,0,0,0,0
+natural language processing,uses,deep learning,37,"{'dygiepp', 'dependency tagger'}","{'2585308011.json', '2474081654.json', '2587019100.json', '2946296745.json', '2919207648.json', '2963400886.json', '2860192827.json', '2736889448.json', '2342543219.json', '2534350998.json', '2252168718.json', '2810410758.json', '2751354647.json', '2613267722.json', '2787885772.json', '2951707557.json', '2605350416.json', '2742229469.json', '2963326767.json', '2768764839.json', '2951720331.json', '2780799698.json', '2742947407.json', '2922048308.json', '2903938540.json', '2886579202.json', '2884001105.json', '2978535775.json', '2601071158.json', '2605435278.json', '2142801765.json', '2963401022.json', '2805849402.json', '2558748708.json', '2883775592.json', '2727355181.json', '2115791615.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,uses,deep learning based approach,3,{'dygiepp'},"{'2952983458.json', '2460580556.json', '2612233603.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,uses,dependency parsing,6,{'dygiepp'},"{'215345798.json', '1967646568.json', '2383537280.json', '2133372790.json', '1504698761.json', '951323480.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,uses,digital voice input,3,"{'dygiepp', 'pos tagger', 'dependency tagger'}",{'2526505819.json'},Task,OtherEntity,,,,1,1,1,1,1
+natural language processing,uses,distributed representations of word,5,{'dygiepp'},"{'29354635.json', '2963090765.json', '2910215611.json', '2786685006.json', '2101609803.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,includes,document level,1,{'dygiepp'},{'1967646568.json'},Task,OtherEntity,,,,1,0,1,0,0
+natural language processing,includes,dspect,,,,Task,Method,,,1,0,0,0,0,0
+natural language processing,uses,energy efficient hardware component,1,{'dygiepp'},{'2004697882.json'},Task,Method,1,,,0,1,0,0,0
+natural language processing,uses,feedforward neural network,13,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2142920810.json', '2799131456.json', '2919207648.json', '2774688396.json', '2200188567.json', '2295097532.json', '2740220207.json', '2860192827.json', '2889959382.json', '2896805421.json', '1648082061.json', '2948223045.json', '2106154218.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,uses,force task,,,,Task,Task,,,1,0,0,0,0,0
+natural language processing,uses,fst,1,{'dygiepp'},{'2503982540.json'},Task,Method,,,,1,1,0,1,1
+natural language processing,uses,graphbased method,4,{'dygiepp'},"{'1513911358.json', '1987698389.json', '2169142063.json', '2591045237.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,extracts,hidden geographic cue,1,{'openie'},{'2279610012.json'},Task,OtherEntity,,,,1,1,0,1,1
+natural language processing,supports,identification mean,2,"{'openie', 'pos tagger'}",{'2165022036.json'},Task,Method,,,,1,0,1,0,0
+natural language processing,includes,identification of utility maximizing strategy,,,,Task,Task,,,1,0,0,0,0,0
+natural language processing,uses,information extraction,5,{'pos tagger'},"{'2168301550.json', '2950210960.json', '2952846325.json', '2165979968.json', '2137650255.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,uses,information extraction ie task,3,"{'pos tagger', 'dependency tagger'}","{'2120294916.json', '2137650255.json', '2950210960.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,skos:broader/is/hyponym-of,information retrieval technology,5,{'dygiepp'},"{'2108328906.json', '1622181171.json', '1609780018.json', '1638139502.json', '1839728246.json'}",Task,Method,,,,1,0,1,0,0
+natural language processing,includes,information storage and retrieval,5,{'pos tagger'},"{'2124110926.json', '2119423321.json', '2017292107.json', '2110700145.json', '2326206218.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,solves,inter term dependency,4,{'openie'},"{'1996649656.json', '2027512482.json', '2915162601.json', '1599836579.json'}",Task,OtherEntity,,,,1,1,0,1,1
+natural language processing,uses,leather nesting problem,,,,Task,Task,,,1,0,0,0,0,0
+natural language processing,uses,localized partial backtracking step,,,,Task,OtherEntity,,,1,0,0,0,0,0
+natural language processing,uses,machine learningbased approach,7,"{'dygiepp', 'pos tagger'}","{'2125741016.json', '2279316390.json', '1510382770.json', '2136737174.json', '2810410758.json', '2711122919.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,includes,machine translation,13,"{'openie', 'pos tagger', 'dependency tagger'}","{'2124110926.json', '2602275733.json', '2206846202.json', '2132727750.json', '2282295170.json', '1538826769.json', '2890560993.json', '2962883166.json', '1549023374.json', '2580175322.json', '2111523972.json', '2345353767.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,includes,medical domain,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2912832745.json'},Task,Material,,,,1,0,0,0,0
+natural language processing,identifies,medical students clinical note,1,{'pos tagger'},{'1748329829.json'},Task,Material,,,,1,1,0,0,0
+natural language processing,acquires,micro averaged f1 score,1,{'pos tagger'},{'2729101176.json'},Task,Metric,1,,,0,1,1,0,1
+natural language processing,skos:broader/is/hyponym-of,multimedia field,1,{'dygiepp'},{'2735895797.json'},Task,Task,,,,1,0,1,0,0
+natural language processing,contributes-to,neural model of language,1,{'pos tagger'},{'2910215611.json'},Task,Method,,,,1,1,1,1,1
+natural language processing,acquires,off screen location,,,,Task,OtherEntity,,,1,0,0,0,0,0
+natural language processing,uses,ontology integration,10,"{'pos tagger', 'dygiepp'}","{'1489188360.json', '2162323699.json', '2418920503.json', '1996060801.json', '1501187313.json', '133459021.json', '2497754239.json', '2154303291.json', '2133004109.json', '1602515394.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,uses,parts of speech pos tagging,3,{'dygiepp'},"{'112447293.json', '2419708531.json', '2125521111.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,uses,pos tagging,3,"{'dygiepp', 'openie'}","{'2137397532.json', '2326206218.json', '2262530854.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,skos:broader/is/hyponym-of,prediction of financial market,,,,Task,Task,,,1,0,0,0,0,0
+natural language processing,uses,probabilistically motivated error metric,1,{'dygiepp'},{'2950006171.json'},Task,Metric,1,,,0,0,1,0,0
+natural language processing,uses,program semantics,5,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'1929241474.json', '1568580077.json', '2170232725.json', '2036748811.json'}",Task,Task,,,,1,1,0,0,0
+natural language processing,uses,representative system,2,"{'pos tagger', 'dependency tagger'}",{'1561694252.json'},Task,Method,,,,1,0,0,0,0
+natural language processing,provides,retrieval performance,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2127713022.json'},Task,Metric,,,,1,1,1,0,1
+natural language processing,includes,risk level of cardiovascular disease,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'1737136247.json'},Task,Task,,,,1,0,0,0,0
+natural language processing,produces,sar ccd image,,,,Task,Material,,,1,0,0,0,0,0
+natural language processing,uses,sas domain,,,,Task,Material,,,1,0,1,0,0,0
+natural language processing,uses,sco,1,{'dygiepp'},{'2149611732.json'},Task,Method,1,,,0,0,0,0,0
+natural language processing,analyzes,segment break,1,{'openie'},{'2331628051.json'},Task,OtherEntity,1,,,0,1,0,0,0
+natural language processing,uses,semantic information,6,"{'dygiepp', 'pos tagger'}","{'1965718659.json', '1552768548.json', '1562303255.json', '2134804405.json', '827795486.json', '2169319776.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,includes,semantic parsing,1,{'pos tagger'},{'2778360819.json'},Task,Task,,,,1,1,1,1,1
+natural language processing,includes,sentiment analysis,5,"{'dygiepp', 'openie', 'pos tagger'}","{'2897891760.json', '2101400398.json', '2146338426.json', '2058339786.json', '2779594574.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,uses,sna,1,{'openie'},{'2141450886.json'},Task,Method,,,,1,1,0,1,1
+natural language processing,uses,snomed ct,1,{'dygiepp'},{'2418680801.json'},Task,Method,1,,,0,1,1,1,1
+natural language processing,uses,statistic based approach,6,{'dygiepp'},"{'2476111558.json', '1410460.json', '1497468636.json', '1522805676.json', '2107029693.json', '1579369185.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,uses,statistical methods and model,6,"{'dygiepp', 'openie', 'pos tagger'}","{'1569358989.json', '2134804405.json', '2143742295.json', '2963583956.json', '37860569.json', '2288940182.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,solves,stream selection unit 17,,,,Task,OtherEntity,,,1,0,0,0,0,0
+natural language processing,uses,summary level text similarity metric,1,{'dygiepp'},{'1862599395.json'},Task,Metric,1,,,0,1,0,1,1
+natural language processing,based-on,supervised machine learning,5,{'pos tagger'},"{'1977136647.json', '1510382770.json', '197170904.json', '2964249461.json', '2898009658.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,uses,supervised training method,6,"{'dygiepp', 'dependency tagger'}","{'2154250549.json', '2108184387.json', '78509178.json', '2951778810.json'}",Task,Method,,,,1,1,1,1,1
+natural language processing,solves,synchronous contextfree grammar,,,,Task,Method,,,1,0,1,0,1,1
+natural language processing,provides,test controller,,,,Task,Method,,,1,0,0,0,0,0
+natural language processing,provides,text information management technology,1,"{'openie', 'pos tagger', 'dependency tagger'}",{'1552919843.json'},Task,Method,,,,1,1,1,1,1
+natural language processing,uses,text mining,5,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2051689038.json', '2076095095.json', '9328536.json', '2463708849.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,uses,treebanks,5,{'dygiepp'},"{'2103989983.json', '2252189613.json', '2073955506.json', '2160158530.json', '1491873107.json'}",Task,Material,,,,1,1,1,1,1
+natural language processing,learns,uniform membership problem,1,{'pos tagger'},{'2407660615.json'},Task,Task,1,,,0,1,0,0,0
+natural language processing,uses,unix commanddiff,3,"{'dygiepp', 'pos tagger', 'dependency tagger'}",{'2403675547.json'},Task,OtherEntity,,,,1,0,0,0,0
+natural language processing,extracts,unstructured text,3,{'pos tagger'},"{'1521626219.json', '2182888718.json', '1968430704.json'}",Task,Material,,,,1,1,1,1,1
+natural language processing,extracts,wagner family,,,,Task,Method,,,1,0,0,0,0,0
+natural language processing,uses,word formation cost function,,,,Task,Method,,,1,0,1,1,0,1
+natural language processing,uses,word segmentation,3,{'dygiepp'},"{'2110300018.json', '158142204.json', '2146654604.json'}",Task,Task,,,,1,1,1,1,1
+natural language processing,uses,wordnet,8,"{'openie', 'dygiepp'}","{'128995279.json', '17129264.json', '1553277444.json', '89188974.json', '1959875495.json', '2309264308.json', '2393618467.json'}",Task,Material,,,,1,1,1,1,1
+natural language query sentence,includes,word segmentation,2,"{'openie', 'pos tagger'}",{'2858502049.json'},Material,Task,,1,,0,0,0,0,0
+natural language understanding,includes,conversational agent,3,{'pos tagger'},"{'2099877156.json', '2164499211.json', '2153190884.json'}",Task,Method,,,,1,1,1,1,1
+natural language understanding,guides,deep learning network,1,{'openie'},{'2586064251.json'},Task,Method,1,,,0,1,1,1,1
+natural language understanding,improves,dialogue,1,{'pos tagger'},{'1811988098.json'},Task,Material,,,,1,1,1,1,1
+natural language understanding,uses,entity linking and retrieval,,,,Task,Task,,,1,0,1,1,1,1
+natural language understanding,skos:broader/is/hyponym-of,high resolution of data,,,,Task,Material,,,1,0,0,0,0,0
+natural language understanding,uses,identifying causal relation,1,{'dygiepp'},{'2250494780.json'},Task,Task,,,,1,0,1,0,0
+natural language understanding,uses,incrementally checking global consistency,,,,Task,Task,,,1,0,0,0,0,0
+natural language understanding,includes,inter slot relation,1,{'dependency tagger'},{'2294685269.json'},Task,OtherEntity,1,,,0,0,0,0,0
+natural language understanding,improves,interpretability of semantic slot,1,{'pos tagger'},{'2294685269.json'},Task,OtherEntity,,,,1,1,0,0,0
+natural language understanding,based-on,knowledge representation,1,{'pos tagger'},{'2060378562.json'},Task,Method,,,,1,1,1,1,1
+natural language understanding,uses,multi scale imagic view,1,{'dygiepp'},{'1971323086.json'},Task,OtherEntity,1,,,0,1,0,0,0
+natural language understanding,uses,statistic based approach,1,{'dygiepp'},{'1549326628.json'},Task,Method,,,,1,1,1,1,1
+natural language understanding,uses,typed unification grammar,3,"{'dygiepp', 'openie', 'dependency tagger'}",{'2329231.json'},Task,Method,,,,1,1,0,1,1
+negative and positive sentiment,uses,sentiment analysis,2,"{'dygiepp', 'dependency tagger'}",{'2792341243.json'},OtherEntity,Task,,1,,0,1,0,0,0
+negative or positive opinion,uses,sentiment analysis,1,{'dygiepp'},{'1527073074.json'},OtherEntity,Task,,1,,0,1,0,0,0
+network monitoring,executes,information extraction,2,"{'openie', 'dependency tagger'}",{'2246409378.json'},Task,Task,,,,1,0,1,0,0
+neural network nn system,produces,machine translation,2,"{'pos tagger', 'dependency tagger'}",{'2576968057.json'},Method,Task,,,,1,1,1,1,1
+neural networks based method,acquires,natural language processing,3,{'pos tagger'},"{'2963153906.json', '2251189452.json', '2407776548.json'}",Method,Task,,,,1,0,1,0,0
+newspaper text corpus,uses,part of speech,1,{'dygiepp'},{'1865928303.json'},Material,Task,,1,,0,0,0,0,0
+nlir system,executes,natural language processing,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'1975613061.json'},Method,Task,,,,1,1,1,1,1
+nlp based system,includes,information extraction,2,"{'openie', 'pos tagger'}","{'2418562021.json', '178774507.json'}",Method,Task,,,,1,1,1,1,1
+nlp based system,uses,part of speech,4,"{'openie', 'dygiepp'}","{'2185970782.json', '2054460891.json', '2250587137.json', '2098419420.json'}",Method,Task,,,,1,1,1,1,1
+nlp sensitivity,produces,natural language processing,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2004805052.json'},OtherEntity,Task,,1,,0,0,0,0,0
+non literal expression recognition,predicts,sentiment analysis,1,{'openie'},{'2126983563.json'},Task,Task,,,,1,0,0,0,0
+non parametric probabilistic analogue,uses,document classification,2,"{'pos tagger', 'dependency tagger'}",{'2083630376.json'},Method,Task,1,,,0,0,0,0,0
+normal text document,uses,document classification,1,{'dygiepp'},{'2409405200.json'},Material,Task,,1,,0,0,0,0,0
+noun phrase extractor,produces,part of speech,3,{'pos tagger'},"{'2543719410.json', '2076909162.json', '1534172665.json'}",Method,Task,,,,1,1,1,1,1
+ohsumed corpus,matches,wordnet,1,{'pos tagger'},{'2138346016.json'},Material,Material,,1,,0,1,0,0,0
+one step traditional baseline,classifies,named entity recognition,1,{'openie'},{'2250284940.json'},OtherEntity,Task,1,,,0,0,0,0,0
+ontology integration,uses,named entity recognition,5,"{'dygiepp', 'openie', 'pos tagger'}","{'1551115015.json', '2139753599.json', '2035237744.json', '2117488115.json'}",Task,Task,,,,1,1,1,0,1
+ontology integration,uses,wordnet,12,"{'dygiepp', 'pos tagger'}","{'1532257308.json', '2250637652.json', '2614777753.json', '1529417549.json', '2035758533.json', '2053481329.json', '1578503079.json', '160306911.json', '2538298177.json', '2104313393.json', '2148824896.json', '2400531956.json'}",Task,Material,,,,1,1,1,1,1
+ontology structure graph,acquires,document classification,1,{'pos tagger'},{'1989819037.json'},OtherEntity,Task,,1,,0,0,0,0,0
+open office lighting model,uses,dependency parsing,,,,Method,Task,,,1,0,0,0,0,0
+opentrad apertium mt toolbox,uses,part of speech,1,{'openie'},{'2168915676.json'},Method,Task,1,,,0,1,1,0,1
+over ranging format,uses,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+page code,guides,dependency parsing,1,{'openie'},{'2856528258.json'},OtherEntity,Task,1,,,0,0,0,0,0
+parallel bit stream module,uses,text processing,2,{'dependency tagger'},"{'2161131069.json', '2031663903.json'}",Method,Task,1,,,0,1,0,0,0
+parallel text,includes,named entity recognition,1,{'dygiepp'},{'19862471.json'},Material,Task,,1,,0,0,0,0,0
+parse table,produces,dependency parsing,1,{'dependency tagger'},{'1580921356.json'},OtherEntity,Task,,1,,0,1,0,0,0
+parsing accuracy,provides,dependency parsing,1,{'pos tagger'},{'2149337887.json'},Metric,Task,,1,,0,0,0,0,0
+parsing of discontinuous constituent,uses,dependency parsing,2,"{'openie', 'pos tagger'}",{'2131343809.json'},Task,Task,,,,1,1,0,1,1
+part of speech,includes,abstract speeder reader,1,{'openie'},{'2083962126.json'},Task,Task,1,,,0,0,0,0,0
+part of speech,skos:broader/is/hyponym-of,denser annotation,1,{'dygiepp'},{'2399256094.json'},Task,OtherEntity,1,,,0,0,0,0,0
+part of speech,based-on,exclusion rule,2,{'openie'},"{'2242975493.json', '2198545429.json'}",Task,Method,1,,,0,1,0,1,1
+part of speech,skos:broader/is/hyponym-of,lexical and sublexical orthographic,1,{'dygiepp'},{'2805269870.json'},Task,OtherEntity,1,,,0,0,1,0,0
+part of speech,skos:broader/is/hyponym-of,natural language learning task,8,{'dygiepp'},"{'1572157822.json', '202303397.json', '2138517257.json', '1848002569.json', '1491024934.json', '2133065881.json', '2931048012.json', '2158899491.json'}",Task,Task,,,,1,1,1,1,1
+part of speech,skos:broader/is/hyponym-of,nlp systems and task,7,{'dygiepp'},"{'1599985958.json', '2295584157.json', '2469900699.json', '2996580882.json', '2152832509.json', '2953024142.json', '2050641287.json'}",Task,Task,,,,1,1,1,1,1
+part of speech,transfers,rule mining,1,{'pos tagger'},{'1487713954.json'},Task,Task,1,,,0,0,0,0,0
+part of speech,uses,searching new action,,,,Task,Task,,,1,0,0,0,0,0
+part of speech,improves,term extraction process,2,{'openie'},"{'1537288903.json', '2049107599.json'}",Task,Method,1,,,0,1,1,1,1
+partitioning based method,uses,information extraction,2,"{'pos tagger', 'dependency tagger'}",{'2841319870.json'},Method,Task,1,,,0,1,1,1,1
+patient progress note,uses,text processing,1,{'dependency tagger'},{'2773113124.json'},Material,Task,,1,,0,0,0,0,0
+pen film,uses,relation extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+peoples emotions and opinion,uses,sentiment analysis,1,{'dygiepp'},{'2613544310.json'},OtherEntity,Task,,1,,0,0,0,0,0
+person name,skos:broader/is/hyponym-of,named entity recognition,9,{'dygiepp'},"{'2085583002.json', '2012796775.json', '2378991012.json', '2387720973.json', '1580467103.json', '2094584087.json', '1896544886.json', '2826540309.json', '2612200651.json'}",Material,Task,,,,1,0,0,0,0
+phonetic dictionary,uses,word segmentation,1,{'dygiepp'},{'2063655091.json'},Material,Task,,1,,0,0,0,0,0
+physical foreground object,provides,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+pixel to pixel differentiation,uses,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+plausibility of virtual pedestrian scene,uses,wordnet,,,,Task,Material,,,1,0,0,0,0,0
+pmi ir algorithm,produces,sentiment classification,1,{'pos tagger'},{'2546220600.json'},Method,Task,,,,1,1,1,0,1
+polarity classification,skos:broader/is/hyponym-of,sentiment analysis,3,{'dygiepp'},"{'2064917215.json', '1954649198.json', '118436725.json'}",Task,Task,,,,1,1,1,1,1
+polarity in text,uses,sentiment analysis,1,{'dygiepp'},{'2031428927.json'},OtherEntity,Task,,1,,0,0,1,0,0
+polish medical text,produces,information extraction,1,{'dependency tagger'},{'2104752900.json'},Material,Task,,1,,0,0,0,0,0
+pose bounding box,includes,machine translation,,,,OtherEntity,Task,,,1,0,0,0,0,0
+poweraqua,skos:broader/is/hyponym-of,question answering,3,{'dygiepp'},"{'2589550184.json', '2134995885.json', '1606882635.json'}",Method,Task,,,,1,0,0,0,0
+powerful method,produces,text processing,3,"{'openie', 'pos tagger'}",{'2611618649.json'},Method,Task,,,,1,0,1,0,0
+prae,provides,sentiment analysis,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2593134789.json'},Method,Task,,,,1,1,0,0,0
+precoding and equalisation scheme,uses,natural language processing,,,,Method,Task,,,1,0,0,0,0,0
+pregroups,uses,natural language processing,2,"{'pos tagger', 'dependency tagger'}",{'1826530052.json'},Method,Task,1,,,0,1,0,0,0
+presence of traffic sign,uses,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+preset word segmenting mode,acquires,word segmentation,2,{'pos tagger'},{'2929137891.json'},Method,Task,,,,1,1,0,0,0
+product line of programming language,causes,sentiment analysis,,,,Method,Task,,,1,0,0,0,0,0
+product or category association,uses,relation extraction,2,"{'pos tagger', 'dependency tagger'}",{'2298878733.json'},OtherEntity,Task,,1,,0,1,1,0,1
+professional background,uses,natural language processing,1,{'dygiepp'},{'1456674115.json'},OtherEntity,Task,1,,,0,0,0,0,0
+professional human translator,uses,machine translation,3,"{'dygiepp', 'pos tagger'}","{'2045633618.json', '2791038416.json', '315798881.json'}",Method,Task,,,,1,1,0,1,1
+programming language,uses,natural language processing,1,{'pos tagger'},{'1512448583.json'},Material,Task,,1,,0,0,0,0,0
+project documentation,solves,named entity recognition,,,,Material,Task,,,1,0,0,0,0,0
+punctuation and decimal number,uses,part of speech,1,{'openie'},{'2057867266.json'},OtherEntity,Task,,1,,0,0,0,0,0
+pwn,matches,wordnet,1,{'dependency tagger'},{'2001970439.json'},Material,Material,,1,,0,1,0,0,0
+qac,produces,question answering,6,"{'pos tagger', 'dependency tagger'}","{'2184450436.json', '2016112767.json', '1584736601.json'}",Method,Task,,,,1,1,1,0,1
+qg model,uses,sentiment analysis,,,,Method,Task,,,1,0,1,0,0,0
+qualitative information processing,uses,sentiment analysis,1,{'dygiepp'},{'70086998.json'},Task,Task,1,,,0,1,1,1,1
+query expansion,uses,wordnet,11,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}","{'2464185425.json', '2154620873.json', '2153887206.json', '318823034.json', '2131434255.json', '2004886340.json', '1485661919.json'}",Task,Material,,,,1,1,1,1,1
+query logs information,includes,named entity recognition,1,{'dygiepp'},{'1551179054.json'},OtherEntity,Task,,1,,0,0,0,0,0
+question answering,based-on,absps,1,{'pos tagger'},{'2123063698.json'},Task,Method,1,,,0,1,0,0,0
+question answering,uses,all media monitoring system,,,,Task,Method,,,1,0,1,0,0,0
+question answering,improves,answer classification,1,{'openie'},{'1559270384.json'},Task,Task,,,,1,1,1,1,1
+question answering,includes,answer selection unit,2,"{'dygiepp', 'dependency tagger'}",{'2130537441.json'},Task,Method,,,,1,1,1,1,1
+question answering,uses,automatic natural language processing technique,5,"{'dygiepp', 'openie'}","{'2019094630.json', '1770819422.json', '2699994814.json', '2135033253.json', '168045271.json'}",Task,Method,,,,1,1,1,1,1
+question answering,uses,bengali,1,{'dygiepp'},{'2251297821.json'},Task,Material,,,,1,1,0,0,0
+question answering,matches,co occurrence frequency of word,1,{'openie'},{'1694571275.json'},Task,OtherEntity,,1,,0,0,1,0,0
+question answering,skos:broader/is/hyponym-of,computational task,3,{'dygiepp'},"{'2165887782.json', '2122400457.json', '1565615374.json'}",Task,Task,,,,1,1,1,1,1
+question answering,analyzes,constituent spine,,,,Task,OtherEntity,,,1,0,0,0,0,0
+question answering,uses,dbpedia,6,"{'dependency tagger', 'pos tagger', 'dygiepp'}","{'2884053243.json', '2185758834.json', '2403729121.json', '2226212998.json', '2188053670.json'}",Task,Material,,,,1,1,1,1,1
+question answering,annotates,dependency parsing,1,{'pos tagger'},{'168045271.json'},Task,Task,,,,1,0,0,0,0
+question answering,solves,dependency parsing,1,{'openie'},{'2056894934.json'},Task,Task,,,,1,0,1,0,0
+question answering,uses,dialogue management strategy design,,,,Task,Task,,,1,0,0,1,0,0
+question answering,manages,ellipsis phenomenon,1,{'openie'},{'2892197424.json'},Task,Task,,,,1,1,0,0,0
+question answering,matches,embellished image,,,,Task,OtherEntity,,,1,0,0,0,0,0
+question answering,uses,enriched polygon,3,"{'dygiepp', 'openie', 'dependency tagger'}",{'2146707292.json'},Task,OtherEntity,,,,1,0,0,0,0
+question answering,uses,expression understanding,,,,Task,Task,,,1,0,1,1,1,1
+question answering,uses,features of image region,1,{'dygiepp'},{'2770883544.json'},Task,OtherEntity,1,,,0,0,0,0,0
+question answering,uses,freebase,5,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2950109442.json', '2251673953.json', '2884053243.json', '2174945390.json', '2250533497.json'}",Task,Material,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,general natural language application,8,{'dygiepp'},"{'2110693483.json', '2536408262.json', '1512419429.json', '2408294209.json', '2611643989.json', '2031850347.json', '2051053416.json', '2129111595.json'}",Task,Task,,,,1,1,1,1,1
+question answering,uses,generative history based model,,,,Task,Method,,,1,0,1,0,0,0
+question answering,based-on,google knowledge graph,2,"{'openie', 'pos tagger'}","{'2778792674.json', '2774249241.json'}",Task,Material,,,,1,1,1,1,1
+question answering,uses,google knowledge graph,6,"{'dygiepp', 'pos tagger'}","{'2607870688.json', '2892960897.json', '2963102202.json', '2591368218.json', '2778792674.json', '2755637027.json'}",Task,Material,,,,1,1,1,1,1
+question answering,uses,hotpotqa,1,{'dygiepp'},{'2952862139.json'},Task,Material,,,,1,1,1,0,1
+question answering,transfers,human understanding and contribution,,,,Task,Task,,,1,0,0,0,0,0
+question answering,skos:broader/is/hyponym-of,hyperspectral image analysis,,,,Task,Task,,,1,0,0,0,0,0
+question answering,uses,incremental strategy,,,,Task,Method,,,1,0,1,1,1,1
+question answering,produces,information access question,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'1547816677.json'},Task,OtherEntity,,,,1,1,0,0,0
+question answering,uses,information resource management,3,{'dygiepp'},"{'2184450436.json', '1584736601.json', '2016112767.json'}",Task,Task,,,,1,1,1,0,1
+question answering,uses,information storage and retrieval,6,"{'dygiepp', 'openie', 'pos tagger'}","{'2294618612.json', '1556441421.json', '2103247590.json', '2129307374.json', '1536814622.json'}",Task,Task,,,,1,1,1,1,1
+question answering,uses,information storage and retrieval system,3,{'dygiepp'},"{'2055162778.json', '2963681593.json', '2294077596.json'}",Task,Method,,,,1,1,0,1,1
+question answering,includes,ir based technique,1,{'dygiepp'},{'155019.json'},Task,Method,,,,1,1,1,1,1
+question answering,proposes,iwtrust,1,{'openie'},{'1517509456.json'},Task,Method,1,,,0,1,0,0,0
+question answering,solves,joint correlation,2,"{'pos tagger', 'dependency tagger'}",{'2894842749.json'},Task,OtherEntity,,,,1,0,0,0,0
+question answering,based-on,knowledge base,5,{'pos tagger'},"{'2133976672.json', '2558998260.json', '2782372851.json', '2342096063.json', '2133312321.json'}",Task,Material,,,,1,1,1,1,1
+question answering,produces,knowledge base,3,"{'openie', 'pos tagger'}","{'1796042584.json', '2226212998.json', '2950630316.json'}",Task,Material,,,,1,0,1,1,1
+question answering,uses,knowledge representation,5,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2137019974.json', '2103247590.json', '1547816677.json', '1983438320.json', '2093212494.json'}",Task,Method,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,kth human action database,,,,Task,Material,,,1,0,0,0,0,0
+question answering,uses,linked data,15,"{'dygiepp', 'openie'}","{'2397862192.json', '2759200442.json', '2221761473.json', '2178228255.json', '1992712260.json', '1482414268.json', '2151538516.json', '2188053670.json', '1468923932.json', '1520082916.json', '1590045793.json', '1989146770.json', '2403456307.json', '1979710543.json', '2185758834.json'}",Task,Material,,,,1,1,1,1,1
+question answering,uses,machinelearning technique,7,"{'dygiepp', 'openie', 'pos tagger'}","{'1986182479.json', '2408493841.json', '144842527.json', '2295556464.json', '2084638490.json', '1978557720.json', '2164370549.json'}",Task,Method,,,,1,1,0,1,1
+question answering,provides,mapping process,3,"{'openie', 'pos tagger'}","{'1792193397.json', '1990113766.json'}",Task,Task,,,,1,0,0,0,0
+question answering,uses,named entity recognition,6,"{'dygiepp', 'pos tagger'}","{'1499283522.json', '1591930498.json', '2155341658.json', '264318457.json', '1997833443.json', '2407160479.json'}",Task,Task,,,,1,1,1,1,1
+question answering,transfers,natural language,7,{'pos tagger'},"{'1769642085.json', '2103247590.json', '2135287813.json', '1986641982.json', '1528193223.json', '2122359339.json', '2068639964.json'}",Task,Material,,,,1,0,1,0,0
+question answering,includes,natural language processing,3,{'pos tagger'},"{'2251102620.json', '200923299.json', '2877394451.json'}",Task,Task,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,natural language processing nlp platform,12,{'dygiepp'},"{'2991782047.json', '1920837174.json', '2014394530.json', '2399775109.json', '2032776027.json', '2123760808.json', '2157213932.json', '48671780.json', '1595815960.json', '2167202928.json', '782573738.json', '2145815109.json'}",Task,Method,,,,1,0,1,1,1
+question answering,skos:broader/is/hyponym-of,natural language processing research field,3,{'dygiepp'},"{'2331086175.json', '2725722698.json', '2251102620.json'}",Task,Task,,,,1,1,1,1,1
+question answering,uses,natural language query processing system,1,{'dygiepp'},{'1966434569.json'},Task,Method,,,,1,1,1,1,1
+question answering,uses,near optimal caching strategy,,,,Task,OtherEntity,,,1,0,1,0,1,1
+question answering,skos:broader/is/hyponym-of,nlp based system,17,{'dygiepp'},"{'2097049724.json', '2130671185.json', '2139939204.json', '2338087314.json', '2135797641.json', '2052541945.json', '2110817828.json', '2007844601.json', '1806015339.json', '207375668.json', '2002305240.json', '2071012241.json', '2418562021.json', '2532907619.json', '2058008886.json', '1519469861.json', '1489991279.json'}",Task,Method,,,,1,0,1,0,0
+question answering,uses,passage retrieval,10,"{'dygiepp', 'openie'}","{'2096782630.json', '2938205538.json', '2917293077.json', '2170399269.json', '1990791207.json', '129312031.json', '2002467088.json', '2068377783.json', '2004886340.json', '11196620.json'}",Task,Task,,,,1,1,1,1,1
+question answering,based-on,patient interview support application,,,,Task,Method,,,1,0,1,1,0,1
+question answering,uses,pattern approach,3,"{'dygiepp', 'openie', 'dependency tagger'}",{'1551778934.json'},Task,Method,,,,1,1,0,1,1
+question answering,uses,phoneme concatenation,,,,Task,Method,,,1,0,1,1,0,1
+question answering,produces,pointwise neural network model,1,{'openie'},{'2539338396.json'},Task,Method,1,,,0,1,1,0,1
+question answering,includes,preprocessing procedure,4,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}",{'73633278.json'},Task,Method,,,,1,1,1,1,1
+question answering,uses,qa module,1,"{'dygiepp', 'pos tagger'}",{'1975079069.json'},Task,Method,,,,1,1,1,1,1
+question answering,matches,quality assurance and control technique,1,{'dygiepp'},{'2045150714.json'},Task,Method,1,,,0,0,0,0,0
+question answering,includes,question and information,3,"{'dygiepp', 'pos tagger', 'dependency tagger'}",{'1508682620.json'},Task,OtherEntity,,,,1,1,1,1,1
+question answering,includes,question classification,14,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2320227961.json', '2586483032.json', '2022387597.json', '1829918104.json', '2840693825.json', '179472154.json', '1980901184.json', '1993445005.json', '2038488405.json', '2103247590.json', '2153579195.json', '1992130648.json', '1509566333.json', '2144761325.json'}",Task,Task,,,,1,1,1,1,1
+question answering,produces,question driven representation,1,{'openie'},{'2584356431.json'},Task,Method,,,,1,1,1,1,1
+question answering,produces,question understanding approach,1,{'dependency tagger'},{'2137956038.json'},Task,Method,,,,1,1,1,1,1
+question answering,uses,ranking of meaning,1,{'dygiepp'},{'2025910815.json'},Task,OtherEntity,,,,1,1,1,1,1
+question answering,matches,search engine,5,"{'dygiepp', 'openie'}","{'2541493641.json', '2010028036.json', '2113908378.json', '1980901184.json', '1530889916.json'}",Task,Method,,,,1,0,1,0,0
+question answering,uses,search engine,5,"{'dygiepp', 'openie', 'pos tagger'}","{'42450573.json', '2788517680.json', '178923474.json', '2853407113.json', '2907833097.json'}",Task,Method,,,,1,1,1,1,1
+question answering,uses,segment based model,,,,Task,Method,,,1,0,1,0,1,1
+question answering,uses,semantic information,6,"{'openie', 'dygiepp'}","{'2589550184.json', '2054070929.json', '1594914738.json', '2151538516.json', '1997833443.json', '1606882635.json'}",Task,Method,,,,1,1,1,1,1
+question answering,skos:broader/is/hyponym-of,semantic memory,3,{'dygiepp'},"{'61347271.json', '1543444773.json', '1970842529.json'}",Task,Task,,,,1,0,0,0,0
+question answering,uses,semantic web data set,3,"{'dygiepp', 'openie'}","{'1589065753.json', '2915836468.json', '2529383646.json'}",Task,Material,,,,1,1,1,1,1
+question answering,produces,short document text,1,{'dependency tagger'},{'2142541800.json'},Task,Material,,,,1,0,1,1,1
+question answering,links,slot filling system,3,{'pos tagger'},"{'2187127363.json', '2296128027.json', '2340270354.json'}",Task,Method,,,,1,0,0,0,0
+question answering,uses,small annotated training data,4,"{'openie', 'pos tagger'}","{'2288258843.json', '2444318157.json'}",Task,Material,,,,1,1,1,1,1
+question answering,based-on,social media and forum,,,,Task,Material,,,1,0,1,0,1,1
+question answering,supports,spectrum reconstruction method,,,,Task,Method,,,1,0,0,1,0,0
+question answering,based-on,web system service,1,{'pos tagger'},{'2129169148.json'},Task,Task,1,,,0,1,0,1,1
+question answering,uses,wikipedia entry,5,"{'dygiepp', 'pos tagger'}","{'1545740913.json', '122550518.json', '1522651855.json', '2604368306.json', '1980901184.json'}",Task,Material,,,,1,1,1,1,1
+question class,manages,question answering,1,{'openie'},{'2251198255.json'},OtherEntity,Task,,1,,0,0,0,0,0
+question classification,executes,question answering,8,{'pos tagger'},"{'2361260997.json', '2075377079.json', '2127954717.json', '1993445005.json', '2139542376.json', '2019307700.json', '198945923.json', '2534239679.json'}",Task,Task,,,,1,0,1,0,0
+question classification,provides,semantic subcategory,2,"{'pos tagger', 'dependency tagger'}",{'2314228983.json'},Task,OtherEntity,,,,1,1,1,0,1
+radar reflection,includes,natural language processing,1,{'dygiepp'},{'1966495972.json'},OtherEntity,Task,,1,,0,0,0,0,0
+radiative transfer model inversion,skos:broader/is/hyponym-of,information extraction,1,{'dygiepp'},{'2269693599.json'},Task,Task,1,,,0,0,0,0,0
+randomized route selection strategy,includes,document classification,,,,Method,Task,,,1,0,0,0,0,0
+rcwfs,uses,natural language processing,,,,Method,Task,,,1,0,0,0,0,0
+rdwt domain,includes,dependency parsing,,,,Material,Task,,,1,0,0,0,0,0
+reading comprehension,includes,text processing,1,{'pos tagger'},{'85884849.json'},Task,Task,,,,1,0,1,0,0
+recognisable speech utterance,executes,natural language processing,1,{'dependency tagger'},{'1588643246.json'},Material,Task,1,,,0,0,0,0,0
+recommendation system,uses,sentiment analysis,8,"{'dygiepp', 'pos tagger'}","{'2736920040.json', '277833294.json', '72755324.json', '1987068480.json', '2025622951.json', '2053521857.json', '1938421469.json', '2560997358.json'}",Method,Task,,,,1,1,1,1,1
+reconciling information,acquires,question answering,1,{'pos tagger'},{'1482414268.json'},Task,Task,,,,1,0,1,0,0
+references of emotion,uses,wordnet,2,"{'dygiepp', 'pos tagger'}",{'2104563648.json'},OtherEntity,Material,1,,,0,1,0,0,0
+regular expression compiling system,includes,dependency parsing,4,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}",{'2248775355.json'},Method,Task,,,,1,1,1,0,1
+reinforcement learning based software package,transfers,natural language processing,,,,Method,Task,,,1,0,0,1,0,0
+related word sen,uses,wordnet,7,{'dygiepp'},"{'2160797673.json', '1866998965.json', '2089936825.json', '1556498282.json', '2293605478.json', '2103522185.json', '107319054.json'}",OtherEntity,Material,,,,1,0,1,0,0
+relation classification system,skos:broader/is/hyponym-of,natural language processing,5,"{'openie', 'dygiepp'}","{'2964217331.json', '1750263989.json', '2293023260.json', '2511964075.json', '2517194566.json'}",Method,Task,,,,1,0,1,1,1
+relation extraction,uses,active learning method,1,{'dygiepp'},{'2251014694.json'},Task,Method,,,,1,1,1,1,1
+relation extraction,transfers,adverse drug events ade,2,"{'pos tagger', 'dependency tagger'}",{'2138768461.json'},Task,OtherEntity,1,,,0,0,0,0,0
+relation extraction,uses,capsule network architecture,2,"{'dygiepp', 'dependency tagger'}",{'2949347774.json'},Task,Method,1,,,0,1,0,0,0
+relation extraction,analyzes,concrete syntax,1,{'pos tagger'},{'2132522721.json'},Task,Material,,,,1,1,1,0,1
+relation extraction,uses,distant supervision ds approach,12,"{'dygiepp', 'pos tagger'}","{'2149713870.json', '2762829504.json', '2251135946.json', '1604644367.json', '2798507918.json', '2804311790.json', '174427690.json', '171009253.json', '2145453687.json', '2794999389.json', '2606901057.json', '2604610161.json'}",Task,Method,,,,1,1,1,1,1
+relation extraction,uses,fitness function,,,,Task,Method,,,1,0,1,1,1,1
+relation extraction,uses,mimimally supervised rule acquisition method,1,{'dygiepp'},{'1772667595.json'},Task,Method,,,,1,1,1,1,1
+relation extraction,uses,minimally supervised learning method,2,{'dygiepp'},"{'153563163.json', '2169300800.json'}",Task,Method,,,,1,1,1,1,1
+relation extraction,uses,side information,2,"{'dygiepp', 'pos tagger'}",{'2952970178.json'},Task,Material,,,,1,1,0,0,0
+relation extraction,uses,systematic vocabulary knowledge,,,,Task,OtherEntity,,,1,0,1,1,1,1
+relation extraction,uses,wrong label reduction,1,{'dygiepp'},{'2149713870.json'},Task,Method,1,,,0,1,1,1,1
+relation grammar,supports,dependency parsing,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2171400585.json'},Method,Task,,,,1,1,1,1,1
+relevant synonym,uses,wordnet,3,"{'dygiepp', 'openie', 'dependency tagger'}",{'1476695133.json'},OtherEntity,Material,,,,1,1,0,0,0
+reproduction of the source,includes,document classification,,,,Task,Task,,,1,0,0,0,0,0
+requirements document,produces,natural language understanding,1,{'openie'},{'2085606356.json'},Material,Task,,1,,0,0,0,0,0
+restaurant recommendation and reservation,executes,document classification,,,,Task,Task,,,1,0,1,1,1,1
+retrieval sentence,uses,dependency parsing,1,{'dygiepp'},{'2844941704.json'},Material,Task,,1,,0,0,0,1,0
+retrieval term,contributes-to,part of speech,1,{'openie'},{'2860679997.json'},OtherEntity,Task,1,,,0,1,0,0,0
+river image,includes,natural language processing,,,,Material,Task,,,1,0,0,0,0,0
+robust aqm algorithm,based-on,wordnet,,,,Method,Material,,,1,0,0,0,0,0
+rotary stander,solves,sentiment classification,,,,OtherEntity,Task,,,1,0,0,0,0,0
+s rnns,uses,natural language processing,6,{'pos tagger'},"{'2766243150.json', '2788838111.json', '2964200170.json', '2991290085.json', '2962889000.json', '2787037604.json'}",Method,Task,,,,1,0,0,0,0
+s yntac tic analysis,skos:broader/is/hyponym-of,natural language processing,1,{'dygiepp'},{'2181626422.json'},Method,Task,,,,1,0,0,1,0
+sacd,executes,text processing,2,"{'pos tagger', 'dependency tagger'}",{'1987001238.json'},Method,Task,1,,,0,1,0,0,0
+scientific abstract,uses,information extraction,1,{'dependency tagger'},{'2083885588.json'},Material,Task,,1,,0,0,0,0,0
+seed dictionary,guides,word segmentation,1,{'openie'},{'2841338588.json'},Material,Task,,1,,0,0,0,0,0
+segmentation based method,includes,word segmentation,1,{'openie'},{'2860389680.json'},Method,Task,,,,1,1,1,1,1
+semantic distance,based-on,wordnet,13,{'pos tagger'},"{'2005754477.json', '2164877079.json', '2117775678.json', '2088703086.json', '2167860643.json', '200302385.json', '2155233860.json', '2101401090.json', '2006853597.json', '2296307963.json', '1558638071.json', '1749331913.json', '2383536275.json'}",Method,Material,,,,1,1,1,1,1
+semantic distance,extracts,wordnet,2,"{'openie', 'pos tagger'}",{'2108705546.json'},Method,Material,,,,1,0,1,0,0
+semantic distance,uses,wordnet,21,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}","{'2117775678.json', '2113471940.json', '1546602224.json', '2108705546.json', '2077811574.json', '2014571624.json', '200302385.json', '1967191094.json', '2334881285.json', '1776317115.json', '2252146274.json', '1979325497.json', '118828598.json', '1603080766.json', '1140107.json', '2169529707.json', '2729859262.json', '2514885441.json', '1558638071.json', '1749331913.json', '2043952800.json'}",Method,Material,,,,1,1,1,1,1
+semantic information,uses,wordnet,12,"{'dygiepp', 'pos tagger'}","{'2005754477.json', '1571278379.json', '2131028957.json', '2145607950.json', '129295481.json', '1987976971.json', '2135798850.json', '2168784321.json', '252296781.json', '1499795620.json', '2169319776.json', '2116776210.json'}",Method,Material,,,,1,1,1,1,1
+semantic profile representation,acquires,document classification,2,"{'pos tagger', 'dependency tagger'}",{'2039759410.json'},Method,Task,,,,1,1,0,0,0
+semantic relationship statement,uses,wordnet,3,"{'dependency tagger', 'dygiepp'}","{'1532913685.json', '2589381243.json'}",OtherEntity,Material,,,,1,1,1,1,1
+semantic resources and tool,uses,wordnet,3,{'dygiepp'},"{'2132785312.json', '2166588037.json', '2622670270.json'}",Method,Material,,,,1,1,1,1,1
+semantic similarity based method,uses,wordnet,6,{'dygiepp'},"{'2088703086.json', '1979325497.json', '2101401090.json', '2140735141.json', '1140107.json', '2167860643.json'}",Method,Material,,,,1,1,1,1,1
+semantic similarity measuring technique,uses,natural language processing,4,"{'pos tagger', 'dependency tagger'}","{'176211028.json', '2103164423.json'}",Method,Task,,,,1,1,1,1,1
+semantic web,supports,natural language processing,2,"{'openie', 'dependency tagger'}",{'2470698596.json'},Material,Task,,,,1,1,1,0,1
+semantic web,produces,question answering,1,{'pos tagger'},{'13779650.json'},Material,Task,,1,,0,0,1,0,0
+semantically meaningful color,based-on,wordnet,1,{'pos tagger'},{'1885228327.json'},OtherEntity,Material,1,,,0,1,0,0,0
+semantics,supports,natural language processing,3,"{'pos tagger', 'dependency tagger'}","{'1504383287.json', '2467776354.json'}",Method,Task,,,,1,1,1,0,1
+semantics,uses,wordnet,5,{'dygiepp'},"{'1513150489.json', '1529820116.json', '2251401477.json', '2147963107.json', '2105130211.json'}",Method,Material,,,,1,1,0,0,0
+semeval task 10 scienceie task,analyzes,information extraction,1,{'dygiepp'},{'2745571490.json'},Material,Task,,1,,0,0,0,0,0
+sense of textual data,uses,sentiment analysis,1,{'dygiepp'},{'2565492299.json'},Material,Task,1,,,0,0,0,0,0
+sensor network,acquires,information extraction,1,{'openie'},{'2145792823.json'},Method,Task,1,,,0,0,0,0,0
+sentence generation system,includes,question answering,2,"{'pos tagger', 'dependency tagger'}",{'2123416742.json'},Method,Task,,,,1,1,1,0,1
+sentence level sa,uses,wordnet,3,"{'pos tagger', 'dependency tagger'}","{'1584259869.json', '2137678828.json'}",Task,Material,,,,1,1,1,1,1
+sentence level source information,includes,text processing,1,{'pos tagger'},{'1998442272.json'},OtherEntity,Task,,1,,0,1,1,0,1
+sentiment analysis,uses,abstract word embeddings,1,{'dygiepp'},{'2761187698.json'},Task,Task,,,,1,1,1,1,1
+sentiment analysis,produces,air distributing device,,,,Task,Method,,,1,0,0,0,0,0
+sentiment analysis,proposes,annotating datasets,1,{'pos tagger'},{'2406430758.json'},Task,Task,,,,1,0,1,0,0
+sentiment analysis,skos:broader/is/hyponym-of,application area,3,{'dygiepp'},"{'2768553691.json', '2950075826.json', '174874040.json'}",Task,OtherEntity,,,,1,0,0,0,0
+sentiment analysis,guides,arabic language,1,{'pos tagger'},{'2902016849.json'},Task,Material,,1,,0,0,0,0,0
+sentiment analysis,uses,auditory sensation,,,,Task,OtherEntity,,,1,0,0,0,0,0
+sentiment analysis,uses,automatic natural language processing technique,5,"{'dygiepp', 'openie', 'dependency tagger'}","{'2215376118.json', '1987687963.json', '2904901514.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,bitext projection,1,{'dependency tagger'},{'2250525911.json'},Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,capsule based model,1,{'dygiepp'},{'2788347302.json'},Task,Method,1,,,0,1,0,0,0
+sentiment analysis,analyzes,classification and segmentation task,2,"{'pos tagger', 'dependency tagger'}",{'2130262843.json'},Task,Task,1,,,0,0,1,0,0
+sentiment analysis,produces,classification of the review,2,"{'pos tagger', 'dependency tagger'}",{'1608357024.json'},Task,Task,,,,1,1,1,1,1
+sentiment analysis,uses,clustering algorithms and technique,2,{'dygiepp'},"{'1981498234.json', '2311332272.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,contributes-to,computational linguistics,5,"{'pos tagger', 'dependency tagger'}","{'1622357602.json', '1993808023.json', '2477486832.json', '2121043186.json', '2322322155.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,uses,computational linguistics,5,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2322322155.json', '2608722825.json', '1987687963.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,uses,context information,3,"{'pos tagger', 'dependency tagger'}","{'2916095201.json', '2046682605.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,uses,correlation and regression,2,"{'pos tagger', 'dependency tagger'}",{'2589864545.json'},Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,customer satisfaction evaluation index system,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2753840835.json'},Task,Method,,,,1,1,1,0,1
+sentiment analysis,uses,deep convolutional neural network system,4,"{'dygiepp', 'pos tagger'}","{'2197429038.json', '2252215182.json', '2472490454.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,discharge decision,,,,Task,Task,,,1,0,0,0,0,0
+sentiment analysis,skos:broader/is/hyponym-of,document classification,6,{'dygiepp'},"{'2790589292.json', '2519121479.json', '2062873389.json', '2621242081.json', '2048616366.json', '102786397.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,uses,feedback driven mechanism,3,"{'pos tagger', 'dependency tagger'}","{'1462139170.json', '2006686259.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,feedforward neural network,5,"{'pos tagger', 'dependency tagger'}","{'2290086728.json', '2292978603.json', '2787293089.json', '2808423603.json', '2296399055.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,annotates,fine grained level,1,{'pos tagger'},{'1598912563.json'},Task,OtherEntity,,1,,0,0,1,0,0
+sentiment analysis,transfers,flat bed scanner,,,,Task,Method,,,1,0,0,0,0,0
+sentiment analysis,uses,hdp hlm,,,,Task,Method,,,1,0,0,0,0,0
+sentiment analysis,uses,hindi language,3,"{'dygiepp', 'dependency tagger'}","{'2963651736.json', '2244451798.json', '2963563445.json'}",Task,Material,,,,1,1,0,0,0
+sentiment analysis,uses,hybridized approach,3,{'dygiepp'},"{'2406624406.json', '2345988378.json', '2613967257.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,least square support vector machine,5,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}","{'1977561632.json', '2318616122.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,lexica,3,"{'dygiepp', 'pos tagger'}","{'2963859844.json', '2136961259.json', '2962750587.json'}",Task,Material,,,,1,1,1,0,1
+sentiment analysis,uses,lexical annotator,1,{'openie'},{'2309187578.json'},Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,lexical resource,7,"{'dygiepp', 'pos tagger'}","{'2475024326.json', '2905466209.json', '2470729113.json', '2157216624.json', '1971469648.json', '1709630959.json', '2108765529.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,uses,lexicon approach,6,"{'pos tagger', 'dygiepp'}","{'2592379743.json', '2062913298.json', '2523366393.json', '2009118069.json', '2397682354.json', '1987676876.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,lexicon based sentiment detection algorithm,1,{'dygiepp'},{'2758424050.json'},Task,Method,,,,1,1,1,1,1
+sentiment analysis,includes,linguistic research paper,,,,Task,Material,,,1,0,1,1,0,1
+sentiment analysis,uses,linguistics,3,"{'dependency tagger', 'pos tagger', 'dygiepp'}","{'1822239915.json', '1987687963.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,uses,low power capability,,,,Task,OtherEntity,,,1,0,0,1,0,0
+sentiment analysis,uses,machine learning based algorithm,9,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}","{'2808079449.json', '2521883249.json', '2033288131.json', '2950962190.json', '2537504396.json', '2470242235.json', '2318616122.json', '2640252219.json', '2189271176.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,machine learningbased approach,7,{'dygiepp'},"{'2016865467.json', '2532068345.json', '201097673.json', '2251845541.json', '2743598054.json', '2083660761.json', '1968391980.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,machinelearning technique,6,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2570529263.json', '1981900906.json', '1678820059.json', '344537.json', '2251381233.json', '2735459586.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,executes,material casting stage,,,,Task,OtherEntity,,,1,0,0,0,0,0
+sentiment analysis,acquires,microbloging platform,3,{'pos tagger'},"{'2513138008.json', '2745850770.json', '2479668135.json'}",Task,Method,,,,1,1,1,0,1
+sentiment analysis,contributes-to,natural language processing,9,"{'openie', 'pos tagger', 'dependency tagger'}","{'2093927111.json', '2477486832.json', '2771498260.json', '2322322155.json', '2108850603.json', '2186790654.json', '1622357602.json', '1993808023.json', '2121043186.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,includes,natural language processing,4,{'pos tagger'},"{'2151739810.json', '81723500.json', '2779594574.json', '2585577269.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,skos:broader/is/hyponym-of,nlp systems and task,18,{'dygiepp'},"{'2790589292.json', '2963756346.json', '1755706264.json', '2507159018.json', '2250626347.json', '2323103108.json', '2913107326.json', '2765736925.json', '2996580882.json', '2252168718.json', '2252221254.json', '2740711318.json', '165017432.json', '2342877923.json', '205930466.json', '2808423603.json', '2115791615.json', '2466291125.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,skos:broader/is/hyponym-of,nonstationary noise,,,,Task,Material,,,1,0,0,0,0,0
+sentiment analysis,uses,online review website,4,"{'dygiepp', 'dependency tagger'}","{'2050106721.json', '2541280461.json', '2157526690.json', '2078810130.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,uses,opinion only classifier,3,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2189483458.json', '2612764576.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,optimised program,,,,Task,Task,,,1,0,1,0,1,1
+sentiment analysis,based-on,partially labeled corpus,1,{'pos tagger'},{'1998842859.json'},Task,Material,,,,1,1,1,1,1
+sentiment analysis,uses,persian,1,{'dygiepp'},{'2792962410.json'},Task,Material,,,,1,1,1,0,1
+sentiment analysis,identifies,polarity of the feature,5,"{'openie', 'pos tagger', 'dependency tagger'}","{'1590227036.json', '2104937263.json', '2503504980.json', '2398866275.json', '2250590244.json'}",Task,OtherEntity,,,,1,1,1,1,1
+sentiment analysis,produces,political election,4,{'pos tagger'},"{'2963992782.json', '2293236424.json', '2047281828.json', '2253891449.json'}",Task,Material,,,,1,0,0,0,0
+sentiment analysis,based-on,pos tagging,3,{'pos tagger'},"{'70082214.json', '1556485742.json', '2185547049.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,includes,print finish,,,,Task,OtherEntity,,,1,0,0,0,0,0
+sentiment analysis,based-on,pv powering model,,,,Task,Method,,,1,0,0,0,0,0
+sentiment analysis,uses,rdf graph,3,"{'dygiepp', 'openie', 'dependency tagger'}",{'2326761481.json'},Task,Material,,,,1,1,0,1,1
+sentiment analysis,uses,recurrent neural network,3,"{'dygiepp', 'pos tagger'}","{'2553815116.json', '2290086728.json', '2788347302.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,includes,reduced connectivity,,,,Task,Metric,,,1,0,0,1,0,0
+sentiment analysis,uses,relation extraction,1,{'dygiepp'},{'2566767245.json'},Task,Task,1,,,0,1,0,1,1
+sentiment analysis,identifies,review feature,3,"{'pos tagger', 'dependency tagger'}","{'1983758954.json', '2114581066.json'}",Task,OtherEntity,,,,1,1,1,1,1
+sentiment analysis,processes,review journal,1,{'pos tagger'},{'2079770638.json'},Task,Material,,,,1,1,0,0,0
+sentiment analysis,uses,semantic contextual information,3,"{'dygiepp', 'pos tagger', 'dependency tagger'}",{'2046682605.json'},Task,OtherEntity,,,,1,1,1,1,1
+sentiment analysis,supports,semantic evaluations 2013,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2474565205.json'},Task,Task,,,,1,1,0,0,0
+sentiment analysis,identifies,semantic orientation,1,{'dependency tagger'},{'1969105873.json'},Task,Method,,,,1,1,1,0,1
+sentiment analysis,uses,sentiment based model,5,"{'dygiepp', 'openie', 'pos tagger'}","{'2586248210.json', '2821359871.json', '2251009596.json', '2302111562.json', '2808423603.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,sentiment classification,8,"{'pos tagger', 'dygiepp'}","{'2118115297.json', '2765753216.json', '2001892351.json', '2484569196.json', '2054595482.json', '2519121479.json', '1994336230.json', '1596411958.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,uses,sentiment words lexicon,16,"{'dygiepp', 'pos tagger'}","{'2180724871.json', '2252067416.json', '57995434.json', '2767285835.json', '2082935746.json', '2157216624.json', '2012217350.json', '2148966043.json', '800231103.json', '1892820855.json', '2910656009.json', '1650824498.json', '2022427793.json', '1968391980.json', '2100810344.json', '2013423341.json'}",Task,OtherEntity,,,,1,1,1,1,1
+sentiment analysis,uses,sentiwordnet thesaurus,5,"{'dependency tagger', 'pos tagger', 'dygiepp'}","{'1971469648.json', '82235850.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,based-on,shallow linguistic feature,6,"{'pos tagger', 'dependency tagger'}","{'70082214.json', '1556485742.json', '2185547049.json'}",Task,OtherEntity,,,,1,1,1,1,1
+sentiment analysis,skos:broader/is/hyponym-of,social and individual property,,,,Task,OtherEntity,,,1,0,0,0,0,0
+sentiment analysis,uses,social media content,3,{'dygiepp'},"{'2099813784.json', '1968391980.json', '411469361.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,extracts,social medium,3,{'pos tagger'},"{'1494379672.json', '1574809123.json', '2527200148.json'}",Task,Material,,,,1,1,1,0,1
+sentiment analysis,produces,social medium,5,{'pos tagger'},"{'2138479854.json', '2963992782.json', '2293236424.json', '2047281828.json', '2253891449.json'}",Task,Material,,,,1,0,1,0,0
+sentiment analysis,acquires,social network,4,{'pos tagger'},"{'2745850770.json', '2289385123.json', '2479668135.json', '2513138008.json'}",Task,Material,,,,1,1,1,0,1
+sentiment analysis,uses,social network,8,{'dygiepp'},"{'2963847116.json', '2199325311.json', '2020564439.json', '154158788.json', '2126792281.json', '1973956196.json', '2531867140.json', '2889251616.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,uses,sparse linear regression method,,,,Task,Method,,,1,0,1,1,1,1
+sentiment analysis,produces,statistical parsing,1,{'pos tagger'},{'2119408773.json'},Task,Task,1,,,0,1,1,0,1
+sentiment analysis,based-on,supervised machine learning,9,{'pos tagger'},"{'2818067980.json', '1963858130.json', '2467206427.json', '2534640401.json', '2537504396.json', '810042281.json', '2523366393.json', '1993103056.json', '56640875.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,supervised machine learning,14,"{'dygiepp', 'pos tagger'}","{'2610136582.json', '2808079449.json', '2613576221.json', '2618843390.json', '1761709430.json', '2318616122.json', '2753840835.json', '2056596884.json', '2523366393.json', '2047308542.json', '1678820059.json', '2612026426.json', '2769151826.json', '169085231.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,surface classifier,2,"{'dygiepp', 'dependency tagger'}",{'2584429674.json'},Task,Method,1,,,0,1,0,1,1
+sentiment analysis,uses,text analysis technique,2,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2401379394.json', '2777600314.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,skos:broader/is/hyponym-of,text based classification task,4,{'dygiepp'},"{'2950141408.json', '2791299726.json', '2758419901.json', '2556888587.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,includes,text mining,5,"{'openie', 'pos tagger'}","{'81723500.json', '2151739810.json', '102786397.json', '2543284654.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,produces,theory of wholeness,,,,Task,OtherEntity,,,1,0,0,0,0,0
+sentiment analysis,uses,thermal plugging,,,,Task,Method,,,1,0,0,0,0,0
+sentiment analysis,uses,topic model,6,"{'dygiepp', 'pos tagger'}","{'2460574608.json', '2042726609.json', '2293441282.json', '2087045154.json', '2295296477.json', '193333623.json'}",Task,Method,,,,1,1,1,1,1
+sentiment analysis,uses,trend prediction result,,,,Task,OtherEntity,,,1,0,0,1,0,0
+sentiment analysis,uses,twitter,45,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2903394456.json', '2154552404.json', '2151151482.json', '1839863673.json', '2612764576.json', '2394823018.json', '2251924628.json', '2022120982.json', '2125532150.json', '2250748229.json', '2250456897.json', '2890875777.json', '2786540448.json', '2136010190.json', '2462844382.json', '2786675709.json', '2186250423.json', '2794345280.json', '2522473322.json', '2251129377.json', '2599113592.json', '2053820569.json', '2029046727.json', '2062913298.json', '315717026.json', '2079281079.json', '1853454069.json', '2250511628.json', '2154436402.json', '2775683773.json', '2250926774.json', '2563290029.json', '2408447485.json', '2068049121.json', '2256681566.json', '2462290672.json', '1526674249.json', '2540930223.json', '2097638149.json', '40549020.json', '2057308560.json', '2250608060.json', '2015198390.json', '2964351885.json', '2293813330.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,uses,user-generated content,8,{'dygiepp'},"{'2104192042.json', '1999498771.json', '2124335969.json', '2055527449.json', '2416353094.json', '2085750684.json', '2045989361.json', '2078393592.json'}",Task,Material,,,,1,1,1,1,1
+sentiment analysis,uses,variable selection,7,"{'dependency tagger', 'dygiepp'}","{'38037257.json', '2962826566.json', '1915630765.json', '8321499.json', '2264732796.json', '2600278912.json', '2050106721.json'}",Task,Task,,,,1,1,1,1,1
+sentiment analysis,skos:broader/is/hyponym-of,web data mining,5,{'dygiepp'},"{'2148271195.json', '2017219287.json', '2751376120.json', '1982807044.json', '1981388949.json'}",Task,Task,,,,1,1,0,0,0
+sentiment analytical method,provides,sentiment analysis,1,{'pos tagger'},{'2843377434.json'},Method,Task,,,,1,1,1,0,1
+sentiment classification,limits,annotation cost,2,"{'pos tagger', 'dependency tagger'}",{'2147148726.json'},Task,Metric,,1,,0,1,1,0,1
+sentiment classification,uses,blackboard framework,,,,Task,Method,,,1,0,0,0,0,0
+sentiment classification,uses,classification model framework,3,{'dygiepp'},"{'1990482343.json', '2828391571.json', '2537906591.json'}",Task,Method,,,,1,1,1,1,1
+sentiment classification,uses,data augmentation,4,{'dygiepp'},"{'2851660177.json', '2963510128.json', '2473915248.json', '2182912367.json'}",Task,Task,,,,1,1,1,1,1
+sentiment classification,skos:broader/is/hyponym-of,data mining tasks in,1,"{'openie', 'dygiepp'}",{'1966813709.json'},Task,Task,,,,1,0,1,0,0
+sentiment classification,uses,feature selection method,10,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2251339995.json', '1759852148.json', '38037257.json', '2962826566.json', '2169494088.json', '2362554198.json'}",Task,Method,,,,1,1,1,1,1
+sentiment classification,based-on,fusion and comparison module,,,,Task,Method,,,1,0,1,1,0,1
+sentiment classification,skos:broader/is/hyponym-of,generating the text continuity,,,,Task,Task,,,1,0,0,0,0,0
+sentiment classification,improves,labeled data,2,{'pos tagger'},"{'2122455551.json', '2242535689.json'}",Task,Material,,,,1,1,0,1,1
+sentiment classification,based-on,least square support vector machine,3,{'pos tagger'},"{'2143570397.json', '2950887465.json', '2813385567.json'}",Task,Method,,,,1,1,1,1,1
+sentiment classification,uses,least square support vector machine,3,"{'dygiepp', 'openie'}","{'2056401274.json', '2031161879.json', '1579917587.json'}",Task,Method,,,,1,1,1,1,1
+sentiment classification,uses,machine learning based algorithm,8,"{'dygiepp', 'openie', 'pos tagger'}","{'2605204113.json', '2617693680.json', '2576396432.json', '2572107491.json', '2362554198.json', '2031711459.json'}",Task,Method,,,,1,1,1,1,1
+sentiment classification,uses,machine learning method,7,"{'dygiepp', 'dependency tagger'}","{'1908808128.json', '2166706824.json', '2767716323.json', '2161205248.json', '2322597012.json', '2951278869.json', '1975241571.json'}",Task,Method,,,,1,1,1,1,1
+sentiment classification,uses,machine learning ml method,1,{'dygiepp'},{'2251339995.json'},Task,Method,,,,1,1,1,1,1
+sentiment classification,uses,machine learningbased approach,6,{'dygiepp'},"{'2172699681.json', '1983111533.json', '2000877723.json', '2108420397.json', '2101983999.json', '2805180890.json'}",Task,Method,,,,1,1,1,1,1
+sentiment classification,affects,natural language processing,3,{'pos tagger'},"{'11033076.json', '2073072357.json', '2094695485.json'}",Task,Task,,,,1,0,1,0,0
+sentiment classification,uses,phrasal information,1,{'dygiepp'},{'1990482343.json'},Task,OtherEntity,1,,,0,1,1,1,1
+sentiment classification,uses,preannotated corpus,2,"{'dygiepp', 'pos tagger', 'dependency tagger'}","{'2546935677.json', '1978784529.json'}",Task,Material,,,,1,1,1,1,1
+sentiment classification,uses,rockburst grade,,,,Task,OtherEntity,,,1,0,0,0,0,0
+sentiment classification,predicts,sentiment word polarity,7,"{'openie', 'pos tagger'}","{'2153353890.json', '2251371340.json', '2751820697.json', '1990482343.json', '2515059321.json', '2092560274.json', '2403160752.json'}",Task,OtherEntity,,,,1,1,1,1,1
+sentiment classification,uses,sequence modeling,1,{'dependency tagger'},{'2135128446.json'},Task,Task,,,,1,1,1,1,1
+sentiment classification,uses,social network,3,{'dygiepp'},"{'2398359607.json', '2012217350.json', '2013423341.json'}",Task,Material,,,,1,1,1,1,1
+sentiment classification,uses,supervised machine learning,6,"{'dygiepp', 'pos tagger'}","{'2398612163.json', '2284377564.json', '2332882103.json', '2296420526.json', '2073493692.json', '2362554198.json'}",Task,Method,,,,1,1,1,1,1
+sentiment classification,uses,svm,8,{'dygiepp'},"{'2168505588.json', '2350902750.json', '2096707493.json', '11033076.json', '1553979218.json', '1983111533.json', '2362554198.json', '2473915248.json'}",Task,Method,,,,1,1,1,1,1
+sentiment classification,uses,twitter,5,"{'dygiepp', 'pos tagger'}","{'2576620243.json', '2251345040.json', '1966590717.json', '2832139998.json', '2473593971.json'}",Task,Material,,,,1,1,1,1,1
+sentiment classification,uses,type tag,,,,Task,OtherEntity,,,1,0,1,0,0,0
+sentiment classification,uses,unknown specular surface,,,,Task,OtherEntity,,,1,0,0,0,0,0
+sentiment classification,uses,variable selection,5,"{'dygiepp', 'pos tagger'}","{'1956069959.json', '2478611617.json', '38037257.json', '2962826566.json', '2165510973.json'}",Task,Task,,,,1,1,0,0,0
+sentiment classification,includes,world wide web based application,3,{'openie'},"{'2097102459.json', '2101983999.json', '2140256872.json'}",Task,Task,,,,1,0,0,1,0
+sentiment of a tweet,uses,machine translation,1,{'dygiepp'},{'2407179788.json'},OtherEntity,Task,,1,,0,0,1,0,0
+sentiment of a tweet,solves,sentiment classification,1,{'openie'},{'2565799927.json'},OtherEntity,Task,,,,1,0,1,0,0
+sentiment words lexicon,improves,sentiment analysis,3,"{'pos tagger', 'dependency tagger'}","{'2346975490.json', '2049979164.json'}",OtherEntity,Task,,1,,0,1,1,1,1
+sequential information in document,uses,document classification,1,{'pos tagger'},{'2154121272.json'},OtherEntity,Task,,1,,0,0,0,0,0
+shallow semantic parsing,skos:broader/is/hyponym-of,natural language processing,4,{'dygiepp'},"{'1644824935.json', '1975311598.json', '2251395783.json', '2155712036.json'}",Task,Task,,,,1,1,1,1,1
+shared informal requirements specification,uses,natural language processing,1,{'dygiepp'},{'1034340380.json'},OtherEntity,Task,1,,,0,0,1,0,0
+short and long range dependency,improves,named entity recognition,1,{'openie'},{'2105908356.json'},OtherEntity,Task,,1,,0,1,1,1,1
+simplification based tool,uses,question answering,1,{'openie'},{'1995291422.json'},Method,Task,1,,,0,0,0,0,0
+singular and plural noun,produces,document classification,2,"{'openie', 'dependency tagger'}",{'2145296344.json'},OtherEntity,Task,,1,,0,0,0,0,0
+slice based aggregation method,executes,document classification,,,,Method,Task,,,1,0,0,0,0,0
+small sequence,produces,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+snomed ct concept extraction,uses,natural language processing,3,"{'dependency tagger', 'dygiepp'}","{'1488080478.json', '2516758028.json'}",Task,Task,,,,1,1,1,1,1
+social medium,uses,natural language processing,2,{'dependency tagger'},"{'2755558557.json', '2962907576.json'}",Material,Task,,1,,0,0,0,0,0
+social medium,guides,sentiment analysis,1,{'pos tagger'},{'2754876402.json'},Material,Task,,1,,0,0,0,0,0
+social multimedia content,uses,sentiment analysis,1,{'dygiepp'},{'2885719698.json'},Material,Task,,1,,0,0,0,0,0
+social network,acquires,named entity recognition,1,{'dependency tagger'},{'2067030316.json'},Material,Task,,1,,0,0,0,0,0
+social online platform,uses,sentiment analysis,3,"{'dygiepp', 'dependency tagger'}","{'2952620744.json', '2622371516.json', '2536725458.json'}",Material,Task,,1,,0,0,0,1,0
+social opinion,uses,sentiment analysis,1,{'dygiepp'},{'2540930223.json'},OtherEntity,Task,,1,,0,0,0,0,0
+social science,includes,sentiment analysis,1,{'dygiepp'},{'2750974487.json'},Material,Task,,1,,0,0,0,0,0
+spearman coefficient of correlation,uses,machine translation,1,{'pos tagger'},{'2546711736.json'},Metric,Task,1,,,0,0,0,0,0
+spectral efficient technique,includes,document classification,1,{'openie'},{'2327179482.json'},Method,Task,1,,,0,0,1,0,0
+speech recognition software,includes,natural language processing,3,{'openie'},"{'2613808630.json', '2803166421.json', '2767784948.json'}",Method,Task,,,,1,1,1,0,1
+speech recognition software,skos:broader/is/hyponym-of,natural language processing,5,{'dygiepp'},"{'2347145335.json', '2147550046.json', '2121236967.json', '2592914315.json', '2326206218.json'}",Method,Task,,,,1,0,1,0,0
+spoken dialogue,includes,natural language generation,2,{'dygiepp'},"{'2952013107.json', '1948566616.json'}",Material,Task,,1,,0,0,1,0,0
+sql interpreter,uses,dependency parsing,1,{'dygiepp'},{'2873800034.json'},Method,Task,,,,1,1,0,1,1
+statistic based approach,includes,natural language processing,3,"{'openie', 'pos tagger'}","{'1522805676.json', '107998535.json'}",Method,Task,,,,1,1,0,0,0
+statistical language modeling,uses,document classification,3,{'pos tagger'},"{'2037630388.json', '1802255383.json', '2558960030.json'}",Method,Task,,,,1,0,1,0,0
+statistical language modeling,uses,question answering,1,{'pos tagger'},{'2784311771.json'},Method,Task,,,,1,0,1,0,0
+stochastic cell,skos:broader/is/hyponym-of,information extraction,,,,OtherEntity,Task,,,1,0,0,0,0,0
+stocks related message,includes,sentiment analysis,2,"{'openie', 'pos tagger'}",{'2130941525.json'},Material,Task,,1,,0,0,0,0,0
+stop word,includes,word segmentation,1,{'pos tagger'},{'2848769311.json'},OtherEntity,Task,,1,,0,0,0,0,0
+structured metadata information,uses,named entity recognition,1,{'dygiepp'},{'2032464653.json'},OtherEntity,Task,,1,,0,0,0,0,0
+subjectivity or polarity of document,uses,sentiment analysis,1,{'dygiepp'},{'2018222191.json'},OtherEntity,Task,,1,,0,0,0,0,0
+summarization system,uses,wordnet,3,"{'dygiepp', 'openie', 'dependency tagger'}",{'1797006460.json'},Method,Material,,,,1,1,1,1,1
+supervised latent dirichlet allocation,includes,named entity recognition,1,{'openie'},{'2098700435.json'},Method,Task,1,,,0,1,0,0,0
+supervised machine learning,supports,natural language processing,5,"{'openie', 'pos tagger', 'dependency tagger'}","{'1486006562.json', '1927892840.json', '2602275733.json'}",Method,Task,,,,1,1,1,1,1
+sustained waking,uses,natural language processing,,,,OtherEntity,Task,,,1,0,0,0,0,0
+svm,uses,document classification,5,{'pos tagger'},"{'2102897314.json', '2154359981.json', '2033072631.json', '1977567099.json', '1805352283.json'}",Method,Task,,,,1,0,1,0,0
+symbol period,uses,wordnet,,,,OtherEntity,Material,,,1,0,0,0,0,0
+syntactic and semantic relationship,acquires,information extraction,1,{'pos tagger'},{'2109029380.json'},OtherEntity,Task,,1,,0,0,1,0,0
+syntactic structure of visual program,uses,dependency parsing,1,{'dygiepp'},{'2000410375.json'},OtherEntity,Task,,1,,0,0,0,0,0
+synthetic or pre processed datasets,learns,sentiment analysis,,,,Material,Task,,,1,0,0,0,0,0
+system autocog,uses,natural language processing,1,{'openie'},{'2019798206.json'},OtherEntity,Task,,1,,0,1,0,0,0
+system development and interoperability,based-on,sentiment analysis,,,,Task,Task,,,1,0,0,0,0,0
+systemt,supports,information extraction,1,{'pos tagger'},{'2110367654.json'},Method,Task,,,,1,1,0,0,0
+tagging precision,includes,dependency parsing,1,{'dependency tagger'},{'2112956225.json'},Metric,Task,1,,,0,0,0,0,0
+talking point,acquires,wordnet,2,"{'pos tagger', 'dependency tagger'}",{'1973507078.json'},Method,Material,1,,,0,0,0,0,0
+target language,uses,machine translation,4,"{'openie', 'pos tagger', 'dependency tagger'}","{'2172010760.json', '2854083043.json', '214096486.json'}",Material,Task,,1,,0,0,0,0,0
+term hierarchy,produces,wordnet,3,"{'openie', 'pos tagger'}","{'2027849554.json', '1693722119.json'}",OtherEntity,Material,,,,1,0,0,0,0
+term weighing approach,uses,document classification,1,{'dependency tagger'},{'2165009478.json'},Method,Task,1,,,0,0,1,0,0
+term weighting,improves,document classification,3,"{'pos tagger', 'dependency tagger'}","{'2251192610.json', '2340234190.json'}",Method,Task,,,,1,1,1,1,1
+text analysis of radiology report,uses,natural language processing,2,"{'pos tagger', 'dependency tagger'}",{'2069816479.json'},Task,Task,,,,1,1,1,1,1
+text document,processes,natural language processing,2,"{'pos tagger', 'dependency tagger'}",{'2768073432.json'},Material,Task,,1,,0,0,0,0,0
+text grouped clustering method,improves,wordnet,1,{'openie'},{'2157361576.json'},Method,Material,,,,1,0,0,0,0
+text mining,includes,document classification,9,"{'dygiepp', 'pos tagger'}","{'2120645402.json', '2370156863.json', '2174664889.json', '129830436.json', '2550159998.json', '2087743880.json', '2107573239.json', '2129526767.json', '2890497806.json'}",Task,Task,,,,1,1,1,1,1
+text mining,uses,information extraction,6,"{'dygiepp', 'pos tagger'}","{'2072284316.json', '2036136590.json', '1994301758.json', '2313353578.json', '1589261038.json', '2745560856.json'}",Task,Task,,,,1,1,1,1,1
+text mining,includes,named entity recognition,3,{'pos tagger'},"{'2315144155.json', '2056567523.json', '1976015112.json'}",Task,Task,,,,1,1,1,1,1
+text mining,uses,named entity recognition,6,"{'pos tagger', 'dygiepp'}","{'2223368146.json', '2745560856.json', '2528662265.json', '1976015112.json', '2593341166.json', '2048140075.json'}",Task,Task,,,,1,1,1,1,1
+text mining,uses,natural language processing,5,"{'dygiepp', 'pos tagger'}","{'1553529581.json', '2463708849.json', '2054460891.json', '2076095095.json', '9328536.json'}",Task,Task,,,,1,1,1,1,1
+text mining task,includes,document classification,3,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}","{'2087743880.json', '1162427622.json', '2140621293.json'}",Task,Task,,,,1,1,1,1,1
+text parameter feature,analyzes,word segmentation,1,{'dependency tagger'},{'2119181756.json'},OtherEntity,Task,,1,,0,0,1,0,0
+text passage,uses,named entity recognition,2,"{'pos tagger', 'dependency tagger'}",{'2136627589.json'},Material,Task,,1,,0,0,0,0,0
+text processing,skos:broader/is/hyponym-of,area,3,{'dygiepp'},"{'1998140328.json', '2495816906.json', '1530930547.json'}",Task,Metric,,,,1,0,0,0,0
+text processing,uses,automatically generating explanation,,,,Task,Task,,,1,0,1,1,0,1
+text processing,provides,dictionary of feature vector,,,,Task,OtherEntity,,,1,0,1,1,0,1
+text processing,includes,named entity recognition,1,{'dependency tagger'},{'1502968174.json'},Task,Task,,,,1,1,1,1,1
+text processing,includes,related health knowledge,,,,Task,OtherEntity,,,1,0,0,1,0,0
+text processing,uses,suffix array,3,{'dygiepp'},"{'2032574053.json', '2077333702.json', '1877511701.json'}",Task,Method,,,,1,1,0,0,0
+text processing,uses,text representation,2,{'dygiepp'},"{'2379066959.json', '2163264304.json'}",Task,Method,,,,1,1,1,1,1
+text proximity query,provides,information extraction,1,{'openie'},{'2116066543.json'},Task,Task,1,,,0,0,1,0,0
+text summarization,includes,natural language processing,3,{'pos tagger'},"{'2567811173.json', '114788397.json', '2492254562.json'}",Task,Task,,,,1,0,1,1,1
+text summarization,skos:broader/is/hyponym-of,text processing,1,{'openie'},{'2191333630.json'},Task,Task,,,,1,1,1,1,1
+texterra,provides,text processing,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2102520209.json'},Material,Task,,1,,0,0,0,0,0
+thermodynamic entropy,uses,document classification,2,"{'pos tagger', 'dependency tagger'}",{'2858463834.json'},OtherEntity,Task,,1,,0,0,0,0,0
+thesaurus matching,matches,machine translation,2,"{'dygiepp', 'openie', 'pos tagger'}","{'1508643090.json', '5104570.json'}",Task,Task,,,,1,0,0,0,0
+third party work,includes,named entity recognition,1,{'dygiepp'},{'2796495817.json'},Task,Task,1,,,0,0,0,0,0
+tilde mode,learns,named entity recognition,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'1558919122.json'},OtherEntity,Task,,,,1,0,0,0,0
+toc functional tagging,uses,natural language processing,1,{'dygiepp'},{'2024871791.json'},Method,Task,1,,,0,1,1,0,1
+token record,uses,dependency parsing,1,{'pos tagger'},{'2850600133.json'},OtherEntity,Task,,1,,0,0,0,0,0
+topic term phrase,uses,named entity recognition,1,{'dependency tagger'},{'2112958284.json'},OtherEntity,Task,,1,,0,0,0,0,0
+transducer cascade,supports,information extraction,2,"{'pos tagger', 'dependency tagger'}",{'2088818577.json'},Method,Task,,,,1,1,1,0,1
+transferral of knowledge,improves,document classification,1,{'dependency tagger'},{'2460720124.json'},OtherEntity,Task,,1,,0,1,1,1,1
+transition point technique,includes,natural language processing,2,"{'openie', 'pos tagger'}",{'1598541983.json'},Method,Task,1,,,0,0,0,0,0
+translation model approach,uses,question answering,2,"{'pos tagger', 'dependency tagger'}",{'1963496740.json'},Method,Task,,,,1,0,0,0,0
+trec 2004 question,analyzes,question answering,1,{'dygiepp'},{'2080278171.json'},Material,Task,,1,,0,0,0,0,0
+trec8 and trec9 evaluation,analyzes,question answering,1,{'dygiepp'},{'2067915830.json'},Metric,Task,,,,1,0,1,0,0
+triz metric,uses,natural language processing,1,{'dygiepp'},{'1611578377.json'},Metric,Task,,,,1,0,0,0,0
+tt14m,uses,text processing,4,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}",{'2157778994.json'},Method,Task,,,,1,1,0,0,0
+tweeboparser,skos:broader/is/hyponym-of,dependency parsing,1,{'dygiepp'},{'655994999.json'},Method,Task,1,,,0,0,1,0,0
+unlabeled information,uses,named entity recognition,2,{'dependency tagger'},"{'2962776108.json', '1755456395.json'}",OtherEntity,Task,,1,,0,0,0,0,0
+unlabeled information,improves,sentiment classification,1,{'pos tagger'},{'2218755335.json'},OtherEntity,Task,,1,,0,0,0,1,0
+unstructured text based electronic document,uses,natural language processing,1,{'dependency tagger'},{'1935970548.json'},Material,Task,,1,,0,0,0,0,0
+us state,executes,sentiment analysis,1,{'pos tagger'},{'1795554267.json'},Material,Task,1,,,0,0,0,0,0
+user account access,analyzes,natural language processing,1,{'pos tagger'},{'1516079680.json'},OtherEntity,Task,1,,,0,0,0,0,0
+user conceptual fluency,uses,natural language processing,,,,Metric,Task,,,1,0,0,0,0,0
+user intention term,classifies,natural language understanding,2,"{'pos tagger', 'dependency tagger'}",{'1977500051.json'},OtherEntity,Task,,,,1,0,0,0,0
+user intention term,uses,natural language understanding,1,{'dygiepp'},{'2573516266.json'},OtherEntity,Task,,1,,0,0,0,0,0
+user interactive segmentation method,contributes-to,relation extraction,,,,Method,Task,,,1,0,0,0,0,0
+user query,includes,named entity recognition,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2740658059.json'},Material,Task,,1,,0,0,0,0,0
+user query,uses,word vector,1,{'pos tagger'},{'981296679.json'},Material,Method,,1,,0,0,0,0,0
+users application,uses,dependency parsing,1,{'dygiepp'},{'2466695848.json'},Material,Task,,1,,0,0,0,0,0
+validation module,proposes,question answering,2,"{'pos tagger', 'dependency tagger'}",{'2618420293.json'},Method,Task,1,,,0,0,1,0,0
+variable selection,executes,document classification,6,{'pos tagger'},"{'2244814250.json', '1488421772.json', '126139559.json', '1543090027.json', '2089784156.json', '2514363850.json'}",Task,Task,,,,1,0,1,0,0
+variable selection,improves,document classification,6,{'pos tagger'},"{'2068833644.json', '1599853217.json', '2519106992.json', '2089534322.json', '2568935258.json', '2160384082.json'}",Task,Task,,,,1,0,1,1,1
+variable selection,uses,wordnet,6,"{'dygiepp', 'pos tagger'}","{'1994025487.json', '2124875947.json', '2251899089.json', '2431096256.json'}",Task,Material,,,,1,0,1,1,1
+vehicle service data,uses,natural language processing,1,{'dygiepp'},{'2732285235.json'},Material,Task,,1,,0,0,0,0,0
+video mail,uses,sentiment analysis,,,,Material,Task,,,1,0,0,0,0,0
+vietnamese language,uses,dependency parsing,2,{'dygiepp'},"{'2547210482.json', '563686125.json'}",Material,Task,,1,,0,0,0,0,0
+vietnamese website,includes,named entity recognition,1,{'dygiepp'},{'2013913877.json'},Material,Task,,1,,0,0,0,0,0
+virtual example,improves,document classification,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2153582629.json'},Material,Task,,,,1,0,0,0,0
+visually based language,uses,dependency parsing,1,{'dygiepp'},{'2145758497.json'},Material,Task,,1,,0,0,0,0,0
+vocabulary,manages,natural language processing,1,{'pos tagger'},{'2309791580.json'},Material,Task,,1,,0,0,0,0,0
+wbd segmentation approach,skos:broader/is/hyponym-of,word segmentation,1,{'openie'},{'2117988898.json'},Method,Task,,,,1,0,1,1,1
+web crawler,analyzes,machine translation,1,{'openie'},{'2101877405.json'},Method,Task,,,,1,0,0,0,0
+web entity extraction,proposes,named entity recognition,1,{'openie'},{'2032865178.json'},Task,Task,,,,1,0,1,0,0
+web news article,acquires,question answering,1,{'pos tagger'},{'2498898247.json'},Material,Task,,1,,0,0,0,0,0
+web page,produces,sentiment analysis,2,{'openie'},"{'2183367326.json', '2250397934.json'}",Material,Task,,1,,0,0,0,0,0
+web page,executes,word segmentation,1,{'pos tagger'},{'2837394090.json'},Material,Task,,1,,0,0,0,0,0
+web page,uses,word segmentation,1,{'pos tagger'},{'2837394090.json'},Material,Task,,1,,0,0,0,0,0
+web specificity,produces,question answering,1,{'openie'},{'2134095797.json'},OtherEntity,Task,,1,,0,0,0,0,0
+weblog test collection,executes,sentiment analysis,1,{'openie'},{'2163696229.json'},Material,Task,,1,,0,0,0,0,0
+wikipedia entry,includes,natural language processing,1,{'pos tagger'},{'2251155649.json'},Material,Task,,1,,0,0,0,0,0
+word alignment,includes,machine translation,4,"{'openie', 'pos tagger'}","{'2095577376.json', '2077332795.json'}",Task,Task,,,,1,0,1,0,0
+word segmentation,includes,chinese and mixed text,3,"{'pos tagger', 'dependency tagger'}","{'2926594804.json', '1831215082.json'}",Task,Material,,,,1,0,1,0,0
+word segmentation,skos:broader/is/hyponym-of,chinese information processing,2,{'dygiepp'},"{'2072278013.json', '1522176315.json'}",Task,Task,,,,1,0,0,0,0
+word segmentation,based-on,conditional random field,4,{'pos tagger'},"{'2599962950.json', '2117248370.json', '2858548898.json', '2120718680.json'}",Task,Method,,,,1,1,0,1,1
+word segmentation,uses,connected component analysis,4,"{'dygiepp', 'openie', 'pos tagger', 'dependency tagger'}",{'2081168774.json'},Task,Method,,,,1,1,1,0,1
+word segmentation,annotates,dependency parsing,5,{'pos tagger'},"{'2104747875.json', '2031164055.json', '73658759.json', '2034114626.json', '169290101.json'}",Task,Task,,,,1,0,1,0,0
+word segmentation,uses,dictionary tree,3,"{'dygiepp', 'openie'}","{'2127567649.json', '2847217533.json'}",Task,OtherEntity,,,,1,1,1,1,1
+word segmentation,causes,entity extraction,2,"{'pos tagger', 'dependency tagger'}",{'67303140.json'},Task,Task,,,,1,1,1,0,1
+word segmentation,uses,high quality education,,,,Task,Task,,,1,0,0,0,0,0
+word segmentation,includes,model reparameterization,,,,Task,Method,,,1,0,0,1,0,0
+word segmentation,based-on,modified word formation model,1,{'pos tagger'},{'1967541735.json'},Task,Method,,,,1,0,1,0,0
+word segmentation,uses,offset manner,1,{'dygiepp'},{'2046413752.json'},Task,OtherEntity,1,,,0,0,0,0,0
+word segmentation,skos:broader/is/hyponym-of,preprocessing and postprocessing method,3,{'dygiepp'},"{'2836198207.json', '2841389828.json', '2822859133.json'}",Task,Method,,,,1,0,1,1,1
+word segmentation,analyzes,semantic publishing challenge,1,{'openie'},{'1807037522.json'},Task,Task,1,,,0,0,0,0,0
+word segmentation,classifies,shallow semantic parsing,1,{'dependency tagger'},{'2251428653.json'},Task,Task,,,,1,0,1,0,0
+word segmentation,annotates,slide clutch,,,,Task,Method,,,1,0,0,0,0,0
+word segmentation,executes,unknown word identification,2,"{'pos tagger', 'dependency tagger'}",{'120168696.json'},Task,Task,,,,1,0,0,0,0
+word segmentation,uses,word dictionary,1,{'dygiepp'},{'2031164055.json'},Task,Material,,,,1,1,1,1,1
+word segmentation,uses,word segmentation processing,5,"{'dygiepp', 'openie'}","{'2846469400.json', '2824165281.json', '2874577670.json', '2935292698.json', '2860389680.json'}",Task,Method,,,,1,0,1,1,1
+word sense disambiguation,skos:broader/is/hyponym-of,natural language processing,29,{'dygiepp'},"{'1967452120.json', '2121236967.json', '1521442362.json', '1512964851.json', '2047832618.json', '1574170944.json', '2129607463.json', '1563163909.json', '1500405828.json', '2584046008.json', '1979447876.json', '2140124980.json', '1980893079.json', '2185039652.json', '1576005117.json', '2247119764.json', '1558517100.json', '2080506488.json', '2036741760.json', '252296781.json', '2782863194.json', '2576529172.json', '2384165485.json', '2131919072.json', '2060403971.json', '2059321815.json', '2250774597.json', '150764796.json', '1644824935.json'}",Task,Task,,,,1,1,1,1,1
+word sense disambiguation,uses,wordnet,11,"{'dygiepp', 'pos tagger'}","{'1512597707.json', '2065030658.json', '177796033.json', '1994025487.json', '2107997766.json', '58836087.json', '164399205.json', '2251439725.json', '2060198719.json', '2252015905.json', '2354796379.json'}",Task,Material,,,,1,1,1,1,1
+word similarity computation method,uses,natural language processing,2,"{'openie', 'pos tagger'}",{'2264942984.json'},Method,Task,,,,1,1,1,1,1
+wordnet,analyzes,alternative sen,1,{'openie'},{'1967191094.json'},Material,OtherEntity,,1,,0,0,1,0,0
+wordnet,produces,automatically built wordnet,1,{'dependency tagger'},{'1507631005.json'},Material,Material,,1,,0,0,0,0,0
+wordnet,matches,bayesian classification,1,{'pos tagger'},{'183308553.json'},Material,Method,,1,,0,0,0,0,0
+wordnet,links,database system,2,{'dependency tagger'},"{'2072430056.json', '2539879360.json'}",Material,Material,,1,,0,0,0,0,0
+wordnet,queries,document meaning information,1,{'pos tagger'},{'1998397288.json'},Material,OtherEntity,1,,,0,0,0,0,0
+wordnet,skos:broader/is/hyponym-of,electronic lexical database,5,{'dygiepp'},"{'2559996120.json', '2131777816.json', '2170757337.json', '2139874817.json', '2099182400.json'}",Material,Material,,,,1,1,1,1,1
+wordnet,produces,english language language,1,{'dependency tagger'},{'2339864513.json'},Material,Material,,1,,0,0,0,0,0
+wordnet,supports,european community,1,{'openie'},{'98732439.json'},Material,Material,,1,,0,0,0,0,0
+wordnet,solves,extended query term,1,{'openie'},{'1757286096.json'},Material,OtherEntity,1,,,0,0,0,0,0
+wordnet,includes,flexible digital notebook,,,,Material,Material,,,1,0,0,1,0,0
+wordnet,skos:broader/is/hyponym-of,formal application,1,{'dygiepp'},{'2801810642.json'},Material,OtherEntity,1,,,0,0,0,0,0
+wordnet,provides,framenet,1,{'pos tagger'},{'2047171639.json'},Material,Material,,1,,0,0,0,0,0
+wordnet,acquires,general pattern matcher,1,{'pos tagger'},{'1552455135.json'},Material,Method,,1,,0,0,0,0,0
+wordnet,includes,geographical location information,1,{'dependency tagger'},{'1601137985.json'},Material,OtherEntity,,,,1,0,0,0,0
+wordnet,matches,hindi,1,{'pos tagger'},{'1524786317.json'},Material,Material,,1,,0,0,0,0,0
+wordnet,skos:broader/is/hyponym-of,internal knowledge base,3,{'dygiepp'},"{'2013988990.json', '1975153704.json', '2572369715.json'}",Material,OtherEntity,,,,1,0,1,0,0
+wordnet,skos:broader/is/hyponym-of,internal resource,9,{'dygiepp'},"{'2251427843.json', '2157361576.json', '74908800.json', '1483523766.json', '2293931116.json', '2047260110.json', '2006003562.json', '1541757266.json', '2005556282.json'}",Material,Material,,,,1,1,1,0,1
+wordnet,provides,knowledge base,1,{'pos tagger'},{'2033404710.json'},Material,Material,,1,,0,0,0,1,0
+wordnet,skos:broader/is/hyponym-of,knowledge source,3,{'dygiepp'},"{'2033016965.json', '1840682977.json', '2041325432.json'}",Material,Material,,,,1,1,1,1,1
+wordnet,uses,language based framework,2,"{'pos tagger', 'dependency tagger'}",{'2045226734.json'},Material,Method,,1,,0,0,0,0,0
+wordnet,executes,learning process aspect,1,{'openie'},{'2170757337.json'},Material,OtherEntity,,1,,0,0,0,0,0
+wordnet,skos:broader/is/hyponym-of,lexical access,5,{'dygiepp'},"{'1506819108.json', '1974976142.json', '1529913906.json', '4320557.json', '109581839.json'}",Material,Task,,,,1,0,1,0,0
+wordnet,skos:broader/is/hyponym-of,lexical and formal ontology,8,{'dygiepp'},"{'2294979170.json', '2015383884.json', '70132985.json', '2161650330.json', '1885228327.json', '1522790791.json', '2407160479.json', '2274503343.json'}",Material,OtherEntity,,,,1,0,1,0,0
+wordnet,skos:broader/is/hyponym-of,lexical and semantic resource,9,{'dygiepp'},"{'1956677669.json', '2107229268.json', '2461886987.json', '1932870108.json', '38167433.json', '1848088311.json', '1492931006.json', '71968012.json', '1581268989.json'}",Material,Material,,,,1,1,1,1,1
+wordnet,discusses,lexical database,1,{'dependency tagger'},{'136331207.json'},Material,Material,,1,,0,0,0,0,0
+wordnet,skos:broader/is/hyponym-of,lexical database,30,"{'dependency tagger', 'openie', 'dygiepp'}","{'2115143007.json', '11540594.json', '2163292279.json', '25034036.json', '2045226734.json', '168761635.json', '1589744748.json', '2059321815.json', '2138396769.json', '2169497284.json', '1751224389.json', '1759261839.json', '2136352229.json', '28346522.json', '1550028225.json', '2185167094.json', '2081580037.json', '1506984360.json', '2014022233.json', '2187521584.json', '1591954893.json', '104303627.json', '2001970439.json', '2155974709.json', '2953384527.json', '2572552497.json', '2004338309.json', '65111197.json', '1988704772.json', '1506199591.json'}",Material,Material,,,,1,1,1,1,1
+wordnet,limits,lexicalized meaning theory,2,"{'pos tagger', 'dependency tagger'}",{'2122245120.json'},Material,Method,,,,1,0,0,0,0
+wordnet,skos:broader/is/hyponym-of,linguistic resource tool,10,{'dygiepp'},"{'177314192.json', '1998782079.json', '2051188476.json', '1987735482.json', '2102556303.json', '304533077.json', '2006003562.json', '154270115.json', '2138360617.json', '1971788568.json'}",Material,Method,,,,1,0,1,1,1
+wordnet,uses,natural language learning task,1,{'pos tagger'},{'51114018.json'},Material,Task,,1,,0,0,0,0,0
+wordnet,acquires,ontological and contextual knowledge,1,{'dependency tagger'},{'2398448849.json'},Material,OtherEntity,,1,,0,0,0,0,0
+wordnet,provides,ontology integration,1,{'pos tagger'},{'1575471463.json'},Material,Task,,1,,0,0,0,0,0
+wordnet,solves,perceived knowledge transfer effectiveness,,,,Material,Metric,,,1,0,0,0,0,0
+wordnet,acquires,radical content,1,{'pos tagger'},{'1546164083.json'},Material,OtherEntity,,1,,0,0,0,0,0
+wordnet,produces,regular polysemic pattern,1,{'pos tagger'},{'2113144812.json'},Material,OtherEntity,,1,,0,0,0,0,0
+wordnet,produces,relatedness of semantic concept,1,{'pos tagger'},{'2164989951.json'},Material,OtherEntity,,1,,0,0,0,0,0
+wordnet,uses,resnik similarity method,1,{'pos tagger'},{'2138346016.json'},Material,Method,,1,,0,0,0,0,0
+wordnet,provides,semantic classes of adjective,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2103233623.json'},Material,OtherEntity,,1,,0,0,0,1,0
+wordnet,uses,semantic connection,1,{'dygiepp'},{'343450137.json'},Material,OtherEntity,,1,,0,0,0,0,0
+wordnet,acquires,semantic description,1,{'dependency tagger'},{'2139882085.json'},Material,Task,,1,,0,0,0,0,0
+wordnet,executes,semantic disambiguation,1,{'pos tagger'},{'2113144812.json'},Material,Task,,1,,0,0,0,0,0
+wordnet,produces,semantic disambiguation,1,{'pos tagger'},{'2113144812.json'},Material,Task,,1,,0,0,0,0,0
+wordnet,uses,semantic distance,1,{'pos tagger'},{'1665924001.json'},Material,Method,,1,,0,0,0,0,0
+wordnet,provides,semantic hierarchy construction,1,{'dependency tagger'},{'2122600670.json'},Material,Task,,1,,0,0,1,0,0
+wordnet,skos:broader/is/hyponym-of,semantic taxonomy,2,{'dygiepp'},"{'2142086811.json', '2144108169.json'}",Material,Method,,,,1,0,0,1,0
+wordnet,produces,sense distinction,3,"{'openie', 'pos tagger', 'dependency tagger'}",{'2600246194.json'},Material,OtherEntity,,1,,0,0,0,0,0
+wordnet,skos:broader/is/hyponym-of,smart dictionary,10,{'dygiepp'},"{'2264800663.json', '1547069805.json', '2522720655.json', '2963659646.json', '2952828476.json', '1550605673.json', '2342471263.json', '1665924001.json', '1503259811.json', '169676049.json'}",Material,Material,,,,1,1,1,1,1
+wordnet,produces,systematic polysemy,1,{'pos tagger'},{'2113144812.json'},Material,OtherEntity,,1,,0,0,0,0,0
+wordnet,acquires,tex tual information,1,{'pos tagger'},{'2294540220.json'},Material,OtherEntity,1,,,0,0,0,0,0
+wordnet,acquires,text summarization and categorization,1,{'pos tagger'},{'2130220066.json'},Material,Task,,1,,0,0,0,0,0
+wordnet,skos:broader/is/hyponym-of,traction roll,,,,Material,OtherEntity,,,1,0,0,0,0,0
+wordnet,produces,value of polarity,1,{'pos tagger'},{'1595340777.json'},Material,OtherEntity,,1,,0,0,0,0,0
+wordnet,skos:broader/is/hyponym-of,web taxonomy agent,2,{'dygiepp'},"{'1555057198.json', '1587890716.json'}",Material,Method,1,,,0,0,0,0,0
+wordnet,uses,word cloud,1,{'pos tagger'},{'2572577717.json'},Material,Material,,1,,0,0,0,0,0
+wordnet,produces,word list,1,{'dependency tagger'},{'1994520269.json'},Material,Material,,1,,0,0,0,0,0
+wordnet,skos:broader/is/hyponym-of,word thesaurus,3,{'dygiepp'},"{'70266059.json', '1607301931.json', '1992353797.json'}",Material,Material,,,,1,1,1,1,1
+wordnet ontology base,uses,wordnet,1,{'openie'},{'1601923452.json'},Material,Material,,1,,0,0,1,0,0
+wordto word translation model,uses,dependency parsing,1,{'openie'},{'89239156.json'},Method,Task,,,,1,1,0,0,0
+world wide web,manages,natural language processing,1,{'openie'},{'2515415831.json'},Material,Task,,1,,0,0,0,0,0
+world wide web,discusses,sentiment analysis,1,{'openie'},{'2573312618.json'},Material,Task,,1,,0,0,0,0,0
+world wide web,guides,sentiment classification,1,{'openie'},{'2165510973.json'},Material,Task,,1,,0,0,0,0,0
+ytex,produces,named entity recognition,1,{'dependency tagger'},{'2552670709.json'},Method,Task,1,,,0,1,0,0,0
+zip fastener,uses,information extraction,1,{'dependency tagger'},{'2120848522.json'},OtherEntity,Task,1,,,0,0,0,0,0
