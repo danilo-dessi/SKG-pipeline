@@ -114,7 +114,7 @@ The output will generate 3 files:
 
 ## The Computer Science Knowledge Graph
 
-The user of this github repository can access to the dump of the created resource, its sparql endpoint, and additional material trough a dedicated [website](https://scholkg.kmi.open.ac.uk/).
+The user of this github repository can access to the dump of the created resource, its sparql endpoint, and additional material through a dedicated [website](https://scholkg.kmi.open.ac.uk/).
 
 
 ## Contacts
