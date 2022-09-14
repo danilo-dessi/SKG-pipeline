@@ -1,6 +1,6 @@
 # SCICERO: Scientific Knowledge Graph Extraction Pipeline
 
-This repository has the purpose to provide the code used to build scholarly knowledge graphs as described in:
+This repository provides the code used to build scholarly knowledge graphs as described in:
 
 ``` Danilo Dessì, Francesco Osborne, Diego Reforgiato Recupero, Davide Buscaldi, and Enrico Motta. (2022). SCICERO: A Deep Learning and NLP Approach for Generating Scientific Knowledge Graphs in the Computer Science Domain. UNDER REVIEW```
 
