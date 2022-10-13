@@ -1,4 +1,4 @@
-# SCICERO: A deep learning and NLP approach forgenerating scientific knowledge graphsin the computer science domain
+# SCICERO: A deep learning and NLP approach forgenerating scientific knowledge graphs in the computer science domain
 
 This repository provides the code used to build scholarly knowledge graphs as described in:
 
