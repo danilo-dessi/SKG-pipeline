@@ -1,21 +1,21 @@
-# SCICERO: A deep learning and NLP approach forgenerating scientific knowledge graphs in the computer science domain
+# SCICERO: A deep learning and NLP approach for generating scientific knowledge graphs in the computer science domain
 
 This repository provides the code used to build scholarly knowledge graphs as described in:
 
-``` D. Dessí, F. Osborne, D.R. Recupero et al., SCICERO: A deep learning and NLP approach forgenerating scientific knowledge graphs in the computer science domain, Knowledge-Based Systems (2022), doi: https://doi.org/10.1016/j.knosys.2022.109945. ```
+``` D. Dessí, F. Osborne, D.R. Recupero et al., SCICERO: A deep learning and NLP approach for generating scientific knowledge graphs in the computer science domain, Knowledge-Based Systems (2022), doi: https://doi.org/10.1016/j.knosys.2022.109945. ```
 
 
 If you like our work, please cite us:
 
 ```
 @article{dessi2022scicero,
-title = {SCICERO: A deep learning and NLP approach for generating scientific knowledgegraphs in the computer science domain},
-journal = {Knowledge-Based Systems},pages = {109945},
+title = {SCICERO: A deep learning and NLP approach for generating scientific knowledge graphs in the computer science domain},
+journal = {Knowledge-Based Systems},
 year = {2022},
 issn = {0950-7051},
 doi = {https://doi.org/10.1016/j.knosys.2022.109945},
 url = {https://www.sciencedirect.com/science/article/pii/S0950705122010383},
-author = {Danilo Dessí and Francesco Osborne and Diego Reforgiato Recupero and DavideBuscaldi and Enrico Motta},
+author = {Danilo Dessí and Francesco Osborne and Diego Reforgiato Recupero and Davide Buscaldi and Enrico Motta},
 keywords = {Knowledge graph, Scholarly domain, Scientific facts, Artificial intelligence}}
 
 ```
